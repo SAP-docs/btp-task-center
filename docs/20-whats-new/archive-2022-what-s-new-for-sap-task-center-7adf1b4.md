@@ -1,6 +1,6 @@
-<!-- loio1bcdd459f84d4323a27581226d1d210e -->
+<!-- loio7adf1b41ac5b4abf85d25645a0452d27 -->
 
-# What's New for SAP Task Center?
+# \(Archive 2022\) What's New for SAP Task Center?
 
 
 
@@ -95,92 +95,6 @@ Available as of
 
 
 </th>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-New Boosters for SAP Task Center
-
-
-
-</td>
-<td valign="top">
-
-You can now set up SAP Task Center automatically also on SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone by using a booster. For more information, see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-General Availability
-
-
-
-</td>
-<td valign="top">
-
-Announcement
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-2023-01-16
-
-
-
-</td>
-<td valign="top">
-
-2023-01-16
-
-
-
-</td>
 </tr>
 <tr>
 <td valign="top">

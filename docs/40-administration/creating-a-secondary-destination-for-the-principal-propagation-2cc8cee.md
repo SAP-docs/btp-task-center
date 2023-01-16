@@ -410,6 +410,31 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
 
+    *nameIdFormat*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Value of the `NameIdFormat` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
+
+
+    
+    </td>
+    <td valign="top">
+
+    **Value**:
+
+    urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
     *scope*
 
 

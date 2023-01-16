@@ -2,7 +2,7 @@
 
 # Automatic Setup
 
-Get started with the SAP Task Center service using a booster and creating a Task Center in your central entry point solution.
+Get started with the SAP Task Center service using a booster and creating a Task Center tile in your central entry point solution.
 
 
 

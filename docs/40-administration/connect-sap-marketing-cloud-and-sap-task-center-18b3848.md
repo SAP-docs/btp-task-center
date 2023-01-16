@@ -17,8 +17,8 @@ You have performed the steps in [Integrating SAP Task Center](https://help.sap.c
 -   *SAML2 Audience*, that you can find in the *OAuth2.0 Details* when creating the communication arrangement. For more information, see [Create a Communication Arrangement](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/913ff1a47a6447e3b7bee17fa6f275ff.html).
 -   *Client ID*, that you can find in the *OAuth2.0 Details* when creating the communication arrangement. For more information, see [Create a Communication Arrangement](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/913ff1a47a6447e3b7bee17fa6f275ff.html).
 -   *Token Service URL*, that you can find in the *OAuth2.0 Details* when creating the communication arrangement. For more information, see [Create a Communication Arrangement](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/913ff1a47a6447e3b7bee17fa6f275ff.html).
--   *User Name*, that you have created for the technical communication user. For more information, see [Create a Technical Communication User](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/b7322f5e0fe54619a29f10524d166290.html).
--   *Password*, that you have created for the technical communication user. For more information, see [Create a Technical Communication User](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/b7322f5e0fe54619a29f10524d166290.html).
+-   *User Name*, that you have created for the technical communication user. For more information, see [Create a Communication Arrangement](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/913ff1a47a6447e3b7bee17fa6f275ff.html).
+-   *Password*, that you have created for the technical communication user. For more information, see [Create a Communication Arrangement](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/913ff1a47a6447e3b7bee17fa6f275ff.html).
 -   You have completed all prerequisites listed in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 
@@ -585,6 +585,31 @@ You have performed the steps in [Integrating SAP Task Center](https://help.sap.c
     **Example**:
 
     ***100***
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *userIdSource*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Assertion attribute configured in Identity Authentication and used for user authentication.
+
+
+    
+    </td>
+    <td valign="top">
+
+    **Value**:
+
+    user\_uuid
 
 
     

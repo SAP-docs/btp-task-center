@@ -51,17 +51,17 @@ Before you can use the service, meet the following prerequisites and perform the
     > -   All task providers and the SAP Task Center UAA of your subaccount must be configured to work with the same Identity Authentication tenant.
     > -   Make sure that the *Display Name*, *E-Mail* and *User UUID* fields are maintained for every user in your Identity Authentication tenant. For more information, see [List and Edit User Details](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/045cb01bd2034b05a69e1a626e46570f.html) and [Global User ID in Integration Scenarios](https://help.sap.com/docs/SAP_CLOUD_IDENTITY/b95c3d5bab324a3a8409eee5267a5b75/a04611df60404a248a7a8089c85b9761.html).
 
--   You have purchased at least one of the following entry point solutions, it is available in your global account and you have the respective administrator role assigned to your user.
+-   You have purchased at least one of the following entry point solutions and it is available in your global account.
 
-    -   SAP Build Work Zone, standard edition, formerly known as SAP Launchpad service \(with the `Launchpad_Admin` role\)
+    -   SAP Build Work Zone, standard edition, formerly known as SAP Launchpad service
 
         The SAP Build Work Zone, standard edition is also available in free tier. For. more information, see [Initial Setup](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/fd79b232967545569d1ae4d8f691016b.html) and [Using an Account with a Free Service Plan](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/1868e0dd101a4aa78b75e49ab46c992a.html).
 
-    -   SAP Build Work Zone, advanced edition \(with the `Workzone_Admin` role\)
+    -   SAP Build Work Zone, advanced edition
 
-    -   SAP SuccessFactors Work Zone \(with the `HR_Workflow_Admin` role\)
+    -   SAP SuccessFactors Work Zone
 
-    -   SAP Cloud Portal service \(with the `Portal_Admin` role\)
+    -   SAP Cloud Portal service
 
 
     > ### Note:  

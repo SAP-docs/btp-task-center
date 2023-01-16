@@ -7,6 +7,7 @@
     -   [Browser Support](10-what-is/browser-support-d769477.md)
     -   [Accessibility Features in SAP Task Center](10-what-is/accessibility-features-in-sap-task-center-b77f9a3.md)
 -   [What's New for SAP Task Center?](20-whats-new/what-s-new-for-sap-task-center-1bcdd45.md)
+    -   [\(Archive 2022\) What's New for SAP Task Center?](20-whats-new/archive-2022-what-s-new-for-sap-task-center-7adf1b4.md)
     -   [\(Archive 2021\) What's New for SAP Task Center?](20-whats-new/archive-2021-what-s-new-for-sap-task-center-93f0417.md)
 -   [Initial Setup](30-initial-setup/initial-setup-8347694.md)
     -   [Automatic Setup](30-initial-setup/automatic-setup-3a49967.md)
