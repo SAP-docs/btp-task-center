@@ -3,7 +3,7 @@
 # What Is SAP Task Center?
 
  SAP Task Center helps you integrate approval tasks into a central solution. 
-
+test
 The SAP Task Center service enables integration with SAP applications to provide a single entry point for end users to access all their assigned approval tasks. The tasks can be accessed by end users through the SAP Task Center Web application.
 
 You can use SAP Task Center as a unified inbox for approvals across multiple applications with integrated user experience. Approval tasks from multiple SAP solutions are gathered in one list and ready to be processed in just one click, shortening the completion time for business-critical tasks. For example, business users can process all their tasks from the connected systems, without the need to switch and log in separately into different inboxes.
