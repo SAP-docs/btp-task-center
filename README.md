@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/btp-task-center)](https://api.reuse.software/info/github.com/SAP-docs/btp-task-center)
 
 # Contributions to SAP Task Center
 
