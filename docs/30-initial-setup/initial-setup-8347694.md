@@ -79,5 +79,6 @@ To use the SAP Task Center service, you must complete the initial setup either b
 -   \(Recommended\) Set up the SAP Task Center service using the booster. See [Automatic Setup](automatic-setup-3a49967.md).
 
 -   Set up the SAP Task Center service manually. See [Manual Setup](manual-setup-0f00d3d.md).
+-   Test proposal.
 
 
