@@ -180,7 +180,7 @@ See [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-us
 
 ## Key Features
 
--   Display the number of tasks from all online connectors on the *SAP Task Center* tile in the launchpad.
+-   Display the number of tasks from all online connectors in the SAP Task Center Web app.
 -   View all tasks that are assigned to you.
 -   Use a custom search filter to find the tasks that you want to process.
 -   Sort tasks by priority, due date, and status.

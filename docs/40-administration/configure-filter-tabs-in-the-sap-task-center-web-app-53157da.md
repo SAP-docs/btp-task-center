@@ -108,6 +108,22 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     <tr>
     <td valign="top">
 
+    SAP Marketing Cloud
+
+
+    
+    </td>
+    <td valign="top">
+
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
     SAP Build Process Automation
 
 

@@ -113,6 +113,174 @@ Available as of
 </td>
 <td valign="top">
 
+New Icon for SAP Marketing Cloud 
+
+
+
+</td>
+<td valign="top">
+
+A new icon for SAP Marketing Cloud is available in the SAP Task Center Web app.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-01-30
+
+
+
+</td>
+<td valign="top">
+
+2023-01-30
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Documentation Feedback
+
+
+
+</td>
+<td valign="top">
+
+You can now provide feedback on the SAP Task Center documentation using GitHub. See the related *Тip* in [What Is SAP Task Center?](../10-what-is/what-is-sap-task-center-9693186.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+Announcement
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-01-30
+
+
+
+</td>
+<td valign="top">
+
+2023-01-30
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New Boosters for SAP Task Center
 
 

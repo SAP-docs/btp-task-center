@@ -120,6 +120,8 @@ SAP S/4HANA
 
 All approval use cases
 
+For more information, see [SAP Task Center Integration](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/0f18dddf28764f5b807ecd80549044cc/1da230b82a984cda85d0041e13060a87.html).
+
 
 
 </td>
