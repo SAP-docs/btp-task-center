@@ -2,7 +2,7 @@
 
 # Automatic Setup
 
-Get started with the SAP Task Center service using a booster and creating a Task Center tile in your central entry point solution.
+Get started with the SAP Task Center service using a booster and creating a Task Center tile in your central point of entry for accessing apps.
 
 
 
@@ -18,7 +18,7 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
 
 1.  Access your global account page in the SAP BTP cockpit, and choose *Boosters* from the navigation on the left.
 
-2.  Search for *SAP Task Center* and start one of the following boosters, depening on the central entry point solution, that you have set up in the prerequisites in [Initial Setup](initial-setup-8347694.md):
+2.  Search for *SAP Task Center* and start one of the following boosters, depening on the central point of entry for accessing apps, that you have set up in the prerequisites in [Initial Setup](initial-setup-8347694.md):
 
     **SAP Task Center Boosters**
 
@@ -27,7 +27,7 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
     <tr>
     <th valign="top">
 
-    Your Central Entry Point Solution
+    Your Central Point of Entry for Accessing Apps
 
 
     
@@ -113,9 +113,9 @@ The automatic setup does the following for you:
 -   Creates a default space, if you don't already have one.
 -   Creates a *default\_taskcenter* service instance in *Services* \> *Instances and Subscriptions*, *Instances* tab.
 -   Creates a `service key` of the *default\_taskcenter* service instance.
--   Creates a subscription to the chosen central entry point solution.
+-   Creates a subscription to the chosen central point of entry for accessing apps.
 -   Assigns the required roles and role collections to the current user.
--   Creates a destination for integration of the chosen central entry point solution with the SAP Task Center Web app.
+-   Creates a destination for integration of the chosen central point of entry for accessing apps with the SAP Task Center Web app.
 -   Creates sample destinations for the SAP solution's connectivity with sample values for the properties. To configure connectivity between SAP Task Center and the required SAP solutions, you should clone the sample destinations and update the created sample properties in the cloned destination with valid destination property values.
 
     > ### Note:  
@@ -181,14 +181,14 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
 
-    SAP Concur is currently not supported.
+    Use this destination for the connection with SAP Concur Expense.
 
 
     
     </td>
     <td valign="top" rowspan="2">
 
-     
+    [Connect SAP Concur and SAP Task Center](../40-administration/connect-sap-concur-and-sap-task-center-f354ef9.md)
 
 
     
@@ -204,7 +204,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
 
-    SAP Concur is currently not supported.
+    Use this destination for the connection with SAP Concur Request.
 
 
     

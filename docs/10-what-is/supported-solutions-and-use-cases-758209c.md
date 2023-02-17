@@ -61,6 +61,22 @@ See [Supported Use Cases](https://help.sap.com/docs/SAP_CLOUD_FOR_CUSTOMER/a13a0
 <tr>
 <td valign="top">
 
+SAP Concur
+
+
+
+</td>
+<td valign="top">
+
+See [SAP Task Center Integration with Concur Solutions](https://www.concurtraining.com/customers/tech_pubs/Integration/Shr_SG_Task_Center_Integration.pdf).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Fieldglass
 
 

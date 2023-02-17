@@ -51,7 +51,7 @@ Before you can use the service, meet the following prerequisites and perform the
     > -   All task providers and the SAP Task Center UAA of your subaccount must be configured to work with the same Identity Authentication tenant.
     > -   Make sure that the *Display Name*, *E-Mail* and *Global User ID* fields are maintained for every user in your Identity Authentication tenant. For more information, see [List and Edit User Details](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/045cb01bd2034b05a69e1a626e46570f.html) and [Global User ID in Integration Scenarios](https://help.sap.com/docs/SAP_CLOUD_IDENTITY/b95c3d5bab324a3a8409eee5267a5b75/a04611df60404a248a7a8089c85b9761.html).
 
--   You have purchased at least one of the following entry point solutions and it is available in your global account.
+-   You have purchased at least one of the following central points of entry for accessing apps and it is available in your global account.
 
     -   SAP Build Work Zone, standard edition, formerly known as SAP Launchpad service
 

@@ -12,6 +12,8 @@ Not all of the listed properties in the destinations of your subaccounts are req
 
 -   To configure SAP Task Center to work with SAP Cloud for Customer, see [Connect SAP Cloud for Customer and SAP Task Center](connect-sap-cloud-for-customer-and-sap-task-center-ec09002.md).
 
+-   To configure SAP Task Center to work with SAP Concur, see [Connect SAP Concur and SAP Task Center](connect-sap-concur-and-sap-task-center-f354ef9.md).
+
 -   To configure SAP Task Center to work with SAP Fieldglass, see [Connect SAP Fieldglass and SAP Task Center](connect-sap-fieldglass-and-sap-task-center-9367f0d.md).
 
 -   To configure SAP Task Center to work with SAP Marketing Cloud, see [Connect SAP Marketing Cloud and SAP Task Center](connect-sap-marketing-cloud-and-sap-task-center-18b3848.md).

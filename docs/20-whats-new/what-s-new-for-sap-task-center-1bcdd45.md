@@ -113,6 +113,92 @@ Available as of
 </td>
 <td valign="top">
 
+SAP Concur Supported
+
+
+
+</td>
+<td valign="top">
+
+You can now connect SAP Concur to the SAP Task Center service. For more information, see [Connect SAP Concur and SAP Task Center](../40-administration/connect-sap-concur-and-sap-task-center-f354ef9.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+Announcement
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-02-17
+
+
+
+</td>
+<td valign="top">
+
+2023-02-17
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New Icon for SAP Marketing Cloud 
 
 

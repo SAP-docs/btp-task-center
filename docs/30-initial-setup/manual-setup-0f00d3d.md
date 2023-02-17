@@ -35,7 +35,7 @@ Before you continue with the manual setup, make sure you meet the following prer
 
     For more information, see [Destinations](../40-administration/destinations-3470733.md).
 
-5.  Configure the consumer content of your central entry point for the SAP Task Center Web app.
+5.  Configure the consumer content of your central point of entry for accessing apps for the SAP Task Center Web app.
 
     For more information, see [Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md).
 

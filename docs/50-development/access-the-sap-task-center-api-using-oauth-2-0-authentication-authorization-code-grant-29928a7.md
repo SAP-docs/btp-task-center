@@ -87,7 +87,7 @@ SAP Task Center supports Authorization Code Grant flow for accessing its APIs.
 
     However, it is important to understand that the refresh token has a lifetime as well. Lifetimes of access and refresh tokens can be configured separately. If the lifetime of the refresh token has expired, there is no means to request a new refresh token.
 
-4.  Perform the call to the SAP Task Center API by sending the access token as the header. Use the endpoints below the base URL from the service configuration parameter `endpoints.inbox_rest_url` or `endpoints.inbox_rest_url`.
+4.  Perform the call to the SAP Task Center API by sending the access token as the header. Use the endpoints below the base URL from the service configuration parameter `endpoints.inbox_rest_url`.
     1.  Header name: ***Authorization***
     2.  Header value: ***Bearer <access token\>***
 

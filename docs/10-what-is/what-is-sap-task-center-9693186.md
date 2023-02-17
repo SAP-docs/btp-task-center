@@ -48,6 +48,8 @@ SAP Task Center offers an array of capabilities, for example:
 > 
 > More information:
 > 
+> -   [Collaborate with us – SAP Task Center Opens It‘s Documentation for Your Feedback with GitHub!](https://blogs.sap.com/2023/02/01/collaborate-with-us-sap-task-center-opens-its-documentation-for-your-feedback-with-github/comment-page-1/#comment-658159)
+> 
 > -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
 > 
 > -   [Introduction Video: Open Documentation Initiative](https://www.youtube.com/watch?v=WJ0oarMlVW4)

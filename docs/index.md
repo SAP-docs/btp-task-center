@@ -30,6 +30,7 @@
         -   [Connect SAP Cloud for Customer and SAP Task Center](40-administration/connect-sap-cloud-for-customer-and-sap-task-center-ec09002.md)
             -   [Creating the Primary Destination with the Technical User](40-administration/creating-the-primary-destination-with-the-technical-user-bb3728b.md)
             -   [Creating a Secondary Destination for the Principal Propagation](40-administration/creating-a-secondary-destination-for-the-principal-propagation-2cc8cee.md)
+        -   [Connect SAP Concur and SAP Task Center](40-administration/connect-sap-concur-and-sap-task-center-f354ef9.md)
         -   [Connect SAP Fieldglass and SAP Task Center](40-administration/connect-sap-fieldglass-and-sap-task-center-9367f0d.md)
         -   [Connect SAP Marketing Cloud and SAP Task Center](40-administration/connect-sap-marketing-cloud-and-sap-task-center-18b3848.md)
         -   [Connect SAP Build Process Automation and SAP Task Center](40-administration/connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md)
