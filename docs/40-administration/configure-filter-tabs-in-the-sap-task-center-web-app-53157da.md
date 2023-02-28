@@ -37,14 +37,21 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
 
 -   If the values of *tc.ui.group* match, but the values of *tc.provider\_type* do not match, then the SAP Task Center Web app groups those destinations into a filter tab and displays a generic icon.
 
--   A predefined icon based on *tc.provider\_type* property value is displayed for each filter tab. For more information see the table below:
+-   A predefined icon, based on the *tc.provider\_type* property value, is displayed for each filter tab. For more information, see the table below:
 
 
     <table>
     <tr>
     <th valign="top">
 
-    Destination Type
+    Task Provider
+
+
+    
+    </th>
+    <th valign="top">
+
+    Value of *tc.provider\_type*
 
 
     
@@ -67,6 +74,13 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </td>
     <td valign="top">
 
+    ***Ariba***
+
+
+    
+    </td>
+    <td valign="top">
+
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
@@ -77,6 +91,13 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     <td valign="top">
 
     SAP Cloud for Customer
+
+
+    
+    </td>
+    <td valign="top">
+
+    ***C4C***
 
 
     
@@ -99,6 +120,13 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </td>
     <td valign="top">
 
+    ***Concur***
+
+
+    
+    </td>
+    <td valign="top">
+
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
@@ -109,6 +137,13 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     <td valign="top">
 
     SAP Fieldglass
+
+
+    
+    </td>
+    <td valign="top">
+
+    ***Fieldglass***
 
 
     
@@ -131,6 +166,13 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </td>
     <td valign="top">
 
+    ***SMC***
+
+
+    
+    </td>
+    <td valign="top">
+
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
@@ -141,6 +183,13 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     <td valign="top">
 
     SAP Build Process Automation
+
+
+    
+    </td>
+    <td valign="top">
+
+    ***SPA***
 
 
     
@@ -163,6 +212,13 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </td>
     <td valign="top">
 
+    ***S/4HANA***
+
+
+    
+    </td>
+    <td valign="top">
+
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
@@ -179,23 +235,14 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </td>
     <td valign="top">
 
+    ***SuccessFactors***
+
+
+    
+    </td>
+    <td valign="top">
+
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Others
-
-
-    
-    </td>
-    <td valign="top">
-
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -203,10 +250,7 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </tr>
     </table>
     
-    > ### Note:  
-    > If you select a *tc.provider\_type* different from the expected value for the destination type, the SAP Task Center Web app displays a Generic icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) for the configured filter tabs.
-
--   The tasks provided by destinations for which the *tc.ui.group* property is not maintained are grouped into the *Others* filter tab in the SAP Task Center Web app.
+-   The tasks provided by destinations, for which the *tc.ui.group* property is not maintained, are grouped into the *Others* filter tab\(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the SAP Task Center Web app.
 
     > ### Note:  
     > The *Others* filter tab is only displayed if there is at least one additional filter tab.

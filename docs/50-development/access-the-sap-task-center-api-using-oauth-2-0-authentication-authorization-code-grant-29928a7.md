@@ -94,7 +94,7 @@ SAP Task Center supports Authorization Code Grant flow for accessing its APIs.
         > ### Example:  
         > Access Connector status API:
         > 
-        > ***curl "<endpoints.inbox\_rest\_url\>/v1/connectorStatus" -H "Authorization: Bearer <access token\>"***
+        > ***curl "<endpoints.inbox\_rest\_url\>/v1/connectors" -H "Authorization: Bearer <access token\>"***
 
 
 

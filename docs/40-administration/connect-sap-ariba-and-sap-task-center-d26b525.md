@@ -230,7 +230,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
 
     -   For SAP AribaSourcing:
 
-        ***https://openapi.ariba.com/api/sourcing-task-provider/v2/prod***
+        ***https://openapi.ariba.com/api/sourcing-task-provider/v1/prod***
 
 
 
