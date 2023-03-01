@@ -10,8 +10,6 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
--   You are in contact with SAP Ariba Technical Support for the SAP Task Center SPI app and to complete IDP registration on Ariba OAuth.
-
 -   You have an existing SAP Ariba tenant and know your SAP Ariba `realm name` or `customer site name`. For more information, see [How do I find out my realm name?](https://support.ariba.com/item/view/KB0395389).
 
 -   For the integration with SAP Ariba Sourcing you must have completed the steps described in [How to enable SAP Task Center for SAP Ariba Sourcing in the SAP S/4HANA Cloud 4BL and 4QN Integrations Scenarios](https://help.sap.com/docs/ARIBA_SOURCING/b6d46a2e6c3043d7bb0cbabba4262560/18bd32b6058d4e47a4f920ed115599e1.html) to enable the functionality in SAP Ariba.
