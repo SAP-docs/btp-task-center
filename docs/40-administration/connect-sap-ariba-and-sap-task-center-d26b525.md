@@ -38,7 +38,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
 
     1.  Create an application on the SAP Ariba Developer Portal for each SAP Ariba product you would like to connect to SAP Task Center. For more information about accessing the SAP Ariba Developer Portal, see [Help for the SAP Ariba developer portal](https://help.sap.com/docs/ARIBA_APIS/b61dd8c7e22c4fe489f191f66b4c48d6/1d55722e669e4c6aaa4eda5a011519ac.html).
     2.  Save the application key for each created application.
-    3.  Ask the SAP Ariba Technical Support for each *URL* and *Token Service URL* for the SAP Task Center SPI. You need this information when creating the destination.
+    3.  Note each *URL* and *Token Service URL* for the SAP Task Center SPI. You need this information when creating the destination.
 
         Request separate applications for the destinations for SAP AribaBuying and SAP AribaSourcing:
 
@@ -49,7 +49,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
 
         The *Token Service URL* is the same for both SAP AribaBuying and SAP AribaSourcing.
 
-    4.  To request the activation of the application on the SAP Ariba Developer Portal, provide the following information to the SAP Ariba Technical Support:
+    4.  To request the activation of the application on the SAP Ariba Developer Portal, please create a Service Request with SAP Ariba Support and provide the following information to the SAP Ariba Technical Support:
         -   The *Application key* of the application, created on the SAP Ariba Developer Portal
 
         -   The product that the request is for \(SAP AribaBuying or SAP Ariba Sourcing\)
@@ -59,7 +59,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
         -   The data center where your SAP Ariba `realm` resides
 
 
-    5.  To request IDP registration on the SAP Ariba OAuth, provide the following information to the SAP Ariba Technical Support:
+    5.  To request IDP registration on the SAP Ariba OAuth, create a Service Request and provide the following information to the SAP Ariba Technical Support:
         -   Your SAP Ariba `realm name` or `customer site name` \(see *Prerequisites*\)
         -   Entity Identifier \(`entityID`\) in the SAML assertion request
 
