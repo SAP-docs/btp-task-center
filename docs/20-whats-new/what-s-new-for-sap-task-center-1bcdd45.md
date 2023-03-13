@@ -113,6 +113,90 @@ Available as of
 </td>
 <td valign="top">
 
+mTLS Connection to SAP S/4HANA Cloud Enabled
+
+
+
+</td>
+<td valign="top">
+
+You can now connect SAP S/4HANA Cloud to the SAP Task Center service using mTLS. For more information, see [Connect SAP S/4HANA Cloud and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-and-sap-task-center-0aff1b4.md) \> Connect SAP S/4HANA Cloud and SAP Task Center Using mTLS.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-03-13
+
+
+
+</td>
+<td valign="top">
+
+2023-03-13
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 SAP Concur Supported
 
 

@@ -38,16 +38,18 @@ Once you confirm that the setup with the updated `clientsecret` is working prope
 
 ## Renew Destination Trust Certificates
 
-> ### Caution:  
-> For the time while you are renewing the trust certificate and updating it on the task provider systems you may not be able to work on tasks, nor receive task updates.
-> 
-> It is highly recommended to renew the certificate during maintenance windows or out of business hours.
-
 Renew your certificates at regular intervals to ensure secure communication between SAP Task Center and the task provider systems.
 
-Follow the steps in [Renew a Certificate](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/82dbecae3454493782d16a79e30f1a6d.html#loio82dbecae3454493782d16a79e30f1a6d__renew_cert) and make sure to update the new certificate in the respective task provider system:
+Follow the steps in [Rotate Certificates](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/82dbecae3454493782d16a79e30f1a6d.html?version=Cloud#rotate-certificates) and make sure to update the new certificate in the respective task provider system:
 
 -   For SAP SuccessFactors, see [Registering Your OAuth2 Client Application](https://help.sap.com/viewer/568480cc877d4337992a2cd9792fbfed/latest/en-US/6b3c741483de47b290d075d798163bc1.html).
 -   For SAP S/4HANA Cloud, see [Create a Communication System](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/be1e3da9ea1446a0ac9bbcbe36fb08a2.html).
 -   For SAP Fieldglass, see [Establishing Trust with Destination Service](https://help.sap.com/viewer/73c0a1be6aaa46ef9b66b1c3f28a77f4/cloud/en-US/3fabeb5092a44edd8fc3dd4b4cbc6b9e.html).
+
+> ### Tip:  
+> It is highly recommended to renew the certificate during maintenance windows or out of business hours.
+> 
+> We recommend you to renew the destination trust certificates by following the steps in [Rotate Certificates](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/82dbecae3454493782d16a79e30f1a6d.html?version=Cloud#rotate-certificates). This way you should not experience any downtime for your system.
+> 
+> If you prefer following [Renew a Certificate](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/82dbecae3454493782d16a79e30f1a6d.html#loio82dbecae3454493782d16a79e30f1a6d__renew_cert), for the time while you are renewing the trust certificate and updating it on the task provider systems, you may not be able to work on tasks, nor receive task updates.
 
