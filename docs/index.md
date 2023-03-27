@@ -67,6 +67,8 @@
     -   [SAP Task Center Web App](70-using-the-web-app/sap-task-center-web-app-b572094.md)
         -   [Working with the Task List](70-using-the-web-app/working-with-the-task-list-fe4a8b3.md)
         -   [Working with Filter Tabs](70-using-the-web-app/working-with-filter-tabs-df0aec8.md)
+        -   [Working with Multiple Tasks](70-using-the-web-app/working-with-multiple-tasks-9f8ef8e.md)
+        -   [Substitution Management](70-using-the-web-app/substitution-management-bef9b2d.md)
     -   [Task Center in the SAP Mobile Start Mobile App](70-using-the-web-app/task-center-in-the-sap-mobile-start-mobile-app-cb7cab6.md)
 -   [Troubleshooting](80-troubleshooting/troubleshooting-89c09a4.md)
 

@@ -17,7 +17,7 @@ With the SAP Companion you can see on-screen information, embedded directly in t
 To open it, choose the SAP Companion icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the upper right corner of the Web app.
 
 > ### Note:  
-> This features must be enabled by your administrator. For more information, see [Create a Task Center Tile on SAP Build Work Zone, Standard Edition](../30-initial-setup/create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
+> This feature must be enabled by your administrator. For more information, see [Create a Task Center Tile on SAP Build Work Zone, Standard Edition](../30-initial-setup/create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
 > 
 > You can either use the SAP Companion for SAP Task Center or SAP Companion for SAP Build Work Zone, standard edition, depending on the setup or your system.
 
@@ -107,7 +107,7 @@ To be able to sort by custom attributes, you have to first filter by a single ta
 Search for tasks using the *Search* field by entering one or more keywords that are included in the *Task Title*.
 
 > ### Note:  
-> The search operation is performed among all tasks that are assigned to the user and stored in the back end, and applies to the fields listed as hint in the *Search* field. When you filter by a task type with custom attributes, the hint in the *Search* field changes dynamically to reflect the current search, and applies to the custom-attribute columns of data type `string`.
+> The search is performed among all tasks that are assigned to the user and stored in the back end. It is applies to the fields listed as hint in the *Search* field. When you filter by a task type with custom attributes, the hint in the *Search* field changes dynamically to reflect the current search, and applies to the custom-attribute columns of data type `string`.
 
 
 
@@ -134,6 +134,43 @@ Details
 
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+\(Optional\) *On Behalf Of*
+
+
+
+</td>
+<td valign="top">
+
+The *On Behalf Of* filter is only visible when you have at least one active substitution rule.
+
+To see the tasks of a user you are substituting, choose the substitution icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the *On Behalf Of* field and choose a name. The list contains only the users you are currently substituting.
+
+Once you choose a user, the following changes appear, corresponding to the enabled substitution:
+
+-   The number of all tasks and tasks in the filter tabs is updated
+
+-   The task list displays only tasks, coming from the substitution
+
+-   The preselected filters are cleared
+
+-   Sorting is cleared
+
+-   The task types are updated according to the substitution
+
+-   *Refresh Tasks* refreshes the list of tasks coming from the substitution
+
+-   If you choose *Clear*, the *On Behalf Of* filter remains unchanged
+
+
+To go back to the list of your tasks, clear the *On Behalf Of* filter.
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -312,7 +349,7 @@ You can also upload an attachment or add a comment on these tabs if the function
 
 ## Pagination
 
-The Web app list works in growing mode. Initially, the first page loads up to 40 tasks. Additional tasks are loaded in pages of 40 tasks while scrolling down, until all the tasks assigned to the logged-in user are displayed.
+The Web app list works in growing mode. Initially, the first page loads up to 40 tasks. Additional tasks are loaded in pages of 40 tasks while scrolling down, until all the tasks assigned to the logged in user are displayed.
 
 
 

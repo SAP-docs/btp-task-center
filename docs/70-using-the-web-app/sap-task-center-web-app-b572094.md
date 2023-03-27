@@ -1,5 +1,7 @@
 <!-- loiob572094a8b584a338e80820d25b0df87 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # SAP Task Center Web App
 
 The SAP Task Center Web app displays all the tasks provided by the SAP Task Center service. You can process workflow tasks in the Web app, which runs on SAP Build Work Zone, standard edition.
@@ -48,6 +50,26 @@ Details
 
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+*Processing Errors*
+
+
+
+</td>
+<td valign="top">
+
+This column appears only if there are failed tasks in the task list. A failed task is a task, for which an attempt to execute an action has failed.
+
+To see details about the failed task, choose the *Processing Errors* icon \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) in the row of the task.
+
+This column is not visible by default.
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -189,11 +211,17 @@ See [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-us
 -   Quickly process your tasks with the help of inline actions available for tasks.
 -   View all available information about a task, including the display name of the user, who created the task, or available actions in the details view.
 -   Refresh the task list using the *Refresh Tasks* button.
+-   Use the *Mass Actions* function to process multiple tasks in parallel.
+-   Add and manage your substitutions in the *Substitution Management* view.
 
 **Related Information**  
 
 
 [Working with the Task List](working-with-the-task-list-fe4a8b3.md "In the SAP Task Center Web app, you can search for a specific task in the task list, and filter or sort your user tasks by predefined criteria. You can also refresh the task list and personalize the table columns.")
 
-[Working with Filter Tabs](working-with-filter-tabs-df0aec8.md "Filter Tabs organize your tasks in prefiltered semantic groups for better efficiency.")
+[Working with Filter Tabs](working-with-filter-tabs-df0aec8.md "Filter tabs organize your tasks in prefiltered semantic groups for better efficiency.")
+
+[Working with Multiple Tasks](working-with-multiple-tasks-9f8ef8e.md "You can process multiple tasks at once, by using the Mass Actions functionality.")
+
+[Substitution Management](substitution-management-bef9b2d.md "Use Substitution Management to view and maintain your substitutions.")
 

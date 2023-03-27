@@ -113,6 +113,182 @@ Available as of
 </td>
 <td valign="top">
 
+*Substitution Management* Available
+
+
+
+</td>
+<td valign="top">
+
+You can now create substitution rules to apply during your absence. For more information, see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md).
+
+Currently supported only for SAP Fieldglass.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-03-27
+
+
+
+</td>
+<td valign="top">
+
+2023-03-27
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+*Mass Actions* Available
+
+
+
+</td>
+<td valign="top">
+
+Processing of multiple tasks is now possible with the *Mass Actions* functionality. For more information, see [Working with Multiple Tasks](../70-using-the-web-app/working-with-multiple-tasks-9f8ef8e.md).
+
+Currently supported only for SAP Fieldglass.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-03-27
+
+
+
+</td>
+<td valign="top">
+
+2023-03-27
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 mTLS Connection to SAP S/4HANA Cloud Enabled
 
 
