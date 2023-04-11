@@ -45,7 +45,7 @@ Depending on the type of the selected task, the details view shows the standard 
 
 The standard user interface for task details consists the following areas:
 
--   Header with the task title, task type and an *Open Task* button to open the task details in the task provider system
+-   Header with the task title, task type and an *Open in App* button to open the task details in the task provider system
 -   Details area with additional information, if available for the selected task
 -   \(Optional\) Footer area with the available actions for the task \(for example *Approve* or *Reject*\)
 
@@ -74,7 +74,7 @@ The supported task types for which native task details user interfaces are provi
 
 The native user interface for task details consists the following areas:
 
--   Header with the task title, task type and an *Open Task* button to open the task details in the task provider system
+-   Header with the task title, task type and an *Open in App* button to open the task details in the task provider system
 -   Details area with additional information, if available for the selected task. Depending on the task type of the selected task, the details area can contain:
     -   *Details* tab
 
@@ -301,7 +301,7 @@ Choose *OK* to confirm your changes.
 
 ## Inline Decision Options and Predefined Decision Reasons
 
-Some tasks can have decision options preconfigured by the task provider of these tasks, for example *Approve* or *Reject*. If available, a list of possible decision options is displayed in the *Actions* column. You can directly choose the displayed decision option, or choose another one from the dropdown list. When you select one of the options, a decision pop-up with the following content appears:
+The *Actions* column of your task list contains the *Open in App* button, which opens the task in the task provider system, and may contain decision options, preconfigured by the task provider, for example *Approve* or *Reject*. You can directly choose the displayed decision option, or choose another one from the dropdown list. When you select one of the options, a decision pop-up with the following content appears:
 
 -   Confirmation text with the chosen action
 
@@ -315,7 +315,7 @@ Depending on the task configuration, following might be displayed as well:
 -   Input field labeled as *Decision Note*
 
 
-The decision reason and decision note can be optional or mandatory \(marked with an asterisk \(\*\)\). If these fields should be filled in, the *Submit* button is active only if this requirement is fulfilled. If these fields are not mandatory, you can submit your decision without adding a decision reason or decision note.
+The decision reason and decision note can be optional or mandatory \(marked with an asterisk \(\*\)\). The *Submit* button is active only if the mandatory fields are completed. If these fields are not mandatory, you can submit your decision without adding a decision reason or decision note.
 
 
 

@@ -31,7 +31,7 @@ Before you continue with the manual setup, make sure you meet the following prer
 
     For more information, see [Creating Service Keys in Cloud Foundry](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/6fcac08409db4b0f9ad55a6acd4d31c5.html) in the SAP Business Technology Platform \(SAP BTP\) documentation.
 
-4.  Connect SAP Task Center service to the SAP task provider solutions via destination configurations.
+4.  Set up the service destinations and connect the SAP Task Center service to the SAP task provider solutions via destination configurations.
 
     For more information, see [Destinations](../40-administration/destinations-3470733.md).
 

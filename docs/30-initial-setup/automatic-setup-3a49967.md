@@ -243,7 +243,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
 
-    This destination enables the functionalities related to user details within SAP Task Center.
+    This is a mandatory destination, that enables the functionalities related to user details within SAP Task Center.
 
 
     
@@ -436,7 +436,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
 
-    This destination is created for the SAP Build Work Zone, standard edition integration.
+    This destination is created for the integration with your central point of entry for accessing apps.
 
 
     

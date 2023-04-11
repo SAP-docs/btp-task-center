@@ -113,6 +113,179 @@ Available as of
 </td>
 <td valign="top">
 
+Updated Label
+
+
+
+</td>
+<td valign="top">
+
+The *Open Task* button, which opens the task in the task provider system, is now called *Open in App*.
+
+This button is now also a quick action, available in the *Actions* column. For more information, see [SAP Task Center Web App](../70-using-the-web-app/sap-task-center-web-app-b572094.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-04-10
+
+
+
+</td>
+<td valign="top">
+
+2023-04-10
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Bug Fixes
+
+
+
+</td>
+<td valign="top">
+
+-   Fixed issue with not loading SAP Task Center Web app, when a large amount of user groups are assigned to a user.
+-   Fixed an error when updating a task with too long custom attributes.
+-   Fixed an error when updating a task with not supported language codes.
+-   Fixed an issue with substitution creation for only one day.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-04-10
+
+
+
+</td>
+<td valign="top">
+
+2023-04-10
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 *Substitution Management* Available
 
 

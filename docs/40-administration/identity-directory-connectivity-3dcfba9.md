@@ -8,7 +8,7 @@ Configure the *Identity\_Authentication\_Connectivity\_IDS* destination to conne
 
 **Context**
 
-Create this destination to enable the communication between SAP Task Center and the identity directory. This is a mandatory destination that enhances the SAP Task Center functionality by adding user information in the Web app.
+Create this destination to enable the communication between SAP Task Center and the identity directory. This is a mandatory destination that enhances the SAP Task Center functionality by adding user information, and the option to search for users in the Web app.
 
 > ### Note:  
 > The user information, coming from Identity Authentication, is stored in the SAP Task Center cache. Updates of the user information in Identity Authentication might take up to 24 hours to be visualized in the SAP Task Center Web app.

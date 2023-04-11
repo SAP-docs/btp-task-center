@@ -42,6 +42,8 @@ The following procedure describes how to create a Task Center tile in the SAP Bu
 
 2.  Create a destination for the SAP Build Work Zone, standard edition integration.
 
+    If you have followed the [Automatic Setup](automatic-setup-3a49967.md), this destination is already created. You can continue with the next step.
+
     1.  In the navigation menu of your subaccount in the SAP BTP cockpit, choose *Destinations* \> *New Destination*.
     2.  In the *Destination Configuration* section, choose *Service Instance* and fill in the following information:
 
@@ -80,7 +82,7 @@ The following procedure describes how to create a Task Center tile in the SAP Bu
         </td>
         <td valign="top">
 
-        Choose the service instance you created in the *Prerequisites* section.
+        Choose the SAP Task Center service instance you created in the *Prerequisites* section.
 
 
         

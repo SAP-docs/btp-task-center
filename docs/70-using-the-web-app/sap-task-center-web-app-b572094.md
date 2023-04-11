@@ -182,6 +182,8 @@ Due date
 
 Displays the list of possible decision options for a task, for example *Approve* or *Reject*.
 
+Additionally, you can open the task in the task provider, by choosing *Open in App*.
+
 
 
 </td>
