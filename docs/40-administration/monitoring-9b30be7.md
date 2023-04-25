@@ -50,7 +50,7 @@ Each background job can have the following statuses: *OK*, *WARNING*, *RUNNING*,
 
 ## Task Center Administration App
 
-To monitor the status of all active destinations, information about their jobs and job types, we recommend you to use the Task Center Administration app. It connects to the SAP Task Center Connector Status API and helps administrators monitor the overall status of all configured destination connectors, configured on the account of the SAP Task Center instance.
+To monitor the status of the SAP Task Center service and all active destinations, and get information about their jobs and job types, we recommend you to use the Task Center Administration app. It connects to the SAP Task Center Monitoring API and helps administrators monitor the overall status of all destination connectors, configured on the account of the SAP Task Center instance.
 
 For more information, see [Working with the Task Center Administration App](working-with-the-task-center-administration-app-3a1598c.md).
 

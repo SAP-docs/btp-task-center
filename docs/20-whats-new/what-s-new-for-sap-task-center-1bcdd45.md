@@ -113,6 +113,174 @@ Available as of
 </td>
 <td valign="top">
 
+New SAP Companion Hotspots for Substitution Management and Mass Actions
+
+
+
+</td>
+<td valign="top">
+
+You can now find more information about mass actions and substitution management in the SAP Companion of the Web app. For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-04-25
+
+
+
+</td>
+<td valign="top">
+
+2023-04-25
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Service Status Tab in Task Center Administration App
+
+
+
+</td>
+<td valign="top">
+
+In the new *Service Status* tab of the Task Center Administration app you can find more information about the current status of the SAP Task Center service. For more information, see [Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Announcement
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-04-25
+
+
+
+</td>
+<td valign="top">
+
+2023-04-25
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Updated Label
 
 

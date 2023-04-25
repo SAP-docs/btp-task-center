@@ -57,6 +57,20 @@ The SAP Task Center Web app provides a tailored view for displaying the task det
 
 The supported task types for which native task details user interfaces are provided by the SAP Task Center are:
 
+-   SAP Ariba
+
+    -   Purchase Requisitions \(SAP Ariba Buying\)
+
+    -   Procurement Invoice Approvals \(SAP Ariba Buying\)
+
+
+-   SAP Concur
+
+    -   Expense Reports
+
+    -   Travel Requests
+
+
 -   SAP SuccessFactors
 
     -   Time Off Approvals

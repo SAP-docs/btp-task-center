@@ -56,4 +56,6 @@ Considering this information during development helps you achieve optimal use of
 
 -   Not all use cases, supported by the task provider systems, are supported in SAP Task Center. For more information, see [Supported Solutions and Use Cases](supported-solutions-and-use-cases-758209c.md).
 
+-   All messages returned by the SAP Task Center service are only in English.
+
 
