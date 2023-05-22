@@ -113,6 +113,92 @@ Available as of
 </td>
 <td valign="top">
 
+What's New Available in SAP Companion
+
+
+
+</td>
+<td valign="top">
+
+You can now see the What's New release notes also in SAP Companion.
+
+For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-05-22
+
+
+
+</td>
+<td valign="top">
+
+2023-05-22
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Info Icon for Mass Actions Removed
 
 

@@ -30,7 +30,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     > ### Tip:  
     > The *Tenant ID* is an automatically generated ID by the system. The first administrator created for the tenant receives an activation e-mail with a URL in it. This URL contains the *tenant ID*. For more information about your tenants, see [Viewing Assigned Tenants and Administrators](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/f56e6f24e373404087d6a1a9a13515a2.html).
 
--   You have created a system as administrator in Identity Authentication and have the user ID and password of this system.
+-   You have created a system as administrator in Identity Authentication \(with the *Read Users* authorizations\) and have the client ID and client secret of this system.
 
     For more information, see [Add System as Administrator](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/bbbdbdd3899942ce874f3aae9ba9e21d.html#loiocefb742a36754b18bbe5c3503ac6d87c).
 
@@ -224,7 +224,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     </td>
     <td valign="top">
 
-    Add the user ID of the system as administrator.
+    Add the client ID of the system as administrator.
 
     For more information, see *Prerequisites*.
 
@@ -249,7 +249,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     </td>
     <td valign="top">
 
-    Add the password of the system as administrator.
+    Add the client secret of the system as administrator.
 
     For more information, see *Prerequisites*.
 
@@ -282,10 +282,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     > ### Tip:  
     > The *Tenant ID* is an automatically generated ID by the system. The first administrator created for the tenant receives an activation e-mail with a URL in it. This URL contains the *tenant ID*. For more information about your tenants, see [Viewing Assigned Tenants and Administrators](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/f56e6f24e373404087d6a1a9a13515a2.html).
 
--   In Identity Authentication you have:
-
-    1.  Created a system as administrator and have the user ID and password of this system
-    2.  Created and downloaded a certificate and have its password
+-   You have created a system as administrator in Identity Authentication \(with the *Read Users* authorizations\), have downloaded a certificate and have its password.
 
     For more information, see [Add System as Administrator](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/bbbdbdd3899942ce874f3aae9ba9e21d.html#loiocefb742a36754b18bbe5c3503ac6d87c).
 
