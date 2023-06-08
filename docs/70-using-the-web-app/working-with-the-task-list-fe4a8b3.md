@@ -99,6 +99,18 @@ The native user interface for task details consists the following areas:
 
 -   \(Optional\) Footer area with the available actions for the task \(for example *Approve* or *Reject*\)
 
+> ### Note:  
+> Depending on configuration done by the task provider, the action buttons in the details area of a task might be displayed in semantic colors as follows:
+> 
+> -   Green - tasks with positive nature
+> 
+> -   Red - tasks with negative nature
+> 
+> -   Gray - tasks with neutral nature
+> 
+> 
+> The nature of the actions is defined by the task providers.
+
 
 
 <a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_SortTasks"/>

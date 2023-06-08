@@ -113,6 +113,426 @@ Available as of
 </td>
 <td valign="top">
 
+Semantic Coloring of Action Buttons in the Details View
+
+
+
+</td>
+<td valign="top">
+
+The Web app supports now semantic coloring of the action buttons in the details view of the task. For more information, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Change in the Mass Actions Dialog
+
+
+
+</td>
+<td valign="top">
+
+Additional information is added in the mass-actions confirmation dialog.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Substitution Management View Availability
+
+
+
+</td>
+<td valign="top">
+
+The *Substitution Management* view in the user menu is now visible only when there is at least one active task provider, which supports substitutions. For more information, see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Processing Errors Column Availability
+
+
+
+</td>
+<td valign="top">
+
+The *Processing Errors* column in the task table is now visible by default only on the *Failed Tasks* filter tab. For more information, see [SAP Task Center Web App](../70-using-the-web-app/sap-task-center-web-app-b572094.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Optimization of the Details in the First Column
+
+
+
+</td>
+<td valign="top">
+
+When you choose a task from the task list, the details of the task appear in a second column. To improve the visibility of the task list, the first column now contains by default the three most important properties \(*Task*, *Priority* and *Due*\). You can change these three properties via the *Personalize* button.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 What's New Available in SAP Companion
 
 

@@ -12,7 +12,7 @@ The SAP Task Center Web app displays all the tasks provided by the SAP Task Cent
 
 ## Prerequisites
 
-To use the SAP Task Center Web app, your administrator must have created a *SAP Task Center* tile on the launchpad.
+To use the SAP Task Center Web app, your administrator must have created a *SAP Task Center* tile on one of the supported central points of entry for accessing apps.
 
 
 
@@ -21,8 +21,6 @@ To use the SAP Task Center Web app, your administrator must have created a *SAP 
 ## What Is SAP Task Center Web App?
 
 The SAP Task Center is a new unified inbox for approvals across multiple applications with a seamless and integrated user experience. Workflow tasks from multiple SAP solutions are gathered in one list by the SAP Task Center service and ready to be processed with just one click. In the Web app, you can view all workflow tasks that are assigned to you and process them. A workflow task is a type of workflow object that is visualized in the Web app.
-
-The SAP Task Center Web app runs on the SAP Build Work Zone, standard edition.
 
 You can use the Web app on a desktop or a mobile device. The app displays all the tasks that are assigned to you. The task list is organized in tabs. For more information, see [Working with Filter Tabs](working-with-filter-tabs-df0aec8.md).
 
@@ -54,18 +52,16 @@ Details
 <tr>
 <td valign="top">
 
-*Processing Errors*
+\(Optional\) *Processing Errors*
 
 
 
 </td>
 <td valign="top">
 
-This column appears only if there are failed tasks in the task list. A failed task is a task, for which an attempt to execute an action has failed.
+This column appears by default only on the *Failed Tasks* filter tab, if there are failed tasks in the task list. A failed task is a task, for which an attempt to execute an action has failed.
 
 To see details about the failed task, choose the *Processing Errors* icon \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) in the row of the task.
-
-This column is not visible by default.
 
 
 

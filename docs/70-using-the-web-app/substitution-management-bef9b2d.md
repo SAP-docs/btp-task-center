@@ -21,6 +21,8 @@ Open the * *<span style="color:#346187;"><span class="SAP-icons"></span></spa
 
 ## Prerequisites
 
+-   To access the *Substitution Management* option in the SAP Task Center Web app, there must be at least one active task provider, which supports substitutions. Otherwise the *Substitution Management* option is not available in the user menu.
+
 -   To create a substitution for a specific task provider, this task provider must support substitutions.
 
 
@@ -43,7 +45,7 @@ The *Substitution Management* view consists of the following areas:
     -   *Upcoming*
 
 
-    The status of the substitutions are also color coded as follows:
+    The status of the substitutions is also color coded as follows:
 
     -   Green: No errors \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\)
 
@@ -54,15 +56,15 @@ The *Substitution Management* view consists of the following areas:
 
 -   *Details*
 
-    In the details area you can find more information about the substitution, its scope and a calendar, displaying the substitution period.
+    In the details area you can find more information about the substitution, its scope, and a calendar displaying the substitution period.
 
     In the *Scope* table you can see in which task providers the substitution is created, its status for the specific task provider system, and optionally an action button. A substitution can have the following status:
 
-    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> *OK* for tasks without errors, but with a message you should review.
+    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> *OK* for substitutions without errors, but with a message you should review.
 
-    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> *OK* for tasks without errors.
+    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> *OK* for substitutions without errors.
 
-    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> *ERROR* for tasks with errors, that you can repair from the *Action* column.
+    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> *ERROR* for substitutions with errors, that you can repair from the *Action* column.
 
 
 
@@ -82,7 +84,7 @@ To add a new substitution, choose *Add Substitution* and add the following infor
 
 2.  *Substitution Period* \(mandatory\)
 
-    Choose a time period for the validiy of the substitution rule. It can start on the same day or in the future.
+    Choose a time period for the validity of the substitution rule. It can start on the same day or in the future.
 
     > ### Note:  
     > The substitution starts applying at 00:00 UTC on the start date and ends at 23:59 UTC on the end date.

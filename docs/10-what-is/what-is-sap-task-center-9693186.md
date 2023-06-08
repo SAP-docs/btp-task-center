@@ -24,13 +24,34 @@ This service runs in the SAP BTP, Cloud Foundry environment.
 
 SAP Task Center offers an array of capabilities, for example:
 
-  Task Federation 
- :   Federate your tasks from various provider applications via a unified REST interface. Store them in a task cache for resilience and instantaneous access.
 
-   SAP Task Center for Task Processing 
- :   Access all tasks assigned to you in the SAP Task Center Web app. Search, sort and filter the displayed tasks based on predefined criteria. Navigate to the native task application for full task details and set of actions.
+<dl>
+<dt><b>
 
- 
+ Task Federation 
+
+</b></dt>
+<dd>
+
+Federate your tasks from various provider applications via a unified REST interface. Store them in a task cache for resilience and instantaneous access.
+
+
+
+</dd><dt><b>
+
+ SAP Task Center for Task Processing 
+
+</b></dt>
+<dd>
+
+Access all tasks assigned to you in the SAP Task Center Web app. Search, sort and filter the displayed tasks based on predefined criteria. Navigate to the native task application for full task details and set of actions.
+
+
+
+</dd>
+</dl>
+
+
 
 ## SAP Task Center Overview
 

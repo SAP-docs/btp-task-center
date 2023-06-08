@@ -72,22 +72,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Name*
+    
+        *Name*
 
 
     
     </td>
     <td valign="top">
-
-    Add ***Identity\_Authentication\_Connectivity\_IDS*** as name of this destination.
+    
+        Add ***Identity\_Authentication\_Connectivity\_IDS*** as name of this destination.
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***Identity\_Authentication\_Connectivity\_IDS***
 
@@ -97,22 +97,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Type*
+    
+        *Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *HTTP* option from the dropdown menu.
+    
+        Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -120,22 +120,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Description*
+    
+        *Description*
 
 
     
     </td>
     <td valign="top">
-
-    \(Optional\) Add a description.
+    
+        \(Optional\) Add a description.
 
 
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***Identity Authentication Connectivity***
 
@@ -145,22 +145,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *URL*
+    
+        *URL*
 
 
     
     </td>
     <td valign="top">
-
-    Add the URL you created in *Prerequisites*.
+    
+        Add the URL you created in *Prerequisites*.
 
 
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***https://example.accounts.ondemand.com/scim***
 
@@ -170,45 +170,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Proxy Type*
+    
+        *Proxy Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *Internet* option from the dropdown menu.
+    
+        Choose the *Internet* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Choose the *BasicAuthentication* option from the dropdown menu.
-
-
-    
-    </td>
-    <td valign="top">
-
-     
+         
 
 
     
@@ -216,15 +193,38 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *User*
+    
+        *Authentication*
 
 
     
     </td>
     <td valign="top">
+    
+        Choose the *BasicAuthentication* option from the dropdown menu.
 
-    Add the client ID of the system as administrator.
+
+    
+    </td>
+    <td valign="top">
+    
+         
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *User*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Add the client ID of the system as administrator.
 
     For more information, see *Prerequisites*.
 
@@ -232,8 +232,8 @@ You can set up this connectivity either by using the basic authentication, or vi
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -241,15 +241,15 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Password*
+    
+        *Password*
 
 
     
     </td>
     <td valign="top">
-
-    Add the client secret of the system as administrator.
+    
+        Add the client secret of the system as administrator.
 
     For more information, see *Prerequisites*.
 
@@ -257,8 +257,8 @@ You can set up this connectivity either by using the basic authentication, or vi
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -329,22 +329,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Name*
+    
+        *Name*
 
 
     
     </td>
     <td valign="top">
-
-    Add ***Identity\_Authentication\_Connectivity\_IDS*** as name of this destination.
+    
+        Add ***Identity\_Authentication\_Connectivity\_IDS*** as name of this destination.
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***Identity\_Authentication\_Connectivity\_IDS***
 
@@ -354,22 +354,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Type*
+    
+        *Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *HTTP* option from the dropdown menu.
+    
+        Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -377,22 +377,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Description*
+    
+        *Description*
 
 
     
     </td>
     <td valign="top">
-
-    \(Optional\) Add a description.
+    
+        \(Optional\) Add a description.
 
 
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***Identity Authentication Connectivity***
 
@@ -402,22 +402,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *URL*
+    
+        *URL*
 
 
     
     </td>
     <td valign="top">
-
-    Add the URL you created in *Prerequisites*.
+    
+        Add the URL you created in *Prerequisites*.
 
 
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***https://example.accounts.ondemand.com/scim***
 
@@ -427,45 +427,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Proxy Type*
+    
+        *Proxy Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *Internet* option from the dropdown menu.
+    
+        Choose the *Internet* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Choose the *ClientCertificateAuthentication* option from the dropdown menu.
-
-
-    
-    </td>
-    <td valign="top">
-
-     
+         
 
 
     
@@ -473,22 +450,22 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Use client provided certificate*
+    
+        *Authentication*
 
 
     
     </td>
     <td valign="top">
-
-    Make sure this checkbox is deselected.
+    
+        Choose the *ClientCertificateAuthentication* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -496,22 +473,45 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Key Store Location*
+    
+        *Use client provided certificate*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the certificate you uploaded in *Step 3* from the dropdown menu.
+    
+        Make sure this checkbox is deselected.
 
 
     
     </td>
     <td valign="top">
+    
+         
 
-    **Example**:
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *Key Store Location*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Choose the certificate you uploaded in *Step 3* from the dropdown menu.
+
+
+    
+    </td>
+    <td valign="top">
+    
+        **Example**:
 
     ***ids.p12***
 
@@ -521,15 +521,15 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     <tr>
     <td valign="top">
-
-    *Key Store Password*
+    
+        *Key Store Password*
 
 
     
     </td>
     <td valign="top">
-
-    Add the password of the certificate.
+    
+        Add the password of the certificate.
 
     For more information, see *Prerequisites*.
 
@@ -537,8 +537,8 @@ You can set up this connectivity either by using the basic authentication, or vi
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     

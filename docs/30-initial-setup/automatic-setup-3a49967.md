@@ -42,31 +42,15 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
     </tr>
     <tr>
     <td valign="top">
-
-    SAP Build Work Zone, standard edition \(formerly known as SAP Launchpad service\)
+    
+        SAP Build Work Zone, standard edition \(formerly known as SAP Launchpad service\)
 
 
     
     </td>
     <td valign="top">
-
-    *Set up an account for SAP Task Center with SAP Build Work Zone, standard edition*
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    SAP Build Work Zone, advanced edition
-
-
-    
-    </td>
-    <td valign="top">
-
-    *Set up an account for SAP Task Center with SAP Build Work Zone*
+        *Set up an account for SAP Task Center with SAP Build Work Zone, standard edition*
 
 
     
@@ -74,15 +58,31 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
     </tr>
     <tr>
     <td valign="top">
-
-    SAP SuccessFactors Work Zone
+    
+        SAP Build Work Zone, advanced edition
 
 
     
     </td>
     <td valign="top">
+    
+        *Set up an account for SAP Task Center with SAP Build Work Zone*
 
-    *Set up an account for SAP Task Center with SAP SuccessFactors Work Zone*
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        SAP SuccessFactors Work Zone
+
+
+    
+    </td>
+    <td valign="top">
+    
+        *Set up an account for SAP Task Center with SAP SuccessFactors Work Zone*
 
 
     
@@ -150,22 +150,22 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *Ariba*
+    
+        *Ariba*
 
 
     
     </td>
     <td valign="top">
-
-    Use this destination for the connection with SAP Ariba.
+    
+        Use this destination for the connection with SAP Ariba.
 
 
     
     </td>
     <td valign="top">
-
-    [Connect SAP Ariba and SAP Task Center](../40-administration/connect-sap-ariba-and-sap-task-center-d26b525.md)
+    
+        [Connect SAP Ariba and SAP Task Center](../40-administration/connect-sap-ariba-and-sap-task-center-d26b525.md)
 
 
     
@@ -173,22 +173,22 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *Concur\_exp*
+    
+        *Concur\_exp*
 
 
     
     </td>
     <td valign="top">
-
-    Use this destination for the connection with SAP Concur Expense.
+    
+        Use this destination for the connection with SAP Concur Expense.
 
 
     
     </td>
     <td valign="top" rowspan="2">
-
-    [Connect SAP Concur and SAP Task Center](../40-administration/connect-sap-concur-and-sap-task-center-f354ef9.md)
+    
+        [Connect SAP Concur and SAP Task Center](../40-administration/connect-sap-concur-and-sap-task-center-f354ef9.md)
 
 
     
@@ -196,38 +196,15 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *Concur\_req*
+    
+        *Concur\_req*
 
 
     
     </td>
     <td valign="top">
-
-    Use this destination for the connection with SAP Concur Request.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Fieldglass*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Use this destination for the connection with SAP Fieldglass.
-
-
-    
-    </td>
-    <td valign="top">
-
-    [Connect SAP Fieldglass and SAP Task Center](../40-administration/connect-sap-fieldglass-and-sap-task-center-9367f0d.md)
+        Use this destination for the connection with SAP Concur Request.
 
 
     
@@ -235,22 +212,22 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *Identity\_Authentication\_Connectivity\_IDS*
+    
+        *Fieldglass*
 
 
     
     </td>
     <td valign="top">
-
-    This is a mandatory destination, that enables the functionalities related to user details within SAP Task Center.
+    
+        Use this destination for the connection with SAP Fieldglass.
 
 
     
     </td>
     <td valign="top">
-
-    [Identity Directory Connectivity](../40-administration/identity-directory-connectivity-3dcfba9.md)
+    
+        [Connect SAP Fieldglass and SAP Task Center](../40-administration/connect-sap-fieldglass-and-sap-task-center-9367f0d.md)
 
 
     
@@ -258,22 +235,45 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *SAPBuildPA*
+    
+        *Identity\_Authentication\_Connectivity\_IDS*
 
 
     
     </td>
     <td valign="top">
+    
+        This is a mandatory destination, that enables the functionalities related to user details within SAP Task Center.
 
-    Use this destination for the connection with SAP Build Process Automation from a local subaccount.
+
+    
+    </td>
+    <td valign="top">
+    
+        [Identity Directory Connectivity](../40-administration/identity-directory-connectivity-3dcfba9.md)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *SAPBuildPA*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Use this destination for the connection with SAP Build Process Automation from a local subaccount.
 
 
     
     </td>
     <td valign="top" rowspan="2">
-
-    [Connect SAP Build Process Automation and SAP Task Center](../40-administration/connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md)
+    
+        [Connect SAP Build Process Automation and SAP Task Center](../40-administration/connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md)
 
 
     
@@ -281,38 +281,15 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *SAPBuildPA\_rem*
+    
+        *SAPBuildPA\_rem*
 
 
     
     </td>
     <td valign="top">
-
-    Use this destination for the connection with SAP Build Process Automation from a remote subaccount.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *S4HANA*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Use this destination for the connection with SAP S/4HANA.
-
-
-    
-    </td>
-    <td valign="top">
-
-    [Connect SAP S/4HANA and SAP Task Center](../40-administration/connect-sap-s-4hana-and-sap-task-center-143af9b.md)
+        Use this destination for the connection with SAP Build Process Automation from a remote subaccount.
 
 
     
@@ -320,45 +297,22 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *S4HANACloud*
+    
+        *S4HANA*
 
 
     
     </td>
     <td valign="top">
-
-    Use this destination for the connection with SAP S/4HANA Cloud.
+    
+        Use this destination for the connection with SAP S/4HANA.
 
 
     
     </td>
     <td valign="top">
-
-    [Connect SAP S/4HANA Cloud and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-and-sap-task-center-0aff1b4.md)
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *S4HANACloudPE*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Use this destination for the connection with SAP S/4HANA Cloud, Private Edition.
-
-
-    
-    </td>
-    <td valign="top">
-
-    [Connect SAP S/4HANA Cloud, Private Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md)
+        [Connect SAP S/4HANA and SAP Task Center](../40-administration/connect-sap-s-4hana-and-sap-task-center-143af9b.md)
 
 
     
@@ -366,22 +320,22 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *SMC*
+    
+        *S4HANACloud*
 
 
     
     </td>
     <td valign="top">
-
-    Use this destination for the connection with SAP Marketing Cloud
+    
+        Use this destination for the connection with SAP S/4HANA Cloud.
 
 
     
     </td>
     <td valign="top">
-
-    [Connect SAP Marketing Cloud and SAP Task Center](../40-administration/connect-sap-marketing-cloud-and-sap-task-center-18b3848.md)
+    
+        [Connect SAP S/4HANA Cloud and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-and-sap-task-center-0aff1b4.md)
 
 
     
@@ -389,22 +343,68 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *Success\_Factors*
+    
+        *S4HANACloudPE*
 
 
     
     </td>
     <td valign="top">
+    
+        Use this destination for the connection with SAP S/4HANA Cloud, Private Edition.
 
-    Use this destination for SAP SuccessFactors and create a primary destination with the technical user.
+
+    
+    </td>
+    <td valign="top">
+    
+        [Connect SAP S/4HANA Cloud, Private Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *SMC*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Use this destination for the connection with SAP Marketing Cloud
+
+
+    
+    </td>
+    <td valign="top">
+    
+        [Connect SAP Marketing Cloud and SAP Task Center](../40-administration/connect-sap-marketing-cloud-and-sap-task-center-18b3848.md)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *Success\_Factors*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Use this destination for SAP SuccessFactors and create a primary destination with the technical user.
 
 
     
     </td>
     <td valign="top" rowspan="2">
-
-    [Connect SAP SuccessFactors and SAP Task Center](../40-administration/connect-sap-successfactors-and-sap-task-center-eae23f3.md)
+    
+        [Connect SAP SuccessFactors and SAP Task Center](../40-administration/connect-sap-successfactors-and-sap-task-center-eae23f3.md)
 
 
     
@@ -412,38 +412,15 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *Success\_Factors\_PP*
+    
+        *Success\_Factors\_PP*
 
 
     
     </td>
     <td valign="top">
-
-    Use this destination for SAP SuccessFactors and create a secondary destination for the principal propagation.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Task\_Center*
-
-
-    
-    </td>
-    <td valign="top">
-
-    This destination is created for the integration with your central point of entry for accessing apps.
-
-
-    
-    </td>
-    <td valign="top">
-
-    Do not change the settings of this destination.
+        Use this destination for SAP SuccessFactors and create a secondary destination for the principal propagation.
 
 
     
@@ -451,22 +428,45 @@ The automatic setup does the following for you:
     </tr>
     <tr>
     <td valign="top">
-
-    *Task\_Center\_global\_settings*
+    
+        *Task\_Center*
 
 
     
     </td>
     <td valign="top">
-
-    This destination contains the global settings, valid for all destinations.
+    
+        This destination is created for the integration with your central point of entry for accessing apps.
 
 
     
     </td>
     <td valign="top">
+    
+        Do not change the settings of this destination.
 
-     [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md)
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *Task\_Center\_global\_settings*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        This destination contains the global settings, valid for all destinations.
+
+
+    
+    </td>
+    <td valign="top">
+    
+         [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md)
 
 
     
