@@ -43,22 +43,22 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     </tr>
     <tr>
     <td valign="top">
-
-    *Name*
+    
+        *Name*
 
 
     
     </td>
     <td valign="top">
-
-    Task\_Center\_global\_settings
+    
+        Task\_Center\_global\_settings
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***Task\_Center\_global\_settings***
 
@@ -68,45 +68,22 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     </tr>
     <tr>
     <td valign="top">
-
-    *Type*
+    
+        *Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *HTTP* option from the dropdown menu.
+    
+        Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Description*
-
-
-    
-    </td>
-    <td valign="top">
-
-    \(Optional\) Add a description as a free text.
-
-
-    
-    </td>
-    <td valign="top">
-
-    ***SAP Task Center Global Settings***
+         
 
 
     
@@ -114,22 +91,45 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     </tr>
     <tr>
     <td valign="top">
-
-    *URL*
+    
+        *Description*
 
 
     
     </td>
     <td valign="top">
-
-    Add ***http://sap.com/*** as value.
+    
+        \(Optional\) Add a description as a free text.
 
 
     
     </td>
     <td valign="top">
+    
+        ***SAP Task Center Global Settings***
 
-    **Value**:
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Add ***http://sap.com/*** as value.
+
+
+    
+    </td>
+    <td valign="top">
+    
+        **Value**:
 
     ***http://sap.com/***
 
@@ -139,22 +139,22 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     </tr>
     <tr>
     <td valign="top">
-
-    *Proxy Type*
+    
+        *Proxy Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *Internet* option from the dropdown menu.
+    
+        Choose the *Internet* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -162,22 +162,22 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     </tr>
     <tr>
     <td valign="top">
-
-    *Authentication*
+    
+        *Authentication*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *NoAuthentication* option from the dropdown menu.
+    
+        Choose the *NoAuthentication* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -214,15 +214,15 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     </tr>
     <tr>
     <td valign="top">
-
-    *tc.languages*
+    
+        *tc.languages*
 
 
     
     </td>
     <td valign="top">
-
-    List of translation languages to be requested for the translatable fields. For more information, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
+    
+        List of translation languages to be requested for the translatable fields. For more information, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
 
     The number of languages configured must be between one and three. If this count is exceeded, SAP Task Center uses only the first three languages from the list and ignores the rest of the language codes.
 
@@ -239,8 +239,8 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***en-US,de-DE***
 

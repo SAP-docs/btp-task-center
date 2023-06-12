@@ -12,7 +12,7 @@ Considering this information during development helps you achieve optimal use of
 
 ## Conventions
 
--   During the initial pull SAP Task Center loads the tasks, which have been updated or created in the past 90 days. Previous tasks are not loaded into SAP Task Center.
+-   During the initial pull SAP Task Center loads the tasks, which have been updated or created in the past 90 days \(this is the **maximum initial pull period**\). Previous tasks are not loaded into SAP Task Center.
 
 -   During the initial pull load, if SAP Task Center cannot retrieve a token in one hour, it automatically sets the *tc.enabled* property to ***false***. To continue, you need to manually set the property to ***true***.
 
@@ -32,7 +32,7 @@ Considering this information during development helps you achieve optimal use of
 
     -   All finalized tasks \(with status *Completed* or *Canceled*\) that have not been updated in the past 1 day
 
-    -   All not-finalized tasks \(for example with status *Ready* or *Reserved*\) that have not been updated in the past 180 days
+    -   All not-finalized tasks \(for example with status *Ready* or *Reserved*\) that have not been updated in the past 180 days \(this is the **retention period**\)
 
 
 -   To delete the task cache, you have to temporarily remove the *tc.enabled* property. For more information, see the details for the property *tc.enabled* in the corresponding destination topic \(see [Destinations](../40-administration/destinations-3470733.md)\).
@@ -55,5 +55,7 @@ Considering this information during development helps you achieve optimal use of
 -   The SAP Task Center service only enables, but does not include the integration implementation from the supported SAP solutions.
 
 -   Not all use cases, supported by the task provider systems, are supported in SAP Task Center. For more information, see [Supported Solutions and Use Cases](supported-solutions-and-use-cases-758209c.md).
+
+-   All messages returned by the SAP Task Center service are only in English.
 
 

@@ -67,15 +67,15 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Name*
+    
+        *Name*
 
 
     
     </td>
     <td valign="top">
-
-    Configure a destination name. It can be up to 16 characters long.
+    
+        Configure a destination name. It can be up to 16 characters long.
 
     > ### Note:  
     > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
@@ -84,8 +84,8 @@ Find information about the destination configuration that needs to be done for S
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***SMC***
 
@@ -95,22 +95,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Type*
+    
+        *Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *HTTP* option from the dropdown menu.
+    
+        Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -118,22 +118,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Description*
+    
+        *Description*
 
 
     
     </td>
     <td valign="top">
-
-    \(Optional\) Add a description.
+    
+        \(Optional\) Add a description.
 
 
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***SAP Marketing Cloud Connector***
 
@@ -143,15 +143,15 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *URL*
+    
+        *URL*
 
 
     
     </td>
     <td valign="top">
-
-    Add the *Service URL/Service Interface* value, and remove
+    
+        Add the *Service URL/Service Interface* value, and remove
 
      `sap/opu/odata4/sap/api_task_spi_replication/default/sap/api_task_spi_replication/0001/?sap-client=100`
 
@@ -162,8 +162,8 @@ Find information about the destination configuration that needs to be done for S
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***https://example-api.s4hana.ondemand.com/***
 
@@ -173,45 +173,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Proxy type*
+    
+        *Proxy type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *Internet* option from the dropdown menu.
+    
+        Choose the *Internet* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
-    
-    </td>
-    <td valign="top">
-
-     
+         
 
 
     
@@ -219,22 +196,45 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Audience*
+    
+        *Authentication*
 
 
     
     </td>
     <td valign="top">
-
-    Add the *SAML2 Audience*, that you copied in the *Prerequisites* section.
+    
+        Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
+    
+         
 
-    **Example**:
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *Audience*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Add the *SAML2 Audience*, that you copied in the *Prerequisites* section.
+
+
+    
+    </td>
+    <td valign="top">
+    
+        **Example**:
 
     ***https://example.s4hana.ondemand.com***
 
@@ -244,22 +244,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *AuthnContextClassRef*
+    
+        *AuthnContextClassRef*
 
 
     
     </td>
     <td valign="top">
-
-    Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
+    
+        Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***urn:oasis:names:tc:SAML:2.0:ac:classes:X509***
 
@@ -269,22 +269,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Client Key*
+    
+        *Client Key*
 
 
     
     </td>
     <td valign="top">
-
-    Add the *Client ID*, that you copied in the *Prerequisites* section.
+    
+        Add the *Client ID*, that you copied in the *Prerequisites* section.
 
 
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***COM501SID100***
 
@@ -294,22 +294,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Token Service URL Type*
+    
+        *Token Service URL Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose *Dedicated*.
+    
+        Choose *Dedicated*.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -317,22 +317,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Token Service URL*
+    
+        *Token Service URL*
 
 
     
     </td>
     <td valign="top">
-
-    Add the *Token Service URL*, that you copied in the *Prerequisites* section.
+    
+        Add the *Token Service URL*, that you copied in the *Prerequisites* section.
 
 
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***https://example-api.s4hana.ondemand.com/sap/bc/sec/oauth2/token***
 
@@ -342,22 +342,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Token Service User*
+    
+        *Token Service User*
 
 
     
     </td>
     <td valign="top">
-
-    Add the *User Name*, that you copied in the *Prerequisites* section.
+    
+        Add the *User Name*, that you copied in the *Prerequisites* section.
 
 
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***COM501SID100***
 
@@ -367,22 +367,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *Token Service Password*
+    
+        *Token Service Password*
 
 
     
     </td>
     <td valign="top">
-
-    Add the *Password*, that you copied in the *Prerequisites* section.
+    
+        Add the *Password*, that you copied in the *Prerequisites* section.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -421,15 +421,15 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *tc.enabled*
+    
+        *tc.enabled*
 
 
     
     </td>
     <td valign="top">
-
-    Enables the SAP Task Center to connect to the configured task provider destination.
+    
+        Enables the SAP Task Center to connect to the configured task provider destination.
 
     > ### Caution:  
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
@@ -450,8 +450,8 @@ Find information about the destination configuration that needs to be done for S
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***true***
 
@@ -461,22 +461,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *tc.provider\_type*
+    
+        *tc.provider\_type*
 
 
     
     </td>
     <td valign="top">
-
-    Type of the task provider.
+    
+        Type of the task provider.
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***SMC***
 
@@ -486,8 +486,8 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *tc.ui.group*
+    
+        *tc.ui.group*
 
     and
 
@@ -497,8 +497,8 @@ Find information about the destination configuration that needs to be done for S
     
     </td>
     <td valign="top">
-
-    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+    
+        \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
 
     You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -515,8 +515,8 @@ Find information about the destination configuration that needs to be done for S
     
     </td>
     <td valign="top">
-
-    ***SAP Marketing Cloud***
+    
+        ***SAP Marketing Cloud***
 
 
     
@@ -524,8 +524,8 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *tc.ui.label* 
+    
+        *tc.ui.label* 
 
     and
 
@@ -535,8 +535,8 @@ Find information about the destination configuration that needs to be done for S
     
     </td>
     <td valign="top">
-
-    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    
+        \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -553,8 +553,8 @@ Find information about the destination configuration that needs to be done for S
     
     </td>
     <td valign="top">
-
-    **Example for *tc.ui.label***:
+    
+        **Example for *tc.ui.label***:
 
     ***SAP Marketing Cloud Task***
 
@@ -568,22 +568,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *URL.queries.sap-client*
+    
+        *URL.queries.sap-client*
 
 
     
     </td>
     <td valign="top">
-
-    The client number of the SAP Marketing Cloud system.
+    
+        The client number of the SAP Marketing Cloud system.
 
 
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***100***
 
@@ -593,22 +593,22 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     <tr>
     <td valign="top">
-
-    *userIdSource*
+    
+        *userIdSource*
 
 
     
     </td>
     <td valign="top">
-
-    Assertion attribute configured in Identity Authentication and used for user authentication.
+    
+        Assertion attribute configured in Identity Authentication and used for user authentication.
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     user\_uuid
 

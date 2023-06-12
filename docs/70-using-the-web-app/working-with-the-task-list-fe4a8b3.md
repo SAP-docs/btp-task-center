@@ -17,7 +17,7 @@ With the SAP Companion you can see on-screen information, embedded directly in t
 To open it, choose the SAP Companion icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the upper right corner of the Web app.
 
 > ### Note:  
-> This features must be enabled by your administrator. For more information, see [Create a Task Center Tile on SAP Build Work Zone, Standard Edition](../30-initial-setup/create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
+> This feature must be enabled by your administrator. For more information, see [Create a Task Center Tile on SAP Build Work Zone, Standard Edition](../30-initial-setup/create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
 > 
 > You can either use the SAP Companion for SAP Task Center or SAP Companion for SAP Build Work Zone, standard edition, depending on the setup or your system.
 
@@ -45,7 +45,7 @@ Depending on the type of the selected task, the details view shows the standard 
 
 The standard user interface for task details consists the following areas:
 
--   Header with the task title, task type and an *Open Task* button to open the task details in the task provider system
+-   Header with the task title, task type and an *Open in App* button to open the task details in the task provider system
 -   Details area with additional information, if available for the selected task
 -   \(Optional\) Footer area with the available actions for the task \(for example *Approve* or *Reject*\)
 
@@ -56,6 +56,20 @@ The standard user interface for task details consists the following areas:
 The SAP Task Center Web app provides a tailored view for displaying the task details for a few task types. Those native user interfaces for task details provide substantially more contextual information about the task compared to the standard user interfaces for task details, so an approver can perform a decision about the task based on that latter relevant information.
 
 The supported task types for which native task details user interfaces are provided by the SAP Task Center are:
+
+-   SAP Ariba
+
+    -   Purchase Requisitions \(SAP Ariba Buying\)
+
+    -   Procurement Invoice Approvals \(SAP Ariba Buying\)
+
+
+-   SAP Concur
+
+    -   Expense Reports
+
+    -   Travel Requests
+
 
 -   SAP SuccessFactors
 
@@ -74,7 +88,7 @@ The supported task types for which native task details user interfaces are provi
 
 The native user interface for task details consists the following areas:
 
--   Header with the task title, task type and an *Open Task* button to open the task details in the task provider system
+-   Header with the task title, task type and an *Open in App* button to open the task details in the task provider system
 -   Details area with additional information, if available for the selected task. Depending on the task type of the selected task, the details area can contain:
     -   *Details* tab
 
@@ -84,6 +98,18 @@ The native user interface for task details consists the following areas:
 
 
 -   \(Optional\) Footer area with the available actions for the task \(for example *Approve* or *Reject*\)
+
+> ### Note:  
+> Depending on configuration done by the task provider, the action buttons in the details area of a task might be displayed in semantic colors as follows:
+> 
+> -   Green - tasks with positive nature
+> 
+> -   Red - tasks with negative nature
+> 
+> -   Gray - tasks with neutral nature
+> 
+> 
+> The nature of the actions is defined by the task providers.
 
 
 
@@ -107,7 +133,7 @@ To be able to sort by custom attributes, you have to first filter by a single ta
 Search for tasks using the *Search* field by entering one or more keywords that are included in the *Task Title*.
 
 > ### Note:  
-> The search operation is performed among all tasks that are assigned to the user and stored in the back end, and applies to the fields listed as hint in the *Search* field. When you filter by a task type with custom attributes, the hint in the *Search* field changes dynamically to reflect the current search, and applies to the custom-attribute columns of data type `string`.
+> The search is performed among all tasks that are assigned to the user and stored in the back end. It is applies to the fields listed as hint in the *Search* field. When you filter by a task type with custom attributes, the hint in the *Search* field changes dynamically to reflect the current search, and applies to the custom-attribute columns of data type `string`.
 
 
 
@@ -134,6 +160,43 @@ Details
 
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+\(Optional\) *On Behalf Of*
+
+
+
+</td>
+<td valign="top">
+
+The *On Behalf Of* filter is only visible when you have at least one active substitution rule.
+
+To see the tasks of a user you are substituting, choose the substitution icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the *On Behalf Of* field and choose a name. The list contains only the users you are currently substituting.
+
+Once you choose a user, the following changes appear, corresponding to the enabled substitution:
+
+-   The number of all tasks and tasks in the filter tabs is updated
+
+-   The task list displays only tasks, coming from the substitution
+
+-   The preselected filters are cleared
+
+-   Sorting is cleared
+
+-   The task types are updated according to the substitution
+
+-   *Refresh Tasks* refreshes the list of tasks coming from the substitution
+
+-   If you choose *Clear*, the *On Behalf Of* filter remains unchanged
+
+
+To go back to the list of your tasks, clear the *On Behalf Of* filter.
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -264,7 +327,7 @@ Choose *OK* to confirm your changes.
 
 ## Inline Decision Options and Predefined Decision Reasons
 
-Some tasks can have decision options preconfigured by the task provider of these tasks, for example *Approve* or *Reject*. If available, a list of possible decision options is displayed in the *Actions* column. You can directly choose the displayed decision option, or choose another one from the dropdown list. When you select one of the options, a decision pop-up with the following content appears:
+The *Actions* column of your task list contains the *Open in App* button, which opens the task in the task provider system, and may contain decision options, preconfigured by the task provider, for example *Approve* or *Reject*. You can directly choose the displayed decision option, or choose another one from the dropdown list. When you select one of the options, a decision pop-up with the following content appears:
 
 -   Confirmation text with the chosen action
 
@@ -278,7 +341,7 @@ Depending on the task configuration, following might be displayed as well:
 -   Input field labeled as *Decision Note*
 
 
-The decision reason and decision note can be optional or mandatory \(marked with an asterisk \(\*\)\). If these fields should be filled in, the *Submit* button is active only if this requirement is fulfilled. If these fields are not mandatory, you can submit your decision without adding a decision reason or decision note.
+The decision reason and decision note can be optional or mandatory \(marked with an asterisk \(\*\)\). The *Submit* button is active only if the mandatory fields are completed. If these fields are not mandatory, you can submit your decision without adding a decision reason or decision note.
 
 
 
@@ -312,7 +375,7 @@ You can also upload an attachment or add a comment on these tabs if the function
 
 ## Pagination
 
-The Web app list works in growing mode. Initially, the first page loads up to 40 tasks. Additional tasks are loaded in pages of 40 tasks while scrolling down, until all the tasks assigned to the logged-in user are displayed.
+The Web app list works in growing mode. Initially, the first page loads up to 40 tasks. Additional tasks are loaded in pages of 40 tasks while scrolling down, until all the tasks assigned to the logged in user are displayed.
 
 
 

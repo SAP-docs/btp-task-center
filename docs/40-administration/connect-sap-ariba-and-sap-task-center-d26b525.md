@@ -10,8 +10,6 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
--   You are in contact with SAP Ariba Technical Support for the SAP Task Center SPI app and to complete IDP registration on Ariba OAuth.
-
 -   You have an existing SAP Ariba tenant and know your SAP Ariba `realm name` or `customer site name`. For more information, see [How do I find out my realm name?](https://support.ariba.com/item/view/KB0395389).
 
 -   For the integration with SAP Ariba Sourcing you must have completed the steps described in [How to enable SAP Task Center for SAP Ariba Sourcing in the SAP S/4HANA Cloud 4BL and 4QN Integrations Scenarios](https://help.sap.com/docs/ARIBA_SOURCING/b6d46a2e6c3043d7bb0cbabba4262560/18bd32b6058d4e47a4f920ed115599e1.html) to enable the functionality in SAP Ariba.
@@ -34,9 +32,9 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
 
 ## Procedure
 
-1.  On the SAP Ariba Developer Portal create an application for each product you want to use \(SAP AribaBuying, SAP AribaSourcing, or crate two applications if you want to use both\). Contact SAP Ariba Technical Support and provide the `application key`, `realm name` and share the SAP Ariba product it needs to link to. Follow these steps:
+1.  On the SAP Ariba Developer Portal create an application for each product you want to use \(SAP AribaBuying, SAP AribaSourcing, or create two applications if you want to use both\). Contact SAP Ariba Technical Support and provide the `application key`, `realm name` and share the SAP Ariba product it needs to link to. Follow these steps:
 
-    1.  Create an application on the SAP Ariba Developer Portal for each SAP Ariba product you would like to connect to SAP Task Center. For more information about accessing the SAP Ariba Developer Portal, see [Help for the SAP Ariba developer portal](https://help.sap.com/docs/ARIBA_APIS/b61dd8c7e22c4fe489f191f66b4c48d6/1d55722e669e4c6aaa4eda5a011519ac.html).
+    1.  Create an application and generate the application key for each SAP Ariba product you would like to connect, following the steps at [Creating an Application on the SAP Ariba Developer Portal](https://help.sap.com/docs/ARIBA_APIS/b61dd8c7e22c4fe489f191f66b4c48d6/496d221506e941a894237243ca9ddf2a.html).
     2.  Save the application key for each created application.
     3.  Note each *URL* and *Token Service URL* for the SAP Task Center SPI. You need this information when creating the destination.
 
@@ -127,15 +125,15 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *Name*
+    
+        *Name*
 
 
     
     </td>
     <td valign="top">
-
-    The destination name can be up to 16 characters.
+    
+        The destination name can be up to 16 characters.
 
     > ### Note:  
     > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
@@ -147,8 +145,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***Ariba***
 
@@ -158,45 +156,22 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *Type*
+    
+        *Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *HTTP* option from the dropdown menu.
+    
+        Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Description*
-
-
-    
-    </td>
-    <td valign="top">
-
-    \(Optional\) Add a description.
-
-
-    
-    </td>
-    <td valign="top">
-
-     
+         
 
 
     
@@ -204,15 +179,38 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *URL*
+    
+        *Description*
 
 
     
     </td>
     <td valign="top">
+    
+        \(Optional\) Add a description.
 
-    Enter the appropriate *URL*.
+
+    
+    </td>
+    <td valign="top">
+    
+         
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Enter the appropriate *URL*.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -221,8 +219,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    **Examples**:
+    
+        **Examples**:
 
     -   For SAP AribaBuying:
 
@@ -239,45 +237,22 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *Proxy Type*
+    
+        *Proxy Type*
 
 
     
     </td>
     <td valign="top">
-
-    Choose the *Internet* option from the dropdown menu.
+    
+        Choose the *Internet* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
-
-     
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
-    
-    </td>
-    <td valign="top">
-
-     
+         
 
 
     
@@ -285,22 +260,45 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *Audience*
+    
+        *Authentication*
 
 
     
     </td>
     <td valign="top">
-
-    The *Audience* is used to construct the SAML assertion. Its value should be ***Ariba***.
+    
+        Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
+    
+         
 
-    **Value**:
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *Audience*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        The *Audience* is used to construct the SAML assertion. Its value should be ***Ariba***.
+
+
+    
+    </td>
+    <td valign="top">
+    
+        **Value**:
 
     ***Ariba***
 
@@ -310,22 +308,22 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *AuthnContextClassRef*
+    
+        *AuthnContextClassRef*
 
 
     
     </td>
     <td valign="top">
-
-    Value of the `AuthnContextClassRef` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
+    
+        Value of the `AuthnContextClassRef` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
 
@@ -335,45 +333,22 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *Client Key*
+    
+        *Client Key*
 
 
     
     </td>
     <td valign="top">
-
-    Add the *Application key* value.
+    
+        Add the *Application key* value.
 
 
     
     </td>
     <td valign="top">
-
-    **Value** of ***Application key*** \(one for each solution\)
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Token Service URL Type*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Choose *Dedicated*.
-
-
-    
-    </td>
-    <td valign="top">
-
-     
+        **Value** of ***Application key*** \(one for each solution\)
 
 
     
@@ -381,22 +356,45 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *Token Service URL*
+    
+        *Token Service URL Type*
 
 
     
     </td>
     <td valign="top">
-
-    Add the *Token Service URL*.
+    
+        Choose *Dedicated*.
 
 
     
     </td>
     <td valign="top">
+    
+         
 
-    **Example**:
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *Token Service URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Add the *Token Service URL*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+        **Example**:
 
     ***https://api.ariba.com/v2/oauth/token***
 
@@ -406,22 +404,22 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *Token Service User*
+    
+        *Token Service User*
 
 
     
     </td>
     <td valign="top">
-
-    Add the value of the *OAuth client ID*.
+    
+        Add the value of the *OAuth client ID*.
 
 
     
     </td>
     <td valign="top">
-
-    **Value** of ***OAuth client ID***
+    
+        **Value** of ***OAuth client ID***
 
 
     
@@ -429,22 +427,22 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *Token Service Password*
+    
+        *Token Service Password*
 
 
     
     </td>
     <td valign="top">
-
-    Add the value of the *OAuth secret*.
+    
+        Add the value of the *OAuth secret*.
 
 
     
     </td>
     <td valign="top">
-
-    **Value** of ***OAuth secret***
+    
+        **Value** of ***OAuth secret***
 
 
     
@@ -481,22 +479,22 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *nameIdFormat*
+    
+        *nameIdFormat*
 
 
     
     </td>
     <td valign="top">
-
-    Value of the `NameIdFormat` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
+    
+        Value of the `NameIdFormat` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified***
 
@@ -506,15 +504,15 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *tc.enabled*
+    
+        *tc.enabled*
 
 
     
     </td>
     <td valign="top">
-
-    Enables SAP Task Center to connect to the configured task provider destination.
+    
+        Enables SAP Task Center to connect to the configured task provider destination.
 
     > ### Caution:  
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/3a499676e7ae4282af84092f778e3737.html)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
@@ -535,8 +533,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***true***
 
@@ -546,22 +544,22 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *tc.provider\_type*
+    
+        *tc.provider\_type*
 
 
     
     </td>
     <td valign="top">
-
-    Type of the task provider. This property is needed if you would like to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/53157da9e7ed498ea6b30298bf7d5213.html). 
+    
+        Type of the task provider. This property is needed if you would like to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/53157da9e7ed498ea6b30298bf7d5213.html). 
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***Ariba***
 
@@ -571,8 +569,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *tc.ui.group*
+    
+        *tc.ui.group*
 
     and
 
@@ -582,8 +580,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+    
+        \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
 
     You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/c66c693eab8c4e1aa47bddb5ce148348.html)\), by appending the respective language code to the property.
 
@@ -600,8 +598,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    **Example**:
+    
+        **Example**:
 
     ***SAP Ariba***
 
@@ -611,8 +609,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *tc.ui.label* 
+    
+        *tc.ui.label* 
 
     and
 
@@ -622,8 +620,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    
+        \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/c66c693eab8c4e1aa47bddb5ce148348.html)\), by appending the respective language code to the property.
 
@@ -642,8 +640,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    **Example for *tc.ui.label***:
+    
+        **Example for *tc.ui.label***:
 
     ***SAP Ariba Task***
 
@@ -657,15 +655,15 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *tokenServiceURL.headers.apikey*
+    
+        *tokenServiceURL.headers.apikey*
 
 
     
     </td>
     <td valign="top">
-
-    Add the value of the *Application key*.
+    
+        Add the value of the *Application key*.
 
     This value is used when making calls to the *Token service URL* in this destination.
 
@@ -673,8 +671,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    **Value of** ***Application key***
+    
+        **Value of** ***Application key***
 
 
     
@@ -682,15 +680,15 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *URL.headers.apikey*
+    
+        *URL.headers.apikey*
 
 
     
     </td>
     <td valign="top">
-
-    Add the value of the *Application key*.
+    
+        Add the value of the *Application key*.
 
     This value is used when making calls to the *URL* in this destination.
 
@@ -698,8 +696,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    **Value of** ***Application key***
+    
+        **Value of** ***Application key***
 
 
     
@@ -707,15 +705,15 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </tr>
     <tr>
     <td valign="top">
-
-    *URL.queries.realm*
+    
+        *URL.queries.realm*
 
 
     
     </td>
     <td valign="top">
-
-    Add the value of the `realm name`.
+    
+        Add the value of the `realm name`.
 
     This value is used when making calls to the *URL* in this destination.
 
@@ -723,8 +721,8 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
     </td>
     <td valign="top">
-
-    **Value** of ***your SAP Ariba realm name***
+    
+        **Value** of ***your SAP Ariba realm name***
 
 
     
@@ -740,4 +738,9 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
 
     If you choose *Check Connection* in the destination configuration, you may not receive correct information about the connectivity between the SAP Task Center service and SAP Ariba.
 
+
+**Related Information**  
+
+
+[Help for the SAP Ariba developer portal](https://help.sap.com/docs/ariba-apis/help-for-sap-ariba-developer-portal/help-for-sap-ariba-developer-portal)
 

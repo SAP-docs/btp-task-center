@@ -51,22 +51,22 @@ For more details about the SAP Task Center background job types and statuses, se
     </tr>
     <tr>
     <td valign="top">
-
-    *Service Instance*
+    
+        *Service Instance*
 
 
     
     </td>
     <td valign="top">
-
-    Choose your service instance for SAP Alert Notification service for SAP BTP.
+    
+        Choose your service instance for SAP Alert Notification service for SAP BTP.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     
@@ -74,22 +74,22 @@ For more details about the SAP Task Center background job types and statuses, se
     </tr>
     <tr>
     <td valign="top">
-
-    *Name*
+    
+        *Name*
 
 
     
     </td>
     <td valign="top">
-
-    The name must be ***Task\_Center\_notifications***.
+    
+        The name must be ***Task\_Center\_notifications***.
 
 
     
     </td>
     <td valign="top">
-
-    **Value**:
+    
+        **Value**:
 
     ***Task\_Center\_notifications***
 
@@ -99,22 +99,22 @@ For more details about the SAP Task Center background job types and statuses, se
     </tr>
     <tr>
     <td valign="top">
-
-    *Description*
+    
+        *Description*
 
 
     
     </td>
     <td valign="top">
-
-    \(Optional\) Add a description.
+    
+        \(Optional\) Add a description.
 
 
     
     </td>
     <td valign="top">
-
-     
+    
+         
 
 
     

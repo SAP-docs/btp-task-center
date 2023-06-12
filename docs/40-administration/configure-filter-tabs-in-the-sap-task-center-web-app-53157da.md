@@ -66,45 +66,22 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </tr>
     <tr>
     <td valign="top">
-
-    SAP Ariba
+    
+        SAP Ariba
 
 
     
     </td>
     <td valign="top">
-
-    ***Ariba***
+    
+        ***Ariba***
 
 
     
     </td>
     <td valign="top">
-
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    SAP Cloud for Customer
-
-
-    
-    </td>
-    <td valign="top">
-
-    ***C4C***
-
-
-    
-    </td>
-    <td valign="top">
-
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -112,45 +89,22 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </tr>
     <tr>
     <td valign="top">
-
-    SAP Concur
+    
+        SAP Cloud for Customer
 
 
     
     </td>
     <td valign="top">
-
-    ***Concur***
+    
+        ***C4C***
 
 
     
     </td>
     <td valign="top">
-
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    SAP Fieldglass
-
-
-    
-    </td>
-    <td valign="top">
-
-    ***Fieldglass***
-
-
-    
-    </td>
-    <td valign="top">
-
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -158,45 +112,22 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </tr>
     <tr>
     <td valign="top">
-
-    SAP Marketing Cloud
+    
+        SAP Concur
 
 
     
     </td>
     <td valign="top">
-
-    ***SMC***
+    
+        ***Concur***
 
 
     
     </td>
     <td valign="top">
-
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    SAP Build Process Automation
-
-
-    
-    </td>
-    <td valign="top">
-
-    ***SPA***
-
-
-    
-    </td>
-    <td valign="top">
-
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -204,22 +135,22 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </tr>
     <tr>
     <td valign="top">
-
-    SAP S/4HANA
+    
+        SAP Fieldglass
 
 
     
     </td>
     <td valign="top">
-
-    ***S/4HANA***
+    
+        ***Fieldglass***
 
 
     
     </td>
     <td valign="top">
-
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    
+        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -227,22 +158,91 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </tr>
     <tr>
     <td valign="top">
-
-    SAP SuccessFactors
+    
+        SAP Marketing Cloud
 
 
     
     </td>
     <td valign="top">
-
-    ***SuccessFactors***
+    
+        ***SMC***
 
 
     
     </td>
     <td valign="top">
+    
+        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        SAP Build Process Automation
+
+
+    
+    </td>
+    <td valign="top">
+    
+        ***SPA***
+
+
+    
+    </td>
+    <td valign="top">
+    
+        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        SAP S/4HANA
+
+
+    
+    </td>
+    <td valign="top">
+    
+        ***S/4HANA***
+
+
+    
+    </td>
+    <td valign="top">
+    
+        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        SAP SuccessFactors
+
+
+    
+    </td>
+    <td valign="top">
+    
+        ***SuccessFactors***
+
+
+    
+    </td>
+    <td valign="top">
+    
+        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
