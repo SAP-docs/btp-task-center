@@ -31,7 +31,7 @@ To export the data, enter the base URL of the SAP Task Center service and add th
 For more information, see:
 
 -   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](../50-development/access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
--   [SAP API Business Hub Task Center API documentation](https://api.sap.com/package/SAPTaskCenter/rest)
+-   [SAP Business Accelerator Hub Task Center API documentation](https://api.sap.com/package/SAPTaskCenter/rest)
 -   [Using the SAP Task Center API](../50-development/using-the-sap-task-center-api-b66e0cd.md)
 
 

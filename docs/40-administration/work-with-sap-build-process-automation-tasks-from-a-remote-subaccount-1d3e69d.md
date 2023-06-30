@@ -442,7 +442,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress***
+    ***urn:oasis:names:tc:SAML:1.1:nameidformat:unspecified***
 
 
     

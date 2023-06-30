@@ -446,6 +446,118 @@ Message: *Export of all data of tenant &tenantDescription for user &user failed 
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Reconciliation
+
+
+
+</td>
+<td valign="top">
+
+Action: `reconciliation-job-executed` 
+
+
+
+</td>
+<td valign="top">
+
+Entries are logged as `SecurityEventAuditMessage`, sub-category `Reconciliation`.
+
+Message: *A reconciliation job has been started for tenant &tenantId.*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="4">
+
+Substitution Management
+
+
+
+</td>
+<td valign="top">
+
+Action: `created` 
+
+
+
+</td>
+<td valign="top">
+
+Entries are logged as `DataModificationEventAuditMessage` and `DataAccessEventAuditMessage`, sub-category `audit.data-modification`.
+
+Message:
+
+Data Modification message. Attribute with name "SubstitutionRule" was changed from "" to "\{ "urn" : "example-urn", "applicationId" : "exampleApplicationId", "applicationInstanceId" : "example-applicationInstanceId", "tenantId" : "example-tenantId", "localId" : "example-localId", "principal" : "example-principal", "substitute" : "example-substitute", "validFrom" : "validFromDate", "validTo" : "validToDate", "infoMessage" : "Created successfuly", "infoUrl" : null, "principalName" : "None", "substituteName" : "example-substituteName", "applicationUrn" : "example-applicationUrn", "status" : "OK" \}". The attribute is a part of an object with type "Substitution" and id consisting of: urn "example-urn". It belongs to a subject with type "User", and id consisting of: userUUID "example-userUUID". Custom details: "auditLogMessage" with value "The substitution rule for SAP Task Center tenant with tenantId=example-tenantId having the listed parameters has been created by user with userId=example-userId";
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Action: `deleted` 
+
+
+
+</td>
+<td valign="top">
+
+Entries are logged as `DataModificationEventAuditMessage` and `DataAccessEventAuditMessage`, sub-category `audit.data-modification`.
+
+Message:
+
+Data Modification message. Attribute with name "SubstitutionRule" was changed from "\{ "urn" : "example-urn", "applicationId" : "exampleApplicationId", "applicationInstanceId" : "example-applicationInstanceId", "tenantId" : "example-tenantId", "localId" : "example-localId", "principal" : "example-principal", "substitute" : "example-substitute", "validFrom" : "validFromDate", "validTo" : "validToDate", "infoMessage" : "Created successfully", "infoUrl" : null, "applicationUrn" : "example-applicationUrn", "status" : "OK" \}" to "". The attribute is a part of an object with type "Substitution" and id consisting of: urn "example-urn". It belongs to a subject with type "User", and id consisting of: userUUID "example-userUUID". Custom details: "auditLogMessage" with value "The substitution rule for SAP Task Center tenant with tenantId=example-tenantId having the listed parameters has been deleted by user with userId=example-userID";
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Action: `repaired` 
+
+
+
+</td>
+<td valign="top">
+
+Entries are logged as `DataModificationEventAuditMessage` and `DataAccessEventAuditMessage`, sub-category `audit.data-modification`.
+
+Message:
+
+Data Modification message. Attribute with name "SubstitutionRule" was changed from "\{ "urn" : "example-urn", "applicationId" : "exampleApplicationId", "applicationInstanceId" : "example-applicationInstanceId", "tenantId" : "example-tenantId", "localId" : "example-localId", "principal" : "example-principal", "substitute" : "example-substitute", "validFrom" : "validFromDate", "validTo" : "validToDate", "infoMessage" : "Created successfully", "infoUrl" : null, "applicationUrn" : "example-applicationUrn", "status" : "OK" \}" to "\{ "urn" : "example-urn", "applicationId" : "example-applicationId", "applicationInstanceId" : "example-applicationInstanceId", "tenantId" : "example-tenantId", "localId" : "example-localId", "principal" : "example-localId", "substitute" : "example-substitute", "validFrom" : "validFromDate", "validTo" : "validToDate", "infoMessage" : "Created successfully", "infoUrl" : null, "applicationUrn" : "example-applicationUrn", "status" : "OK" \}". The attribute is a part of an object with type "Substitution" and id consisting of: urn "example-Urn". It belongs to a subject with type "User", and id consisting of: userUUID "example-userUUID". Custom details: "auditLogMessage" with value "The substitution rule for SAP Task Center tenant with tenantId=example-tenantId having the listed parameters has been repaired by user with userId=example-userID";
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Action: `accessed` 
+
+
+
+</td>
+<td valign="top">
+
+Entries are logged as `DataModificationEventAuditMessage` and `DataAccessEventAuditMessage`, sub-category `audit.data-access`.
+
+Message:
+
+Data Access message. Attribute with name "userUUID" was read. Attribute with name "displayName" was read. Attribute with name "locale" was read. Attribute with name "email" was read. The attributes are a part of an object with type "UserDetails" and id consisting of: userId "<userUUID\>". They belong to a subject with type "User", and id consisting of: userId "<userUUID\>". Custom details: "auditLogMessage" with value "User with userId=example-userID has accessed user data by using SAP Task Center tenant with tenantId=example-tenantId. 8 records have been returned for the "; "searchParameters" with value "example-searchParameters";
+
+
+
+</td>
+</tr>
 </table>
 
 **Related Information**  

@@ -4,6 +4,9 @@
 
 Make sure you meet the prerequisites before you perform the initial setup for SAP Task Center, following either the automatic setup \(using a booster\) or the manual setup.
 
+> ### Tip:  
+> See also the step-by-step mission for the initial setup [Establish a Central Inbox with SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3774/3813/) on SAP Discovery Center.
+
 
 
 <a name="loio834769400794464489f390350a82bbd6__section_z3b_p3y_x5b"/>

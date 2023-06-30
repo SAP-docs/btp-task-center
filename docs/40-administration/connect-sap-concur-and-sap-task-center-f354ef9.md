@@ -10,6 +10,9 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
+> ### Tip:  
+> See also the step-by-step mission for the setup of connection to SAP Concur at [Integrate Your SAP Concur Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3883/3962/).
+
 -   You have an existing SAP Concur entity, and have generated the `Company Request Token` and `Company UUID`. For more information, see *SAP Concur Company Request Token* in [SAP Task Center Integration with Concur Solutions](https://www.concurtraining.com/customers/tech_pubs/Integration/Shr_SG_Task_Center_Integration.pdf).
 
     If you need any additional information, contact your SAP Concur implementation consultant.

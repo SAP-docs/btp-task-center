@@ -10,6 +10,9 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
+> ### Tip:  
+> See also the step-by-step mission for the setup of connection to SAP S/4HANA at [Integrate Your SAP S/4HANA Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3910/4076/).
+
 -   You have performed the steps in [Prepare SAP Cloud Connector and SAP S/4HANA for the SAP Task Center Connection](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/0f18dddf28764f5b807ecd80549044cc/5c6cf3d9e754468fbd6b3f5073fe085f.html?locale=en-US&version=latest). Choose your SAP S/4HANA version from the dropdown menu next to the documentation title.
 
     > ### Caution:  

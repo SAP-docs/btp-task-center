@@ -10,7 +10,7 @@ The Task Center Administration app displays the status of SAP Task Center servic
 
 The Task Center Administration app connects to the SAP Task Center Monitoring API and helps administrators monitor the overall status of the SAP Task Center service and all destination connectors, configured on the account of the SAP Task Center instance.
 
-For more information about the Monitoring Status API, see [SAP API Business Hub Task Center API](https://int.api.hana.ondemand.com/package/SAPTaskCenter?section=Artifacts).
+For more information about the Monitoring Status API, see [SAP Business Accelerator Hub Task Center API](https://int.api.hana.ondemand.com/package/SAPTaskCenter?section=Artifacts).
 
 For more information about the languages supported in the Task Center Administration app, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
 

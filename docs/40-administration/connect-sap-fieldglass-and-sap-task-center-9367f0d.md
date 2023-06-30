@@ -10,6 +10,9 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
+> ### Tip:  
+> See also the step-by-step mission for the setup of connection to SAP Fieldglass at [Integrate Your SAP Fieldglass Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3911/4077/).
+
 -   You need to have an existing SAP Fieldglass tenant.
 
 -   You have completed the steps described in [Enable SAP Task Center in SAP Fieldglass](https://help.sap.com/viewer/73c0a1be6aaa46ef9b66b1c3f28a77f4/cloud/en-US/3fabeb5092a44edd8fc3dd4b4cbc6b9e.html) to enable the functionality in SAP Fieldglass.

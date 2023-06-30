@@ -15,29 +15,39 @@ The destination in the SAP BTP cockpit, configured for connectivity from SAP Tas
 
 For more information about the target task-provider systems and their setup, see [Destinations](destinations-3470733.md).
 
-The SAP Task Center Web app generates *Filter Tabs* based on the following semantics:
+The SAP Task Center Web app provides the following filter tabs by default:
 
--   Destinations are grouped based on the *tc.ui.group* property. The value of this property is displayed as the name of the filter tab.
+-   *All* - always available on first position; contains all tasks
+-   *Failed Tasks* - appears only if there are tasks, which failed during processing
+-   *Others* - always on last position; appears only if there is at least one custom filter tab
 
-    If you want to use translations for the filter tab names, you have to add the default *tc.ui.group* property and then also add the property for the respective language *tc.ui.group.\[language\_code\]*. For example, *tc.ui.group.de-DE* for German translations. For more information about the supported languages, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
+Administrators can create custom filter tabs, based on the following semantics:
 
-    Depending on your user language, SAP Task Center searches for available translations as follows:
+-   Destinations are grouped based on the *tc.ui.group* property.
 
-    -   If there is a *tc.ui.group.\[language\_code\]* property defined for the user language, then the filter tab translations for this language are visualized in the respective language.
+    The value of this property is displayed as the name of the filter tab.
 
-    -   If the *tc.ui.group.\[language\_code\]* property for the user language is not defined, but the default *tc.ui.group* property is defined, then the filter tab translations are visualized in the default language.
+    If you want to use translations for the filter tab names, you have to add the default *tc.ui.group* property, and also add the *tc.ui.group.\[language\_code\]* for the respective language \(for example, *tc.ui.group.de-DE* for German translations\) with the translation as value of the property.
 
-    -   If there are no *tc.ui.group* and *tc.ui.group.\[language\_code\]* properties defined, the tasks are displayed in the *Others* filter tab.
+    For more information about the supported languages and language codes, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
+
+    Depending on the browser language of the user, SAP Task Center searches for available translations as follows:
+
+    1.  If there is a *tc.ui.group.\[language\_code\]* property defined for the browser language of the user, then the value of this property is visualized as translation of the filter tab name.
+
+    2.  If there is no *tc.ui.group.\[language\_code\]* property defined for the browser language of the user, but the default *tc.ui.group* property is defined, then the value of the default *tc.ui.group* property is visualized as translation of the filter tab name.
+
+    3.  If there are no *tc.ui.group* and *tc.ui.group.\[language\_code\]* properties defined, the tasks are displayed in the *Others* filter tab.
 
 
     > ### Restriction:  
-    > Please note that the *All* value of the *tc.ui.group* property is reserved by the SAP Task Center Web app. Therefore, the destinations, for which the *tc.ui.group* value is *All*, will not be grouped into a separate filter tab in the SAP Task Center Web app.
+    > Please note that the values *All* and *Failed Tasks* are reserved by the SAP Task Center Web app and should not be used as values of the *tc.ui.group* property.
     > 
-    > Instead, the tasks retrieved from these destinations will be shown in the standard *All* filter tab in the SAP Task Center Web app.
+    > Though if you use *All* or *Failed Tasks* as value to the *tc.ui.group* property of a destination, the tasks retrieved from these destinations will be shown in the standard *All* or *Failed Tasks* filter tabs.
 
--   If the values of *tc.ui.group* match, but the values of *tc.provider\_type* do not match, then the SAP Task Center Web app groups those destinations into a filter tab and displays a generic icon.
+-   If the values of *tc.ui.group* of two or more destinations are the same, but the values of *tc.provider\_type* of the same destinations are different, then the Web app groups those destinations into one filter tab, and displays a generic icon.
 
--   A predefined icon, based on the *tc.provider\_type* property value, is displayed for each filter tab. For more information, see the table below:
+-   A predefined icon, based on the *tc.provider\_type* property value, is displayed for each filter tab. Here is the list of predefined icons:
 
 
     <table>
@@ -207,6 +217,10 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     
         SAP S/4HANA
 
+    SAP S/4HANA Cloud
+
+    SAP S/4HANA Cloud, Private Edition
+
 
     
     </td>
@@ -219,7 +233,7 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -253,6 +267,6 @@ The SAP Task Center Web app generates *Filter Tabs* based on the following seman
 -   The tasks provided by destinations, for which the *tc.ui.group* property is not maintained, are grouped into the *Others* filter tab\(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the SAP Task Center Web app.
 
     > ### Note:  
-    > The *Others* filter tab is only displayed if there is at least one additional filter tab.
+    > The *Others* filter tab is only displayed if there is at least one more filter tab, in addition to the *All* filter tab.
 
 

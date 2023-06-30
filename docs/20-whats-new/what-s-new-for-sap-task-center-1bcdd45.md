@@ -113,6 +113,90 @@ Available as of
 </td>
 <td valign="top">
 
+New Icon for SAP S/4HANA, SAP S/4HANA Cloud, SAP S/4HANA Cloud, Private Edition 
+
+
+
+</td>
+<td valign="top">
+
+A new icon for SAP S/4HANA, SAP S/4HANA Cloud, and SAP S/4HANA Cloud, Private Edition is available in the SAP Task Center Web app.
+
+For more information, see [Configure Filter Tabs in the SAP Task Center Web App](../40-administration/configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-06-30
+
+
+
+</td>
+<td valign="top">
+
+2023-06-30
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Semantic Coloring of Action Buttons in the Details View
 
 
