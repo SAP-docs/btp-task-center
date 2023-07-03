@@ -136,7 +136,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
         The destination name can be up to 16 characters.
 
     > ### Note:  
-    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
+    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
 
     > ### Note:  
     > If you change the *name* of an already configured destination, for which there are stored tasks in the `Task Cache`, the tasks in it will be repopulated.
@@ -148,7 +148,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
         **Example**:
 
-    ***Ariba***
+    `Ariba`
 
 
     
@@ -224,11 +224,11 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
 
     -   For SAP AribaBuying:
 
-        ***https://openapi.ariba.com/api/procurement-task-provider/v2/prod***
+        `https://openapi.ariba.com/api/procurement-task-provider/v2/prod`
 
     -   For SAP AribaSourcing:
 
-        ***https://openapi.ariba.com/api/sourcing-task-provider/v1/prod***
+        `https://openapi.ariba.com/api/sourcing-task-provider/v1/prod`
 
 
 
@@ -291,7 +291,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </td>
     <td valign="top">
     
-        The *Audience* is used to construct the SAML assertion. Its value should be ***Ariba***.
+        The *Audience* is used to construct the SAML assertion. Its value should be `Ariba`.
 
 
     
@@ -300,7 +300,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
         **Value**:
 
-    ***Ariba***
+    `Ariba`
 
 
     
@@ -325,7 +325,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
 
     
@@ -348,7 +348,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </td>
     <td valign="top">
     
-        **Value** of ***Application key*** \(one for each solution\)
+        **Value** of `Application key` \(one for each solution\)
 
 
     
@@ -396,7 +396,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
         **Example**:
 
-    ***https://api.ariba.com/v2/oauth/token***
+    `https://api.ariba.com/v2/oauth/token`
 
 
     
@@ -419,7 +419,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </td>
     <td valign="top">
     
-        **Value** of ***OAuth client ID***
+        **Value** of `OAuth client ID`
 
 
     
@@ -442,7 +442,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </td>
     <td valign="top">
     
-        **Value** of ***OAuth secret***
+        **Value** of `OAuth secret`
 
 
     
@@ -496,7 +496,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified***
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
 
 
     
@@ -518,7 +518,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/3a499676e7ae4282af84092f778e3737.html)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) will have the following effects:
+    > Any value other than `true` \(for example `false`\) will have the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -536,7 +536,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
         **Value**:
 
-    ***true***
+    `true`
 
 
     
@@ -561,7 +561,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
         **Value**:
 
-    ***Ariba***
+    `Ariba`
 
 
     
@@ -587,9 +587,9 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/53157da9e7ed498ea6b30298bf7d5213.html).
@@ -601,7 +601,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
         **Example**:
 
-    ***SAP Ariba***
+    `SAP Ariba`
 
 
     
@@ -627,9 +627,9 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/a0be9ad5cd7146fca3ac29b92ab631dc.html).
@@ -643,11 +643,11 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     
         **Example for *tc.ui.label***:
 
-    ***SAP Ariba Task***
+    `SAP Ariba Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Ariba Aufgabe***
+    `SAP Ariba Aufgabe`
 
 
     
@@ -672,7 +672,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </td>
     <td valign="top">
     
-        **Value of** ***Application key***
+        **Value of** `Application key`
 
 
     
@@ -697,7 +697,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </td>
     <td valign="top">
     
-        **Value of** ***Application key***
+        **Value of** `Application key`
 
 
     
@@ -722,7 +722,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     </td>
     <td valign="top">
     
-        **Value** of ***your SAP Ariba realm name***
+        **Value** of `your SAP Ariba realm name`
 
 
     

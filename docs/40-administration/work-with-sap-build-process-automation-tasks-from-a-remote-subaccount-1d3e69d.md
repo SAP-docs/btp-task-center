@@ -97,7 +97,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Example**:
 
-    ***SAPBuildPA\_rem***
+    `SAPBuildPA_rem`
 
 
     
@@ -171,7 +171,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Example**:
 
-    ***https://spa-api-gateway-sample.cfapps.sap.hana.ondemand.com/internal/workflow/rest/v1***
+    `https://spa-api-gateway-sample.cfapps.sap.hana.ondemand.com/internal/workflow/rest/v1`
 
 
     
@@ -242,7 +242,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Example**:
 
-    ***https://subaccount.authentication.eu10.hana.ondemand.com***
+    `https://subaccount.authentication.eu10.hana.ondemand.com`
 
 
     
@@ -267,7 +267,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
 
     
@@ -292,7 +292,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Example**:
 
-    ***sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746***
+    `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
 
 
     
@@ -340,7 +340,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Example**:
 
-    ***https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token/alias/subaccount.aws-live-eu10***
+    `https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token/alias/subaccount.aws-live-eu10`
 
 
     
@@ -365,7 +365,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Example**:
 
-    ***sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746***
+    `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
 
 
     
@@ -442,7 +442,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:1.1:nameidformat:unspecified***
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
 
 
     
@@ -464,7 +464,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) would have the following effects:
+    > Any value other than `true` \(for example `false`\) would have the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -482,7 +482,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Value**:
 
-    ***true***
+    `true`
 
 
     
@@ -507,7 +507,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Value**:
 
-    ***SPA***
+    `SPA`
 
 
     
@@ -533,9 +533,9 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
@@ -547,7 +547,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Example**:
 
-    ***SAP Build Process Automation***
+    `SAP Build Process Automation`
 
 
     
@@ -573,9 +573,9 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
@@ -587,11 +587,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Example for *tc.ui.label***:
 
-    ***SAP Build Process Automation Task***
+    `SAP Build Process Automation Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Build Process Automation Aufgabe***
+    `SAP Build Process Automation Aufgabe`
 
 
     
@@ -616,7 +616,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
         **Value**:
 
-    ***user\_uuid***
+    `user_uuid`
 
 
     

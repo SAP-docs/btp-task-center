@@ -78,7 +78,7 @@ Find information about the destination configuration that needs to be done for S
         Configure a destination name. It can be up to 16 characters long.
 
     > ### Note:  
-    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
+    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
 
 
     
@@ -87,7 +87,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***SMC***
+    `SMC`
 
 
     
@@ -135,7 +135,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***SAP Marketing Cloud Connector***
+    `SAP Marketing Cloud Connector`
 
 
     
@@ -165,7 +165,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***https://example-api.s4hana.ondemand.com/***
+    `https://example-api.s4hana.ondemand.com/`
 
 
     
@@ -236,7 +236,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***https://example.s4hana.ondemand.com***
+    `https://example.s4hana.ondemand.com`
 
 
     
@@ -261,7 +261,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:X509***
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:X509`
 
 
     
@@ -286,7 +286,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***COM501SID100***
+    `COM501SID100`
 
 
     
@@ -334,7 +334,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***https://example-api.s4hana.ondemand.com/sap/bc/sec/oauth2/token***
+    `https://example-api.s4hana.ondemand.com/sap/bc/sec/oauth2/token`
 
 
     
@@ -359,7 +359,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***COM501SID100***
+    `COM501SID100`
 
 
     
@@ -435,7 +435,7 @@ Find information about the destination configuration that needs to be done for S
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) would have the following effects:
+    > Any value other than `true` \(for example `false`\) would have the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -453,7 +453,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Value**:
 
-    ***true***
+    `true`
 
 
     
@@ -478,7 +478,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Value**:
 
-    ***SMC***
+    `SMC`
 
 
     
@@ -504,9 +504,9 @@ Find information about the destination configuration that needs to be done for S
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
@@ -516,7 +516,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-        ***SAP Marketing Cloud***
+        `SAP Marketing Cloud`
 
 
     
@@ -542,9 +542,9 @@ Find information about the destination configuration that needs to be done for S
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
@@ -556,11 +556,11 @@ Find information about the destination configuration that needs to be done for S
     
         **Example for *tc.ui.label***:
 
-    ***SAP Marketing Cloud Task***
+    `SAP Marketing Cloud Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Marketing Cloud Aufgabe***
+    `SAP Marketing Cloud Aufgabe`
 
 
     
@@ -585,7 +585,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***100***
+    `100`
 
 
     

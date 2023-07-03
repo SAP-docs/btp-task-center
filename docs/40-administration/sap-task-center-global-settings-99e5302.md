@@ -60,7 +60,7 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     
         **Value**:
 
-    ***Task\_Center\_global\_settings***
+    `Task_Center_global_settings`
 
 
     
@@ -106,7 +106,7 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     </td>
     <td valign="top">
     
-        ***SAP Task Center Global Settings***
+        `SAP Task Center Global Settings`
 
 
     
@@ -122,7 +122,7 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     </td>
     <td valign="top">
     
-        Add ***http://sap.com/*** as value.
+        Add `http://sap.com/` as value.
 
 
     
@@ -131,7 +131,7 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     
         **Value**:
 
-    ***http://sap.com/***
+    `http://sap.com/`
 
 
     
@@ -242,7 +242,7 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     
         **Example**:
 
-    ***en-US,de-DE***
+    `en-US,de-DE`
 
 
     

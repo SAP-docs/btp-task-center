@@ -71,7 +71,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         
                 **Example**:
 
-        ***OneInboxApp***
+        `OneInboxApp`
 
 
         
@@ -119,7 +119,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         
                 **Example**:
 
-        ***https://inbox-subaccount-name.authentication.eu10.hana.ondemand.com***
+        `https://inbox-subaccount-name.authentication.eu10.hana.ondemand.com`
 
 
         
@@ -165,7 +165,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         </td>
         <td valign="top">
         
-                **Value** of ***TECHNICAL\_USER\_INBOX\_CEF979F3***
+                **Value** of `TECHNICAL_USER_INBOX_CEF979F3`
 
 
         
@@ -256,7 +256,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         The destination name can have up to 16 characters.
 
     > ### Note:  
-    > -   The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
+    > -   The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
     > 
     > -   If you change the *name* of an already configured destination, for which there are stored tasks in the `Task Cache`, the tasks in it will be repopulated.
     > 
@@ -269,7 +269,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Example**:
 
-    ***SuccessFactors***
+    `SuccessFactors`
 
 
     
@@ -343,7 +343,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Example**:
 
-    ***https://test-api.lab-rot.ondemand.com/api-ext/***
+    `https://test-api.lab-rot.ondemand.com/api-ext/`
 
 
     
@@ -414,7 +414,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Value**:
 
-    ***www.successfactors.com***
+    `www.successfactors.com`
 
 
     
@@ -439,7 +439,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
 
     
@@ -462,7 +462,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     </td>
     <td valign="top">
     
-        **Value** of ***API Key***
+        **Value** of `API Key`
 
 
     
@@ -510,7 +510,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Example**:
 
-    ***https://test-api.lab-rot.ondemand.com/oauth/token***
+    `https://test-api.lab-rot.ondemand.com/oauth/token`
 
 
     
@@ -562,7 +562,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     </td>
     <td valign="top">
     
-        **Value** of ***API Key***
+        **Value** of `API Key`
 
 
     
@@ -585,7 +585,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     </td>
     <td valign="top">
     
-        **Value** of ***SuccessFactors Company ID***
+        **Value** of `SuccessFactors Company ID`
 
 
     
@@ -610,7 +610,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified***
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
 
 
     
@@ -635,7 +635,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Value**:
 
-    ***www.successfactors.com***
+    `www.successfactors.com`
 
 
     
@@ -660,7 +660,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Value**:
 
-    ***TECHNICAL\_USER\_INBOX\_CEF979F3***
+    `TECHNICAL_USER_INBOX_CEF979F3`
 
 
     
@@ -710,7 +710,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) would have the following effects:
+    > Any value other than `true` \(for example `false`\) would have the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -728,7 +728,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Value**:
 
-    ***true***
+    `true`
 
 
     
@@ -753,7 +753,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Value**:
 
-    ***SuccessFactors***
+    `SuccessFactors`
 
 
     
@@ -779,9 +779,9 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
@@ -793,7 +793,7 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Example**:
 
-    ***SAP SuccessFactors***
+    `SAP SuccessFactors`
 
 
     
@@ -819,9 +819,9 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
@@ -833,11 +833,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     
         **Example for *tc.ui.label***:
 
-    ***SAP SuccessFactors Task***
+    `SAP SuccessFactors Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP SuccessFactors Aufgabe***
+    `SAP SuccessFactors Aufgabe`
 
 
     

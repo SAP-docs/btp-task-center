@@ -65,7 +65,7 @@
         
                 **Example**:
 
-        ***OneInboxAppPP***
+        `OneInboxAppPP`
 
 
         
@@ -90,7 +90,7 @@
         
                 **Example**:
 
-        ***https://inbox-subaccount-name.authentication.eu10.hana.ondemand.com/pp***
+        `https://inbox-subaccount-name.authentication.eu10.hana.ondemand.com/pp`
 
 
         
@@ -201,7 +201,7 @@
     </td>
     <td valign="top">
     
-        The destination name for the principal propagation must be the same as the name of the primary destination for the technical user with the suffix ***\_PP***.
+        The destination name for the principal propagation must be the same as the name of the primary destination for the technical user with the suffix `_PP`.
 
     For more information about the name of the primary destination, see [Creating the Primary Destination with the Technical User](creating-the-primary-destination-with-the-technical-user-dc5407b.md).
 
@@ -215,7 +215,7 @@
     
         **Example**:
 
-    ***SuccessFactors\_PP***
+    `SuccessFactors_PP`
 
 
     
@@ -286,7 +286,7 @@
     
         **Example**:
 
-    ***https://test-api.lab-rot.ondemand.com/api-ext/***
+    `https://test-api.lab-rot.ondemand.com/api-ext/`
 
 
     
@@ -357,7 +357,7 @@
     
         **Value**:
 
-    ***www.successfactors.com***
+    `www.successfactors.com`
 
 
     
@@ -382,7 +382,7 @@
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
 
     
@@ -405,7 +405,7 @@
     </td>
     <td valign="top">
     
-        **Value** of ***API Key***
+        **Value** of `API Key`
 
 
     
@@ -453,7 +453,7 @@
     
         **Example**:
 
-    ***https://test-api.lab-rot.ondemand.com/oauth/token***
+    `https://test-api.lab-rot.ondemand.com/oauth/token`
 
 
     
@@ -505,7 +505,7 @@
     </td>
     <td valign="top">
     
-        **Value** of ***API Key***
+        **Value** of `API Key`
 
 
     
@@ -528,7 +528,7 @@
     </td>
     <td valign="top">
     
-        **Value** of ***SAP SuccessFactors Company ID***
+        **Value** of `SAP SuccessFactors Company ID`
 
 
     
@@ -553,7 +553,7 @@
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified***
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
 
 
     
@@ -578,7 +578,7 @@
     
         **Value**:
 
-    ***SuccessFactors***
+    `SuccessFactors`
 
 
     

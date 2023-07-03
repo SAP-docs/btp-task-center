@@ -114,7 +114,7 @@ The following procedure describes how to create a Task Center tile in the SAP Bu
         
                 **Example**:
 
-        ***Task\_Center***
+        `Task_Center`
 
 
         

@@ -87,7 +87,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
         The destination name can be up to 16 characters.
 
     > ### Note:  
-    > Note that the name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
+    > Note that the name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
     > 
     > > ### Note:  
     > > If you change the *name* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -99,7 +99,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         **Example**:
 
-    ***Concur\_Request***
+    `Concur_Request`
 
 
     
@@ -163,9 +163,9 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         Enter the appropriate URL:
 
-    -   For travel requests: ***https://<datacenter\_base\_URI\>/travelrequest***
+    -   For travel requests: `https://<datacenter_base_URI>/travelrequest`
 
-    -   For expense reports: ***https://<datacenter\_base\_URI\>/expensereports***
+    -   For expense reports: `https://<datacenter_base_URI>/expensereports`
 
 
     For the full list of SAP Concur datacenter base URIs, contact your SAP Concur implementation consultant.
@@ -182,11 +182,11 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
 
     -   For travel requests:
 
-        ***https://us2.api.concursolutions.com/travelrequest***
+        `https://us2.api.concursolutions.com/travelrequest`
 
     -   For expense reports:
 
-        ***https://us2.api.concursolutions.com/expensereports***
+        `https://us2.api.concursolutions.com/expensereports`
 
 
 
@@ -249,7 +249,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-        Used to construct the SAML assertion. Its value should be ***Concur***.
+        Used to construct the SAML assertion. Its value should be `Concur`.
 
 
     
@@ -258,7 +258,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         **Value**:
 
-    ***Concur***
+    `Concur`
 
 
     
@@ -283,7 +283,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
 
     
@@ -347,7 +347,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-        Enter the appropriate URL: ***https://<datacenter\_base\_URI\>/oauth2/v0/token***
+        Enter the appropriate URL: `https://<datacenter_base_URI>/oauth2/v0/token`
 
     For the full list of SAP Concur datacenter base URIs, contact your SAP Concur implementation consultant.
 
@@ -358,7 +358,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         **Example**:
 
-    ***https://us2.api.concursolutions.com/oauth2/v0/token***
+    `https://us2.api.concursolutions.com/oauth2/v0/token`
 
 
     
@@ -409,7 +409,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/3a499676e7ae4282af84092f778e3737.html)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) has the following effects:
+    > Any value other than `true` \(for example `false`\) has the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -427,7 +427,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         **Value**:
 
-    ***true***
+    `true`
 
 
     
@@ -443,7 +443,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-        The initial value should be ***true***.
+        The initial value should be `true`.
 
     This value is automatically changed to *false* after a communication exchange between SAP Concur and SAP Task Center regarding the `Client Key`.
 
@@ -473,7 +473,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         Corresponds to the data center, where this SAP Concur destination is located \(see your `URL` parameter\).
 
-    Valid values are ***eu2*** and ***us2***.
+    Valid values are `eu2` and `us2`.
 
 
     
@@ -482,7 +482,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         **Example**:
 
-    ***eu2***
+    `eu2`
 
 
     
@@ -505,7 +505,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-        **Value of** ***Company UUID***
+        **Value of** `Company UUID`
 
 
     
@@ -521,7 +521,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-        Set this property to ***refresh\_token***.
+        Set this property to `refresh_token`.
 
     This property enables SAP Task Center to use the `refresh token` maintained in the *Client Key* property.
 
@@ -530,7 +530,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-        **Value**: ***refresh\_token***
+        **Value**: `refresh_token`
 
 
     
@@ -555,7 +555,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         **Value**:
 
-    ***Concur***
+    `Concur`
 
 
     
@@ -581,9 +581,9 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/53157da9e7ed498ea6b30298bf7d5213.html).
@@ -595,7 +595,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         **Example**:
 
-    ***SAP Concur***
+    `SAP Concur`
 
 
     
@@ -621,9 +621,9 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/a0be9ad5cd7146fca3ac29b92ab631dc.html).
@@ -635,11 +635,11 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     
         **Example for *tc.ui.label***:
 
-    ***SAP Concur Request Task***
+    `SAP Concur Request Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Concur Request Aufgabe***
+    `SAP Concur Request Aufgabe`
 
 
     

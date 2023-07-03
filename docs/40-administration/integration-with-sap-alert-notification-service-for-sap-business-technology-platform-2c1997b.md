@@ -82,7 +82,7 @@ For more details about the SAP Task Center background job types and statuses, se
     </td>
     <td valign="top">
     
-        The name must be ***Task\_Center\_notifications***.
+        The name must be `Task_Center_notifications`.
 
 
     
@@ -91,7 +91,7 @@ For more details about the SAP Task Center background job types and statuses, se
     
         **Value**:
 
-    ***Task\_Center\_notifications***
+    `Task_Center_notifications`
 
 
     
@@ -145,7 +145,7 @@ For more details about the SAP Task Center background job types and statuses, se
         > 
         > -   The value of the *resource.resourceName* is the `connectorId` of the respective connector.
         > 
-        > -   The *resource.resourceType* is always ***Connector***.
+        > -   The *resource.resourceType* is always `Connector`.
         > 
         > 
         > You can use this information to set up as many conditions as needed.

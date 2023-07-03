@@ -103,7 +103,7 @@ The following procedure describes how to create a Task Center tile in the SAP Su
         
                 **Example**:
 
-        ***Task\_Center***
+        `Task_Center`
 
 
         

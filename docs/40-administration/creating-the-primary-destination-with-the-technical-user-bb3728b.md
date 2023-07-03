@@ -70,7 +70,7 @@ Choose one of the options to see the procedure.
         The destination name can have up to 16 characters.
 
     > ### Note:  
-    > -   The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
+    > -   The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
     > 
     > -   If you change the *name* of an already configured destination, for which there are stored tasks in the `Task Cache`, the tasks in it will be repopulated.
     > 
@@ -83,7 +83,7 @@ Choose one of the options to see the procedure.
     
         **Example**:
 
-    ***C4C***
+    `C4C`
 
 
     
@@ -157,7 +157,7 @@ Choose one of the options to see the procedure.
     
         **Example**:
 
-    ***https://example.sapbydesign.com***
+    `https://example.sapbydesign.com`
 
 
     
@@ -300,7 +300,7 @@ Choose one of the options to see the procedure.
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) would have the following effects:
+    > Any value other than `true` \(for example `false`\) would have the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -318,7 +318,7 @@ Choose one of the options to see the procedure.
     
         **Value**:
 
-    ***true***
+    `true`
 
 
     
@@ -343,7 +343,7 @@ Choose one of the options to see the procedure.
     
         **Value**:
 
-    ***C4C***
+    `C4C`
 
 
     
@@ -369,9 +369,9 @@ Choose one of the options to see the procedure.
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
@@ -383,7 +383,7 @@ Choose one of the options to see the procedure.
     
         **Example**:
 
-    ***SAP Cloud for Customer***
+    `SAP Cloud for Customer`
 
 
     
@@ -409,9 +409,9 @@ Choose one of the options to see the procedure.
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
@@ -423,11 +423,11 @@ Choose one of the options to see the procedure.
     
         **Example for *tc.ui.label***:
 
-    ***SAP Cloud for Customer Task***
+    `SAP Cloud for Customer Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Cloud for Customer Aufgabe***
+    `SAP Cloud for Customer Aufgabe`
 
 
     
@@ -506,7 +506,7 @@ Choose one of the options to see the procedure.
         The destination name can have up to 16 characters.
 
     > ### Note:  
-    > -   The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
+    > -   The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
     > 
     > -   If you change the *name* of an already configured destination, for which there are stored tasks in the `Task Cache`, the tasks in it will be repopulated.
     > 
@@ -519,7 +519,7 @@ Choose one of the options to see the procedure.
     
         **Example**:
 
-    ***C4C***
+    `C4C`
 
 
     
@@ -593,7 +593,7 @@ Choose one of the options to see the procedure.
     
         **Example**:
 
-    ***https://example.sapbydesign.com***
+    `https://example.sapbydesign.com`
 
 
     
@@ -664,7 +664,7 @@ Choose one of the options to see the procedure.
     
         **Example**:
 
-    ***c4c.p12***
+    `c4c.p12`
 
 
     
@@ -738,7 +738,7 @@ Choose one of the options to see the procedure.
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) would have the following effects:
+    > Any value other than `true` \(for example `false`\) would have the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -756,7 +756,7 @@ Choose one of the options to see the procedure.
     
         **Value**:
 
-    ***true***
+    `true`
 
 
     
@@ -781,7 +781,7 @@ Choose one of the options to see the procedure.
     
         **Value**:
 
-    ***C4C***
+    `C4C`
 
 
     
@@ -807,9 +807,9 @@ Choose one of the options to see the procedure.
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
@@ -821,7 +821,7 @@ Choose one of the options to see the procedure.
     
         **Example**:
 
-    ***SAP Cloud for Customer***
+    `SAP Cloud for Customer`
 
 
     
@@ -847,9 +847,9 @@ Choose one of the options to see the procedure.
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
@@ -861,11 +861,11 @@ Choose one of the options to see the procedure.
     
         **Example for *tc.ui.label***:
 
-    ***SAP Cloud for Customer Task***
+    `SAP Cloud for Customer Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Cloud for Customer Aufgabe***
+    `SAP Cloud for Customer Aufgabe`
 
 
     

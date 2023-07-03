@@ -80,7 +80,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     </td>
     <td valign="top">
     
-        Add ***Identity\_Authentication\_Connectivity\_IDS*** as name of this destination.
+        Add `Identity_Authentication_Connectivity_IDS` as name of this destination.
 
 
     
@@ -89,7 +89,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     
         **Value**:
 
-    ***Identity\_Authentication\_Connectivity\_IDS***
+    `Identity_Authentication_Connectivity_IDS`
 
 
     
@@ -137,7 +137,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     
         **Example**:
 
-    ***Identity Authentication Connectivity***
+    `Identity Authentication Connectivity`
 
 
     
@@ -162,7 +162,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     
         **Example**:
 
-    ***https://example.accounts.ondemand.com/scim***
+    `https://example.accounts.ondemand.com/scim`
 
 
     
@@ -337,7 +337,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     </td>
     <td valign="top">
     
-        Add ***Identity\_Authentication\_Connectivity\_IDS*** as name of this destination.
+        Add `Identity_Authentication_Connectivity_IDS` as name of this destination.
 
 
     
@@ -346,7 +346,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     
         **Value**:
 
-    ***Identity\_Authentication\_Connectivity\_IDS***
+    `Identity_Authentication_Connectivity_IDS`
 
 
     
@@ -394,7 +394,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     
         **Example**:
 
-    ***Identity Authentication Connectivity***
+    `Identity Authentication Connectivity`
 
 
     
@@ -419,7 +419,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     
         **Example**:
 
-    ***https://example.accounts.ondemand.com/scim***
+    `https://example.accounts.ondemand.com/scim`
 
 
     
@@ -513,7 +513,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     
         **Example**:
 
-    ***ids.p12***
+    `ids.p12`
 
 
     

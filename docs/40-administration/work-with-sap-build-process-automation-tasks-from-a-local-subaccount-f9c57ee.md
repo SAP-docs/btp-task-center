@@ -63,7 +63,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
         The destination name can be up to 16 characters.
 
     > ### Note:  
-    > The name of the destination must not be longer than 16 characters, as otherwise, the status of the respective SAP Task Center connector will be set to ***Error***.
+    > The name of the destination must not be longer than 16 characters, as otherwise, the status of the respective SAP Task Center connector will be set to `Error`.
 
     > ### Note:  
     > If you change the *name* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -75,7 +75,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Example**:
 
-    ***SAPBuildPA***
+    `SAPBuildPA`
 
 
     
@@ -137,7 +137,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     </td>
     <td valign="top">
     
-        Add the *endpoints \> api* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append ***/internal/workflow/rest/v1*** to the URL.
+        Add the *endpoints \> api* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append `/internal/workflow/rest/v1` to the URL.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -149,7 +149,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Example**:
 
-    ***https://spa-api-gateway-sample.cfapps.sap.hana.ondemand.com/internal/workflow/rest/v1***
+    `https://spa-api-gateway-sample.cfapps.sap.hana.ondemand.com/internal/workflow/rest/v1`
 
 
     
@@ -220,7 +220,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Example**:
 
-    ***https://subaccount.authentication.eu10.hana.ondemand.com***
+    `https://subaccount.authentication.eu10.hana.ondemand.com`
 
 
     
@@ -245,7 +245,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
 
     
@@ -270,7 +270,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Example**:
 
-    ***sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746***
+    `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
 
 
     
@@ -309,7 +309,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     </td>
     <td valign="top">
     
-        Add the *url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append ***/oauth/token*** to the URL.
+        Add the *url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append `/oauth/token` to the URL.
 
 
     
@@ -318,7 +318,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Example**:
 
-    ***https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token***
+    `https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token`
 
 
     
@@ -343,7 +343,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Example**:
 
-    ***sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746***
+    `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
 
 
     
@@ -420,7 +420,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress***
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
 
 
     
@@ -442,7 +442,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) would have the following effects:
+    > Any value other than `true` \(for example `false`\) would have the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -460,7 +460,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Value**:
 
-    ***true***
+    `true`
 
 
     
@@ -485,7 +485,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Value**:
 
-    ***SPA***
+    `SPA`
 
 
     
@@ -511,9 +511,9 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
@@ -525,7 +525,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Example**:
 
-    ***SAP Build Process Automation***
+    `SAP Build Process Automation`
 
 
     
@@ -551,9 +551,9 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
@@ -565,11 +565,11 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     
         **Example for *tc.ui.label***:
 
-    ***SAP Build Process Automation Task***
+    `SAP Build Process Automation Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Build Process Automation Aufgabe***
+    `SAP Build Process Automation Aufgabe`
 
 
     

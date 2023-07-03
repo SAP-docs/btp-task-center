@@ -89,7 +89,7 @@ Find information about the destination configuration that needs to be done for S
         Configure a destination name. It can be up to 16 characters long.
 
     > ### Note:  
-    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
+    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
 
 
     
@@ -98,7 +98,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***S4HANA***
+    `S4HANA`
 
 
     
@@ -160,7 +160,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-        Create the URL by following the pattern ***<Virtual Host\>:<Virtual Port\>***, using the values you've got when configuring the access control in the SAP Cloud Connector. For more information, see *Prerequisites*.
+        Create the URL by following the pattern `<Virtual Host>:<Virtual Port>`, using the values you've got when configuring the access control in the SAP Cloud Connector. For more information, see *Prerequisites*.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the `Task Cache`, the tasks in it will be repopulated.
@@ -336,7 +336,7 @@ Find information about the destination configuration that needs to be done for S
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) would have the following effects:
+    > Any value other than `true` \(for example `false`\) would have the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -354,7 +354,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Value**:
 
-    ***true***
+    `true`
 
 
     
@@ -377,7 +377,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-        ***S/4HANA***
+        `S/4HANA`
 
 
     
@@ -403,9 +403,9 @@ Find information about the destination configuration that needs to be done for S
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
@@ -417,7 +417,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***SAP S/4HANA***
+    `SAP S/4HANA`
 
 
     
@@ -443,9 +443,9 @@ Find information about the destination configuration that needs to be done for S
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
@@ -457,11 +457,11 @@ Find information about the destination configuration that needs to be done for S
     
         **Example for *tc.ui.label***:
 
-    ***SAP S/4HANA Task***
+    `SAP S/4HANA Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP S/4HANA Aufgabe***
+    `SAP S/4HANA Aufgabe`
 
 
     
@@ -486,7 +486,7 @@ Find information about the destination configuration that needs to be done for S
     
         **Example**:
 
-    ***100***
+    `100`
 
 
     

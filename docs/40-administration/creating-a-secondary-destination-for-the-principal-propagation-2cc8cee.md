@@ -71,7 +71,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     </td>
     <td valign="top">
     
-        The destination name for the principal propagation must be the same as the name of the primary destination for the technical user with the suffix ***\_PP***.
+        The destination name for the principal propagation must be the same as the name of the primary destination for the technical user with the suffix `_PP`.
 
     For more information about the name of the primary destination, see [Creating the Primary Destination with the Technical User](creating-the-primary-destination-with-the-technical-user-bb3728b.md).
 
@@ -85,7 +85,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     
         **Example**:
 
-    ***C4C\_PP***
+    `C4C_PP`
 
 
     
@@ -156,7 +156,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     
         **Example**:
 
-    ***https://example.sapbydesign.com***
+    `https://example.sapbydesign.com`
 
 
     
@@ -230,7 +230,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     
         **Example**:
 
-    ***HTTPS://example.sapbydesign.com***
+    `HTTPS://example.sapbydesign.com`
 
 
     
@@ -255,7 +255,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     
         **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
 
     
@@ -317,7 +317,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     </td>
     <td valign="top">
     
-        Add the **URL** value from the *Prerequisites* and append ***/sap/bc/sec/oauth2/token*** to it, following the pattern `https://<C4CTenantAPIURL>/sap/bc/sec/oauth2/token`.
+        Add the **URL** value from the *Prerequisites* and append `/sap/bc/sec/oauth2/token` to it, following the pattern `https://<C4CTenantAPIURL>/sap/bc/sec/oauth2/token`.
 
 
     
@@ -326,7 +326,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     
         **Example**:
 
-    ***https://example.sapbydesign.com/sap/bc/sec/oauth2/token***
+    `https://example.sapbydesign.com/sap/bc/sec/oauth2/token`
 
 
     
@@ -476,7 +476,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     
         **Value**:
 
-    ***C4C***
+    `C4C`
 
 
     
@@ -502,9 +502,9 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
@@ -516,7 +516,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     
         **Example**:
 
-    ***SAP Cloud for Customer***
+    `SAP Cloud for Customer`
 
 
     
@@ -542,9 +542,9 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
@@ -556,11 +556,11 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     
         **Example for *tc.ui.label***:
 
-    ***SAP Cloud for Customer Task***
+    `SAP Cloud for Customer Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Cloud for Customer Aufgabe***
+    `SAP Cloud for Customer Aufgabe`
 
 
     

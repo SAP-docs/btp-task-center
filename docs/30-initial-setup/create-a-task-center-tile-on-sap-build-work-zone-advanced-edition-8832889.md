@@ -105,7 +105,7 @@ The following procedure describes how to create a Task Center tile in SAP Build 
         
                 **Example**:
 
-        ***Task\_Center***
+        `Task_Center`
 
 
         

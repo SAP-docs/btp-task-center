@@ -84,7 +84,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-        ***Ariba***
+        `Ariba`
 
 
     
@@ -107,7 +107,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-        ***C4C***
+        `C4C`
 
 
     
@@ -130,7 +130,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-        ***Concur***
+        `Concur`
 
 
     
@@ -153,7 +153,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-        ***Fieldglass***
+        `Fieldglass`
 
 
     
@@ -176,7 +176,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-        ***SMC***
+        `SMC`
 
 
     
@@ -199,7 +199,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-        ***SPA***
+        `SPA`
 
 
     
@@ -217,23 +217,51 @@ Administrators can create custom filter tabs, based on the following semantics:
     
         SAP S/4HANA
 
-    SAP S/4HANA Cloud
-
-    SAP S/4HANA Cloud, Private Edition
-
 
     
     </td>
     <td valign="top">
     
-        ***S/4HANA***
+        `S/4HANA`
 
 
     
     </td>
-    <td valign="top">
+    <td valign="top" rowspan="3">
     
         <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+         SAP S/4HANA Cloud 
+
+
+    
+    </td>
+    <td valign="top">
+    
+        `S/4HANACloud`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+         SAP S/4HANA Cloud, Private Edition 
+
+
+    
+    </td>
+    <td valign="top">
+    
+        `S/4HANAPrivateCloud`
 
 
     
@@ -249,7 +277,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-        ***SuccessFactors***
+        `SuccessFactors`
 
 
     

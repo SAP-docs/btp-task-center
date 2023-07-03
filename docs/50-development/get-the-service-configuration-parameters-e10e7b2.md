@@ -66,7 +66,7 @@ You have the *Space Developer* role assigned to your subaccount.
     </td>
     <td valign="top">
     
-        For SAP Task Center Web app use ***https://api.one-inbox-sap.cfapps.sap.hana.ondemand.com/inbox-service/*** 
+        For SAP Task Center Web app use `https://api.one-inbox-sap.cfapps.sap.hana.ondemand.com/inbox-service/` 
 
 
     
@@ -135,7 +135,7 @@ You have the *Space Developer* role assigned to your subaccount.
     </td>
     <td valign="top">
     
-         ***https://<subdomain\>.authentication.<region host\>.hana.ondemand.com*** 
+         `https://<subdomain>.authentication.<region host>.hana.ondemand.com` 
 
 
     
