@@ -210,7 +210,11 @@ To go back to the list of your tasks, clear the *On Behalf Of* filter.
 
 Select one or more task types to display their tasks.
 
+Use the *Select All* check box to select all available task types in the list.
+
 The list of task types contains only the task types relevant for the filter tab that you selected, sorted alphabetically. If there are tasks without a task type, then these tasks are grouped into the *Others* category at the bottom of the *Task Type* filter dropdown list.
+
+The task types, supporting mass actions have an *M* indicator. For more information about processing multiple tasks, see [Working with Multiple Tasks](working-with-multiple-tasks-9f8ef8e.md).
 
 Sometimes tasks with different task IDs might appear with the same task type. In this case, the SAP Task Center Web app appends a number to the end of the task type \(for example *Task Type \(1\)*, *Task Type \(2\)*\) for easier differentiation.
 

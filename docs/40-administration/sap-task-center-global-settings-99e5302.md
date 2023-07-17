@@ -228,7 +228,7 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
 
     We recommend you to set en-US as one of these three languages, as translations in this language are usually present for the supported SAP task providers.
 
-    If you change the configured languages, you have to repopulate the task cache by disabling and enabling the *tc.enabled* property for every destination.
+    If you change the configured languages, you have to repopulate the task cache by disabling and enabling the *tc.enabled* property for every destination. For more information, see [Repopulate the Task Cache](repopulate-the-task-cache-e93aa71.md).
 
     > ### Note:  
     > SAP Task Center uses en-US as a fallback language, if there is no *Task\_Center\_global\_settings* destination configured, or its name is misspelled, or the language codes are not supported.

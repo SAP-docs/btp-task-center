@@ -113,6 +113,176 @@ Available as of
 </td>
 <td valign="top">
 
+New Guided Tour on Mass Actions in SAP Companion
+
+
+
+</td>
+<td valign="top">
+
+A new guided tour *Processing Multiple Tasks* is now available in the Guided Tour secion of SAP Companion in the SAP Task Center Web app.
+
+For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-07-17
+
+
+
+</td>
+<td valign="top">
+
+2023-07-17
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Introducing an *M* Indicator for Task Types, Supporting Mass Actions
+
+
+
+</td>
+<td valign="top">
+
+The task types, supporting mass actions have now an *M* indicator. For more information about processing multiple tasks, see [Working with Multiple Tasks](../70-using-the-web-app/working-with-multiple-tasks-9f8ef8e.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-07-17
+
+
+
+</td>
+<td valign="top">
+
+2023-07-17
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New Icon for SAP S/4HANA, SAP S/4HANA Cloud, SAP S/4HANA Cloud, Private Edition 
 
 

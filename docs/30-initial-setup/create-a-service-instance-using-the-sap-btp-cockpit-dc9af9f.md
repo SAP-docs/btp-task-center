@@ -55,6 +55,14 @@ The service instance of SAP Task Center scales dynamically according to usage; c
 
             In the *New Service Key* wizard, choose a name for your service key, and choose *Create*.
 
+            > ### Sample Code:  
+            > ```
+            > {
+            > 	"authorities": [],
+            >     "defaultCollectionQueryFilter": "own"
+            > }
+            > ```
+
         -   Create a service key with certificate.
 
             To create a service key with certificate for mTLS communication, proceed as follows:
