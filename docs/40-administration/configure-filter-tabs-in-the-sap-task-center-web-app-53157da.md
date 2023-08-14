@@ -77,44 +77,21 @@ Administrators can create custom filter tabs, based on the following semantics:
     <tr>
     <td valign="top">
     
-        SAP Ariba
+    SAP Ariba
 
 
     
     </td>
     <td valign="top">
     
-        `Ariba`
+    `Ariba`
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        SAP Cloud for Customer
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `C4C`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -123,44 +100,21 @@ Administrators can create custom filter tabs, based on the following semantics:
     <tr>
     <td valign="top">
     
-        SAP Concur
+    SAP Build Process Automation
 
 
     
     </td>
     <td valign="top">
     
-        `Concur`
+    `SPA`
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        SAP Fieldglass
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `Fieldglass`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -169,44 +123,21 @@ Administrators can create custom filter tabs, based on the following semantics:
     <tr>
     <td valign="top">
     
-        SAP Marketing Cloud
+    SAP Build Work Zone, advanced edition
 
 
     
     </td>
     <td valign="top">
     
-        `SMC`
+    `WorkZone`
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        SAP Build Process Automation
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `SPA`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -215,21 +146,113 @@ Administrators can create custom filter tabs, based on the following semantics:
     <tr>
     <td valign="top">
     
-        SAP S/4HANA
+    SAP Cloud for Customer
 
 
     
     </td>
     <td valign="top">
     
-        `S/4HANA`
+    `C4C`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP Concur
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `Concur`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP Fieldglass
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `Fieldglass`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP Marketing Cloud
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `SMC`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP S/4HANA
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `S/4HANA`
 
 
     
     </td>
     <td valign="top" rowspan="3">
     
-        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     
@@ -238,30 +261,14 @@ Administrators can create custom filter tabs, based on the following semantics:
     <tr>
     <td valign="top">
     
-         SAP S/4HANA Cloud 
+    SAP S/4HANA Cloud 
 
 
     
     </td>
     <td valign="top">
     
-        `S/4HANACloud`
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-         SAP S/4HANA Cloud, Private Edition 
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `S/4HANAPrivateCloud`
+    `S/4HANACloud`
 
 
     
@@ -270,21 +277,37 @@ Administrators can create custom filter tabs, based on the following semantics:
     <tr>
     <td valign="top">
     
-        SAP SuccessFactors
+    SAP S/4HANA Cloud, Private Edition 
 
 
     
     </td>
     <td valign="top">
     
-        `SuccessFactors`
+    `S/4HANAPrivateCloud`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP SuccessFactors
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    `SuccessFactors`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 
     

@@ -10,9 +10,9 @@ Choose one of these options:
 
 -   [Create a Task Center Administration Tile on SAP Build Work Zone, advanced edition](create-a-task-center-administration-tile-on-sap-build-work-zone-advanced-edition-e64ec03.md)
 
--   [Create a Task Center Administration Tile on SAP Build Work Zone, Standard Edition](create-a-task-center-administration-tile-on-sap-build-work-zone-standard-edition-55fc2c0.md)
+-   [Create a Task Center Administration Tile on SAP Build Work Zone, standard edition](create-a-task-center-administration-tile-on-sap-build-work-zone-standard-edition-55fc2c0.md)
 
 -   [Create a Task Center Administration Tile on SAP SuccessFactors Work Zone](create-a-task-center-administration-tile-on-sap-successfactors-work-zone-2de8120.md)
 
--   For SAP Cloud Portal service, see [Create a Task Center Administration Tile on SAP Build Work Zone, Standard Edition](create-a-task-center-administration-tile-on-sap-build-work-zone-standard-edition-55fc2c0.md).
+-   For SAP Cloud Portal service, see [Create a Task Center Administration Tile on SAP Build Work Zone, standard edition](create-a-task-center-administration-tile-on-sap-build-work-zone-standard-edition-55fc2c0.md).
 

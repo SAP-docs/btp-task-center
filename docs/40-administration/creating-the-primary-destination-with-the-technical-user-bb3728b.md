@@ -60,14 +60,14 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        The destination name can have up to 16 characters.
+    The destination name can have up to 16 characters.
 
     > ### Note:  
     > -   The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
@@ -81,7 +81,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `C4C`
 
@@ -92,44 +92,21 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *Type*
+    *Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *HTTP* option from the dropdown menu.
+    Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Description*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \(Optional\) Add a description.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -138,14 +115,37 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *URL*
+    *Description*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *URL* value from the *Prerequisites*.
+    \(Optional\) Add a description.
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Add the *URL* value from the *Prerequisites*.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -155,7 +155,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `https://example.sapbydesign.com`
 
@@ -166,44 +166,21 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *Proxy Type*
+    *Proxy Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *Internet* option from the dropdown menu.
+    Choose the *Internet* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Choose the *BasicAuthentication* option from the dropdown menu.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -212,21 +189,21 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *User*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *User* from *Prerequisites*.
+    Choose the *BasicAuthentication* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
+     
 
 
     
@@ -235,21 +212,44 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *Password*
+    *User*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *Password* from *Prerequisites*.
+    Add the *User* from *Prerequisites*.
 
 
     
     </td>
     <td valign="top">
     
-         
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Password*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Add the *Password* from *Prerequisites*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
 
 
     
@@ -287,14 +287,14 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *tc.enabled*
+    *tc.enabled*
 
 
     
     </td>
     <td valign="top">
     
-        Enables SAP Task Center to connect to the configured task provider destination.
+    Enables SAP Task Center to connect to the configured task provider destination.
 
     > ### Caution:  
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
@@ -316,7 +316,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `true`
 
@@ -327,21 +327,21 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *tc.provider\_type*
+    *tc.provider\_type*
 
 
     
     </td>
     <td valign="top">
     
-        Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
+    Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
 
 
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `C4C`
 
@@ -352,7 +352,7 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *tc.ui.group*
+    *tc.ui.group*
 
     and
 
@@ -363,7 +363,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
 
     You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -381,7 +381,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `SAP Cloud for Customer`
 
@@ -392,7 +392,7 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *tc.ui.label* 
+    *tc.ui.label* 
 
     and
 
@@ -403,7 +403,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -421,7 +421,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Example for *tc.ui.label***:
+    **Example for *tc.ui.label***:
 
     `SAP Cloud for Customer Task`
 
@@ -496,14 +496,14 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        The destination name can have up to 16 characters.
+    The destination name can have up to 16 characters.
 
     > ### Note:  
     > -   The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
@@ -517,7 +517,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `C4C`
 
@@ -528,44 +528,21 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *Type*
+    *Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *HTTP* option from the dropdown menu.
+    Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Description*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \(Optional\) Add a description.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -574,14 +551,37 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *URL*
+    *Description*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *URL* value from the *Prerequisites*.
+    \(Optional\) Add a description.
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Add the *URL* value from the *Prerequisites*.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -591,7 +591,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `https://example.sapbydesign.com`
 
@@ -602,44 +602,21 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *Proxy Type*
+    *Proxy Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *Internet* option from the dropdown menu.
+    Choose the *Internet* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Choose the *ClientCertificateAuthentication* option from the dropdown menu.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -648,21 +625,44 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *Key Store Location*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        From the dropdown menu choose the certificate you downloaded in *Prerequisites*.
+    Choose the *ClientCertificateAuthentication* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-        **Example**:
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Key Store Location*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    From the dropdown menu choose the certificate you downloaded in *Prerequisites*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
 
     `c4c.p12`
 
@@ -673,21 +673,21 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *Key Store Password*
+    *Key Store Password*
 
 
     
     </td>
     <td valign="top">
     
-        Add the certificate password from *Prerequisites*.
+    Add the certificate password from *Prerequisites*.
 
 
     
     </td>
     <td valign="top">
     
-         
+     
 
 
     
@@ -725,14 +725,14 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *tc.enabled*
+    *tc.enabled*
 
 
     
     </td>
     <td valign="top">
     
-        Enables SAP Task Center to connect to the configured task provider destination.
+    Enables SAP Task Center to connect to the configured task provider destination.
 
     > ### Caution:  
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
@@ -754,7 +754,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `true`
 
@@ -765,21 +765,21 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *tc.provider\_type*
+    *tc.provider\_type*
 
 
     
     </td>
     <td valign="top">
     
-        Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
+    Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
 
 
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `C4C`
 
@@ -790,7 +790,7 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *tc.ui.group*
+    *tc.ui.group*
 
     and
 
@@ -801,7 +801,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
 
     You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -819,7 +819,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `SAP Cloud for Customer`
 
@@ -830,7 +830,7 @@ Choose one of the options to see the procedure.
     <tr>
     <td valign="top">
     
-        *tc.ui.label* 
+    *tc.ui.label* 
 
     and
 
@@ -841,7 +841,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -859,7 +859,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-        **Example for *tc.ui.label***:
+    **Example for *tc.ui.label***:
 
     `SAP Cloud for Customer Task`
 

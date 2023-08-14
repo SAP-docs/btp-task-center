@@ -53,14 +53,14 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        The destination name can be up to 16 characters.
+    The destination name can be up to 16 characters.
 
     > ### Note:  
     > The name of the destination must not be longer than 16 characters, as otherwise, the status of the respective SAP Task Center connector will be set to `Error`.
@@ -73,7 +73,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `SAPBuildPA`
 
@@ -84,44 +84,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *Type*
+    *Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *HTTP* option from the dropdown menu.
+    Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Description*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \(Optional\) Add a description.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -130,14 +107,37 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *URL*
+    *Description*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *endpoints \> api* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append `/internal/workflow/rest/v1` to the URL.
+    \(Optional\) Add a description.
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Add the *endpoints \> api* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append `/internal/workflow/rest/v1` to the URL.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -147,7 +147,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `https://spa-api-gateway-sample.cfapps.sap.hana.ondemand.com/internal/workflow/rest/v1`
 
@@ -158,44 +158,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *Proxy type*
+    *Proxy type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *Internet* option from the dropdown menu.
+    Choose the *Internet* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -204,21 +181,44 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *Audience*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
+    Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-        **Example**:
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Audience*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Add the *url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
 
     `https://subaccount.authentication.eu10.hana.ondemand.com`
 
@@ -229,21 +229,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *AuthnContextClassRef*
+    *AuthnContextClassRef*
 
 
     
     </td>
     <td valign="top">
     
-        Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
+    Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
 
 
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
@@ -254,21 +254,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *Client Key*
+    *Client Key*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
+    Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
 
 
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
 
@@ -279,21 +279,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *Token Service URL Type*
+    *Token Service URL Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose *Dedicated*.
+    Choose *Dedicated*.
 
 
     
     </td>
     <td valign="top">
     
-         
+     
 
 
     
@@ -302,21 +302,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *Token Service URL*
+    *Token Service URL*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append `/oauth/token` to the URL.
+    Add the *url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append `/oauth/token` to the URL.
 
 
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token`
 
@@ -327,21 +327,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *Token Service User*
+    *Token Service User*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
+    Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
 
 
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
 
@@ -352,21 +352,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *Token Service Password*
+    *Token Service Password*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *clientsecret* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
+    Add the *clientsecret* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
 
 
     
     </td>
     <td valign="top">
     
-         
+     
 
 
     
@@ -404,21 +404,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *nameIdFormat*
+    *nameIdFormat*
 
 
     
     </td>
     <td valign="top">
     
-        Indicates the SAML name identifier formats supported by the Single Sign-On service.
+    Indicates the SAML name identifier formats supported by the Single Sign-On service.
 
 
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
 
@@ -429,14 +429,14 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *tc.enabled*
+    *tc.enabled*
 
 
     
     </td>
     <td valign="top">
     
-        Enables SAP Task Center to connect to the configured task provider destination.
+    Enables SAP Task Center to connect to the configured task provider destination.
 
     > ### Caution:  
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
@@ -458,7 +458,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `true`
 
@@ -469,21 +469,21 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *tc.provider\_type*
+    *tc.provider\_type*
 
 
     
     </td>
     <td valign="top">
     
-        Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
+    Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
 
 
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `SPA`
 
@@ -494,7 +494,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *tc.ui.group*
+    *tc.ui.group*
 
     and
 
@@ -505,7 +505,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     </td>
     <td valign="top">
     
-        \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
 
     You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -523,7 +523,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `SAP Build Process Automation`
 
@@ -534,7 +534,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     <tr>
     <td valign="top">
     
-        *tc.ui.label* 
+    *tc.ui.label* 
 
     and
 
@@ -545,7 +545,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     </td>
     <td valign="top">
     
-        \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -563,7 +563,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP B
     </td>
     <td valign="top">
     
-        **Example for *tc.ui.label***:
+    **Example for *tc.ui.label***:
 
     `SAP Build Process Automation Task`
 

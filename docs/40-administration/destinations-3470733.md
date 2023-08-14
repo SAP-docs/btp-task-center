@@ -25,6 +25,8 @@ The service destinations are required for some SAP Task Center features.
 
 -   To configure SAP Task Center to work with SAP Build Process Automation, see [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
 
+-   To configure SAP Task Center to work with SAP Build Work Zone, advanced edition, see [Connect SAP Build Work Zone, advanced edition and SAP Task Center](connect-sap-build-work-zone-advanced-edition-and-sap-task-center-f07f310.md).
+
 -   To configure SAP Task Center to work with SAP Cloud for Customer, see [Connect SAP Cloud for Customer and SAP Task Center](connect-sap-cloud-for-customer-and-sap-task-center-ec09002.md) \(TLS communication supported\).
 
 -   To configure SAP Task Center to work with SAP Concur, see [Connect SAP Concur and SAP Task Center](connect-sap-concur-and-sap-task-center-f354ef9.md).

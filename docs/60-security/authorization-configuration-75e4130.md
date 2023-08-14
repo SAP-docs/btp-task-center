@@ -33,7 +33,7 @@ Description
 <tr>
 <td valign="top">
 
- `TaskCenterAdmin` 
+`TaskCenterAdmin` 
 
 
 
@@ -49,7 +49,7 @@ Permission to execute calls to the `Connector Status` API and monitor configured
 <tr>
 <td valign="top">
 
- `TaskCenterTenantOperator` 
+`TaskCenterTenantOperator` 
 
 
 

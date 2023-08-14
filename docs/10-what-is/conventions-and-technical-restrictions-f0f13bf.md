@@ -50,7 +50,9 @@ Considering this information during development helps you achieve optimal use of
 
 -   The SAP Task Center integration does not support substitutions for any of the supported SAP solutions. If there are defined substitutions or delegates in any of the supported SAP solutions, they will not work with the SAP Task Center.
 
--   Searching, filtering and sorting by the *Created By* column is not possible.
+-   Searching, filtering, and sorting by the *Created By* column is not possible.
+
+-   Searching, filtering, and sorting by fields exposing custom attributes with formatted value is not possible, for example custom attributes of type `STRING` and format `USER`, which have formatted value.
 
 -   The SAP Task Center service only enables, but does not include the integration implementation from the supported SAP solutions.
 

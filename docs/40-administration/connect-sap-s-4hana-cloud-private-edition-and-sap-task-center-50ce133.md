@@ -76,14 +76,14 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        Configure a destination name. It can be up to 16 characters long.
+    Configure a destination name. It can be up to 16 characters long.
 
     > ### Note:  
     > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
@@ -93,7 +93,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `S4HANACloudPE`
 
@@ -104,44 +104,21 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *Type*
+    *Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *HTTP* option from the dropdown menu.
+    Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Description*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \(Optional\) Add a description.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -150,14 +127,37 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *URL*
+    *Description*
 
 
     
     </td>
     <td valign="top">
     
-        Create the URL by following the pattern `<Virtual Host>:<Virtual Port>`, using the values you've got when configuring the access control in the SAP Cloud Connector. For more information, see *Prerequisites*.
+    \(Optional\) Add a description.
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Create the URL by following the pattern `<Virtual Host>:<Virtual Port>`, using the values you've got when configuring the access control in the SAP Cloud Connector. For more information, see *Prerequisites*.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the `Task Cache`, the tasks in it will be repopulated.
@@ -167,7 +167,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-         
+     
 
 
     
@@ -176,44 +176,21 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *Proxy type*
+    *Proxy type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *OnPremise* option from the dropdown menu.
+    Choose the *OnPremise* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Choose the *BasicAuthentication* option from the dropdown menu.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -222,44 +199,21 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *User*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        Add the service user for task pull service. For more information, see *Prerequisites*.
+    Choose the *BasicAuthentication* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Password*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Add the password for the service user for task pull service. For more information, see *Prerequisites*.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -268,21 +222,67 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *Location ID*
+    *User*
 
 
     
     </td>
     <td valign="top">
     
-        \(Optional\) Provide the *Location ID* that you configured in the initial configuration of the SAP Cloud Connector. For more information, see *Prerequisites*.
+    Add the service user for task pull service. For more information, see *Prerequisites*.
 
 
     
     </td>
     <td valign="top">
     
-         
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Password*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Add the password for the service user for task pull service. For more information, see *Prerequisites*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Location ID*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Provide the *Location ID* that you configured in the initial configuration of the SAP Cloud Connector. For more information, see *Prerequisites*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
 
 
     
@@ -320,14 +320,14 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *tc.enabled*
+    *tc.enabled*
 
 
     
     </td>
     <td valign="top">
     
-        Enables the SAP Task Center to connect to the configured task provider destination.
+    Enables the SAP Task Center to connect to the configured task provider destination.
 
     > ### Caution:  
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
@@ -349,7 +349,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `true`
 
@@ -360,21 +360,21 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *tc.provider\_type*
+    *tc.provider\_type*
 
 
     
     </td>
     <td valign="top">
     
-        Type of the task provider.
+    Type of the task provider.
 
 
     
     </td>
     <td valign="top">
     
-        `S/4HANAPrivateCloud`
+    `S/4HANAPrivateCloud`
 
 
     
@@ -383,7 +383,7 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *tc.ui.group*
+    *tc.ui.group*
 
     and
 
@@ -394,7 +394,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-        \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
 
     You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -412,7 +412,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `SAP S/4HANA Cloud, Private Edition`
 
@@ -423,7 +423,7 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *tc.ui.label* 
+    *tc.ui.label* 
 
     and
 
@@ -434,7 +434,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-        \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -452,7 +452,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-        **Example for *tc.ui.label***:
+    **Example for *tc.ui.label***:
 
     `SAP S/4HANA Cloud, Private Edition Task`
 
@@ -467,21 +467,21 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-        *URL.queries.sap-client*
+    *URL.queries.sap-client*
 
 
     
     </td>
     <td valign="top">
     
-        The client number of the SAP S/4HANA Cloud, private edition system.
+    The client number of the SAP S/4HANA Cloud, private edition system.
 
 
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `100`
 

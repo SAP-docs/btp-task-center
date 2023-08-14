@@ -64,14 +64,14 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        The destination name for the principal propagation must be the same as the name of the primary destination for the technical user with the suffix `_PP`.
+    The destination name for the principal propagation must be the same as the name of the primary destination for the technical user with the suffix `_PP`.
 
     For more information about the name of the primary destination, see [Creating the Primary Destination with the Technical User](creating-the-primary-destination-with-the-technical-user-bb3728b.md).
 
@@ -83,7 +83,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `C4C_PP`
 
@@ -94,44 +94,21 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *Type*
+    *Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *HTTP* option from the dropdown menu.
+    Choose the *HTTP* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Description*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \(Optional\) Add a description.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -140,21 +117,44 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *URL*
+    *Description*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *URL* from *Prerequisites*.
+    \(Optional\) Add a description.
 
 
     
     </td>
     <td valign="top">
     
-        **Example**:
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Add the *URL* from *Prerequisites*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
 
     `https://example.sapbydesign.com`
 
@@ -165,44 +165,21 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *Proxy Type*
+    *Proxy Type*
 
 
     
     </td>
     <td valign="top">
     
-        Choose the *Internet* option from the dropdown menu.
+    Choose the *Internet* option from the dropdown menu.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -211,14 +188,37 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *Audience*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *Audience* from *Prerequisites*.
+    Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Audience*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Add the *Audience* from *Prerequisites*.
 
     > ### Note:  
     > Make sure you copy exactly this value, as it is case sensitive.
@@ -228,7 +228,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `HTTPS://example.sapbydesign.com`
 
@@ -239,21 +239,21 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *AuthnContextClassRef*
+    *AuthnContextClassRef*
 
 
     
     </td>
     <td valign="top">
     
-        Value of the `AuthnContextClassRef` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
+    Value of the `AuthnContextClassRef` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
 
 
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
@@ -264,44 +264,21 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *Client Key*
+    *Client Key*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *Client ID* from *Prerequisites*.
+    Add the *Client ID* from *Prerequisites*.
 
 
     
     </td>
     <td valign="top">
     
-         
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Token Service URL Type*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Choose *Dedicated*.
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+     
 
 
     
@@ -310,21 +287,44 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *Token Service URL*
+    *Token Service URL Type*
 
 
     
     </td>
     <td valign="top">
     
-        Add the **URL** value from the *Prerequisites* and append `/sap/bc/sec/oauth2/token` to it, following the pattern `https://<C4CTenantAPIURL>/sap/bc/sec/oauth2/token`.
+    Choose *Dedicated*.
 
 
     
     </td>
     <td valign="top">
     
-        **Example**:
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Token Service URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Add the **URL** value from the *Prerequisites* and append `/sap/bc/sec/oauth2/token` to it, following the pattern `https://<C4CTenantAPIURL>/sap/bc/sec/oauth2/token`.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
 
     `https://example.sapbydesign.com/sap/bc/sec/oauth2/token`
 
@@ -335,21 +335,21 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *Token Service User*
+    *Token Service User*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *Client ID* from *Prerequisites*.
+    Add the *Client ID* from *Prerequisites*.
 
 
     
     </td>
     <td valign="top">
     
-         
+     
 
 
     
@@ -358,21 +358,21 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *Token Service Password*
+    *Token Service Password*
 
 
     
     </td>
     <td valign="top">
     
-        Add the *Client Secret* from *Prerequisites*.
+    Add the *Client Secret* from *Prerequisites*.
 
 
     
     </td>
     <td valign="top">
     
-         
+     
 
 
     
@@ -410,21 +410,21 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *nameIdFormat*
+    *nameIdFormat*
 
 
     
     </td>
     <td valign="top">
     
-        Value of the `NameIdFormat` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
+    Value of the `NameIdFormat` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
 
 
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
 
@@ -435,21 +435,21 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *scope*
+    *scope*
 
 
     
     </td>
     <td valign="top">
     
-        The scope is defined while registering the OAuth client in [Register OAuth Client in SAP Cloud For Customer](https://help.sap.com/docs/SAP_CLOUD_FOR_CUSTOMER/a13a0773bce549bca5ff9358d8d21030/5d50dcbccae9476ab80f911f3a422ef2.html?version=CLOUD#register-oauth-client-in-sap-cloud-for-customer).
+    The scope is defined while registering the OAuth client in [Register OAuth Client in SAP Cloud For Customer](https://help.sap.com/docs/SAP_CLOUD_FOR_CUSTOMER/a13a0773bce549bca5ff9358d8d21030/5d50dcbccae9476ab80f911f3a422ef2.html?version=CLOUD#register-oauth-client-in-sap-cloud-for-customer).
 
 
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     UIWC:CC\_HOME
 
@@ -460,21 +460,21 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *tc.provider\_type*
+    *tc.provider\_type*
 
 
     
     </td>
     <td valign="top">
     
-        Type of the task provider. This property is needed if you would like to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
+    Type of the task provider. This property is needed if you would like to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
 
 
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
     `C4C`
 
@@ -485,7 +485,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *tc.ui.group*
+    *tc.ui.group*
 
     and
 
@@ -496,7 +496,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     </td>
     <td valign="top">
     
-        \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
 
     You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -514,7 +514,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
     `SAP Cloud for Customer`
 
@@ -525,7 +525,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     <tr>
     <td valign="top">
     
-        *tc.ui.label* 
+    *tc.ui.label* 
 
     and
 
@@ -536,7 +536,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     </td>
     <td valign="top">
     
-        \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
@@ -554,7 +554,7 @@ Create a secondary SAP Cloud for Customer destination for the principal propagat
     </td>
     <td valign="top">
     
-        **Example for *tc.ui.label***:
+    **Example for *tc.ui.label***:
 
     `SAP Cloud for Customer Task`
 

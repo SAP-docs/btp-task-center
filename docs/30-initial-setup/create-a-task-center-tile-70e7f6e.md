@@ -8,8 +8,8 @@ You can create a Task Center tile on SAP Build Work Zone, advanced edition, SAP 
 
 Choose one of these options:
 
--   [Create a Task Center Tile on SAP Build Work Zone, Advanced Edition](create-a-task-center-tile-on-sap-build-work-zone-advanced-edition-8832889.md)
--   [Create a Task Center Tile on SAP Build Work Zone, Standard Edition](create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md)
+-   [Create a Task Center Tile on SAP Build Work Zone, advanced edition](create-a-task-center-tile-on-sap-build-work-zone-advanced-edition-8832889.md)
+-   [Create a Task Center Tile on SAP Build Work Zone, standard edition](create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md)
 -   [Create a Task Center Tile on SAP SuccessFactors Work Zone](create-a-task-center-tile-on-sap-successfactors-work-zone-b00ac0c.md)
--   For SAP Cloud Portal service, see [Create a Task Center Tile on SAP Build Work Zone, Standard Edition](create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
+-   For SAP Cloud Portal service, see [Create a Task Center Tile on SAP Build Work Zone, standard edition](create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
 

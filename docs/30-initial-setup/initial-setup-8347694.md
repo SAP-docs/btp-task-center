@@ -50,6 +50,8 @@ Before you can use the service, meet the following prerequisites and perform the
 
     For more information, see [System Integration Guide for SAP Cloud Identity Services](https://help.sap.com/viewer/b95c3d5bab324a3a8409eee5267a5b75/Cloud/en-US).
 
+    For the integration with SAP Build Work Zone, advanced edition as task provider, make sure you follow the [SAP BTP Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-btp-integration-scenario?version=Cloud).
+
     > ### Caution:  
     > -   All task providers and the SAP Task Center UAA of your subaccount must be configured to work with the same Identity Authentication tenant.
     > -   Make sure that the *Display Name*, *E-Mail* and *Global User ID* fields are maintained for every user in your Identity Authentication tenant. For more information, see [List and Edit User Details](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/045cb01bd2034b05a69e1a626e46570f.html) and [Global User ID in Integration Scenarios](https://help.sap.com/docs/SAP_CLOUD_IDENTITY/b95c3d5bab324a3a8409eee5267a5b75/a04611df60404a248a7a8089c85b9761.html).

@@ -45,6 +45,40 @@ For SAP Ariba Sourcing, see the supported integration scenarios in [How to enabl
 <tr>
 <td valign="top">
 
+SAP Build Process Automation
+
+
+
+</td>
+<td valign="top">
+
+All approval use cases
+
+For information on restrictions, see [Quotas, Restrictions, and Limits](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/9c5114089f8445eea223a19604f79b5c.html#restrictions-for-sap-task-center-integration).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Work Zone, advanced edition
+
+
+
+</td>
+<td valign="top">
+
+See [Integration with SAP Task Center](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/integration-with-sap-task-center).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Cloud for Customer
 
 
@@ -101,24 +135,6 @@ SAP Marketing Cloud
 <td valign="top">
 
 See [SAP Task Center](https://help.sap.com/docs/SAP_MARKETING_CLOUD/0f9408e4921e4ba3bb4a7a1f75f837a7/b40035cc27a74eb7abe9018a9123db3e.html) for supported use cases.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Build Process Automation
-
-
-
-</td>
-<td valign="top">
-
-All approval use cases
-
-For information on restrictions, see [Quotas, Restrictions, and Limits](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/9c5114089f8445eea223a19604f79b5c.html#restrictions-for-sap-task-center-integration).
 
 
 

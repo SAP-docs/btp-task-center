@@ -1,44 +1,45 @@
-<!-- loio18b3848110be43828b549c81a753821e -->
+<!-- loiof07f3103d40447d6bfbb0ae0b7920f6a -->
 
-# Connect SAP Marketing Cloud and SAP Task Center
+# Connect SAP Build Work Zone, advanced edition and SAP Task Center
 
-Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP Marketing Cloud on SAP BTP, Cloud Foundry environment.
+Find information about the destination configuration that needs to be done for SAP Task Center in order to work with tasks from SAP Build Work Zone, advanced edition instance in the same \(local\) subaccount as the SAP Task Center instance on SAP BTP, Cloud Foundry environment.
 
 
-
-<a name="loio18b3848110be43828b549c81a753821e__prereq_ytw_hdv_bpb"/>
 
 ## Prerequisites
 
--   You have performed the steps in [Integrating SAP Task Center](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/0fdb31ce0dff4537a1ac6f98d4d34dbd.html). To complete the setup of this destination, you need the following parameters from [Create a Communication Arrangement](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/913ff1a47a6447e3b7bee17fa6f275ff.html):
-
-    -   *Service URL/Service Interface* that you can find when creating a communication arrangement.
-
-    -   *SAML2 Audience*, that you can find in the *OAuth2.0 Details* when creating the communication arrangement.
-    -   *Client ID*, that you can find in the *OAuth2.0 Details* when creating the communication arrangement.
-    -   *Token Service URL*, that you can find in the *OAuth2.0 Details* when creating the communication arrangement.
-    -   *User Name*, that you have created for the technical communication user..
-    -   *Password*, that you have created for the technical communication user.
-
 -   You have completed all prerequisites listed in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
+-   You must have performed the steps in [Integration with SAP Task Center](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/integration-with-sap-task-center). You need to following parameters for the setup of this destinations:
+
+    -   *API Endpoint*
+    -   *Audience*
+    -   *Client Key*
+    -   *Token Service URL*
+    -   *Token Service User*
+    -   *Token Service Password*
+
+
+
+
+<a name="loiof07f3103d40447d6bfbb0ae0b7920f6a__context_b2g_cr4_hyb"/>
+
+## Context
 
 > ### Note:  
-> Do not configure more than one destination to the same SAP Marketing Cloud system for one SAP Task Center. This will result in having duplicate tasks for end users.
+> Do not configure more than one destination to the same SAP Build Work Zone, advanced edition system for one SAP Task Center. This will result in having duplicate tasks for end users.
 
 
 
-<a name="loio18b3848110be43828b549c81a753821e__steps_a5w_hdv_bpb"/>
+<a name="loiof07f3103d40447d6bfbb0ae0b7920f6a__steps_tq2_qs2_tpb"/>
 
 ## Procedure
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
+1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> *Destinations* tab from the navigation area on the left.
 
-2.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you already have a sample destination called *SMC*. You can use the sample destination or clone it, and update the properties as described below.
+2.  If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described in the table.
 
-    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described below.
-
-3.  Configure the properties of the destination as described below:
+3.  Configure the properties of the destination as described in the following table:
 
 
     <table>
@@ -75,10 +76,13 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Configure a destination name. It can be up to 16 characters long.
+    The destination name can be up to 16 characters.
 
     > ### Note:  
-    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
+    > The name of the destination must not be longer than 16 characters, as otherwise, the status of the respective SAP Task Center connector will be set to `Error`.
+
+    > ### Note:  
+    > If you change the *name* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
 
 
     
@@ -87,7 +91,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Example**:
 
-    `SMC`
+    `WorkZone`
 
 
     
@@ -133,9 +137,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    **Example**:
-
-    `SAP Marketing Cloud Connector`
+     
 
 
     
@@ -151,9 +153,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Add the *Service URL/Service Interface* value, and remove
-
-    `sap/opu/odata4/sap/api_task_spi_replication/default/sap/api_task_spi_replication/0001/?sap-client=100`
+    Add the *API endpoint* value from the *Prerequisites* section.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -165,7 +165,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Example**:
 
-    `https://example-api.s4hana.ondemand.com/`
+    `https://sample.workzone.ondemand.com/api/v2`
 
 
     
@@ -227,7 +227,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Add the *SAML2 Audience*, that you copied in the *Prerequisites* section.
+    Add the *Audience* value from the *Prerequisites* section.
 
 
     
@@ -236,7 +236,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Example**:
 
-    `https://example.s4hana.ondemand.com`
+    `https://sample.workzone.ondemand.com/`
 
 
     
@@ -261,7 +261,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Value**:
 
-    `urn:oasis:names:tc:SAML:2.0:ac:classes:X509`
+    `urn\:oasis\:names\:tc\:SAML\:2.0\:ac\:classes\:PreviousSession`
 
 
     
@@ -277,7 +277,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Add the *Client ID*, that you copied in the *Prerequisites* section.
+    Add the *Client Key* value from the *Prerequisites* section.
 
 
     
@@ -286,7 +286,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Example**:
 
-    `COM501SID100`
+    `AWtZNx9LX8vxeQ4Ui9DS`
 
 
     
@@ -325,7 +325,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Add the *Token Service URL*, that you copied in the *Prerequisites* section.
+    Add the *Token Service URL* value from the *Prerequisites* section.
 
 
     
@@ -334,7 +334,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Example**:
 
-    `https://example-api.s4hana.ondemand.com/sap/bc/sec/oauth2/token`
+    `https://sample.workzone.ondemand.com/api/v2/auth/token`
 
 
     
@@ -350,7 +350,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Add the *User Name*, that you copied in the *Prerequisites* section.
+    Add the *Token Service User* value from the *Prerequisites* section.
 
 
     
@@ -359,7 +359,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Example**:
 
-    `COM501SID100`
+    `AWtZNx9LX8vxeQ4Ui9DS`
 
 
     
@@ -375,7 +375,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Add the *Password*, that you copied in the *Prerequisites* section.
+    Add the *Token Service Password* value from the *Prerequisites* section.
 
 
     
@@ -390,9 +390,7 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     </table>
     
-    **Additional Properties**
-
-    Use the *New Property* button to manually create the following additional properties:
+4.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
 
 
     <table>
@@ -422,6 +420,31 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
+    *nameIdFormat*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Indicates the SAML name identifier formats supported by the Single Sign-On service.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Value**:
+
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *tc.enabled*
 
 
@@ -429,7 +452,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Enables the SAP Task Center to connect to the configured task provider destination.
+    Enables SAP Task Center to connect to the configured task provider destination.
 
     > ### Caution:  
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
@@ -469,7 +492,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Type of the task provider.
+    Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
 
 
     
@@ -478,7 +501,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Value**:
 
-    `SMC`
+    `WorkZone`
 
 
     
@@ -516,7 +539,9 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    `SAP Marketing Cloud`
+    **Example**:
+
+    `SAP Build Work Zone, advanced edition`
 
 
     
@@ -556,11 +581,11 @@ Find information about the destination configuration that needs to be done for S
     
     **Example for *tc.ui.label***:
 
-    `SAP Marketing Cloud Task`
+    `SAP Build Work Zone, advanced edition Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    `SAP Marketing Cloud Aufgabe`
+    `SAP Build Work Zone, advanced edition Aufgabe`
 
 
     
@@ -569,23 +594,23 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
-    *URL.queries.sap-client*
+    *tokenServiceURL.headers.authAttribute*
 
 
     
     </td>
     <td valign="top">
     
-    The client number of the SAP Marketing Cloud system.
+    The value of this property is needed during token retrieval.
 
 
     
     </td>
     <td valign="top">
     
-    **Example**:
+    **Value**:
 
-    `100`
+    `user_uuid`
 
 
     
@@ -601,7 +626,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Assertion attribute configured in Identity Authentication and used for user authentication.
+    Provides information about the `userIdSource`to SAP Cloud Identity Services - Identity Authentication.
 
 
     
@@ -610,7 +635,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Value**:
 
-    user\_uuid
+    `user_uuid`
 
 
     
@@ -618,14 +643,10 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     </table>
     
-4.  Select the *Use default JDK truststore* checkbox.
+5.  Choose *Save*.
 
-5.  Save your configuration.
+6.  \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Build Work Zone, advanced edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
-6.  Perform the steps described in [SAP Task Center](https://help.sap.com/docs/SAP_MARKETING_CLOUD/0f9408e4921e4ba3bb4a7a1f75f837a7/b40035cc27a74eb7abe9018a9123db3e.html).
-
-7.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP Marketing Cloud, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
-
-    If you choose *Check Connection* in the destination configuration, you may not receive correct information about the connectivity between the SAP Task Center service and SAP Marketing Cloud.
+    If you choose *Check Connection* in the destination configuration, you may not receive the correct information about the connectivity between the SAP Task Center service and the SAP Build Work Zone, advanced edition.
 
 

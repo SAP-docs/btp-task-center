@@ -52,44 +52,21 @@ You have the *Space Developer* role assigned to your subaccount.
     <tr>
     <td valign="top">
     
-         <code><i>endpoints</i> &gt; <i>inbox_rest_url</i></code> 
+    <code><i>endpoints</i> &gt; <i>inbox_rest_url</i></code> 
 
 
     
     </td>
     <td valign="top">
     
-        Base URL of the SAP Task Center 
+    Base URL of the SAP Task Center 
 
 
     
     </td>
     <td valign="top">
     
-        For SAP Task Center Web app use `https://api.one-inbox-sap.cfapps.sap.hana.ondemand.com/inbox-service/` 
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-         <code><i>uaa</i> &gt; <i>clientid</i></code> 
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Client ID for OAuth2
-
-
-    
-    </td>
-    <td valign="top">
-    
-         
+    For SAP Task Center Web app use `https://api.one-inbox-sap.cfapps.sap.hana.ondemand.com/inbox-service/` 
 
 
     
@@ -98,21 +75,21 @@ You have the *Space Developer* role assigned to your subaccount.
     <tr>
     <td valign="top">
     
-         <code><i>uaa</i> &gt; <i>clientsecret</i></code> 
+    <code><i>uaa</i> &gt; <i>clientid</i></code> 
 
 
     
     </td>
     <td valign="top">
     
-        Client secret for OAuth2
+    Client ID for OAuth2
 
 
     
     </td>
     <td valign="top">
     
-         
+     
 
 
     
@@ -121,21 +98,44 @@ You have the *Space Developer* role assigned to your subaccount.
     <tr>
     <td valign="top">
     
-         <code><i>uaa</i> &gt; <i>url</i></code> 
+    <code><i>uaa</i> &gt; <i>clientsecret</i></code> 
 
 
     
     </td>
     <td valign="top">
     
-        Authentication base URL for OAuth2 or SAML
+    Client secret for OAuth2
 
 
     
     </td>
     <td valign="top">
     
-         `https://<subdomain>.authentication.<region host>.hana.ondemand.com` 
+     
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    <code><i>uaa</i> &gt; <i>url</i></code> 
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Authentication base URL for OAuth2 or SAML
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `https://<subdomain>.authentication.<region host>.hana.ondemand.com` 
 
 
     

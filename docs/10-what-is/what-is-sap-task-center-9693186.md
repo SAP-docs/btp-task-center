@@ -4,7 +4,7 @@
 
 # What Is SAP Task Center?
 
- SAP Task Center helps you integrate tasks into a central solution. 
+SAP Task Center helps you integrate tasks into a central solution. 
 
 The SAP Task Center service enables integration with SAP applications to provide a single entry point for end users to access all their assigned tasks. The tasks can be accessed by end users through the SAP Task Center Web application.
 
@@ -28,7 +28,7 @@ SAP Task Center offers an array of capabilities, for example:
 <dl>
 <dt><b>
 
- Task Federation 
+Task Federation 
 
 </b></dt>
 <dd>
@@ -39,7 +39,7 @@ Federate your tasks from various provider applications via a unified REST interf
 
 </dd><dt><b>
 
- SAP Task Center for Task Processing 
+SAP Task Center for Task Processing 
 
 </b></dt>
 <dd>

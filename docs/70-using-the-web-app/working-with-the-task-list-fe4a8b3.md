@@ -17,7 +17,7 @@ With the SAP Companion you can see on-screen information, embedded directly in t
 To open it, choose the SAP Companion icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the upper right corner of the Web app.
 
 > ### Note:  
-> This feature must be enabled by your administrator. For more information, see [Create a Task Center Tile on SAP Build Work Zone, Standard Edition](../30-initial-setup/create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
+> This feature must be enabled by your administrator. For more information, see [Create a Task Center Tile on SAP Build Work Zone, standard edition](../30-initial-setup/create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
 > 
 > You can either use the SAP Companion for SAP Task Center or SAP Companion for SAP Build Work Zone, standard edition, depending on the setup or your system.
 
@@ -45,7 +45,7 @@ Depending on the type of the selected task, the details view shows the standard 
 
 The standard user interface for task details consists the following areas:
 
--   Header with the task title, task type and an *Open in App* button to open the task details in the task provider system
+-   Header with the task title, task type, and an *Open in App* button to open the task details in the task provider system
 -   Details area with additional information, if available for the selected task
 -   \(Optional\) Footer area with the available actions for the task \(for example *Approve* or *Reject*\)
 
@@ -221,7 +221,7 @@ Sometimes tasks with different task IDs might appear with the same task type. In
 To display the available custom attributes as filters and columns for a specific task, filter by the chosen task type.
 
 > ### Note:  
-> Some columns with custom attributes might be hidden for optimal visualization. You can manage the columns from Personalize \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+> Some columns with custom attributes might be hidden for optimal visualization. You can manage the columns from *Personalize* \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
 > 
 > To filter by custom attributes, select only one task type.
 
@@ -362,6 +362,9 @@ The custom attributes show additional information about a task, depending on the
 To see the available custom attributes in the Web app, you first need to filter tasks by a single *Task Type*.
 
 Some columns with custom attributes might be hidden for optimal visualization. You can adjust the display of custom attributes, using the Personalize menu \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+
+> ### Note:  
+> Please note that filtering and sorting by a custom attribute, exposing a formatted value is not possible.
 
 
 

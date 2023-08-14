@@ -86,6 +86,26 @@ Task title and additional information about the task as per destination configur
 <tr>
 <td valign="top">
 
+*Task Type*
+
+
+
+</td>
+<td valign="top">
+
+The task type name, which is provided by the task provider.
+
+For more information about the supported task types, see [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-use-cases-758209c.md).
+
+This column is not visible by default, but you can unhide it from the *Personalize* button \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Priority*
 
 
@@ -211,6 +231,7 @@ See [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-us
 -   Refresh the task list using the *Refresh Tasks* button.
 -   Use the *Mass Actions* function to process multiple tasks in parallel.
 -   Add and manage your substitutions in the *Substitution Management* view.
+-   Create your own views with the preferred filter selection.
 
 **Related Information**  
 
@@ -222,4 +243,6 @@ See [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-us
 [Working with Multiple Tasks](working-with-multiple-tasks-9f8ef8e.md "You can process multiple tasks at once, by using the Mass Actions functionality.")
 
 [Substitution Management](substitution-management-bef9b2d.md "Use Substitution Management to view and maintain your substitutions.")
+
+[Working with Views](working-with-views-b446cc8.md "Create, store, access your customized search filters in views to easily access the tasks you would like to work on.")
 

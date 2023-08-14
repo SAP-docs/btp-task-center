@@ -99,7 +99,437 @@ Available as of
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Feature
+
+End-User Personalization with Views
+
+
+
+</td>
+<td valign="top">
+
+You can now create and manage your personalized views in the SAP Task Center Web app.
+
+For more information, see [Working with Views](../70-using-the-web-app/working-with-views-b446cc8.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Build Work Zone, advanced edition Supported
+
+
+
+</td>
+<td valign="top">
+
+You can now connect SAP Build Work Zone, advanced edition to the SAP Task Center service. For more information, see [Connect SAP Build Work Zone, advanced edition and SAP Task Center](../40-administration/connect-sap-build-work-zone-advanced-edition-and-sap-task-center-f07f310.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Substitution Management Improvement
+
+
+
+</td>
+<td valign="top">
+
+In the *Substitution Management* view, you can now specify the task providers, for which a substitution rule should apply.
+
+For more information, see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Guided Tour on Substitution Management in SAP Companion
+
+
+
+</td>
+<td valign="top">
+
+A new guided tour *Using Substitution Management* is now available in the Guided Tour secion of SAP Companion in the SAP Task Center Web app.
+
+For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Task Type Column in Task Table
+
+
+
+</td>
+<td valign="top">
+
+A new column for the task type is now available in the task list \(not enabled by default\).
+
+For more information, see [SAP Task Center Web App](../70-using-the-web-app/sap-task-center-web-app-b572094.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
 
 
 
@@ -185,7 +615,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -269,7 +699,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -353,7 +783,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -437,7 +867,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -521,7 +951,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -605,7 +1035,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -689,7 +1119,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -773,7 +1203,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -859,7 +1289,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -947,7 +1377,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1031,7 +1461,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1115,7 +1545,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1201,7 +1631,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1288,7 +1718,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1376,7 +1806,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1464,7 +1894,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1548,7 +1978,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1634,7 +2064,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1716,7 +2146,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 
@@ -1802,7 +2232,7 @@ Not applicable
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
 
 
 

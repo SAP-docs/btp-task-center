@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Create a Task Center Administration Tile on SAP Build Work Zone, Standard Edition
+# Create a Task Center Administration Tile on SAP Build Work Zone, standard edition
 
 Create a Task Center Administration tile in the SAP Build Work Zone, standard edition \(formerly known as SAP Launchpad service\) to monitor the status of all active destinations and get information about their jobs and job types.
 
