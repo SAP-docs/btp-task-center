@@ -22,6 +22,8 @@ After you complete the initial setup of SAP Task Center \(see [Initial Setup](..
 
 [Configure Task Center in the SAP Mobile Start Mobile App](configure-task-center-in-the-sap-mobile-start-mobile-app-732d228.md)
 
+[Configure To Dos in SAP Start](configure-to-dos-in-sap-start-c05ad6f.md)
+
 [Repopulate the Task Cache](repopulate-the-task-cache-e93aa71.md)
 
 [Export SAP Task Center Service Data](export-sap-task-center-service-data-1dfb750.md)

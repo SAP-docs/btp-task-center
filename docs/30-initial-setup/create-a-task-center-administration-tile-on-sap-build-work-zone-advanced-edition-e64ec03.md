@@ -49,11 +49,9 @@ The following procedure describes how to create a Task Center Administration til
 
     For more information, see [Assign Apps to Roles](https://help.sap.com/docs/WZ/b03c84105ff74f809631e494bd612e83/d0842269a2bd4b97a47ac19082e286a5.html).
 
-8.  Go to the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) and create a new site \(*\+ Create Site*\).
+8.  Go to *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) and choose *Open Site* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). The Task Center Administration tile is available below *Applications*.
 
-9.  Make sure you assign the new role to the new site and assign administrators to the role collection in the SAP BTP cockpit.
-
-10. From the *Site Editor* open the site \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). The Task Center Administration tile is available now.
+9.  Make sure you assign administrators to the new role collection in the SAP BTP cockpit.
 
 
 

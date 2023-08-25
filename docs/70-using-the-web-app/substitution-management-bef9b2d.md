@@ -13,7 +13,7 @@ Open the **<span style="color:#346187;"><span class="SAP-icons"></span></span
 > ### Note:  
 > SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported.
 > 
-> Currently substitutions can be added only for SAP Fieldglass.
+> Currently substitutions can be added only for SAP Fieldglass and SAP S/4HANA Cloud.
 
 
 

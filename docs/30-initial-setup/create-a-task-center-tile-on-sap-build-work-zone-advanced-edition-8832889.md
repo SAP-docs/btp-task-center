@@ -161,10 +161,9 @@ The following procedure describes how to create a Task Center tile in SAP Build 
 
         For more information, see [Assign Apps to Roles](https://help.sap.com/docs/WZ/b03c84105ff74f809631e494bd612e83/d0842269a2bd4b97a47ac19082e286a5.html).
 
-    8.  Go to the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). You can use an already existing site or create a new one \(*\+ Create Site*\).
-    9.  From the *Site Editor* open the site \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). The Task Center tile is available now.
-    10. Activate the languages from the site settings to enable the available translations for the Web app. For more information about the supported languages and how to activate them, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
-    11. \(Optional\) Activate the SAP Companion to enable on-screen help in the SAP Task Center Web app. For more information about the SAP Companion, see [SAP Enable Now](https://help.sap.com/viewer/product/SAP_ENABLE_NOW/latest/en-US?task=use_task).
+    8.  Go to *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) and choose *Open Site* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). The Task Center tile is available below *Applications*.
+    9.  From *Site Directory*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\)** \> *Settings* you can activate the languages to enable the available translations for the Web app. For more information about the supported languages and how to activate them, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
+    10. \(Optional\) Activate the SAP Companion to enable on-screen help in the SAP Task Center Web app. For more information about the SAP Companion, see [SAP Enable Now](https://help.sap.com/viewer/product/SAP_ENABLE_NOW/latest/en-US?task=use_task).
 
         Follow the steps:
 

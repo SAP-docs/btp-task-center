@@ -113,6 +113,174 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Creating Substitution Rules for SAP S/4HANA Cloud Tasks Supported
+
+
+
+</td>
+<td valign="top">
+
+You can now create substitution rules for your SAP S/4HANA Cloud tasks. For more information, see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-08-25
+
+
+
+</td>
+<td valign="top">
+
+2023-08-25
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Processing Tasks from SAP Start To Do Cards
+
+
+
+</td>
+<td valign="top">
+
+SAP Task Center tasks can be now accessed and processed from the *To Dos* section in SAP Start. For more information, see [To Dos in SAP Start](../70-using-the-web-app/to-dos-in-sap-start-8549f76.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-08-25
+
+
+
+</td>
+<td valign="top">
+
+2023-08-25
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New Feature
 
 End-User Personalization with Views
