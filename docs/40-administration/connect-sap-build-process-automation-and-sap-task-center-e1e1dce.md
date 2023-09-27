@@ -19,7 +19,7 @@ Find information about the destination configuration that needs to be done for S
 
     For more information, see [Determine Service Configuration Parameters](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/abd070bd5d5f4835b3d5b12d868531b6.html).
 
--   You have completed all prerequisites listed in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 
 

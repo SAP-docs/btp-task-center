@@ -17,7 +17,7 @@ Find information about the destination configuration that needs to be done for S
 
 -   You have completed the steps described in [Enable SAP Task Center in SAP Fieldglass](https://help.sap.com/viewer/73c0a1be6aaa46ef9b66b1c3f28a77f4/cloud/en-US/3fabeb5092a44edd8fc3dd4b4cbc6b9e.html) to enable the functionality in SAP Fieldglass.
 
--   You have completed all prerequisites listed in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 
 > ### Note:  
@@ -529,6 +529,38 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     **Value** of *clientid*
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.notifications.enabled*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `true`
 
 
     

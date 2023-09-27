@@ -21,7 +21,7 @@ Find information about the destination configuration that needs to be done for S
 
 **Prerequisites** 
 
-1.  You have completed all prerequisites listed in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+1.  You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 2.  Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created. This enables task updates to be pushed from your ABAP system. Follow the steps in [Create a Service Instance Using the SAP BTP Cockpit](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/dc9af9fd363b4e989af6ff2f19548d32.html?version=Cloud) and create a service key for the service instance. Open the JSON file of the service key and get the following values:
 
@@ -500,6 +500,38 @@ Find information about the destination configuration that needs to be done for S
     <tr>
     <td valign="top">
     
+    *tc.notifications.enabled*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `true`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *tc.provider\_type*
 
 
@@ -671,7 +703,7 @@ Find information about the destination configuration that needs to be done for S
 
 **Prerequisites**
 
-1.  You have completed all prerequisites listed in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+1.  You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 2.  Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created. This enables task updates to be pushed from your ABAP system. Follow the steps in [Create a Service Instance Using the SAP BTP Cockpit](../30-initial-setup/create-a-service-instance-using-the-sap-btp-cockpit-dc9af9f.md) and create a service key with certificate for the new service instance. Open the JSON file of the service key and get the following values:
 
@@ -1183,6 +1215,38 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     **Value**:
+
+    `true`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.notifications.enabled*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
 
     `true`
 

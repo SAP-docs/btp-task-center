@@ -113,6 +113,94 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Notifications Supported in SAP Task Center Web app 
+
+
+
+</td>
+<td valign="top">
+
+Notifications are available in the SAP Task Center Web app upon receiving a new task in the task list.
+
+For more information on how to enable the notifications, see [Enable Notifications for End Users](../40-administration/enable-notifications-for-end-users-caf2543.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-09-27
+
+
+
+</td>
+<td valign="top">
+
+2023-09-27
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Creating Substitution Rules for SAP S/4HANA Cloud Tasks Supported
 
 
@@ -546,7 +634,7 @@ New Guided Tour on Substitution Management in SAP Companion
 </td>
 <td valign="top">
 
-A new guided tour *Using Substitution Management* is now available in the Guided Tour secion of SAP Companion in the SAP Task Center Web app.
+A new guided tour *Using Substitution Management* is now available in the Guided Tour section of SAP Companion in the SAP Task Center Web app.
 
 For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
 
@@ -718,7 +806,7 @@ New Guided Tour on Mass Actions in SAP Companion
 </td>
 <td valign="top">
 
-A new guided tour *Processing Multiple Tasks* is now available in the Guided Tour secion of SAP Companion in the SAP Task Center Web app.
+A new guided tour *Processing Multiple Tasks* is now available in the Guided Tour section of SAP Companion in the SAP Task Center Web app.
 
 For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
 

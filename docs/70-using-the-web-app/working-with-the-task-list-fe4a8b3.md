@@ -23,6 +23,20 @@ To open it, choose the SAP Companion icon \(<span style="color:#346187;"><span c
 
 
 
+<a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_Notifications"/>
+
+## Notifications
+
+The notifications must be enabled by your administrator. For more information, see [Enable Notifications for End Users](../40-administration/enable-notifications-for-end-users-caf2543.md).
+
+Once enabled, you start receiving notifications in your SAP Task Center Web app whenever a new task is added to your task list.
+
+When you receive a new task, you are notified via the notification icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\), which is updated with the number of notifications. Clicking on the notification opens the task details on fullscreen.
+
+To adjust your notifications settings, go to the user menu and choose <span style="color:#346187;"><span class="SAP-icons"></span></span> *Settings* \> **<span style="color:#346187;"><span class="SAP-icons"></span></span> *Notifications*. For more information, see [Working with Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/working-with-notifications).
+
+
+
 <a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_RefreshTasks"/>
 
 ## Refresh Tasks

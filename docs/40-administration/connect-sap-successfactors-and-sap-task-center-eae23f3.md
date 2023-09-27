@@ -15,7 +15,7 @@ Find information about the destination configuration that needs to be done for S
 
 -   You have executed the steps in [Enabling To-Do Task Integration Between SAP SuccessFactors and SAP Task Center](https://help.sap.com/viewer/568480cc877d4337992a2cd9792fbfed/latest/en-US/c15f23f6f4e24ddea84d5be8e6b935ae.html).
 
--   You have completed all prerequisites listed in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 
 > ### Note:  

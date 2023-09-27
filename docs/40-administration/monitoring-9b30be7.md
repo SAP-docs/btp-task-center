@@ -93,7 +93,7 @@ For more information about accessing the *Service Status API*, see [Task Center 
 
 ## Integration with SAP Alert Notification service for SAP BTP
 
-You can set up SAP Alert Notification service for SAP BTP to send notifications for changes in the SAP Task Center background job statuses. For more information, see [Integration with SAP Alert Notification Service for SAP Business Technology Platform](integration-with-sap-alert-notification-service-for-sap-business-technology-platform-2c1997b.md).
+You can set up SAP Alert Notification service for SAP BTP to send notifications for changes in the SAP Task Center background job statuses. For more information, see [Set Up Notifications for Administrators](set-up-notifications-for-administrators-2c1997b.md).
 
 **Related Information**  
 

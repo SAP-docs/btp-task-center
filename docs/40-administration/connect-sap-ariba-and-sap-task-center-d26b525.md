@@ -14,7 +14,7 @@ Find information about the destination configuration that needs to be done for S
 
 -   For the integration with SAP Ariba Sourcing you must have completed the steps described in [How to enable SAP Task Center for SAP Ariba Sourcing in the SAP S/4HANA Cloud 4BL and 4QN Integrations Scenarios](https://help.sap.com/docs/ARIBA_SOURCING/b6d46a2e6c3043d7bb0cbabba4262560/18bd32b6058d4e47a4f920ed115599e1.html) to enable the functionality in SAP Ariba.
 -   For the integration with SAP AribaBuying, see [SAP Task Center for SAP Ariba Buying](https://help.sap.com/docs/ARIBA_PROCUREMENT/27d44834e9164377b324539985725ecd/c80239e20d3a46bd9577f035224b7ff1.html) and contact your SAP Ariba Technical Support to enable the functionality in SAP Ariba.
--   You have completed all prerequisites listed in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 
 > ### Note:  
@@ -535,6 +535,38 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     <td valign="top">
     
     **Value**:
+
+    `true`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.notifications.enabled*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
 
     `true`
 

@@ -491,6 +491,38 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <tr>
     <td valign="top">
     
+    *tc.notifications.enabled*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `true`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *tc.provider\_type*
 
 

@@ -10,7 +10,7 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
-Before you continue, make sure you meet all prerequisites in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+Before you continue, make sure you have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html)..
 
 
 
