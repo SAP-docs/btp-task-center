@@ -261,7 +261,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Value**:
 
-    `urn\:oasis\:names\:tc\:SAML\:2.0\:ac\:classes\:PreviousSession`
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
 
 
     

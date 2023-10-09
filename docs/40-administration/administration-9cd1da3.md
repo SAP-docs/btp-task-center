@@ -24,6 +24,8 @@ After you complete the initial setup of SAP Task Center \(see [Initial Setup](..
 
 [Configure To Dos in SAP Start](configure-to-dos-in-sap-start-c05ad6f.md)
 
+[Enable Notifications for End Users](enable-notifications-for-end-users-caf2543.md)
+
 [Repopulate the Task Cache](repopulate-the-task-cache-e93aa71.md)
 
 [Export SAP Task Center Service Data](export-sap-task-center-service-data-1dfb750.md)
