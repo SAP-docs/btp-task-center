@@ -16,7 +16,7 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
 
 ## Procedure
 
-1.  Access your global account page in the SAP BTP cockpit, and choose *Boosters* from the navigation on the left.
+1.  Access your global account page in the SAP BTP cockpit, and choose *Boosters* from the navigation menu.
 
 2.  Search for *SAP Task Center* and start one of the following boosters, depening on the central point of entry for accessing apps, that you have set up in the prerequisites in [Initial Setup](initial-setup-8347694.md):
 
@@ -111,7 +111,7 @@ The automatic setup does the following for you:
 -   Enables Cloud Foundry.
 -   Configures the entitlement of SAP Task Center.
 -   Creates a default space, if you don't already have one.
--   Creates a *default\_taskcenter* service instance in *Services* \> *Instances and Subscriptions*, *Instances* tab.
+-   Creates a *default\_taskcenter* service instance in *Services* \> *Instances and Subscriptions* \> *Instances* tab.
 -   Creates a `service key` of the *default\_taskcenter* service instance.
 -   Creates a subscription to the chosen central point of entry for accessing apps.
 -   Assigns the required roles and role collections to the current user.
@@ -166,6 +166,45 @@ The automatic setup does the following for you:
     <td valign="top">
     
     [Connect SAP Ariba and SAP Task Center](../40-administration/connect-sap-ariba-and-sap-task-center-d26b525.md)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *C4C*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Use this destination for SAP Cloud for Customer and create a primary destination with the technical user.
+
+
+    
+    </td>
+    <td valign="top" rowspan="2">
+    
+    [Connect SAP Cloud for Customer and SAP Task Center](../40-administration/connect-sap-cloud-for-customer-and-sap-task-center-ec09002.md)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *C4C\_PP*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Use this destination for SAP Cloud for Customer and create a secondary destination for the principal propagation.
 
 
     
@@ -259,45 +298,6 @@ The automatic setup does the following for you:
     <tr>
     <td valign="top">
     
-    *SAPBuildPA*
-
-
-    
-    </td>
-    <td valign="top">
-    
-    Use this destination for the connection with SAP Build Process Automation from a local subaccount.
-
-
-    
-    </td>
-    <td valign="top" rowspan="2">
-    
-    [Connect SAP Build Process Automation and SAP Task Center](../40-administration/connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md)
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *SAPBuildPA\_rem*
-
-
-    
-    </td>
-    <td valign="top">
-    
-    Use this destination for the connection with SAP Build Process Automation from a remote subaccount.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
     *S4HANA*
 
 
@@ -359,6 +359,45 @@ The automatic setup does the following for you:
     <td valign="top">
     
     [Connect SAP S/4HANA Cloud, Private Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *SAPBuildPA*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Use this destination for the connection with SAP Build Process Automation from a local subaccount.
+
+
+    
+    </td>
+    <td valign="top" rowspan="2">
+    
+    [Connect SAP Build Process Automation and SAP Task Center](../40-administration/connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *SAPBuildPA\_rem*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Use this destination for the connection with SAP Build Process Automation from a remote subaccount.
 
 
     

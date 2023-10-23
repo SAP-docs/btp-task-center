@@ -136,7 +136,7 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     </td>
     <td valign="top">
     
-    Add the value of the *Host* property from the *Prerequisites* section.
+    Add the value of the *Host* property from the *Prerequisites* section and add `https://` before the *Host* value.
 
 
     
@@ -253,7 +253,7 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     </td>
     <td valign="top">
     
-    Add the value of the *Token Endpoint* property from the *Prerequisites* section.
+    Add the value of the *Token Endpoint* property from the *Prerequisites* section and add `https://` before the *Token Endpoint* value.
 
 
     
@@ -262,7 +262,7 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     
     **Example**:
 
-    `example-notifications.authentication.yourdatacenter.hana.ondemand.com/oauth/token`
+    `https://example-notifications.authentication.yourdatacenter.hana.ondemand.com/oauth/token`
 
 
     

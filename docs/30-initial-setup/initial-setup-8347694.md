@@ -5,7 +5,7 @@
 Make sure you meet the prerequisites before you perform the initial setup for SAP Task Center, following either the automatic setup \(using a booster\) or the manual setup.
 
 > ### Tip:  
-> See also the step-by-step mission for the initial setup [Establish a Central Inbox with SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3774/3813/) on SAP Discovery Center.
+> Check also the step-by-step mission for the initial setup [Establish a Central Inbox with SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3774/3813/) on SAP Discovery Center.
 
 
 
@@ -33,9 +33,9 @@ Before you can use the service, meet the following prerequisites and perform the
 
         For more information, see [Getting Started in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/b328cc89ea14484d9655b8cfb8efb508.html).
 
-    4.  Within that space, your user is assigned to the *Space Developer* role for the subaccount. You need this role to execute the configuration steps.
+    4.  Within that space, your user is assigned to the *Space Developer* role for the subaccount. For more information, see [About Roles in the Cloud Foundry Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/about-roles-in-cloud-foundry-environment). You need this role to perform the configuration steps.
 
-        For more information, see [User and Member Management](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html).
+        For more information, see [Add Space Members Using the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/add-space-members-using-cockpit).
 
     5.  Establish trust with the User Account and Authentication \(UAA\) of your subaccount, using Identity Authentication.
 
@@ -70,7 +70,7 @@ Before you can use the service, meet the following prerequisites and perform the
 
 
     > ### Note:  
-    > Having subscriptions on both SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone on the same subaccount isn't supported. If you are already using SAP SuccessFactors Work Zone in your subaccount, you will need to either choose a different subaccount or unsubscribe before you on board to SAP Build Work Zone, advanced edition. For more information, see [SAP Build Work Zone, Advanced Edition Administrator Guide](https://help.sap.com/docs/WZ/b03c84105ff74f809631e494bd612e83/9e78b62e8d2a4e1b928d85d22fe957a7.html#create-a-subaccount).
+    > Having subscriptions on both SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone on the same subaccount isn't supported. If you are already using SAP SuccessFactors Work Zone in your subaccount, you will need to either choose a different subaccount or unsubscribe before you onboard to SAP Build Work Zone, advanced edition. For more information, see [SAP Build Work Zone, Advanced Edition Administrator Guide](https://help.sap.com/docs/WZ/b03c84105ff74f809631e494bd612e83/9e78b62e8d2a4e1b928d85d22fe957a7.html#create-a-subaccount).
 
 
 

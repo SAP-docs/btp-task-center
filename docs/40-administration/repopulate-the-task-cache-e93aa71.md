@@ -39,5 +39,5 @@ To delete and repopulate the task cache for a destination \(see [Destinations](d
 
 ## Results
 
-The task cache is now repopulated for this destination. You should be able to see all tasks from this destination,which have been updated or crated during the maximum initial pull period. For more information about the maximum initial pull period, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md).
+The task cache is now repopulated for this destination. You should be able to see all tasks from this destination, which have been updated or crated during the maximum initial pull period. For more information about the maximum initial pull period, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md).
 

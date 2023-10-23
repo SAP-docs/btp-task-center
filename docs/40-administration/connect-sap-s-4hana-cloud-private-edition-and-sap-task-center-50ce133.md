@@ -12,9 +12,6 @@ Find information about the destination configuration that needs to be done for S
 
 -   You have performed the steps in [Prepare SAP Cloud Connector and SAP S/4HANA for the SAP Task Center Connection](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/0f18dddf28764f5b807ecd80549044cc/5c6cf3d9e754468fbd6b3f5073fe085f.html?locale=en-US&version=latest). Choose your SAP S/4HANA Cloud, private edition version from the dropdown menu next to the documentation title.
 
-    > ### Caution:  
-    > For the setup of SAP Task Center, you must have a Cloud Connector that uses user UUID as the subject pattern for principal propagation. If you already have a Cloud Connector configuration that uses a different subject pattern \(for example, e-mail\), create a second Cloud Connector with user UUID and use it for the SAP Task Center communication.
-
     Make sure you save the following information, as you need it for the SAP S/4HANA Cloud, private edition destination setup:
 
     -   \(Optional\) *Location ID* from step *Perform the initial configuration of the Cloud Connector and define location ID*

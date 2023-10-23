@@ -26,9 +26,11 @@ Choose one of the options to see the procedure.
 
 **Procedure**
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select *Connectivity* \> *Destinations* from the navigation area on the left.
+1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select *Connectivity* \> *Destinations* from the navigation area.
 
-2.  Create a new destination and manually add the properties as described below.
+2.  If you have run the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), then you already have a sample destination called *C4C*. You can use the sample destination or clone it, and update the properties as described next.
+
+    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described next.
 
     Configure the properties of the destination as described in the following table:
 
@@ -496,7 +498,9 @@ Choose one of the options to see the procedure.
 
 1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select *Connectivity* \> *Destinations* from the navigation area on the left.
 
-2.  Create a new destination and manually add the properties as described below.
+2.  If you have run the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), then you already have a sample destination called *C4C*. You can use the sample destination or clone it, and update the properties as described below.
+
+    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to Create a new destination and manually add the properties as described below.
 
     Configure the properties of the destination as described in the following table:
 
