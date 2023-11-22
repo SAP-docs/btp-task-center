@@ -51,22 +51,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -74,15 +68,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Add `Identity_Authentication_Connectivity_IDS` as name of this destination.
-
-
     
     </td>
     <td valign="top">
@@ -90,8 +80,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     **Value**:
 
     `Identity_Authentication_Connectivity_IDS`
-
-
     
     </td>
     </tr>
@@ -99,22 +87,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -122,15 +104,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
@@ -138,8 +116,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     **Example**:
 
     `Identity Authentication Connectivity`
-
-
     
     </td>
     </tr>
@@ -147,15 +123,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
     
     Add the URL you created in *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
@@ -163,8 +135,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     **Example**:
 
     `https://example.accounts.ondemand.com/scim`
-
-
     
     </td>
     </tr>
@@ -172,22 +142,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -195,22 +159,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *BasicAuthentication* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -218,8 +176,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *User*
-
-
     
     </td>
     <td valign="top">
@@ -227,15 +183,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     Add the client ID of the system as administrator.
 
     For more information, see *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -243,8 +195,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Password*
-
-
     
     </td>
     <td valign="top">
@@ -252,15 +202,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     Add the client secret of the system as administrator.
 
     For more information, see *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -308,22 +254,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -331,15 +271,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Add `Identity_Authentication_Connectivity_IDS` as name of this destination.
-
-
     
     </td>
     <td valign="top">
@@ -347,8 +283,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     **Value**:
 
     `Identity_Authentication_Connectivity_IDS`
-
-
     
     </td>
     </tr>
@@ -356,22 +290,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -379,15 +307,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
@@ -395,8 +319,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     **Example**:
 
     `Identity Authentication Connectivity`
-
-
     
     </td>
     </tr>
@@ -404,15 +326,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
     
     Add the URL you created in *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
@@ -420,8 +338,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     **Example**:
 
     `https://example.accounts.ondemand.com/scim`
-
-
     
     </td>
     </tr>
@@ -429,22 +345,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -452,22 +362,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *ClientCertificateAuthentication* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -475,22 +379,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Use client provided certificate*
-
-
     
     </td>
     <td valign="top">
     
     Make sure this checkbox is deselected.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -498,15 +396,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Key Store Location*
-
-
     
     </td>
     <td valign="top">
     
     Choose the certificate you uploaded in *Step 3* from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
@@ -514,8 +408,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     **Example**:
 
     `ids.p12`
-
-
     
     </td>
     </tr>
@@ -523,8 +415,6 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
     *Key Store Password*
-
-
     
     </td>
     <td valign="top">
@@ -532,15 +422,11 @@ You can set up this connectivity either by using the basic authentication, or vi
     Add the password of the certificate.
 
     For more information, see *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>

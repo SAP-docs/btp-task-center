@@ -38,14 +38,10 @@ The columns that are displayed by default in the Web app contain the following i
 
 Column Name
 
-
-
 </th>
 <th valign="top">
 
 Details
-
-
 
 </th>
 </tr>
@@ -54,16 +50,12 @@ Details
 
 \(Optional\) *Processing Errors*
 
-
-
 </td>
 <td valign="top">
 
 This column appears by default only on the *Failed Tasks* filter tab, if there are failed tasks in the task list. A failed task is a task, for which an attempt to execute an action has failed.
 
 To see details about the failed task, choose the *Processing Errors* icon \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) in the row of the task.
-
-
 
 </td>
 </tr>
@@ -72,14 +64,10 @@ To see details about the failed task, choose the *Processing Errors* icon \(<spa
 
 *Task*
 
-
-
 </td>
 <td valign="top">
 
 Task title and additional information about the task as per destination configuration. For more information, see the information related to *tc.ui.label* in [Destinations](../40-administration/destinations-3470733.md).
-
-
 
 </td>
 </tr>
@@ -87,8 +75,6 @@ Task title and additional information about the task as per destination configur
 <td valign="top">
 
 *Task Type*
-
-
 
 </td>
 <td valign="top">
@@ -99,8 +85,6 @@ For more information about the supported task types, see [Supported Solutions an
 
 This column is not visible by default, but you can unhide it from the *Personalize* button \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
 
-
-
 </td>
 </tr>
 <tr>
@@ -108,14 +92,10 @@ This column is not visible by default, but you can unhide it from the *Personali
 
 *Priority*
 
-
-
 </td>
 <td valign="top">
 
 The priority of the task
-
-
 
 </td>
 </tr>
@@ -124,14 +104,10 @@ The priority of the task
 
 *Created By*
 
-
-
 </td>
 <td valign="top">
 
 Shows the display name of the user, who created the task, if set by the task provider system.
-
-
 
 </td>
 </tr>
@@ -139,8 +115,6 @@ Shows the display name of the user, who created the task, if set by the task pro
 <td valign="top">
 
 *Status*
-
-
 
 </td>
 <td valign="top">
@@ -159,14 +133,10 @@ The current status of the task
 
 *Created On*
 
-
-
 </td>
 <td valign="top">
 
 Creation date
-
-
 
 </td>
 </tr>
@@ -175,14 +145,10 @@ Creation date
 
 *Due*
 
-
-
 </td>
 <td valign="top">
 
 Due date
-
-
 
 </td>
 </tr>
@@ -191,16 +157,12 @@ Due date
 
 *Actions*
 
-
-
 </td>
 <td valign="top">
 
 Displays the list of possible decision options for a task, for example *Approve* or *Reject*.
 
 Additionally, you can open the task in the task provider, by choosing *Open in App*.
-
-
 
 </td>
 </tr>

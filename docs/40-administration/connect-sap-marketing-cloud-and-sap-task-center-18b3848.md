@@ -46,22 +46,16 @@ Find information about the destination configuration that needs to be done for S
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -69,8 +63,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
@@ -88,8 +80,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `SMC`
-
-
     
     </td>
     </tr>
@@ -97,22 +87,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -120,15 +104,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
@@ -136,8 +116,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `SAP Marketing Cloud Connector`
-
-
     
     </td>
     </tr>
@@ -145,8 +123,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -166,8 +142,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `https://example-api.s4hana.ondemand.com/`
-
-
     
     </td>
     </tr>
@@ -175,22 +149,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Proxy type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -198,22 +166,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -221,15 +183,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Audience*
-
-
     
     </td>
     <td valign="top">
     
     Add the *SAML2 Audience*, that you copied in the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
@@ -237,8 +195,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `https://example.s4hana.ondemand.com`
-
-
     
     </td>
     </tr>
@@ -246,15 +202,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *AuthnContextClassRef*
-
-
     
     </td>
     <td valign="top">
     
     Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
-
-
     
     </td>
     <td valign="top">
@@ -262,8 +214,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:X509`
-
-
     
     </td>
     </tr>
@@ -271,15 +221,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Client Key*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Client ID*, that you copied in the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
@@ -287,8 +233,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `COM501SID100`
-
-
     
     </td>
     </tr>
@@ -296,22 +240,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service URL Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose *Dedicated*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -319,15 +257,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service URL*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Token Service URL*, that you copied in the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
@@ -335,8 +269,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `https://example-api.s4hana.ondemand.com/sap/bc/sec/oauth2/token`
-
-
     
     </td>
     </tr>
@@ -344,15 +276,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service User*
-
-
     
     </td>
     <td valign="top">
     
     Add the *User Name*, that you copied in the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
@@ -360,8 +288,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `COM501SID100`
-
-
     
     </td>
     </tr>
@@ -369,22 +295,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service Password*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Password*, that you copied in the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -400,22 +320,16 @@ Find information about the destination configuration that needs to be done for S
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -423,8 +337,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -454,8 +366,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -463,8 +373,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.notifications.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -486,8 +394,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -495,15 +401,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.provider\_type*
-
-
     
     </td>
     <td valign="top">
     
     Type of the task provider.
-
-
     
     </td>
     <td valign="top">
@@ -511,8 +413,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `SMC`
-
-
     
     </td>
     </tr>
@@ -524,8 +424,6 @@ Find information about the destination configuration that needs to be done for S
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -542,15 +440,11 @@ Find information about the destination configuration that needs to be done for S
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
-
-
     
     </td>
     <td valign="top">
     
     `SAP Marketing Cloud`
-
-
     
     </td>
     </tr>
@@ -562,8 +456,6 @@ Find information about the destination configuration that needs to be done for S
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -580,8 +472,6 @@ Find information about the destination configuration that needs to be done for S
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
-
-
     
     </td>
     <td valign="top">
@@ -593,8 +483,6 @@ Find information about the destination configuration that needs to be done for S
     **Example for *tc.ui.label.de-DE***:
 
     `SAP Marketing Cloud Aufgabe`
-
-
     
     </td>
     </tr>
@@ -602,15 +490,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *URL.queries.sap-client*
-
-
     
     </td>
     <td valign="top">
     
     The client number of the SAP Marketing Cloud system.
-
-
     
     </td>
     <td valign="top">
@@ -618,8 +502,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `100`
-
-
     
     </td>
     </tr>
@@ -627,15 +509,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *userIdSource*
-
-
     
     </td>
     <td valign="top">
     
     Assertion attribute configured in Identity Authentication and used for user authentication.
-
-
     
     </td>
     <td valign="top">
@@ -643,8 +521,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     user\_uuid
-
-
     
     </td>
     </tr>

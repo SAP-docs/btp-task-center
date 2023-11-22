@@ -86,6 +86,8 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 
 [Supported Solutions and Use Cases](supported-solutions-and-use-cases-758209c.md "See the list of the supported solutions and use cases in SAP Task Center.")
 
+[Supported Features](supported-features-257a0ad.md "")
+
 [Browser Support](browser-support-d769477.md "")
 
 [Accessibility Features in SAP Task Center](accessibility-features-in-sap-task-center-b77f9a3.md "To optimize your experience of SAP Task Center, SAP Business Technology Platform (SAP BTP) provides features and settings that help you use the software efficiently.")

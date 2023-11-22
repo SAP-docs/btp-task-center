@@ -63,22 +63,16 @@ Find information about the destination configuration that needs to be done for S
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -86,8 +80,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
@@ -108,8 +100,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `Fieldglass`
-
-
     
     </td>
     </tr>
@@ -117,22 +107,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -140,22 +124,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -163,8 +141,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -188,8 +164,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     If `https://ie1.fgvms.com` is the instance you are using to log in, then the URL should be `https://ie1.fgvms.com/api/v1`.
-
-
     
     </td>
     </tr>
@@ -197,22 +171,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -220,22 +188,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -243,15 +205,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Audience*
-
-
     
     </td>
     <td valign="top">
     
     The *Audience* is used to construct the SAML assertion.
-
-
     
     </td>
     <td valign="top">
@@ -259,8 +217,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `Fieldglass`
-
-
     
     </td>
     </tr>
@@ -268,15 +224,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *AuthnContextClassRef*
-
-
     
     </td>
     <td valign="top">
     
     Value of the `AuthnContextClassRef` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
-
-
     
     </td>
     <td valign="top">
@@ -284,8 +236,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
-
-
     
     </td>
     </tr>
@@ -293,22 +243,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Client Key*
-
-
     
     </td>
     <td valign="top">
     
     Add the `API Application Key` value located on the *View Application Keys* page in SAP Fieldglass Configuration Manager.
-
-
     
     </td>
     <td valign="top">
     
     **Value** of `API Application Key`
-
-
     
     </td>
     </tr>
@@ -316,22 +260,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service URL Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose *Dedicated*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -339,8 +277,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service URL*
-
-
     
     </td>
     <td valign="top">
@@ -352,8 +288,6 @@ Find information about the destination configuration that needs to be done for S
     For EU datacenter, use [http://fieldglass.eu/api/oauth2/v2.0/token](http://fieldglass.eu/api/oauth2/v2.0/token).
 
     If you don’t know which SAP Fieldglass datacenter you are using, please contact the SAP Fieldglass [Customer Support](https://www.fieldglass.com/customer-support).
-
-
     
     </td>
     <td valign="top">
@@ -361,8 +295,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     If `https://ie1.fgvms.com` is the instance you are using to log in, then the URL should be `https://ie1.fgvms.com/api/oauth2/v2.0/token`.
-
-
     
     </td>
     </tr>
@@ -370,22 +302,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service User*
-
-
     
     </td>
     <td valign="top">
     
     Add the `Virtual Person Name (Username)` value located in the *Web Services* section on the *View Application Keys* page in SAP Fieldglass Configuration Manager.
-
-
     
     </td>
     <td valign="top">
     
     **Value** of `Virtual Person Name (Username)`
-
-
     
     </td>
     </tr>
@@ -393,22 +319,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service Password*
-
-
     
     </td>
     <td valign="top">
     
     Add the `License Key` value located in the *Web Services* section on the *View Application Keys* page in SAP Fieldglass Configuration Manager.
-
-
     
     </td>
     <td valign="top">
     
     **Value** of `License Key`
-
-
     
     </td>
     </tr>
@@ -422,22 +342,16 @@ Find information about the destination configuration that needs to be done for S
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -445,15 +359,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *nameIdFormat*
-
-
     
     </td>
     <td valign="top">
     
     Value of the `NameIdFormat` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
-
-
     
     </td>
     <td valign="top">
@@ -461,8 +371,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
-
-
     
     </td>
     </tr>
@@ -470,8 +378,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -501,8 +407,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -510,8 +414,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.clientId*
-
-
     
     </td>
     <td valign="top">
@@ -529,8 +431,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     **Value** of *clientid*
-
-
     
     </td>
     </tr>
@@ -538,8 +438,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.notifications.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -561,8 +459,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -570,15 +466,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.provider\_type*
-
-
     
     </td>
     <td valign="top">
     
     Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
-
-
     
     </td>
     <td valign="top">
@@ -586,8 +478,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `Fieldglass`
-
-
     
     </td>
     </tr>
@@ -599,8 +489,6 @@ Find information about the destination configuration that needs to be done for S
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -617,8 +505,6 @@ Find information about the destination configuration that needs to be done for S
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
-
-
     
     </td>
     <td valign="top">
@@ -626,8 +512,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `SAP Fieldglass`
-
-
     
     </td>
     </tr>
@@ -639,8 +523,6 @@ Find information about the destination configuration that needs to be done for S
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -657,8 +539,6 @@ Find information about the destination configuration that needs to be done for S
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
-
-
     
     </td>
     <td valign="top">
@@ -670,8 +550,6 @@ Find information about the destination configuration that needs to be done for S
     **Example for *tc.ui.label.de-DE***:
 
     `SAP Fieldglass Aufgabe`
-
-
     
     </td>
     </tr>
@@ -679,22 +557,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tokenServiceURL.queries.client\_id*
-
-
     
     </td>
     <td valign="top">
     
     Add the `Client ID` from *Step 3* of this procedure.
-
-
     
     </td>
     <td valign="top">
     
     **Value** of `Client ID`
-
-
     
     </td>
     </tr>
@@ -702,22 +574,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tokenServiceURL.queries.client\_secret*
-
-
     
     </td>
     <td valign="top">
     
     Add the `Client Secret` from *Step 3* of this procedure.
-
-
     
     </td>
     <td valign="top">
     
     **Value** of `Client Secret`
-
-
     
     </td>
     </tr>
@@ -725,8 +591,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *URL.headers.X-ApplicationKey*
-
-
     
     </td>
     <td valign="top">
@@ -734,15 +598,11 @@ Find information about the destination configuration that needs to be done for S
     Add the `API Application Key` value located on the *View Application Keys* page in SAP Fieldglass Configuration Manager.
 
     This value is used when making calls to the *URL* in this destination.
-
-
     
     </td>
     <td valign="top">
     
     **Value** of `API Application Key` 
-
-
     
     </td>
     </tr>

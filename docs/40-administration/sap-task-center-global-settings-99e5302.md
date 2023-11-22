@@ -22,22 +22,16 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -45,15 +39,11 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Task\_Center\_global\_settings
-
-
     
     </td>
     <td valign="top">
@@ -61,8 +51,6 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     **Value**:
 
     `Task_Center_global_settings`
-
-
     
     </td>
     </tr>
@@ -70,22 +58,16 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -93,22 +75,16 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description as a free text.
-
-
     
     </td>
     <td valign="top">
     
     `SAP Task Center Global Settings`
-
-
     
     </td>
     </tr>
@@ -116,15 +92,11 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
     
     Add `http://sap.com/` as value.
-
-
     
     </td>
     <td valign="top">
@@ -132,8 +104,6 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     **Value**:
 
     `http://sap.com/`
-
-
     
     </td>
     </tr>
@@ -141,22 +111,16 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -164,22 +128,16 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *NoAuthentication* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -193,22 +151,16 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -216,8 +168,6 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     <td valign="top">
     
     *tc.languages*
-
-
     
     </td>
     <td valign="top">
@@ -243,8 +193,6 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     **Example**:
 
     `en-US,de-DE`
-
-
     
     </td>
     </tr>

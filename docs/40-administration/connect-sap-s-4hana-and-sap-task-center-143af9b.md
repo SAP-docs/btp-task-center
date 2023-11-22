@@ -54,22 +54,16 @@ Find information about the destination configuration that needs to be done for S
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -77,8 +71,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
@@ -96,8 +88,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `S4HANA`
-
-
     
     </td>
     </tr>
@@ -105,22 +95,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -128,22 +112,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -151,8 +129,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -168,8 +144,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -177,22 +151,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Proxy type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *OnPremise* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -200,22 +168,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *BasicAuthentication* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -223,22 +185,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *User*
-
-
     
     </td>
     <td valign="top">
     
     Add the service user for task pull service. For more information, see *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -246,22 +202,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Password*
-
-
     
     </td>
     <td valign="top">
     
     Add the password for the service user for task pull service. For more information, see *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -269,22 +219,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Location ID*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Provide the *Location ID* that you configured in the initial configuration of the SAP Cloud Connector. For more information, see *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -298,22 +242,16 @@ Find information about the destination configuration that needs to be done for S
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -321,8 +259,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -352,8 +288,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -361,8 +295,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.notifications.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -384,8 +316,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -393,22 +323,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.provider\_type*
-
-
     
     </td>
     <td valign="top">
     
     Type of the task provider.
-
-
     
     </td>
     <td valign="top">
     
     `S/4HANA`
-
-
     
     </td>
     </tr>
@@ -420,8 +344,6 @@ Find information about the destination configuration that needs to be done for S
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -438,8 +360,6 @@ Find information about the destination configuration that needs to be done for S
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
-
-
     
     </td>
     <td valign="top">
@@ -447,8 +367,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `SAP S/4HANA`
-
-
     
     </td>
     </tr>
@@ -460,8 +378,6 @@ Find information about the destination configuration that needs to be done for S
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -478,8 +394,6 @@ Find information about the destination configuration that needs to be done for S
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
-
-
     
     </td>
     <td valign="top">
@@ -491,8 +405,6 @@ Find information about the destination configuration that needs to be done for S
     **Example for *tc.ui.label.de-DE***:
 
     `SAP S/4HANA Aufgabe`
-
-
     
     </td>
     </tr>
@@ -500,15 +412,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *URL.queries.sap-client*
-
-
     
     </td>
     <td valign="top">
     
     The client number of the SAP S/4HANA system.
-
-
     
     </td>
     <td valign="top">
@@ -516,8 +424,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `100`
-
-
     
     </td>
     </tr>

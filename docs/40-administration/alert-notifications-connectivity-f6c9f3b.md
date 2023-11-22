@@ -34,22 +34,16 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -57,15 +51,11 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Add `Alert_Notification_Connectivity_ANS` as name of this destination.
-
-
     
     </td>
     <td valign="top">
@@ -73,8 +63,6 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     **Value**:
 
     `Alert_Notification_Connectivity_ANS`
-
-
     
     </td>
     </tr>
@@ -82,22 +70,16 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -105,15 +87,11 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
@@ -121,8 +99,6 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     **Example**:
 
     `Notification Destination`
-
-
     
     </td>
     </tr>
@@ -130,15 +106,11 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
     
     Add the value of the *Host* property from the *Prerequisites* section and add `https://` before the *Host* value.
-
-
     
     </td>
     <td valign="top">
@@ -146,8 +118,6 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     **Example**:
 
     `https://notifications.cfapps.yourdatacenter.hana.ondemand.com`
-
-
     
     </td>
     </tr>
@@ -155,22 +125,16 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -178,22 +142,16 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *OAuth2ClientCredentials* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -201,22 +159,16 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <td valign="top">
     
     *Client ID*
-
-
     
     </td>
     <td valign="top">
     
     Add the value of the *OAuth 2.0 Client ID* property from the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -224,22 +176,16 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <td valign="top">
     
     *Client Secret*
-
-
     
     </td>
     <td valign="top">
     
     Add the value of the *Client Secret* property from the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -247,15 +193,11 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     <td valign="top">
     
     *Token Service URL*
-
-
     
     </td>
     <td valign="top">
     
     Add the value of the *Token Endpoint* property from the *Prerequisites* section and add `https://` before the *Token Endpoint* value.
-
-
     
     </td>
     <td valign="top">
@@ -263,8 +205,6 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
     **Example**:
 
     `https://example-notifications.authentication.yourdatacenter.hana.ondemand.com/oauth/token`
-
-
     
     </td>
     </tr>

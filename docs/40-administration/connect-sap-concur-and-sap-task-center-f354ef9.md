@@ -55,22 +55,16 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -78,8 +72,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
@@ -100,8 +92,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Example**:
 
     `Concur_Request`
-
-
     
     </td>
     </tr>
@@ -109,22 +99,16 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose *HTTP*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -132,22 +116,16 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -155,8 +133,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -197,22 +173,16 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose *Internet*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -220,22 +190,16 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose *OAuth2SAMLBearerAssertion*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -243,15 +207,11 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *Audience*
-
-
     
     </td>
     <td valign="top">
     
     Used to construct the SAML assertion. Its value should be `Concur`.
-
-
     
     </td>
     <td valign="top">
@@ -259,8 +219,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Value**:
 
     `Concur`
-
-
     
     </td>
     </tr>
@@ -268,15 +226,11 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *AuthnContextClassRef*
-
-
     
     </td>
     <td valign="top">
     
     Value of the `AuthnContextClassRef` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
-
-
     
     </td>
     <td valign="top">
@@ -284,8 +238,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Value**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
-
-
     
     </td>
     </tr>
@@ -293,8 +245,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *Client Key*
-
-
     
     </td>
     <td valign="top">
@@ -302,15 +252,11 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     Add the `Company Request Token` you have created in the *Prerequisites* section.
 
     This value is automatically replaced with a `refresh token` after a communication exchange between SAP Concur and SAP Task Center.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -318,22 +264,16 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *Token Service URL Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose *Dedicated*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -341,8 +281,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *Token Service URL*
-
-
     
     </td>
     <td valign="top">
@@ -350,8 +288,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     Enter the appropriate URL: `https://<datacenter_base_URI>/oauth2/v0/token`
 
     For the full list of SAP Concur datacenter base URIs, contact your SAP Concur implementation consultant.
-
-
     
     </td>
     <td valign="top">
@@ -359,8 +295,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Example**:
 
     `https://us2.api.concursolutions.com/oauth2/v0/token`
-
-
     
     </td>
     </tr>
@@ -374,22 +308,16 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -397,8 +325,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *tc.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -428,8 +354,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Value**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -437,8 +361,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *tc.concur.auth.req.token.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -456,8 +378,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -465,8 +385,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *tc.concur.dc*
-
-
     
     </td>
     <td valign="top">
@@ -474,8 +392,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     Corresponds to the data center, where this SAP Concur destination is located \(see your `URL` parameter\).
 
     Valid values are `eu2` and `us2`.
-
-
     
     </td>
     <td valign="top">
@@ -483,8 +399,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Example**:
 
     `eu2`
-
-
     
     </td>
     </tr>
@@ -492,22 +406,16 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *tc.concur.companyUUID*
-
-
     
     </td>
     <td valign="top">
     
     Add the value of `Company UUID` you have created in the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
     
     **Value of** `Company UUID`
-
-
     
     </td>
     </tr>
@@ -515,8 +423,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *tc.grant\_type*
-
-
     
     </td>
     <td valign="top">
@@ -524,15 +430,11 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     Set this property to `refresh_token`.
 
     This property enables SAP Task Center to use the `refresh token` maintained in the *Client Key* property.
-
-
     
     </td>
     <td valign="top">
     
     **Value**: `refresh_token`
-
-
     
     </td>
     </tr>
@@ -540,8 +442,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *tc.notifications.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -563,8 +463,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Example**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -572,15 +470,11 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <td valign="top">
     
     *tc.provider\_type*
-
-
     
     </td>
     <td valign="top">
     
     Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/53157da9e7ed498ea6b30298bf7d5213.html). 
-
-
     
     </td>
     <td valign="top">
@@ -588,8 +482,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Value**:
 
     `Concur`
-
-
     
     </td>
     </tr>
@@ -601,8 +493,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -619,8 +509,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/53157da9e7ed498ea6b30298bf7d5213.html).
-
-
     
     </td>
     <td valign="top">
@@ -628,8 +516,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Example**:
 
     `SAP Concur`
-
-
     
     </td>
     </tr>
@@ -641,8 +527,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -659,8 +543,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/a0be9ad5cd7146fca3ac29b92ab631dc.html).
-
-
     
     </td>
     <td valign="top">
@@ -672,8 +554,6 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     **Example for *tc.ui.label.de-DE***:
 
     `SAP Concur Request Aufgabe`
-
-
     
     </td>
     </tr>

@@ -57,21 +57,15 @@ The information displayed in the views is provided by the Task Center API. For m
 
 View
 
-
-
 </th>
 <th valign="top">
 
 Information Provided in the View
 
-
-
 </th>
 <th valign="top">
 
 Related End Point
-
-
 
 </th>
 </tr>
@@ -79,8 +73,6 @@ Related End Point
 <td valign="top">
 
 Destinations View
-
-
 
 </td>
 <td valign="top">
@@ -103,16 +95,12 @@ Destinations View
 
 `/task-center-service/v1/connectors`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Job View
-
-
 
 </td>
 <td valign="top">
@@ -141,14 +129,10 @@ Job View
 
 For more information about the available job types and their statuses, see [Monitoring](monitoring-9b30be7.md).
 
-
-
 </td>
 <td valign="top">
 
 `/task-center-service/v1/connectors/{connectorId}`
-
-
 
 </td>
 </tr>
@@ -156,8 +140,6 @@ For more information about the available job types and their statuses, see [Moni
 <td valign="top">
 
 Log View
-
-
 
 </td>
 <td valign="top">
@@ -171,8 +153,6 @@ Log View
 <td valign="top">
 
 `/task-center-service/v1/connectors/{connectorId}/jobTypes/{jobType}`
-
-
 
 </td>
 </tr>
@@ -199,14 +179,10 @@ Use the *Refresh* button \(<span style="color:#346187;"><span class="SAP-icons">
 
 Column
 
-
-
 </th>
 <th valign="top">
 
 Details
-
-
 
 </th>
 </tr>
@@ -215,14 +191,10 @@ Details
 
 *ID*
 
-
-
 </td>
 <td valign="top">
 
 The *Service\_Configuration* ID is related to the *Task\_Center\_global\_settings* destination. See also [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
-
-
 
 </td>
 </tr>
@@ -231,16 +203,12 @@ The *Service\_Configuration* ID is related to the *Task\_Center\_global\_setting
 
 The *IDS\_Configuration* ID is related to the *Identity\_Authentication\_Connectivity\_IDS* destination. See also [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Status*
-
-
 
 </td>
 <td valign="top">
@@ -265,14 +233,10 @@ For more information, see the message.
 
 *Message*
 
-
-
 </td>
 <td valign="top">
 
 Displays a message returned by the service.
-
-
 
 </td>
 </tr>
@@ -281,14 +245,10 @@ Displays a message returned by the service.
 
 *Modified At*
 
-
-
 </td>
 <td valign="top">
 
 Date and time when the last status update was retrieved.
-
-
 
 </td>
 </tr>

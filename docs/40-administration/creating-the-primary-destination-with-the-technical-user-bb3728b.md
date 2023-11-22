@@ -40,22 +40,16 @@ Choose one of the options to see the procedure.
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -63,8 +57,6 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
@@ -86,8 +78,6 @@ Choose one of the options to see the procedure.
     **Example**:
 
     `C4C`
-
-
     
     </td>
     </tr>
@@ -95,22 +85,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -118,22 +102,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -141,8 +119,6 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -160,8 +136,6 @@ Choose one of the options to see the procedure.
     **Example**:
 
     `https://example.sapbydesign.com`
-
-
     
     </td>
     </tr>
@@ -169,22 +143,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -192,22 +160,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *BasicAuthentication* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -215,22 +177,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *User*
-
-
     
     </td>
     <td valign="top">
     
     Add the *User* from *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -238,22 +194,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Password*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Password* from *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -267,22 +217,16 @@ Choose one of the options to see the procedure.
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -290,8 +234,6 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *tc.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -321,8 +263,6 @@ Choose one of the options to see the procedure.
     **Value**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -330,8 +270,6 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *tc.notifications.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -353,8 +291,6 @@ Choose one of the options to see the procedure.
     **Example**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -362,15 +298,11 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *tc.provider\_type*
-
-
     
     </td>
     <td valign="top">
     
     Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
-
-
     
     </td>
     <td valign="top">
@@ -378,8 +310,6 @@ Choose one of the options to see the procedure.
     **Value**:
 
     `C4C`
-
-
     
     </td>
     </tr>
@@ -391,8 +321,6 @@ Choose one of the options to see the procedure.
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -409,8 +337,6 @@ Choose one of the options to see the procedure.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
-
-
     
     </td>
     <td valign="top">
@@ -418,8 +344,6 @@ Choose one of the options to see the procedure.
     **Example**:
 
     `SAP Cloud for Customer`
-
-
     
     </td>
     </tr>
@@ -431,8 +355,6 @@ Choose one of the options to see the procedure.
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -449,8 +371,6 @@ Choose one of the options to see the procedure.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
-
-
     
     </td>
     <td valign="top">
@@ -462,8 +382,6 @@ Choose one of the options to see the procedure.
     **Example for *tc.ui.label.de-DE***:
 
     `SAP Cloud for Customer Aufgabe`
-
-
     
     </td>
     </tr>
@@ -510,22 +428,16 @@ Choose one of the options to see the procedure.
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -533,8 +445,6 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
@@ -556,8 +466,6 @@ Choose one of the options to see the procedure.
     **Example**:
 
     `C4C`
-
-
     
     </td>
     </tr>
@@ -565,22 +473,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -588,22 +490,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -611,8 +507,6 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -630,8 +524,6 @@ Choose one of the options to see the procedure.
     **Example**:
 
     `https://example.sapbydesign.com`
-
-
     
     </td>
     </tr>
@@ -639,22 +531,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -662,22 +548,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *ClientCertificateAuthentication* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -685,15 +565,11 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Key Store Location*
-
-
     
     </td>
     <td valign="top">
     
     From the dropdown menu choose the certificate you downloaded in *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
@@ -701,8 +577,6 @@ Choose one of the options to see the procedure.
     **Example**:
 
     `c4c.p12`
-
-
     
     </td>
     </tr>
@@ -710,22 +584,16 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *Key Store Password*
-
-
     
     </td>
     <td valign="top">
     
     Add the certificate password from *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -739,22 +607,16 @@ Choose one of the options to see the procedure.
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -762,8 +624,6 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *tc.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -793,8 +653,6 @@ Choose one of the options to see the procedure.
     **Value**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -802,8 +660,6 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *tc.notifications.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -825,8 +681,6 @@ Choose one of the options to see the procedure.
     **Example**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -834,15 +688,11 @@ Choose one of the options to see the procedure.
     <td valign="top">
     
     *tc.provider\_type*
-
-
     
     </td>
     <td valign="top">
     
     Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
-
-
     
     </td>
     <td valign="top">
@@ -850,8 +700,6 @@ Choose one of the options to see the procedure.
     **Value**:
 
     `C4C`
-
-
     
     </td>
     </tr>
@@ -863,8 +711,6 @@ Choose one of the options to see the procedure.
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -881,8 +727,6 @@ Choose one of the options to see the procedure.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
-
-
     
     </td>
     <td valign="top">
@@ -890,8 +734,6 @@ Choose one of the options to see the procedure.
     **Example**:
 
     `SAP Cloud for Customer`
-
-
     
     </td>
     </tr>
@@ -903,8 +745,6 @@ Choose one of the options to see the procedure.
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -921,8 +761,6 @@ Choose one of the options to see the procedure.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
-
-
     
     </td>
     <td valign="top">
@@ -934,8 +772,6 @@ Choose one of the options to see the procedure.
     **Example for *tc.ui.label.de-DE***:
 
     `SAP Cloud for Customer Aufgabe`
-
-
     
     </td>
     </tr>

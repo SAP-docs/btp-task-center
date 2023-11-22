@@ -33,22 +33,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         <th valign="top">
 
         Property
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         <th valign="top">
 
         Example or Value
-
-
         
         </th>
         </tr>
@@ -56,15 +50,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         <td valign="top">
         
         *Application Name*
-
-
         
         </td>
         <td valign="top">
         
         Enter the unique name of your OAuth client.
-
-
         
         </td>
         <td valign="top">
@@ -72,8 +62,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         **Example**:
 
         `OneInboxApp`
-
-
         
         </td>
         </tr>
@@ -81,22 +69,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         <td valign="top">
         
         *Description*
-
-
         
         </td>
         <td valign="top">
         
         \(Optional\) Add a description.
-
-
         
         </td>
         <td valign="top">
         
          
-
-
         
         </td>
         </tr>
@@ -104,15 +86,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         <td valign="top">
         
         *Application URL*
-
-
         
         </td>
         <td valign="top">
         
         Add here a unique URL, for example the *uaa* \> *url* link from the service key. See *Step 1*.
-
-
         
         </td>
         <td valign="top">
@@ -120,8 +98,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         **Example**:
 
         `https://inbox-subaccount-name.authentication.eu10.hana.ondemand.com`
-
-
         
         </td>
         </tr>
@@ -129,22 +105,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         <td valign="top">
         
         *Bind to Users*
-
-
         
         </td>
         <td valign="top">
         
         Enable the binding to users.
-
-
         
         </td>
         <td valign="top">
         
          
-
-
         
         </td>
         </tr>
@@ -152,22 +122,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         <td valign="top">
         
         *User IDs*
-
-
         
         </td>
         <td valign="top">
         
         This user is created when you enable the SAP SuccessFactors integration with SAP Task Center. For more information, see [Enabling To-Do Task Integration Between SAP SuccessFactors and SAP Task Center](https://help.sap.com/viewer/568480cc877d4337992a2cd9792fbfed/latest/en-US/c15f23f6f4e24ddea84d5be8e6b935ae.html).
-
-
         
         </td>
         <td valign="top">
         
         **Value** of `TECHNICAL_USER_INBOX_CEF979F3`
-
-
         
         </td>
         </tr>
@@ -175,22 +139,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
         <td valign="top">
         
         *X.509 Certificate*
-
-
         
         </td>
         <td valign="top">
         
         Add the content from the downloaded trust certificate, between the `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----` identifiers.
-
-
         
         </td>
         <td valign="top">
         
          
-
-
         
         </td>
         </tr>
@@ -224,22 +182,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -247,8 +199,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
@@ -270,8 +220,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Example**:
 
     `SuccessFactors`
-
-
     
     </td>
     </tr>
@@ -279,22 +227,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -302,22 +244,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -325,8 +261,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -344,8 +278,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Example**:
 
     `https://test-api.lab-rot.ondemand.com/api-ext/`
-
-
     
     </td>
     </tr>
@@ -353,22 +285,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -376,22 +302,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -399,15 +319,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *Audience*
-
-
     
     </td>
     <td valign="top">
     
     Add `www.successfactors.com` 
-
-
     
     </td>
     <td valign="top">
@@ -415,8 +331,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Value**:
 
     `www.successfactors.com`
-
-
     
     </td>
     </tr>
@@ -424,15 +338,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *AuthnContextClassRef*
-
-
     
     </td>
     <td valign="top">
     
     Value of the `AuthnContextClassRef` tag, which is part of generated `OAuth2SAMLBearerAssertion` authentication.
-
-
     
     </td>
     <td valign="top">
@@ -440,8 +350,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Value**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
-
-
     
     </td>
     </tr>
@@ -449,22 +357,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *Client Key*
-
-
     
     </td>
     <td valign="top">
     
     Add the *API Key* for the technical user that you copied in step 3 of this procedure.
-
-
     
     </td>
     <td valign="top">
     
     **Value** of `API Key`
-
-
     
     </td>
     </tr>
@@ -472,22 +374,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *Token Service URL Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose *Dedicated*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -495,15 +391,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *Token Service URL*
-
-
     
     </td>
     <td valign="top">
     
     Add a URL using the pattern: `https://<SuccessFactorsTenantAPIURL>/ oauth/token` 
-
-
     
     </td>
     <td valign="top">
@@ -511,8 +403,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Example**:
 
     `https://test-api.lab-rot.ondemand.com/oauth/token`
-
-
     
     </td>
     </tr>
@@ -526,22 +416,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -549,22 +433,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *apiKey*
-
-
     
     </td>
     <td valign="top">
     
     Add the *API Key* for the technical user that you copied in step 3 of this procedure.
-
-
     
     </td>
     <td valign="top">
     
     **Value** of `API Key`
-
-
     
     </td>
     </tr>
@@ -572,22 +450,16 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *companyId*
-
-
     
     </td>
     <td valign="top">
     
     Company identifier
-
-
     
     </td>
     <td valign="top">
     
     **Value** of `SuccessFactors Company ID`
-
-
     
     </td>
     </tr>
@@ -595,15 +467,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *nameIdFormat*
-
-
     
     </td>
     <td valign="top">
     
     Value of the `NameIdFormat` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
-
-
     
     </td>
     <td valign="top">
@@ -611,8 +479,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Value**:
 
     `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
-
-
     
     </td>
     </tr>
@@ -620,15 +486,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *nameQualifier*
-
-
     
     </td>
     <td valign="top">
     
     Security domain of the user, for which the access token is requested.
-
-
     
     </td>
     <td valign="top">
@@ -636,8 +498,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Value**:
 
     `www.successfactors.com`
-
-
     
     </td>
     </tr>
@@ -645,15 +505,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *SystemUser*
-
-
     
     </td>
     <td valign="top">
     
     The name of the technical user, which would be used for executing a delta pull.
-
-
     
     </td>
     <td valign="top">
@@ -661,8 +517,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Value**:
 
     `TECHNICAL_USER_INBOX_CEF979F3`
-
-
     
     </td>
     </tr>
@@ -670,8 +524,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *tc.clientId*
-
-
     
     </td>
     <td valign="top">
@@ -689,8 +541,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     **Value** of *clientid*
-
-
     
     </td>
     </tr>
@@ -698,8 +548,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *tc.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -729,8 +577,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Value**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -738,8 +584,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *tc.notifications.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -761,8 +605,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Example**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -770,15 +612,11 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     <td valign="top">
     
     *tc.provider\_type*
-
-
     
     </td>
     <td valign="top">
     
     Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
-
-
     
     </td>
     <td valign="top">
@@ -786,8 +624,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Value**:
 
     `SuccessFactors`
-
-
     
     </td>
     </tr>
@@ -799,8 +635,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -817,8 +651,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
-
-
     
     </td>
     <td valign="top">
@@ -826,8 +658,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Example**:
 
     `SAP SuccessFactors`
-
-
     
     </td>
     </tr>
@@ -839,8 +669,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -857,8 +685,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
-
-
     
     </td>
     <td valign="top">
@@ -870,8 +696,6 @@ You have saved the trust certificate file locally, as described in [Connect SAP 
     **Example for *tc.ui.label.de-DE***:
 
     `SAP SuccessFactors Aufgabe`
-
-
     
     </td>
     </tr>

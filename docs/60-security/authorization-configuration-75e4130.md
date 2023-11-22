@@ -19,14 +19,10 @@ SAP Business Technology Platform \(SAP BTP\) includes predefined platform roles 
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -35,14 +31,10 @@ Description
 
 `TaskCenterAdmin` 
 
-
-
 </td>
 <td valign="top">
 
 Permission to execute calls to the `Connector Status` API and monitor configured destinations and running background jobs.
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ Permission to execute calls to the `Connector Status` API and monitor configured
 
 `TaskCenterTenantOperator` 
 
-
-
 </td>
 <td valign="top">
 
 Permission to export all data stored in the SAP Task Center cache, which is related to tasks and task users as a `.zip` file.
-
-
 
 </td>
 </tr>

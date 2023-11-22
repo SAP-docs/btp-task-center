@@ -53,22 +53,16 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -76,8 +70,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
@@ -98,8 +90,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Example**:
 
     `SAPBuildPA_rem`
-
-
     
     </td>
     </tr>
@@ -107,22 +97,16 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -130,22 +114,16 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -153,8 +131,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -172,8 +148,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Example**:
 
     `https://spa-api-gateway-sample.cfapps.sap.hana.ondemand.com/internal/workflow/rest/v1`
-
-
     
     </td>
     </tr>
@@ -181,22 +155,16 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Proxy type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -204,22 +172,16 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -227,15 +189,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Audience*
-
-
     
     </td>
     <td valign="top">
     
     Add the *entityID* value from Step 1.
-
-
     
     </td>
     <td valign="top">
@@ -243,8 +201,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Example**:
 
     `https://subaccount.authentication.eu10.hana.ondemand.com`
-
-
     
     </td>
     </tr>
@@ -252,15 +208,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *AuthnContextClassRef*
-
-
     
     </td>
     <td valign="top">
     
     Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
-
-
     
     </td>
     <td valign="top">
@@ -268,8 +220,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Value**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
-
-
     
     </td>
     </tr>
@@ -277,15 +227,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Client Key*
-
-
     
     </td>
     <td valign="top">
     
     Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
-
-
     
     </td>
     <td valign="top">
@@ -293,8 +239,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Example**:
 
     `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
-
-
     
     </td>
     </tr>
@@ -302,22 +246,16 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Token Service URL Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose *Dedicated*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -325,15 +263,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Token Service URL*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Location* value from Step 1.
-
-
     
     </td>
     <td valign="top">
@@ -341,8 +275,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Example**:
 
     `https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token/alias/subaccount.aws-live-eu10`
-
-
     
     </td>
     </tr>
@@ -350,15 +282,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Token Service User*
-
-
     
     </td>
     <td valign="top">
     
     Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
-
-
     
     </td>
     <td valign="top">
@@ -366,8 +294,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Example**:
 
     `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
-
-
     
     </td>
     </tr>
@@ -375,22 +301,16 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *Token Service Password*
-
-
     
     </td>
     <td valign="top">
     
     Add the *clientsecret* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -404,22 +324,16 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -427,15 +341,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *nameIdFormat*
-
-
     
     </td>
     <td valign="top">
     
     Indicates the SAML name identifier formats supported by the Single Sign-On service.
-
-
     
     </td>
     <td valign="top">
@@ -443,8 +353,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Value**:
 
     `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
-
-
     
     </td>
     </tr>
@@ -452,8 +360,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *tc.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -483,8 +389,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Value**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -492,8 +396,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *tc.notifications.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -515,8 +417,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Example**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -524,15 +424,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *tc.provider\_type*
-
-
     
     </td>
     <td valign="top">
     
     Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
-
-
     
     </td>
     <td valign="top">
@@ -540,8 +436,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Value**:
 
     `SPA`
-
-
     
     </td>
     </tr>
@@ -553,8 +447,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -571,8 +463,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
-
-
     
     </td>
     <td valign="top">
@@ -580,8 +470,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Example**:
 
     `SAP Build Process Automation`
-
-
     
     </td>
     </tr>
@@ -593,8 +481,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -611,8 +497,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
-
-
     
     </td>
     <td valign="top">
@@ -624,8 +508,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Example for *tc.ui.label.de-DE***:
 
     `SAP Build Process Automation Aufgabe`
-
-
     
     </td>
     </tr>
@@ -633,15 +515,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <td valign="top">
     
     *userIdSource*
-
-
     
     </td>
     <td valign="top">
     
     Provides information about the `userIdSource`to SAP Cloud Identity Services - Identity Authentication.
-
-
     
     </td>
     <td valign="top">
@@ -649,8 +527,6 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Value**:
 
     `user_uuid`
-
-
     
     </td>
     </tr>

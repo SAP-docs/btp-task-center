@@ -42,22 +42,16 @@ The following procedure describes how to create a Task Center tile in the SAP Su
         <th valign="top">
 
         Property
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         <th valign="top">
 
         Example or Value
-
-
         
         </th>
         </tr>
@@ -65,22 +59,16 @@ The following procedure describes how to create a Task Center tile in the SAP Su
         <td valign="top">
         
         *Service Instance*
-
-
         
         </td>
         <td valign="top">
         
         Choose the SAP Task Center service instance you created in the *Prerequisites* section.
-
-
         
         </td>
         <td valign="top">
         
          
-
-
         
         </td>
         </tr>
@@ -88,15 +76,11 @@ The following procedure describes how to create a Task Center tile in the SAP Su
         <td valign="top">
         
         *Name*
-
-
         
         </td>
         <td valign="top">
         
         Add a name of the destination.
-
-
         
         </td>
         <td valign="top">
@@ -104,8 +88,6 @@ The following procedure describes how to create a Task Center tile in the SAP Su
         **Example**:
 
         `Task_Center`
-
-
         
         </td>
         </tr>
@@ -113,22 +95,16 @@ The following procedure describes how to create a Task Center tile in the SAP Su
         <td valign="top">
         
         *Description*
-
-
         
         </td>
         <td valign="top">
         
         \(Optional\) Add a description as a free text.
-
-
         
         </td>
         <td valign="top">
         
          
-
-
         
         </td>
         </tr>
@@ -174,15 +150,11 @@ The following procedure describes how to create a Task Center tile in the SAP Su
             <th valign="top">
 
             Name
-
-
             
             </th>
             <th valign="top">
 
             Value
-
-
             
             </th>
             </tr>
@@ -190,15 +162,11 @@ The following procedure describes how to create a Task Center tile in the SAP Su
             <td valign="top">
             
             product
-
-
             
             </td>
             <td valign="top">
             
             TASK\_CENTER
-
-
             
             </td>
             </tr>
@@ -206,15 +174,11 @@ The following procedure describes how to create a Task Center tile in the SAP Su
             <td valign="top">
             
             version
-
-
             
             </td>
             <td valign="top">
             
             Cloud
-
-
             
             </td>
             </tr>
@@ -222,15 +186,11 @@ The following procedure describes how to create a Task Center tile in the SAP Su
             <td valign="top">
             
             stateUACP
-
-
             
             </td>
             <td valign="top">
             
             PRODUCTION
-
-
             
             </td>
             </tr>
@@ -238,15 +198,11 @@ The following procedure describes how to create a Task Center tile in the SAP Su
             <td valign="top">
             
             dataUrlUACP
-
-
             
             </td>
             <td valign="top">
             
             https://help.sap.com/webassistant/
-
-
             
             </td>
             </tr>
@@ -254,15 +210,11 @@ The following procedure describes how to create a Task Center tile in the SAP Su
             <td valign="top">
             
             resourceUrl
-
-
             
             </td>
             <td valign="top">
             
             https://webassistant.enable-now.cloud.sap/web\_assistant/framework/
-
-
             
             </td>
             </tr>

@@ -37,7 +37,7 @@ Administrators can create custom filter tabs, based on the following semantics:
 
     2.  If there is no *tc.ui.group.\[language\_code\]* property defined for the browser language of the user, but the default *tc.ui.group* property is defined, then the value of the default *tc.ui.group* property is visualized as translation of the filter tab name.
 
-    3.  If there are no *tc.ui.group* and *tc.ui.group.\[language\_code\]* properties defined, the tasks are displayed in the *Others* filter tab.
+    3.  If there are no *tc.ui.group* and *tc.ui.group.\[language\_code\]* properties defined, the tasks will be found in the *Others* filter tab.
 
 
     > ### Restriction:  
@@ -55,22 +55,16 @@ Administrators can create custom filter tabs, based on the following semantics:
     <th valign="top">
 
     Task Provider
-
-
     
     </th>
     <th valign="top">
 
     Value of *tc.provider\_type*
-
-
     
     </th>
     <th valign="top">
 
     Icon
-
-
     
     </th>
     </tr>
@@ -78,22 +72,16 @@ Administrators can create custom filter tabs, based on the following semantics:
     <td valign="top">
     
     SAP Ariba
-
-
     
     </td>
     <td valign="top">
     
     `Ariba`
-
-
     
     </td>
     <td valign="top">
     
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
     </td>
     </tr>
@@ -101,22 +89,16 @@ Administrators can create custom filter tabs, based on the following semantics:
     <td valign="top">
     
     SAP Build Process Automation
-
-
     
     </td>
     <td valign="top">
     
     `SPA`
-
-
     
     </td>
     <td valign="top">
     
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
     </td>
     </tr>
@@ -124,22 +106,16 @@ Administrators can create custom filter tabs, based on the following semantics:
     <td valign="top">
     
     SAP Build Work Zone, advanced edition
-
-
     
     </td>
     <td valign="top">
     
     `WorkZone`
-
-
     
     </td>
     <td valign="top">
     
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
     </td>
     </tr>
@@ -147,22 +123,16 @@ Administrators can create custom filter tabs, based on the following semantics:
     <td valign="top">
     
     SAP Cloud for Customer
-
-
     
     </td>
     <td valign="top">
     
     `C4C`
-
-
     
     </td>
     <td valign="top">
     
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
     </td>
     </tr>
@@ -170,22 +140,16 @@ Administrators can create custom filter tabs, based on the following semantics:
     <td valign="top">
     
     SAP Concur
-
-
     
     </td>
     <td valign="top">
     
     `Concur`
-
-
     
     </td>
     <td valign="top">
     
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
     </td>
     </tr>
@@ -193,22 +157,16 @@ Administrators can create custom filter tabs, based on the following semantics:
     <td valign="top">
     
     SAP Fieldglass
-
-
     
     </td>
     <td valign="top">
     
     `Fieldglass`
-
-
     
     </td>
     <td valign="top">
     
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
     </td>
     </tr>
@@ -216,22 +174,16 @@ Administrators can create custom filter tabs, based on the following semantics:
     <td valign="top">
     
     SAP Marketing Cloud
-
-
     
     </td>
     <td valign="top">
     
     `SMC`
-
-
     
     </td>
     <td valign="top">
     
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
     </td>
     </tr>
@@ -239,54 +191,40 @@ Administrators can create custom filter tabs, based on the following semantics:
     <td valign="top">
     
     SAP S/4HANA
-
-
     
     </td>
     <td valign="top">
     
     `S/4HANA`
-
-
     
     </td>
     <td valign="top" rowspan="3">
     
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    SAP S/4HANA Cloud
-
-
+    SAP S/4HANA Cloud, public edition
     
     </td>
     <td valign="top">
     
     `S/4HANACloud`
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    SAP S/4HANA Cloud, Private Edition
-
-
+    SAP S/4HANA Cloud, private edition
     
     </td>
     <td valign="top">
     
     `S/4HANAPrivateCloud`
-
-
     
     </td>
     </tr>
@@ -294,28 +232,22 @@ Administrators can create custom filter tabs, based on the following semantics:
     <td valign="top">
     
     SAP SuccessFactors
-
-
     
     </td>
     <td valign="top">
     
     `SuccessFactors`
-
-
     
     </td>
     <td valign="top">
     
     <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
-
-
     
     </td>
     </tr>
     </table>
     
--   The tasks provided by destinations, for which the *tc.ui.group* property is not maintained, are grouped into the *Others* filter tab\(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the SAP Task Center Web app.
+-   The tasks provided by destinations, for which the *tc.ui.group* property is not maintained, are grouped into the *Others* filter tab \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the SAP Task Center Web app.
 
     > ### Note:  
     > The *Others* filter tab is only displayed if there is at least one more filter tab, in addition to the *All* filter tab.

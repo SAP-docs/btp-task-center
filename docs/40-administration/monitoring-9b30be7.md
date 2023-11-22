@@ -11,8 +11,6 @@ Once you create a destination configuration to connect SAP Task Center to a task
 
 Content
 
-
-
 </th>
 </tr>
 <tr>
@@ -25,8 +23,6 @@ Content
 [Service Status API](monitoring-9b30be7.md#loio9b30be76f14f48c5a72dd7ed7e9babe0__section_ServiceStatusAPI)
 
 [Integration with SAP Alert Notification Service for SAP BTP](monitoring-9b30be7.md#loio9b30be76f14f48c5a72dd7ed7e9babe0__section_IntegrationWithAlert)
-
-
 
 </td>
 </tr>

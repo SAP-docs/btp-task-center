@@ -1,8 +1,8 @@
 <!-- loio0aff1b46b5574ea0b3e32f25fc551799 -->
 
-# Connect SAP S/4HANA Cloud and SAP Task Center
+# Connect SAP S/4HANA Cloud, public edition and SAP Task Center
 
-Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP S/4HANA Cloud on SAP BTP, Cloud Foundry environment.
+Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP S/4HANA Cloud, public edition on SAP BTP, Cloud Foundry environment.
 
 
 
@@ -12,12 +12,12 @@ Find information about the destination configuration that needs to be done for S
 
 
 
-### Connect SAP S/4HANA Cloud and SAP Task Center
+### Connect SAP S/4HANA Cloud, public edition and SAP Task Center
 
-Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP S/4HANA Cloud on SAP BTP, Cloud Foundry environment.
+Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP S/4HANA Cloud, public edition on SAP BTP, Cloud Foundry environment.
 
 > ### Tip:  
-> See also the step-by-step mission for the setup of connection to SAP S/4HANA Cloud at [Integrate Your SAP S/4HANA Cloud Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3906/4071/).
+> See also the step-by-step mission for the setup of connection to SAP S/4HANA Cloud, public edition at [Integrate Your SAP S/4HANA Cloud Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3906/4071/).
 
 **Prerequisites** 
 
@@ -42,7 +42,7 @@ Find information about the destination configuration that needs to be done for S
 
 
 > ### Note:  
-> Do not configure more than one destination to the same SAP S/4HANA Cloud system for one SAP Task Center. This will result in having duplicate tasks for end users.
+> Do not configure more than one destination to the same SAP S/4HANA Cloud, public edition system for one SAP Task Center. This will result in having duplicate tasks for end users.
 
 **Procedure**
 
@@ -387,12 +387,12 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    This property is used to enable task updates to be pushed from SAP S/4HANA Cloud.
+    This property is used to enable task updates to be pushed from SAP S/4HANA Cloud, public edition.
 
     The value of this property is the value of the *uaa* \> *clientid* from the service key of the new service instance \(see [Create a Communication Arrangement](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/913ff1a47a6447e3b7bee17fa6f275ff.html?version=latest)\).
 
     > ### Note:  
-    > Set this property only when you have completed the SAP Task Center integration from the *Prerequisites* section. If you haven't completed this step, you might not be able to receive tasks from SAP S/4HANA Cloud.
+    > Set this property only when you have completed the SAP Task Center integration from the *Prerequisites* section. If you haven't completed this step, you might not be able to receive tasks from SAP S/4HANA Cloud, public edition.
 
 
     
@@ -528,7 +528,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    The client number of the SAP S/4HANA Cloud system.
+    The client number of the SAP S/4HANA Cloud, public edition system.
     
     </td>
     <td valign="top">
@@ -562,16 +562,16 @@ Find information about the destination configuration that needs to be done for S
     
 4.  Save your configuration.
 
-5.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP S/4HANA Cloud, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
+5.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP S/4HANA Cloud, public edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
-    If you choose *Check Connection* in the destination configuration, you may not receive correct information about the connectivity between the SAP Task Center service and SAP S/4HANA Cloud.
-
-
+    If you choose *Check Connection* in the destination configuration, you may not receive correct information about the connectivity between the SAP Task Center service and SAP S/4HANA Cloud, public edition.
 
 
-### Connect SAP S/4HANA Cloud and SAP Task Center Using mTLS
 
-Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP S/4HANA Cloud on SAP BTP, Cloud Foundry environment.
+
+### Connect SAP S/4HANA Cloud, public edition and SAP Task Center Using mTLS
+
+Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP S/4HANA Cloud, public edition on SAP BTP, Cloud Foundry environment.
 
 **Prerequisites**
 
@@ -586,7 +586,7 @@ Find information about the destination configuration that needs to be done for S
     -   *uaa* \> *certurl*
     -   *uaa* \> *key*
 
-3.  Use the values of *uaa* \> *certificate* and *uaa* \> *key* to create the `outbound.p12` certificate, which is used for the outbound communication from SAP S/4HANA Cloud to SAP Task Center.
+3.  Use the values of *uaa* \> *certificate* and *uaa* \> *key* to create the `outbound.p12` certificate, which is used for the outbound communication from SAP S/4HANA Cloud, public edition to SAP Task Center.
 
     1.  Copy the value of the *uaa* \> *certificate* parameter \(without the quotation marks\) to a new text file.
 
@@ -624,9 +624,9 @@ Find information about the destination configuration that needs to be done for S
     4.  Save the text file as `outbound.p12`.
 
 
-4.  Create the `inbound.p12` certificate, which is used for the inbound communication from SAP Task Center to SAP S/4HANA Cloud.
+4.  Create the `inbound.p12` certificate, which is used for the inbound communication from SAP Task Center to SAP S/4HANA Cloud, public edition.
 
-    For the connection to SAP S/4HANA Cloud, using mTLS, you must have a *.p12* certificate and its password. You can use an already generated certificate, or generate a new one by following the steps in [Use Destination Certificates](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/df1bb55a526942b9bee78fea2ebb3162.html). You can download the certificate by using the Destination service REST API. For more information, see [Destination Service REST API](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/23ccafbea18f4b65919a2799f2cd20e6.html).
+    For the connection to SAP S/4HANA Cloud, public edition, using mTLS, you must have a *.p12* certificate and its password. You can use an already generated certificate, or generate a new one by following the steps in [Use Destination Certificates](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/df1bb55a526942b9bee78fea2ebb3162.html). You can download the certificate by using the Destination service REST API. For more information, see [Destination Service REST API](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/23ccafbea18f4b65919a2799f2cd20e6.html).
 
     We'll further refer to this certificate as the inbound communication certificate `inbound.p12`.
 
@@ -646,7 +646,7 @@ Find information about the destination configuration that needs to be done for S
 
 
 > ### Note:  
-> Do not configure more than one destination to the same SAP S/4HANA Cloud system for one SAP Task Center. This will result in having duplicate tasks for end users.
+> Do not configure more than one destination to the same SAP S/4HANA Cloud, public edition system for one SAP Task Center. This will result in having duplicate tasks for end users.
 
 **Procedure**
 
@@ -1123,7 +1123,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    The client number of the SAP S/4HANA Cloud system.
+    The client number of the SAP S/4HANA Cloud, public edition system.
     
     </td>
     <td valign="top">
@@ -1157,8 +1157,8 @@ Find information about the destination configuration that needs to be done for S
     
 4.  Save your configuration.
 
-5.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP S/4HANA Cloud, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
+5.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP S/4HANA Cloud, public edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
-6.  If you choose *Check Connection* in the destination configuration, you may not receive correct information about the connectivity between the SAP Task Center service and SAP S/4HANA Cloud.
+6.  If you choose *Check Connection* in the destination configuration, you may not receive correct information about the connectivity between the SAP Task Center service and SAP S/4HANA Cloud, public edition.
 
 

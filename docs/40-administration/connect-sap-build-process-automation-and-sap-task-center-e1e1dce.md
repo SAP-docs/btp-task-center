@@ -10,7 +10,9 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
--   You must have performed the steps in [Configure the SAP Build Process Automation Subaccount for SAP Task Center](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/4f04949597e84e18ae429d0bc280f4a2.html). From the service key of the SAP Build Process Automation instance in the Cloud Foundry environment you need the values of the following parameters for the setup of the destinations:
+-   You must have performed the steps in [Configure the SAP Build Process Automation Subaccount for SAP Task Center](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/4f04949597e84e18ae429d0bc280f4a2.html).
+
+    From the service key of the SAP Build Process Automation instance in the Cloud Foundry environment you need the values of the following parameters for the setup of the destinations:
 
     -   `endpoints > api`
     -   `uaa > clientid`

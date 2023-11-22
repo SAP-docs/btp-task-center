@@ -47,22 +47,16 @@ Find information about the destination configuration that needs to be done for S
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -70,8 +64,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
@@ -92,8 +84,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `WorkZone`
-
-
     
     </td>
     </tr>
@@ -101,22 +91,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *HTTP* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -124,22 +108,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -147,8 +125,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -166,8 +142,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `https://sample.workzone.ondemand.com/api/v2`
-
-
     
     </td>
     </tr>
@@ -175,22 +149,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Proxy type*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *Internet* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -198,22 +166,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -221,15 +183,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Audience*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Audience* value from the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
@@ -237,8 +195,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `https://sample.workzone.ondemand.com/`
-
-
     
     </td>
     </tr>
@@ -246,15 +202,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *AuthnContextClassRef*
-
-
     
     </td>
     <td valign="top">
     
     Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
-
-
     
     </td>
     <td valign="top">
@@ -262,8 +214,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
-
-
     
     </td>
     </tr>
@@ -271,15 +221,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Client Key*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Client Key* value from the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
@@ -287,8 +233,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `AWtZNx9LX8vxeQ4Ui9DS`
-
-
     
     </td>
     </tr>
@@ -296,22 +240,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service URL Type*
-
-
     
     </td>
     <td valign="top">
     
     Choose *Dedicated*.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -319,15 +257,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service URL*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Token Service URL* value from the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
@@ -335,8 +269,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `https://sample.workzone.ondemand.com/api/v2/auth/token`
-
-
     
     </td>
     </tr>
@@ -344,15 +276,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service User*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Token Service User* value from the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
@@ -360,8 +288,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `AWtZNx9LX8vxeQ4Ui9DS`
-
-
     
     </td>
     </tr>
@@ -369,22 +295,16 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *Token Service Password*
-
-
     
     </td>
     <td valign="top">
     
     Add the *Token Service Password* value from the *Prerequisites* section.
-
-
     
     </td>
     <td valign="top">
     
      
-
-
     
     </td>
     </tr>
@@ -398,22 +318,16 @@ Find information about the destination configuration that needs to be done for S
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
@@ -421,15 +335,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *nameIdFormat*
-
-
     
     </td>
     <td valign="top">
     
     Indicates the SAML name identifier formats supported by the Single Sign-On service.
-
-
     
     </td>
     <td valign="top">
@@ -437,8 +347,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
-
-
     
     </td>
     </tr>
@@ -446,8 +354,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -477,8 +383,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -486,8 +390,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.notifications.enabled*
-
-
     
     </td>
     <td valign="top">
@@ -509,8 +411,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `true`
-
-
     
     </td>
     </tr>
@@ -518,15 +418,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tc.provider\_type*
-
-
     
     </td>
     <td valign="top">
     
     Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
-
-
     
     </td>
     <td valign="top">
@@ -534,8 +430,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `WorkZone`
-
-
     
     </td>
     </tr>
@@ -547,8 +441,6 @@ Find information about the destination configuration that needs to be done for S
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -565,8 +457,6 @@ Find information about the destination configuration that needs to be done for S
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
-
-
     
     </td>
     <td valign="top">
@@ -574,8 +464,6 @@ Find information about the destination configuration that needs to be done for S
     **Example**:
 
     `SAP Build Work Zone, advanced edition`
-
-
     
     </td>
     </tr>
@@ -587,8 +475,6 @@ Find information about the destination configuration that needs to be done for S
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
@@ -605,8 +491,6 @@ Find information about the destination configuration that needs to be done for S
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
-
-
     
     </td>
     <td valign="top">
@@ -618,8 +502,6 @@ Find information about the destination configuration that needs to be done for S
     **Example for *tc.ui.label.de-DE***:
 
     `SAP Build Work Zone, advanced edition Aufgabe`
-
-
     
     </td>
     </tr>
@@ -627,15 +509,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *tokenServiceURL.headers.authAttribute*
-
-
     
     </td>
     <td valign="top">
     
     The value of this property is needed during token retrieval.
-
-
     
     </td>
     <td valign="top">
@@ -643,8 +521,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `user_uuid`
-
-
     
     </td>
     </tr>
@@ -652,15 +528,11 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     *userIdSource*
-
-
     
     </td>
     <td valign="top">
     
     Provides information about the `userIdSource`to SAP Cloud Identity Services - Identity Authentication.
-
-
     
     </td>
     <td valign="top">
@@ -668,8 +540,6 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `user_uuid`
-
-
     
     </td>
     </tr>
