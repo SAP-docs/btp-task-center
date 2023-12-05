@@ -2,7 +2,7 @@
 
 # Supported Solutions and Use Cases
 
-See the list of the supported solutions and use cases in SAP Task Center.
+Review the list of the supported solutions and use cases in SAP Task Center.
 
 **Supported Use Cases for SAP Task Center Web App and Task Center in the SAP Mobile Start Mobile App**
 
@@ -160,5 +160,5 @@ See [Supported Tasks for Enhanced To-Do Integration](https://help.sap.com/viewer
 </tr>
 </table>
 
-When a new use case \(*Task Type*\) is enabled, the users will see only the new coming tasks \(tasks that have been created or updated after the release date\). To get the older ones, they have to repopulate the task cache. For more information, see [Repopulate the Task Cache](../40-administration/repopulate-the-task-cache-e93aa71.md).
+When a new use case \(*Task Type*\) is enabled, the users will only find the newcoming tasks \(tasks that have been created or updated after the release date\). To get the older ones, they have to repopulate the task cache. For more information, see [Repopulate the Task Cache](../40-administration/repopulate-the-task-cache-e93aa71.md).
 

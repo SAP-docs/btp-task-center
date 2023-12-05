@@ -13,9 +13,9 @@ Find information about the destination configuration that needs to be done for S
 > ### Tip:  
 > See also the step-by-step mission for the setup of connection to SAP SuccessFactors at [Integrate Your SAP SuccessFactors Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3816/3869/).
 
--   You have executed the steps in [Enabling To-Do Task Integration Between SAP SuccessFactors and SAP Task Center](https://help.sap.com/viewer/568480cc877d4337992a2cd9792fbfed/latest/en-US/c15f23f6f4e24ddea84d5be8e6b935ae.html).
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP SuccessFactors Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-successfactors-integration-scenario?version=Cloud).
 
--   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+-   You have executed the steps in [Enabling To-Do Task Integration Between SAP SuccessFactors and SAP Task Center](https://help.sap.com/viewer/568480cc877d4337992a2cd9792fbfed/latest/en-US/c15f23f6f4e24ddea84d5be8e6b935ae.html).
 
 
 > ### Note:  

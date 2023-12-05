@@ -84,7 +84,7 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 
 [Supported Languages](supported-languages-c66c693.md "")
 
-[Supported Solutions and Use Cases](supported-solutions-and-use-cases-758209c.md "See the list of the supported solutions and use cases in SAP Task Center.")
+[Supported Solutions and Use Cases](supported-solutions-and-use-cases-758209c.md "Review the list of the supported solutions and use cases in SAP Task Center.")
 
 [Supported Features](supported-features-257a0ad.md "")
 

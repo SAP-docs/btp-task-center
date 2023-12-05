@@ -123,5 +123,5 @@ A substitution is automatically deleted after expiring.
 **Related Information**  
 
 
-[Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-use-cases-758209c.md "See the list of the supported solutions and use cases in SAP Task Center.")
+[Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-use-cases-758209c.md "Review the list of the supported solutions and use cases in SAP Task Center.")
 

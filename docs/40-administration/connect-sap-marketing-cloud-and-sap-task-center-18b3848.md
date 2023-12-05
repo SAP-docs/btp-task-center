@@ -10,6 +10,8 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+
 -   You have performed the steps in [Integrating SAP Task Center](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/0fdb31ce0dff4537a1ac6f98d4d34dbd.html). To complete the setup of this destination, you need the following parameters from [Create a Communication Arrangement](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/913ff1a47a6447e3b7bee17fa6f275ff.html):
 
     -   *Service URL/Service Interface* that you can find when creating a communication arrangement.
@@ -19,8 +21,6 @@ Find information about the destination configuration that needs to be done for S
     -   *Token Service URL*, that you can find in the *OAuth2.0 Details* when creating the communication arrangement.
     -   *User Name*, that you have created for the technical communication user..
     -   *Password*, that you have created for the technical communication user.
-
--   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 
 > ### Note:  

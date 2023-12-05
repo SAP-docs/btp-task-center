@@ -153,7 +153,7 @@ Search for tasks using the *Search* field by entering one or more keywords that 
 
 ## Filter Tasks
 
-The *Filter* criteria are available the field before the tasks, after the *Search* field. By default, you can filter your task list by the following criteria:
+The *Filter* criteria are available in the field above the tasks, next to the *Search* field. By default, you can filter your task list by the following criteria:
 
 
 <table>
@@ -220,7 +220,7 @@ The task types, supporting mass actions have an *M* indicator. For more informat
 
 Sometimes tasks with different task IDs might appear with the same task type. In this case, the SAP Task Center Web app appends a number to the end of the task type \(for example *Task Type \(1\)*, *Task Type \(2\)*\) for easier differentiation.
 
-To review the available custom attributes as filters and columns for a specific task, filter by the chosen task type.
+To display the available custom attributes as filters and columns for a specific task, filter by the chosen task type.
 
 > ### Note:  
 > Some columns with custom attributes might be hidden for optimal visualization. You can manage the columns from *Personalize* \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
@@ -295,11 +295,11 @@ To choose which columns are available in the Web app, choose *Personalize* \(<sp
 
 -   Hide and display columns:
 
-    To choose the columns that are offered, select or deselect their checkboxes in the *Columns* dialog box.
+    To choose the columns that are displayed, select or deselect their checkboxes in the *Columns* dialog box.
 
 -   Rearrange the order of the columns:
 
-    To change the place in which a certain column is located, select the column and use the up and down arrows on the left side of the header.
+    To change the location of a certain column, select the column and use the up and down arrows on the left side of the header.
 
 -   Search among the column titles:
 
@@ -317,7 +317,7 @@ Choose *OK* to confirm your changes.
 
 ## Inline Decision Options and Predefined Decision Reasons
 
-The *Actions* column of your task list contains the *Open in App* button, which opens the task in the task provider system, and may contain decision options, preconfigured by the task provider, for example *Approve* or *Reject*. You can directly choose the offered decision option, or choose another one from the dropdown list. When you select one of the options, a decision pop-up with the following content appears:
+The *Actions* column of your task list contains the *Open in App* button, which opens the task in the task provider system, and may contain decision options, preconfigured by the task provider, for example *Approve* or *Reject*. You can directly select the suggested decision option, or choose another one from the dropdown list. When you select one of the options, a decision pop-up with the following content appears:
 
 -   Confirmation text with the chosen action
 
@@ -368,7 +368,7 @@ You can also upload an attachment or add a comment on these tabs if the function
 
 ## Pagination
 
-The Web app list works in growing mode. Initially, the first page loads up to 40 tasks. Additional tasks are loaded in pages of 40 tasks while scrolling towards the end of the page, until all the tasks assigned to the logged in user are available.
+The Web app list works in growing mode. Initially, the first page loads up to 40 tasks. Additional tasks are loaded in pages of 40 tasks while scrolling towards the end of the page, until all the tasks assigned to the logged in user are displayed.
 
 
 
@@ -383,5 +383,5 @@ The *Task List* contains only tasks that you can work with. When it is not possi
 > ### Note:  
 > The message can be closed and it will be displayed again only if you refresh the *Task List* and the connection to the task provider system is still not restored.
 
-The inaccessible tasks are filtered out from the *Task List* by the Web app and the task counter offers all tasks with live backend connection only.
+The inaccessible tasks are filtered out from the *Task List* by the Web app and the task counter takes into account all tasks with live backend connection only.
 

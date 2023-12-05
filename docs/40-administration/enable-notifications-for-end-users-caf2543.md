@@ -55,7 +55,7 @@ To enable notifications for end users, for all, or only some of the connected ta
     > ### Note:  
     > If you regenerate these credentials, you must update them in the notifications destination, created in the next step.
 
-7.  Create a destination for the connection to SAP Alert Notification service for SAP BTP, as described in [Alert Notifications Connectivity](alert-notifications-connectivity-f6c9f3b.md).
+7.  Create a destination for the connection to the notification service, as described in [Alert Notifications Connectivity](alert-notifications-connectivity-f6c9f3b.md).
 
 8.  Set the *tc.notifications.enabled* property in the destination of every task provider, for which you want to enable notifications. For more info, see the respective task provider topic in [Destinations](destinations-3470733.md).
 

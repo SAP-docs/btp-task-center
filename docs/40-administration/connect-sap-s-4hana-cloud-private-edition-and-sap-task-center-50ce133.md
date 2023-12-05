@@ -10,6 +10,8 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP S/4HANA Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-s-4hana-integration-scenario?version=Cloud).
+
 -   You have performed the steps in [Prepare SAP Cloud Connector and SAP S/4HANA for the SAP Task Center Connection](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/0f18dddf28764f5b807ecd80549044cc/5c6cf3d9e754468fbd6b3f5073fe085f.html?locale=en-US&version=latest). Choose your SAP S/4HANA Cloud, private edition version from the dropdown menu next to the documentation title.
 
     Make sure you save the following information, as you need it for the SAP S/4HANA Cloud, private edition destination setup:
@@ -27,8 +29,6 @@ Find information about the destination configuration that needs to be done for S
     Use the SAP Cloud Connector from the previous prerequisite for the step *Tunnel the request using, for example, the Cloud Connector* in [Configuring SAP Task Center Integration](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/5117f21ef28f4e698d99fe3fdbc1be2a.html).
 
 -   You have the client number of your SAP S/4HANA Cloud, private edition system.
--   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
-
 
 > ### Note:  
 > Do not configure more than one destination to the same SAP S/4HANA Cloud, private edition system for one SAP Task Center. This will result in having duplicate tasks for end users.
@@ -428,7 +428,14 @@ Find information about the destination configuration that needs to be done for S
     
 4.  Save your configuration.
 
-5.  Your SAP S/4HANA Cloud, private edition destination will be initially in *Error* state. To get it enabled, open a ticket through the [SAP Support Portal](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fsupport.sap.com%2F), using the **LOD-BPM-INB** component. Use "SAP S/4HANA Cloud, Private Edition Verification" as subject of the ticket, provide the name of the destination you just created and your subaccount tenant ID, and ask the SAP colleagues to enable your destination.
+5.  Your SAP S/4HANA Cloud, private edition destination will be initially in *Error* state. To get it enabled, open a ticket through the [SAP Support Portal](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fsupport.sap.com%2F), using the **LOD-BPM-INB** component. Use "SAP S/4HANA Cloud, Private Edition Verification" as subject of the ticket, asking the SAP colleagues to enable your destination and provide the following information:
+
+    -   name of the destination you just created,
+
+    -   your subaccount tenant ID,
+
+    -   the region, where your SAP Task Center is hosted \(for example, `eu10`, `ap10`\). You can find the region as part of the *API Endpoint* on the *Overview* page of your subaccount in the SAP BTP cockpit. For more information about regions, see [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-and-api-endpoints-available-for-cloud-foundry-environment?version=Cloud).
+
 
 6.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP S/4HANA Cloud, private edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 

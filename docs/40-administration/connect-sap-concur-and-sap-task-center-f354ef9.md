@@ -13,13 +13,13 @@ Find information about the destination configuration that needs to be done for S
 > ### Tip:  
 > See also the step-by-step mission for the setup of connection to SAP Concur at [Integrate Your SAP Concur Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3883/3962/).
 
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP Concur Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-concur-integration-scenario).
+
 -   You have an existing SAP Concur entity, and have generated the `Company Request Token` and `Company UUID`. For more information, see *SAP Concur Company Request Token* in [SAP Task Center Integration with Concur Solutions](https://www.concurtraining.com/customers/tech_pubs/Integration/Shr_SG_Task_Center_Integration.pdf).
 
     If you need any additional information, contact your SAP Concur implementation consultant.
 
 -   You have enabled the workflows for Concur Expense, Concur Request, or both, for SAP Task Center. For more information, see [SAP Task Center Integration with Concur Solutions](https://www.concurtraining.com/customers/tech_pubs/Integration/Shr_SG_Task_Center_Integration.pdf).
-
--   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 -   You have opened a ticket to verify your Data Privacy Agreement version.
 
@@ -41,13 +41,13 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
 
 ## Procedure
 
-1.  Navigate to the Cloud Foundry subaccount where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
+1.  Navigate to the Cloud Foundry subaccount where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area.
 
-2.  If you have executed the automatic setup \(see [Automatic Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/3a499676e7ae4282af84092f778e3737.html)\), you already sample destinations called *Concur\_req* and *Concur\_exp*. You can use the sample destinations or clone them, and update the properties as described below.
+2.  If you have executed the automatic setup \(see [Automatic Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/3a499676e7ae4282af84092f778e3737.html)\), you already sample destinations called *Concur\_req* and *Concur\_exp*. You can use the sample destinations or clone them, and update the properties as described in the following table.
 
-    If you have followed the manual setup \(see [Manual Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/0f00d3d3e2ab460c856d409c469fb4f1.html)\), you have to create a new destination and manually add the properties as described below.
+    If you have followed the manual setup \(see [Manual Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/0f00d3d3e2ab460c856d409c469fb4f1.html)\), you have to create a new destination and manually add the properties as described in the following table.
 
-3.  Configure the properties of the destination as described below:
+3.  Configure the properties of the destination as described next:
 
 
     <table>
@@ -339,7 +339,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
-    > -   The tasks from this destination are **not** displayed in the SAP Task Center Web app.
+    > -   The tasks from this destination are **not** available in the SAP Task Center Web app.
     > 
     > -   The task cache is not updated with tasks from this destination.
     > 

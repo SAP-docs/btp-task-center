@@ -10,12 +10,12 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP Ariba Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-ariba-integration-scenario).
+
 -   You have an existing SAP Ariba tenant and know your SAP Ariba `realm name` or `customer site name`. For more information, see [How do I find out my realm name?](https://support.ariba.com/item/view/KB0395389).
 
 -   For the integration with SAP Ariba Sourcing you must have completed the steps described in [How to enable SAP Task Center for SAP Ariba Sourcing in the SAP S/4HANA Cloud 4BL and 4QN Integrations Scenarios](https://help.sap.com/docs/ARIBA_SOURCING/b6d46a2e6c3043d7bb0cbabba4262560/18bd32b6058d4e47a4f920ed115599e1.html) to enable the functionality in SAP Ariba.
 -   For the integration with SAP AribaBuying, see [SAP Task Center for SAP Ariba Buying](https://help.sap.com/docs/ARIBA_PROCUREMENT/27d44834e9164377b324539985725ecd/c80239e20d3a46bd9577f035224b7ff1.html) and contact your SAP Ariba Technical Support to enable the functionality in SAP Ariba.
--   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
-
 
 > ### Note:  
 > Do not configure more than one destination to the same SAP Ariba system for one SAP Task Center. This will result in having duplicate tasks for end users.
@@ -71,7 +71,7 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
 
         -   The destination service certificate
 
-            To get the destination service certificate, log on to your Cloud Foundry subaccount, select the *Destinations* tab from the navigation area on the left, and choose *Download Trust* to download the destination service certificate.
+            To get the destination service certificate, log on to your Cloud Foundry subaccount, select the *Destinations* tab from the navigation area, and choose *Download Trust* to download the destination service certificate.
 
             > ### Caution:  
             > Make sure to renew your trust certificate before it expires. For the time while you are renewing the trust certificate and updating it on the task provider systems you may not be able to work on tasks, nor receive task updates.
@@ -90,13 +90,13 @@ The SAP Ariba entity may have SAP AribaBuying, SAP AribaSourcing, or both produc
     -   `OAuth secret`
     -   `Application key`
 
-3.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
+3.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area.
 
 4.  If you have executed the automatic setup \(see [Automatic Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/3a499676e7ae4282af84092f778e3737.html)\), you already have a sample destination called *Ariba*. You can use the sample destination or clone it, and update the properties as described below.
 
-    If you have followed the manual setup \(see [Manual Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/0f00d3d3e2ab460c856d409c469fb4f1.html)\), you have to create a new destination and manually add the properties as described below.
+    If you have followed the manual setup \(see [Manual Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/0f00d3d3e2ab460c856d409c469fb4f1.html)\), you have to create a new destination and manually add the properties as described next.
 
-5.  Configure the properties of the destination as described below:
+5.  Configure the properties of the destination as described next:
 
 
     <table>

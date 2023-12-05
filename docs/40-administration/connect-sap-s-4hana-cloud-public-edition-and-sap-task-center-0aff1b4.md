@@ -21,7 +21,7 @@ Find information about the destination configuration that needs to be done for S
 
 **Prerequisites** 
 
-1.  You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+1.  You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP S/4HANA Cloud Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-s-4hana-cloud-integration-scenario?version=Cloud).
 
 2.  Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created. This enables task updates to be pushed from your ABAP system. Follow the steps in [Create a Service Instance Using the SAP BTP Cockpit](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/dc9af9fd363b4e989af6ff2f19548d32.html?version=Cloud) and create a service key for the service instance. Open the JSON file of the service key and get the following values:
 
@@ -575,7 +575,7 @@ Find information about the destination configuration that needs to be done for S
 
 **Prerequisites**
 
-1.  You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
+1.  You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP S/4HANA Cloud Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-s-4hana-cloud-integration-scenario?version=Cloud).
 
 2.  Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created. This enables task updates to be pushed from your ABAP system. Follow the steps in [Create a Service Instance Using the SAP BTP Cockpit](../30-initial-setup/create-a-service-instance-using-the-sap-btp-cockpit-dc9af9f.md) and create a service key with certificate for the new service instance. Open the JSON file of the service key and get the following values:
 

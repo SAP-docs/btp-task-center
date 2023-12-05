@@ -13,11 +13,11 @@ Find information about the destination configuration that needs to be done for S
 > ### Tip:  
 > See also the step-by-step mission for the setup of connection to SAP Fieldglass at [Integrate Your SAP Fieldglass Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3911/4077/).
 
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP Fieldglass Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-fieldglass-integration-scenario).
+
 -   You need to have an existing SAP Fieldglass tenant.
 
 -   You have completed the steps described in [Enable SAP Task Center in SAP Fieldglass](https://help.sap.com/viewer/73c0a1be6aaa46ef9b66b1c3f28a77f4/cloud/en-US/3fabeb5092a44edd8fc3dd4b4cbc6b9e.html) to enable the functionality in SAP Fieldglass.
-
--   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 
 > ### Note:  
@@ -49,13 +49,13 @@ Find information about the destination configuration that needs to be done for S
     > 
     > If the *Web Services* section is blank, please contact [SAP Fieldglass Customer Support](https://www.fieldglass.com/customer-support) to get the values.
 
-4.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> ***Destinations* tab from the navigation area on the left.
+4.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> ***Destinations* tab from the navigation area.
 
-5.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you already have a sample destination called *Fieldglass*. You can use the sample destination or clone it, and update the properties as described below.
+5.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you already have a sample destination called *Fieldglass*. You can use the sample destination or clone it, and update the properties as described in the following table.
 
-    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described below.
+    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described in the following table.
 
-6.  Configure the properties of the destination as described below:
+6.  Configure the properties of the destination as described next:
 
 
     <table>
@@ -392,7 +392,7 @@ Find information about the destination configuration that needs to be done for S
     > 
     > -   The previously stored tasks are kept in the `Task Cache`.
     > 
-    > -   The tasks from this destination are **not** displayed in the SAP Task Center Web app.
+    > -   The tasks from this destination are **not** available in the SAP Task Center Web app.
     > 
     > -   The task cache is not updated with tasks from this destination.
     > 
@@ -527,7 +527,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    \(Optional\) Provides additional information about the task. The value of the property is available in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 

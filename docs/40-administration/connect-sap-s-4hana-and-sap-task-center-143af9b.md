@@ -13,6 +13,8 @@ Find information about the destination configuration that needs to be done for S
 > ### Tip:  
 > See also the step-by-step mission for the setup of connection to SAP S/4HANA at [Integrate Your SAP S/4HANA Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3910/4076/).
 
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP S/4HANA Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-s-4hana-integration-scenario?version=Cloud).
+
 -   You have performed the steps in [Prepare SAP Cloud Connector and SAP S/4HANA for the SAP Task Center Connection](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/0f18dddf28764f5b807ecd80549044cc/5c6cf3d9e754468fbd6b3f5073fe085f.html?locale=en-US&version=latest). Choose your SAP S/4HANA version from the dropdown menu next to the documentation title.
 
     Make sure you save the following information, as you need it for the SAP S/4HANA destination setup:
@@ -30,8 +32,6 @@ Find information about the destination configuration that needs to be done for S
     Use the SAP Cloud Connector from the previous prerequisite for the step *Tunnel the request using, for example, the Cloud Connector* in [Configuring SAP Task Center Integration](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/5117f21ef28f4e698d99fe3fdbc1be2a.html).
 
 -   You have the client number of your SAP S/4HANA system.
--   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
-
 
 > ### Note:  
 > Do not configure more than one destination to the same SAP S/4HANA system for one SAP Task Center. This will result in having duplicate tasks for end users.
