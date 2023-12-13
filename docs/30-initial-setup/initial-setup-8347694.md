@@ -74,7 +74,7 @@ For the integration with SAP Build Process Automation or SAP Build Work Zone, ad
 
 
 
-### Verify Your Central Point of Entry for Accessing Appications
+### Verify Your Central Point of Entry for Accessing Applications
 
 You have purchased at least one of the following central points of entry for accessing apps and it is available in your global account.
 
