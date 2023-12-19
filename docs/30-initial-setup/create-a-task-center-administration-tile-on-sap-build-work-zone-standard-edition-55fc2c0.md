@@ -40,7 +40,7 @@ The following procedure describes how to create a Task Center Administration til
 
 2.  In the *Subscriptions* section, search for the *SAP Build Work Zone, standard edition* and choose *Go to Application* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\).
 
-3.  In the new window, open *Channel Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\), search for *HTML 5 Apps*, and choose *Update content*\( <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) below *Actions* to fetch the updated content.
+3.  In the new window, open *Channel Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\), search for *HTML 5 Apps*, and choose *Update content* \( <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) from the *Actions* column to fetch the updated content.
 
 4.  Go to *Content Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\), and choose *Content Explorer*. Choose *HTML5 Apps*, select the Task Center Administration item and choose *\+ Add*.
 
@@ -59,6 +59,99 @@ The following procedure describes how to create a Task Center Administration til
 10. Make sure you assign the new role to the new site and assign the administrators to the role collection in the SAP BTP cockpit. For more information, see [Assign Roles to a Site](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/13e9abe196604356bb28bc2743e78ae9.html).
 
 11. From the *Site Editor* open the site \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). The Task Center Administration tile is available now.
+
+12. \(Optional\) Activate the SAP Companion to enable on-screen help in the SAP Task Center Web app.
+
+    For more information about the SAP Companion, see [SAP Enable Now](https://help.sap.com/viewer/product/SAP_ENABLE_NOW/latest/en-US?task=use_task).
+
+    > ### Restriction:  
+    > Currently, SAP Build Work Zone, standard edition supports only one SAP Companion per site. For more information, see [Restrictions - General](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/8cf196a5a8544c309086619df29595b1.html).
+    > 
+    > To use SAP Companion in the Task Center Administration app, create a new site. For more information, see [Create a Site](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/create-site).
+
+    Follow the steps:
+
+    1.  From the *Site Directory*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) open the *Site Settings*\(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+    2.  Choose *Edit* and activate the *SAP Companion* setting by choosing *YES*.
+    3.  Add the following parameters:
+
+
+        <table>
+        <tr>
+        <th valign="top">
+
+        Name
+        
+        </th>
+        <th valign="top">
+
+        Value
+        
+        </th>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        product
+        
+        </td>
+        <td valign="top">
+        
+        TASK\_CENTER\_ADMIN
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        version
+        
+        </td>
+        <td valign="top">
+        
+        Cloud
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        stateUACP
+        
+        </td>
+        <td valign="top">
+        
+        PRODUCTION
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        dataUrlUACP
+        
+        </td>
+        <td valign="top">
+        
+        https://help.sap.com/webassistant/
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        resourceUrl
+        
+        </td>
+        <td valign="top">
+        
+        https://webassistant.enable-now.cloud.sap/web\_assistant/framework/
+        
+        </td>
+        </tr>
+        </table>
+        
+    4.  Save your site settings.
 
 
 

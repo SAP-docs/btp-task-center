@@ -22,9 +22,11 @@ Configure the *Alert\_Notification\_Connectivity\_ANS* destination, as part of t
 
 ## Procedure
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> ***Destinations* tab from the navigation area on the left.
+1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> ***Destinations* tab from the navigation area.
 
-2.  Create a new destination and manually add the properties as described below.
+2.  If you have performed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md) with the SAP Build Work Zone, standard edition booster\), you have an already created destination with the name *Alert\_Notification\_Connectivity\_ANS*. Configure the properties as described next.
+
+    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described next.
 
 3.  Configure the properties of the destination as described in the following table:
 

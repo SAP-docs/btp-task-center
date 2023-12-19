@@ -60,4 +60,6 @@ Considering this information during development helps you achieve optimal use of
 
 -   All messages returned by the SAP Task Center service are only in English.
 
+-   Notifications displayed in the SAP Task Center Web app are only in English.
+
 

@@ -71,6 +71,23 @@ Administrators can create custom filter tabs, based on the following semantics:
     <tr>
     <td valign="top">
     
+    SAP Advanced Financial Closing
+    
+    </td>
+    <td valign="top">
+    
+    `AFC`
+    
+    </td>
+    <td valign="top">
+    
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     SAP Ariba
     
     </td>

@@ -20,12 +20,16 @@ To use the SAP Task Center Web app, your administrator must have created a *SAP 
 
 ## What Is SAP Task Center Web App?
 
-The SAP Task Center is a new unified inbox for approvals across multiple applications with a seamless and integrated user experience. Workflow tasks from multiple SAP solutions are gathered in one list by the SAP Task Center service and ready to be processed with just one click. In the Web app, you can view all workflow tasks that are assigned to you and process them. A workflow task is a type of workflow object that is visualized in the Web app.
+The SAP Task Center is a new unified inbox for approvals across multiple applications with a seamless and integrated user experience. Workflow tasks from multiple SAP solutions are gathered in one list by the SAP Task Center service and ready to be processed with just one click. In the Web app, you can review all workflow tasks that are assigned to you and process them. A workflow task is a type of workflow object that is presented in the Web app.
 
-You can use the Web app on a desktop or a mobile device. The app displays all the tasks that are assigned to you. The task list is organized in tabs. For more information, see [Working with Filter Tabs](working-with-filter-tabs-df0aec8.md).
+You can use the Web app on a desktop or a mobile device. The app lists all the tasks that are assigned to you. The task list is organized in tabs. For more information, see [Working with Filter Tabs](working-with-filter-tabs-df0aec8.md).
+
+![](images/TaskList_5e151cb.png)
+
+![](images/DetailsView_fd3762c.png)
 
 > ### Note:  
-> The header of the table and the icon tab bar have a sticky behavior. This allows you to scroll the task list and have them visible at the same time.
+> The header of the table and the icon tab bar have a sticky behavior so that they are present on top while you scroll the task list.
 
 The columns that are displayed by default in the Web app contain the following information about the user tasks:
 
@@ -67,7 +71,7 @@ To see details about the failed task, choose the *Processing Errors* icon \(<spa
 </td>
 <td valign="top">
 
-Task title and additional information about the task as per destination configuration. For more information, see the information related to *tc.ui.label* in [Destinations](../40-administration/destinations-3470733.md).
+Task title and additional information about the task as per destination configuration. For more details, see the information related to *tc.ui.label* in [Destinations](../40-administration/destinations-3470733.md).
 
 </td>
 </tr>
@@ -79,7 +83,7 @@ Task title and additional information about the task as per destination configur
 </td>
 <td valign="top">
 
-The task type name, which is provided by the task provider.
+The task type name provided by the task provider.
 
 For more information about the supported task types, see [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-use-cases-758209c.md).
 
@@ -107,7 +111,7 @@ The priority of the task
 </td>
 <td valign="top">
 
-Shows the display name of the user, who created the task, if set by the task provider system.
+Shows the display name of the user who created the task, if set by the task provider system.
 
 </td>
 </tr>
@@ -160,7 +164,7 @@ Due date
 </td>
 <td valign="top">
 
-Displays the list of possible decision options for a task, for example *Approve* or *Reject*.
+Offers the list of possible decision options for a task, for example *Approve* or *Reject*.
 
 Additionally, you can open the task in the task provider, by choosing *Open in App*.
 

@@ -23,6 +23,18 @@ Use Case
 <tr>
 <td valign="top">
 
+SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+See [Supported Use Cases](https://help.sap.com/docs/advanced-financial-closing/administration/supported-use-cases).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Ariba
 
 </td>
@@ -30,7 +42,7 @@ SAP Ariba
 
 For SAP Ariba Buying, see the supported integration scenarios in [Supported Use Cases](https://help.sap.com/docs/ARIBA_PROCUREMENT/27d44834e9164377b324539985725ecd/caae604114744df3b0d2f9bf75dd4618.html).
 
-For SAP Ariba Sourcing, see the supported integration scenarios in [How to enable SAP Task Center for SAP Ariba Sourcing in the SAP S/4HANA Cloud 4BL and 4QN Integrations Scenarios](https://help.sap.com/docs/ARIBA_SOURCING/b6d46a2e6c3043d7bb0cbabba4262560/18bd32b6058d4e47a4f920ed115599e1.html).
+For SAP Ariba Sourcing, see the supported integration scenarios in [Enabling SAP Task Center for SAP Ariba Sourcing](https://help.sap.com/docs/ARIBA_SOURCING/b6d46a2e6c3043d7bb0cbabba4262560/18bd32b6058d4e47a4f920ed115599e1.html).
 
 </td>
 </tr>

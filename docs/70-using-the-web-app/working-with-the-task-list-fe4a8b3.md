@@ -8,6 +8,14 @@ In the SAP Task Center Web app, you can search for a specific task in the task l
 
 
 
+<a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_Feedback"/>
+
+## Provide Feedback
+
+Provide your feedback on the SAP Task Center by choosing the feedback icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the upper right corner of the Web app.
+
+
+
 <a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_WebAssistant"/>
 
 ## Integration with SAP Companion
@@ -140,18 +148,12 @@ To be able to sort by custom attributes, you have to first filter by a single ta
 
 <a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_SearchTasks"/>
 
-## Search for Tasks
+## Search and Filter Tasks
 
 Search for tasks using the *Search* field by entering one or more keywords that are included in the *Task Title*.
 
 > ### Note:  
 > The search is performed among all tasks that are assigned to the user and stored in the back end. It is applies to the fields listed as hint in the *Search* field. When you filter by a task type with custom attributes, the hint in the *Search* field changes dynamically to reflect the current search, and applies to the custom-attribute columns of data type `string`.
-
-
-
-<a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_FilterTasks"/>
-
-## Filter Tasks
 
 The *Filter* criteria are available in the field above the tasks, next to the *Search* field. By default, you can filter your task list by the following criteria:
 

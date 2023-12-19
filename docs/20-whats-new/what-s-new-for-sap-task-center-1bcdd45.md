@@ -87,6 +87,198 @@ SAP Task Center
 </td>
 <td valign="top">
 
+SAP Advanced Financial Closing Supported
+
+</td>
+<td valign="top">
+
+You can now connect SAP Advanced Financial Closing to SAP Task Center. For more information, see [Connect SAP Advanced Financial Closing and SAP Task Center](../40-administration/connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Companion in the SAP Task Center Administration App
+
+</td>
+<td valign="top">
+
+SAP Companion is now available for the SAP Task Center Administration app. For more information, see [Create a Task Center Administration Tile on SAP Build Work Zone, standard edition](../30-initial-setup/create-a-task-center-administration-tile-on-sap-build-work-zone-standard-edition-55fc2c0.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Provide Your Feedback in the SAP Task Center Web App 
+
+</td>
+<td valign="top">
+
+You can now provide your feedback on the SAP Task Center by filling in the feedback form. For more information, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Supported Features
 
 </td>

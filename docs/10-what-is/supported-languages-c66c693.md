@@ -26,6 +26,11 @@ SAP Task Center
 </th>
 <th valign="top">
 
+SAP Advanced Financial Closing
+
+</th>
+<th valign="top">
+
 SAP Ariba
 
 </th>
@@ -89,6 +94,11 @@ Arabic \(U.A.E.\)
 <td valign="top">
 
 ar-AE
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -166,6 +176,11 @@ bg-BG
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -277,6 +292,11 @@ ca-ES
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -305,6 +325,11 @@ Chinese \(China\)
 <td valign="top">
 
 zh-CN
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -391,6 +416,11 @@ zh-TW
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -458,6 +488,11 @@ hr-HR
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -521,6 +556,11 @@ Czech \(Czech Republic\)
 <td valign="top">
 
 cs-CZ
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -617,6 +657,11 @@ da-DK
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -665,6 +710,11 @@ Dutch \(Netherlands\)
 <td valign="top">
 
 nl-NL
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -799,6 +849,11 @@ en-US
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -814,6 +869,11 @@ et-EE
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -881,6 +941,11 @@ Finnish \(Finland\)
 <td valign="top">
 
 fi-FI
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -992,6 +1057,11 @@ fr-FR
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1025,6 +1095,11 @@ German \(Germany\)
 <td valign="top">
 
 de-DE
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -1106,6 +1181,11 @@ el-GR
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -1174,6 +1254,11 @@ iw-IL
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1285,6 +1370,11 @@ hi-IN
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -1313,6 +1403,11 @@ Hungarian \(Hungary\)
 <td valign="top">
 
 hu-HU
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -1419,6 +1514,11 @@ it-IT
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1457,6 +1557,11 @@ Japanese \(Japan\)
 <td valign="top">
 
 ja-JP
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -1573,6 +1678,11 @@ kk-KZ
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -1601,6 +1711,11 @@ Korean \(South Korea\)
 <td valign="top">
 
 ko-KR
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -1717,6 +1832,11 @@ lv-LV
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -1789,6 +1909,11 @@ lt-LT
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -1817,6 +1942,11 @@ Malay \(Malaysia\)
 <td valign="top">
 
 ms-MY
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -1913,6 +2043,11 @@ no-NO
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1961,6 +2096,11 @@ Polish \(Poland\)
 <td valign="top">
 
 pl-PL
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -2072,6 +2212,11 @@ pt-BR
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -2105,6 +2250,11 @@ Romanian \(Romania\)
 <td valign="top">
 
 ro-RO
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -2216,6 +2366,11 @@ ru-RU
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -2254,6 +2409,11 @@ sr-RS
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2335,6 +2495,11 @@ sk-SK
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -2398,6 +2563,11 @@ sl-Sl
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2484,6 +2654,11 @@ es-MX
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -2537,6 +2712,11 @@ Spanish \(Spain\)
 <td valign="top">
 
 es-ES
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -2638,6 +2818,11 @@ sv-SE
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -2681,6 +2866,11 @@ Thai \(Thailand\)
 <td valign="top">
 
 th-TH
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
 <td valign="top">
@@ -2777,6 +2967,11 @@ tr-TR
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -2830,6 +3025,11 @@ uk-UA
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2902,6 +3102,11 @@ vi-VN
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

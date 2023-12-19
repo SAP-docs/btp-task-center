@@ -14,6 +14,11 @@
 Feature
 
 </th>
+<th valign="top" rowspan="2">
+
+SAP Advanced Financial Closing
+
+</th>
 <th valign="top" colspan="2">
 
 SAP Ariba
@@ -95,6 +100,11 @@ View/ Download
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 
 
 </td>
@@ -164,6 +174,11 @@ Upload
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 
 
 </td>
@@ -227,6 +242,11 @@ Upload
 <td valign="top">
 
 Delete
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -303,6 +323,11 @@ View
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 
 
 </td>
@@ -366,6 +391,11 @@ View
 <td valign="top">
 
 Add
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -467,6 +497,11 @@ Substitutions in SAP Task Center
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
 
 </td>
@@ -500,6 +535,11 @@ Substitutions in SAP Task Center
 <td valign="top" colspan="2">
 
 Mass actions
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

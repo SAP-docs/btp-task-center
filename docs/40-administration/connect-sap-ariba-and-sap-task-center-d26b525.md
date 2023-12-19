@@ -14,7 +14,7 @@ Find information about the destination configuration that needs to be done for S
 
 -   You have an existing SAP Ariba tenant and know your SAP Ariba `realm name` or `customer site name`. For more information, see [How do I find out my realm name?](https://support.ariba.com/item/view/KB0395389).
 
--   For the integration with SAP Ariba Sourcing you must have completed the steps described in [How to enable SAP Task Center for SAP Ariba Sourcing in the SAP S/4HANA Cloud 4BL and 4QN Integrations Scenarios](https://help.sap.com/docs/ARIBA_SOURCING/b6d46a2e6c3043d7bb0cbabba4262560/18bd32b6058d4e47a4f920ed115599e1.html) to enable the functionality in SAP Ariba.
+-   For the integration with SAP Ariba Sourcing you must have completed the steps described in [Enabling SAP Task Center for SAP Ariba Sourcing](https://help.sap.com/docs/ARIBA_SOURCING/b6d46a2e6c3043d7bb0cbabba4262560/18bd32b6058d4e47a4f920ed115599e1.html) to enable the functionality in SAP Ariba.
 -   For the integration with SAP AribaBuying, see [SAP Task Center for SAP Ariba Buying](https://help.sap.com/docs/ARIBA_PROCUREMENT/27d44834e9164377b324539985725ecd/c80239e20d3a46bd9577f035224b7ff1.html) and contact your SAP Ariba Technical Support to enable the functionality in SAP Ariba.
 
 > ### Note:  

@@ -6,13 +6,22 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
 
 
 
+<a name="loio99e53020ef7441cda1e72f843404fa5f__context_jmy_gbr_szb"/>
+
+## Context
+
+> ### Note:  
+> Notifications displayed in the SAP Task Center Web app are only in English.
+
+
+
 ## Procedure
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
+1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area.
 
-2.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you have an already created destination with the name *Task\_Center\_global\_settings*. Configure the properties as described below.
+2.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you have an already created destination with the name *Task\_Center\_global\_settings*. Configure the properties as described next.
 
-    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described below.
+    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described next.
 
 3.  Configure the properties of the destination as described in the following table:
 
