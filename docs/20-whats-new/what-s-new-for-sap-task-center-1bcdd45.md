@@ -6,6 +6,142 @@
 
 
 
+**2024**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Technical Component
+
+</th>
+<th valign="top">
+
+Environment
+
+</th>
+<th valign="top">
+
+Title
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Lifecycle
+
+</th>
+<th valign="top">
+
+Type
+
+</th>
+<th valign="top">
+
+Line of Business
+
+</th>
+<th valign="top">
+
+Modular Business Process
+
+</th>
+<th valign="top">
+
+Product
+
+</th>
+<th valign="top">
+
+Latest Revision
+
+</th>
+<th valign="top">
+
+Available as of
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Restart Notifications
+
+</td>
+<td valign="top">
+
+A change in the setup of the notifications has been introduced and requires your action.
+
+If you have already set up notifications for SAP Task Center, please set the *tc.notifications.enabled* property from every task provider destination to `false`, wait for a few minutes and set it back to `true`.
+
+For more information on the task provider destinations, see [Destinations](../40-administration/destinations-3470733.md).
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-01-08
+
+</td>
+<td valign="top">
+
+2024-01-08
+
+</td>
+</tr>
+</table>
+
 **2023**
 
 
@@ -156,7 +292,7 @@ SAP Companion in the SAP Task Center Administration App
 </td>
 <td valign="top">
 
-SAP Companion is now available for the SAP Task Center Administration app. For more information, see [Create a Task Center Administration Tile on SAP Build Work Zone, standard edition](../30-initial-setup/create-a-task-center-administration-tile-on-sap-build-work-zone-standard-edition-55fc2c0.md).
+SAP Companion is now available for the SAP Task Center Administration app. For more information, see [Create a Task Center Administration Tile](../30-initial-setup/create-a-task-center-administration-tile-8053d72.md).
 
 </td>
 <td valign="top">

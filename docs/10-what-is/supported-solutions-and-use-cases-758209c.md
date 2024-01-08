@@ -4,7 +4,7 @@
 
 Review the list of the supported solutions and use cases in SAP Task Center.
 
-**Supported Use Cases for SAP Task Center Web App and Task Center in the SAP Mobile Start Mobile App**
+**Supported Use Cases \(Task Types\) for SAP Task Center Web App and Task Center in the SAP Mobile Start Mobile App**
 
 
 <table>
@@ -16,7 +16,7 @@ Task Provider
 </th>
 <th valign="top">
 
-Use Case
+Use Cases \(Task Types\)
 
 </th>
 </tr>
