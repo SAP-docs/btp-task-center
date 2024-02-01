@@ -10,13 +10,16 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
+> ### Tip:  
+> See also the step-by-step mission for the setup of connection to SAP Concur at [Integrate Your SAP Concur Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3883/3962/).
+
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP Concur Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-concur-integration-scenario).
+
 -   You have an existing SAP Concur entity, and have generated the `Company Request Token` and `Company UUID`. For more information, see *SAP Concur Company Request Token* in [SAP Task Center Integration with Concur Solutions](https://www.concurtraining.com/customers/tech_pubs/Integration/Shr_SG_Task_Center_Integration.pdf).
 
     If you need any additional information, contact your SAP Concur implementation consultant.
 
 -   You have enabled the workflows for Concur Expense, Concur Request, or both, for SAP Task Center. For more information, see [SAP Task Center Integration with Concur Solutions](https://www.concurtraining.com/customers/tech_pubs/Integration/Shr_SG_Task_Center_Integration.pdf).
-
--   You have completed all prerequisites listed in [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
 -   You have opened a ticket to verify your Data Privacy Agreement version.
 
@@ -38,13 +41,13 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
 
 ## Procedure
 
-1.  Navigate to the Cloud Foundry subaccount where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
+1.  Navigate to the Cloud Foundry subaccount where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area.
 
-2.  If you have executed the automatic setup \(see [Automatic Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/3a499676e7ae4282af84092f778e3737.html)\), you already sample destinations called *Concur\_req* and *Concur\_exp*. You can use the sample destinations or clone them, and update the properties as described below.
+2.  If you have executed the automatic setup \(see [Automatic Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/3a499676e7ae4282af84092f778e3737.html)\), you already sample destinations called *Concur\_req* and *Concur\_exp*. You can use the sample destinations or clone them, and update the properties as described in the following table.
 
-    If you have followed the manual setup \(see [Manual Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/0f00d3d3e2ab460c856d409c469fb4f1.html)\), you have to create a new destination and manually add the properties as described below.
+    If you have followed the manual setup \(see [Manual Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/0f00d3d3e2ab460c856d409c469fb4f1.html)\), you have to create a new destination and manually add the properties as described in the following table.
 
-3.  Configure the properties of the destination as described below:
+3.  Configure the properties of the destination as described next:
 
 
     <table>
@@ -52,39 +55,31 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        *Name*
-
-
+    *Name*
     
     </td>
     <td valign="top">
     
-        The destination name can be up to 16 characters.
+    The destination name can be up to 16 characters.
 
     > ### Note:  
-    > Note that the name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to ***Error***.
+    > Note that the name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
     > 
     > > ### Note:  
     > > If you change the *name* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -94,75 +89,59 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***Concur\_Request***
-
-
+    `Concur_Request`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Type*
-
-
+    *Type*
     
     </td>
     <td valign="top">
     
-        Choose *HTTP*.
-
-
+    Choose *HTTP*.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Description*
-
-
+    *Description*
     
     </td>
     <td valign="top">
     
-        \(Optional\) Add a description.
-
-
+    \(Optional\) Add a description.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *URL*
-
-
+    *URL*
     
     </td>
     <td valign="top">
     
-        Enter the appropriate URL:
+    Enter the appropriate URL:
 
-    -   For travel requests: ***https://<datacenter\_base\_URI\>/travelrequest***
+    -   For travel requests: `https://<datacenter_base_URI>/travelrequest`
 
-    -   For expense reports: ***https://<datacenter\_base\_URI\>/expensereports***
+    -   For expense reports: `https://<datacenter_base_URI>/expensereports`
 
 
     For the full list of SAP Concur datacenter base URIs, contact your SAP Concur implementation consultant.
@@ -175,15 +154,15 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-        **Examples**:
+    **Examples**:
 
     -   For travel requests:
 
-        ***https://us2.api.concursolutions.com/travelrequest***
+        `https://us2.api.concursolutions.com/travelrequest`
 
     -   For expense reports:
 
-        ***https://us2.api.concursolutions.com/expensereports***
+        `https://us2.api.concursolutions.com/expensereports`
 
 
 
@@ -193,171 +172,129 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <tr>
     <td valign="top">
     
-        *Proxy Type*
-
-
+    *Proxy Type*
     
     </td>
     <td valign="top">
     
-        Choose *Internet*.
-
-
+    Choose *Internet*.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Authentication*
-
-
+    *Authentication*
     
     </td>
     <td valign="top">
     
-        Choose *OAuth2SAMLBearerAssertion*.
-
-
+    Choose *OAuth2SAMLBearerAssertion*.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Audience*
-
-
+    *Audience*
     
     </td>
     <td valign="top">
     
-        Used to construct the SAML assertion. Its value should be ***Concur***.
-
-
+    Used to construct the SAML assertion. Its value should be `Concur`.
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
-    ***Concur***
-
-
+    `Concur`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *AuthnContextClassRef*
-
-
+    *AuthnContextClassRef*
     
     </td>
     <td valign="top">
     
-        Value of the `AuthnContextClassRef` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
-
-
+    Value of the `AuthnContextClassRef` tag, which is part of the generated `OAuth2SAMLBearerAssertion` authentication.
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
-
-
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Client Key*
-
-
+    *Client Key*
     
     </td>
     <td valign="top">
     
-        Add the `Company Request Token` you have created in the *Prerequisites* section.
+    Add the `Company Request Token` you have created in the *Prerequisites* section.
 
     This value is automatically replaced with a `refresh token` after a communication exchange between SAP Concur and SAP Task Center.
-
-
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Token Service URL Type*
-
-
+    *Token Service URL Type*
     
     </td>
     <td valign="top">
     
-        Choose *Dedicated*.
-
-
+    Choose *Dedicated*.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Token Service URL*
-
-
+    *Token Service URL*
     
     </td>
     <td valign="top">
     
-        Enter the appropriate URL: ***https://<datacenter\_base\_URI\>/oauth2/v0/token***
+    Enter the appropriate URL: `https://<datacenter_base_URI>/oauth2/v0/token`
 
     For the full list of SAP Concur datacenter base URIs, contact your SAP Concur implementation consultant.
-
-
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***https://us2.api.concursolutions.com/oauth2/v0/token***
-
-
+    `https://us2.api.concursolutions.com/oauth2/v0/token`
     
     </td>
     </tr>
@@ -371,46 +308,38 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.enabled*
-
-
+    *tc.enabled*
     
     </td>
     <td valign="top">
     
-        Enables SAP Task Center to connect to the configured task provider destination.
+    Enables SAP Task Center to connect to the configured task provider destination.
 
     > ### Caution:  
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/3a499676e7ae4282af84092f778e3737.html)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) has the following effects:
+    > Any value other than `true` \(for example `false`\) has the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
-    > -   The tasks from this destination are **not** displayed in the SAP Task Center Web app.
+    > -   The tasks from this destination are **not** available in the SAP Task Center Web app.
     > 
     > -   The task cache is not updated with tasks from this destination.
     > 
@@ -422,25 +351,21 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
-    ***true***
-
-
+    `true`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.concur.auth.req.token.enabled*
-
-
+    *tc.concur.auth.req.token.enabled*
     
     </td>
     <td valign="top">
     
-        The initial value should be ***true***.
+    The initial value should be `true`.
 
     This value is automatically changed to *false* after a communication exchange between SAP Concur and SAP Task Center regarding the `Client Key`.
 
@@ -452,193 +377,183 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.concur.dc*
-
-
+    *tc.concur.dc*
     
     </td>
     <td valign="top">
     
-        Corresponds to the data center, where this SAP Concur destination is located \(see your `URL` parameter\).
+    Corresponds to the data center, where this SAP Concur destination is located \(see your `URL` parameter\).
 
-    Valid values are ***eu2*** and ***us2***.
-
-
+    Valid values are `eu2` and `us2`.
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***eu2***
-
-
+    `eu2`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.concur.companyUUID*
-
-
+    *tc.concur.companyUUID*
     
     </td>
     <td valign="top">
     
-        Add the value of `Company UUID` you have created in the *Prerequisites* section.
-
-
+    Add the value of `Company UUID` you have created in the *Prerequisites* section.
     
     </td>
     <td valign="top">
     
-        **Value of** ***Company UUID***
-
-
+    **Value of** `Company UUID`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.grant\_type*
-
-
+    *tc.grant\_type*
     
     </td>
     <td valign="top">
     
-        Set this property to ***refresh\_token***.
+    Set this property to `refresh_token`.
 
     This property enables SAP Task Center to use the `refresh token` maintained in the *Client Key* property.
-
-
     
     </td>
     <td valign="top">
     
-        **Value**: ***refresh\_token***
-
-
+    **Value**: `refresh_token`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.provider\_type*
+    *tc.notifications.enabled*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
 
 
     
     </td>
     <td valign="top">
     
-        Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/53157da9e7ed498ea6b30298bf7d5213.html). 
+    **Example**:
 
-
-    
-    </td>
-    <td valign="top">
-    
-        **Value**:
-
-    ***Concur***
-
-
+    `true`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.ui.group*
+    *tc.provider\_type*
+    
+    </td>
+    <td valign="top">
+    
+    Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/53157da9e7ed498ea6b30298bf7d5213.html). 
+    
+    </td>
+    <td valign="top">
+    
+    **Value**:
+
+    `Concur`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.ui.group*
 
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
     
-        \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
 
     You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/c66c693eab8c4e1aa47bddb5ce148348.html)\), by appending the respective language code to the property.
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/53157da9e7ed498ea6b30298bf7d5213.html).
-
-
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***SAP Concur***
-
-
+    `SAP Concur`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.ui.label* 
+    *tc.ui.label* 
 
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
     
-        \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/c66c693eab8c4e1aa47bddb5ce148348.html)\), by appending the respective language code to the property.
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](https://help.sap.com/viewer/08cbda59b4954e93abb2ec85f1db399d/Prod/en-US/a0be9ad5cd7146fca3ac29b92ab631dc.html).
-
-
     
     </td>
     <td valign="top">
     
-        **Example for *tc.ui.label***:
+    **Example for *tc.ui.label***:
 
-    ***SAP Concur Request Task***
+    `SAP Concur Request Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Concur Request Aufgabe***
-
-
+    `SAP Concur Request Aufgabe`
     
     </td>
     </tr>

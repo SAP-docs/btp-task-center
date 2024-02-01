@@ -20,7 +20,7 @@ In the SAP Support Portal, check the [Guided Answers for SAP Task Center](https:
 
 ## Contact SAP Support
 
-You can report an incident or error through the [SAP Support Portal](https://support.sap.com/). Please use the respective component for your incident, as described in SAP Note [3044195](https://launchpad.support.sap.com/#/notes/3044195).
+You can report an incident or error through the [SAP Support Portal](https://support.sap.com/). Please use the respective component for your incident, as described in SAP Note [3044195](https://me.sap.com/notes/3044195).
 
 When submitting the incident we recommend to include the following information:
 

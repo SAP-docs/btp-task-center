@@ -14,18 +14,18 @@ Considering this information during development helps you achieve optimal use of
 
 -   During the initial pull SAP Task Center loads the tasks, which have been updated or created in the past 90 days \(this is the **maximum initial pull period**\). Previous tasks are not loaded into SAP Task Center.
 
--   During the initial pull load, if SAP Task Center cannot retrieve a token in one hour, it automatically sets the *tc.enabled* property to ***false***. To continue, you need to manually set the property to ***true***.
+-   During the initial pull load, if SAP Task Center cannot retrieve a token in one hour, it automatically sets the *tc.enabled* property to `false`. To continue, you need to manually set the property to `true`.
 
 -   SAP Task Center communicates with the task provider applications via predefined destinations in a customer subaccount. For each configured destination, SAP Task Center creates a connector to the provider application internally, which updates tasks from this provider into the task cache.
 
--   For every enabled connector \(with the property ***tc.enabled = true***\), after the initial pull has passed, the task cache is updated with the recently created, modified, or completed tasks as follows:
+-   For every enabled connector \(with the property `tc.enabled = true`\), after the initial pull has passed, the task cache is updated with the recently created, modified, or completed tasks as follows:
 
-    -   If the ***tc.clientId*** property is set up for the enabled connector, then the task cache is updated every 5 seconds.
+    -   If the `tc.clientId` property is set up for the enabled connector, then the task cache is updated every 5 seconds.
 
-    -   If the ***tc.clientId*** property is not set up for the enabled connector, then the task cache is updated every 30 seconds.
+    -   If the `tc.clientId` property is not set up for the enabled connector, then the task cache is updated every 30 seconds.
 
         > ### Note:  
-        > Currently the ***tc.clientId*** property is not available for every task provider.
+        > Currently the `tc.clientId` property is not available for every task provider.
 
 
 -   A clean-up job runs on a daily basis for every tenant. This job deletes from the task cache the following tasks:
@@ -50,12 +50,16 @@ Considering this information during development helps you achieve optimal use of
 
 -   The SAP Task Center integration does not support substitutions for any of the supported SAP solutions. If there are defined substitutions or delegates in any of the supported SAP solutions, they will not work with the SAP Task Center.
 
--   Searching, filtering and sorting by the *Created By* column is not possible.
+-   Searching, filtering, and sorting by the *Created By* column is not possible.
+
+-   Searching, filtering, and sorting by fields exposing custom attributes with formatted value is not possible, for example custom attributes of type `STRING` and format `USER`, which have formatted value.
 
 -   The SAP Task Center service only enables, but does not include the integration implementation from the supported SAP solutions.
 
 -   Not all use cases, supported by the task provider systems, are supported in SAP Task Center. For more information, see [Supported Solutions and Use Cases](supported-solutions-and-use-cases-758209c.md).
 
 -   All messages returned by the SAP Task Center service are only in English.
+
+-   Notifications displayed in the SAP Task Center Web app are only in English.
 
 

@@ -21,7 +21,7 @@ In your subaccount, *Security* \> *Administrators* section, you have the *User &
 
 [Assign Users to Role Collections](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/c5766765bda74ad59fe656977c8fa4d6.html?version=Cloud)
 
- <a name="loio4e4af2f3c4d8479b93b111587a6a17b1"/>
+<a name="loio4e4af2f3c4d8479b93b111587a6a17b1"/>
 
 <!-- loio4e4af2f3c4d8479b93b111587a6a17b1 -->
 
@@ -46,7 +46,7 @@ In your subaccount, *Security* \> *Administrators* section, you have the *User &
 7.  Keep adding roles or create additional role collections according to your requirements.
 
 
- <a name="loio80d42d82cef047dc8ff3841f398edb36"/>
+<a name="loio80d42d82cef047dc8ff3841f398edb36"/>
 
 <!-- loio80d42d82cef047dc8ff3841f398edb36 -->
 

@@ -10,7 +10,7 @@ The Task Center Administration app displays the status of SAP Task Center servic
 
 The Task Center Administration app connects to the SAP Task Center Monitoring API and helps administrators monitor the overall status of the SAP Task Center service and all destination connectors, configured on the account of the SAP Task Center instance.
 
-For more information about the Monitoring Status API, see [SAP API Business Hub Task Center API](https://int.api.hana.ondemand.com/package/SAPTaskCenter?section=Artifacts).
+For more information about the Monitoring Status API, see [SAP Business Accelerator Hub Task Center API](https://int.api.hana.ondemand.com/package/SAPTaskCenter?section=Artifacts).
 
 For more information about the languages supported in the Task Center Administration app, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
 
@@ -44,9 +44,9 @@ The *Connectors* tab contains the following views:
 -   Job View
 -   Log View
 
-Initially, you see only the active destinations of the connectors. More details are displayed when you select one of the destinations and a job type.
+Initially, you get information only about the active destinations of the connectors. More details are provided when you select one of the destinations and a job type.
 
-The information displayed in the views is provided by the Task Center API. For more information about the Task Center API, see [Using the SAP Task Center API](../50-development/using-the-sap-task-center-api-b66e0cd.md).
+The information in the views is provided by the Task Center API. For more information about the Task Center API, see [Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md).
 
 **Views, Information, and Related End Points**
 
@@ -57,21 +57,15 @@ The information displayed in the views is provided by the Task Center API. For m
 
 View
 
-
-
 </th>
 <th valign="top">
 
 Information Provided in the View
 
-
-
 </th>
 <th valign="top">
 
 Related End Point
-
-
 
 </th>
 </tr>
@@ -79,8 +73,6 @@ Related End Point
 <td valign="top">
 
 Destinations View
-
-
 
 </td>
 <td valign="top">
@@ -103,16 +95,12 @@ Destinations View
 
 `/task-center-service/v1/connectors`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Job View
-
-
 
 </td>
 <td valign="top">
@@ -141,14 +129,10 @@ Job View
 
 For more information about the available job types and their statuses, see [Monitoring](monitoring-9b30be7.md).
 
-
-
 </td>
 <td valign="top">
 
 `/task-center-service/v1/connectors/{connectorId}`
-
-
 
 </td>
 </tr>
@@ -156,8 +140,6 @@ For more information about the available job types and their statuses, see [Moni
 <td valign="top">
 
 Log View
-
-
 
 </td>
 <td valign="top">
@@ -172,13 +154,11 @@ Log View
 
 `/task-center-service/v1/connectors/{connectorId}/jobTypes/{jobType}`
 
-
-
 </td>
 </tr>
 </table>
 
-The *Service Status* tab displays the current status of the following destinations:
+The *Service Status* tab provides information about the current status of the following destinations:
 
 -   *Task\_Center\_global\_settings*
 -   *Identity\_Authentication\_Connectivity\_IDS*
@@ -199,14 +179,10 @@ Use the *Refresh* button \(<span style="color:#346187;"><span class="SAP-icons">
 
 Column
 
-
-
 </th>
 <th valign="top">
 
 Details
-
-
 
 </th>
 </tr>
@@ -215,14 +191,10 @@ Details
 
 *ID*
 
-
-
 </td>
 <td valign="top">
 
 The *Service\_Configuration* ID is related to the *Task\_Center\_global\_settings* destination. See also [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
-
-
 
 </td>
 </tr>
@@ -231,16 +203,12 @@ The *Service\_Configuration* ID is related to the *Task\_Center\_global\_setting
 
 The *IDS\_Configuration* ID is related to the *Identity\_Authentication\_Connectivity\_IDS* destination. See also [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Status*
-
-
 
 </td>
 <td valign="top">
@@ -265,14 +233,10 @@ For more information, see the message.
 
 *Message*
 
-
-
 </td>
 <td valign="top">
 
 Displays a message returned by the service.
-
-
 
 </td>
 </tr>
@@ -281,14 +245,10 @@ Displays a message returned by the service.
 
 *Modified At*
 
-
-
 </td>
 <td valign="top">
 
 Date and time when the last status update was retrieved.
-
-
 
 </td>
 </tr>
@@ -301,7 +261,7 @@ Date and time when the last status update was retrieved.
 
 [Monitoring](monitoring-9b30be7.md "Once you create a destination configuration to connect SAP Task Center to a task provider application, SAP Task Center creates a connector internally for this configuration.")
 
-[Using the SAP Task Center API](../50-development/using-the-sap-task-center-api-b66e0cd.md "The SAP Task Center API for the Cloud Foundry environment allows you to list and work with user tasks and task definitions, monitor connector configurations, and export service data.")
+[Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md "The SAP Task Center API for the Cloud Foundry environment allows you to list and work with user tasks and task definitions, monitor connector configurations, and export service data.")
 
 [SAP Business API Hub documentation](https://api.sap.com/package/SAPTaskCenter?section=Artifacts)
 

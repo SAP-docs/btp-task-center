@@ -42,17 +42,17 @@ SAP Task Center supports Authorization Code Grant flow for accessing its APIs.
     -   `endpoints.inbox_rest_url`
 
 2.  Request an authorization code from the OAuth 2.0 authorization server.
-    1.  Send a ***GET*** request to the authorization endpoint and specify both the client ID and the response type as *code*. Use the `uaa.url` and `uaa.clientid` service configuration parameters.
+    1.  Send a `GET` request to the authorization endpoint and specify both the client ID and the response type as *code*. Use the `uaa.url` and `uaa.clientid` service configuration parameters.
 
         > ### Example:  
-        > Combine the parameters with the `uaa.url` endpoint of the authorization server, as follows: *****<uaa.url\>********/oauth/authorize?client\_id=********<URL encoded uaa.clientid\>********&response\_type=code&redirect\_uri=http://localhost*** and open this URL in a browser.
+        > Combine the parameters with the `uaa.url` endpoint of the authorization server, as follows: **`<uaa.url>`**`/oauth/authorize?client_id=`**`<URL encoded uaa.clientid>`**`&response_type=code&redirect_uri=http://localhost` and open this URL in a browser.
 
     2.  Authenticate the call using the real user that should be propagated to the SAP Task Center API \(on behalf of the user\).
 
         > ### Example:  
-        > If you would like to call the connector status API, the user that you authenticate with, must have the ***TaskCenterAdmin*** role assignment. For more information, see: [Assign Roles to Your Users](../60-security/assign-roles-to-your-users-7e081d8.md).
+        > If you would like to call the connector status API, the user that you authenticate with, must have the `TaskCenterAdmin` role assignment. For more information, see: [Assign Roles to Your Users](../60-security/assign-roles-to-your-users-7e081d8.md).
 
-        The response redirects to the URL similar to: ***http://localhost:8080/?code=<authorization\_code\>***.
+        The response redirects to the URL similar to: `http://localhost:8080/?code=<authorization_code>`.
 
         > ### Note:  
         > If the error *This site can't be reached* appears, get the redirect URL from the address bar of the browser.
@@ -66,12 +66,12 @@ SAP Task Center supports Authorization Code Grant flow for accessing its APIs.
     1.  Send a POST request to the token endpoint and specify the grant type as the authorization code. Use the `uaa.url` service configuration parameter and the `authorization_code` from the previous step.
 
         > ### Example:  
-        > Combine the parameters with the `token` endpoint of the authorization server. For example: *****<uaa.url\>********/oauth/token?grant\_type=authorization\_code&code=<authorization\_code\>&redirect\_uri=http://localhost***
+        > Combine the parameters with the `token` endpoint of the authorization server. For example: **`<uaa.url>`**`/oauth/token?grant_type=authorization_code&code=<authorization_code>&redirect_uri=http://localhost`
 
     2.  Authenticate the call using basic authentication, where the username corresponds to your OAuth client ID and the password - to the client secret. Use the respective service configuration parameters `uaa.clientid` \(not URL encoded\) and `uaa.clientsecret`.
 
         > ### Example:  
-        > ***curl -X POST "<url\>/oauth/token?redirect\_uri=http://localhost" -H "Content-Type: application/x-www-form-urlencoded" -u "<uaa.clientid\>:<uaa.clientsecret\>" -d "grant\_type=authorization\_code&code=<authorization\_code\>"***
+        > `curl -X POST "<url>/oauth/token?redirect_uri=http://localhost" -H "Content-Type: application/x-www-form-urlencoded" -u "<uaa.clientid>:<uaa.clientsecret>" -d "grant_type=authorization_code&code=<authorization_code>"`
 
     3.  Copy the access token from the HTTP response body \(`access_token` attribute of the JSON structure\).
 
@@ -83,18 +83,18 @@ SAP Task Center supports Authorization Code Grant flow for accessing its APIs.
     To request a new access token for a given refresh token, send a POST request to the same token endpoint as in the step *Request an access token from the OAuth 2.0 authorization server* passing the refresh token. The call must be authenticated again with basic authentication, where the username corresponds to your OAuth client ID and the password to the client secret.
 
     > ### Example:  
-    > Combine the parameters with the `token` endpoint of the authorization server. For example: *****<uaa.url\>********/oauth/token?grant\_type=refresh\_token&refresh\_token=<refresh\_token\>***.
+    > Combine the parameters with the `token` endpoint of the authorization server. For example: **`<uaa.url>`**`/oauth/token?grant_type=refresh_token&refresh_token=<refresh_token>`.
 
     However, it is important to understand that the refresh token has a lifetime as well. Lifetimes of access and refresh tokens can be configured separately. If the lifetime of the refresh token has expired, there is no means to request a new refresh token.
 
 4.  Perform the call to the SAP Task Center API by sending the access token as the header. Use the endpoints below the base URL from the service configuration parameter `endpoints.inbox_rest_url`.
-    1.  Header name: ***Authorization***
-    2.  Header value: ***Bearer <access token\>***
+    1.  Header name: `Authorization`
+    2.  Header value: `Bearer <access token>`
 
         > ### Example:  
         > Access Connector status API:
         > 
-        > ***curl "<endpoints.inbox\_rest\_url\>/v1/connectors" -H "Authorization: Bearer <access token\>"***
+        > `curl "<endpoints.inbox_rest_url>/v1/connectors" -H "Authorization: Bearer <access token>"`
 
 
 

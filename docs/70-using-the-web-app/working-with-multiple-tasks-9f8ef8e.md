@@ -12,6 +12,8 @@ You can process multiple tasks at once, by using the *Mass Actions* functionalit
 
 To enable the *Mass Actions* functionality, you must filter the task list by a single task type that supports mass actions, or there must be only one task type available in the list.
 
+The task types, supporting mass actions have an *M* indicator next to the task type name.
+
 When you filter by a single task type, that supports mass actions, the *Mass Actions* button becomes enabled and you can select multiple tasks in the task list.
 
 If you select the *Select All* checkbox, only the loaded tasks on the current page are selected. You can select and process up to 2000 tasks.

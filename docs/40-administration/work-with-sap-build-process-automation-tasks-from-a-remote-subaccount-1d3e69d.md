@@ -53,36 +53,28 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        *Name*
-
-
+    *Name*
     
     </td>
     <td valign="top">
     
-        The destination name can be up to 16 characters.
+    The destination name can be up to 16 characters.
 
     > ### Note:  
     > The name of the destination must not be longer than 16 characters, as otherwise, the status of the respective SAP Task Center connector will be set to `Error`.
@@ -95,71 +87,55 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***SAPBuildPA\_rem***
-
-
+    `SAPBuildPA_rem`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Type*
-
-
+    *Type*
     
     </td>
     <td valign="top">
     
-        Choose the *HTTP* option from the dropdown menu.
-
-
+    Choose the *HTTP* option from the dropdown menu.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Description*
-
-
+    *Description*
     
     </td>
     <td valign="top">
     
-        \(Optional\) Add a description.
-
-
+    \(Optional\) Add a description.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *URL*
-
-
+    *URL*
     
     </td>
     <td valign="top">
     
-        Add the *endpoints \> api* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append */internal/workflow/rest/v1* to the URL.
+    Add the *endpoints \> api* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append */internal/workflow/rest/v1* to the URL.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -169,228 +145,172 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***https://spa-api-gateway-sample.cfapps.sap.hana.ondemand.com/internal/workflow/rest/v1***
-
-
+    `https://spa-api-gateway-sample.cfapps.sap.hana.ondemand.com/internal/workflow/rest/v1`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Proxy type*
-
-
+    *Proxy type*
     
     </td>
     <td valign="top">
     
-        Choose the *Internet* option from the dropdown menu.
-
-
+    Choose the *Internet* option from the dropdown menu.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Authentication*
-
-
+    *Authentication*
     
     </td>
     <td valign="top">
     
-        Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
-
-
+    Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Audience*
-
-
+    *Audience*
     
     </td>
     <td valign="top">
     
-        Add the *entityID* value from Step 1.
-
-
+    Add the *entityID* value from Step 1.
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***https://subaccount.authentication.eu10.hana.ondemand.com***
-
-
+    `https://subaccount.authentication.eu10.hana.ondemand.com`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *AuthnContextClassRef*
-
-
+    *AuthnContextClassRef*
     
     </td>
     <td valign="top">
     
-        Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
-
-
+    Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
-    ***urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession***
-
-
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Client Key*
-
-
+    *Client Key*
     
     </td>
     <td valign="top">
     
-        Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
-
-
+    Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746***
-
-
+    `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Token Service URL Type*
-
-
+    *Token Service URL Type*
     
     </td>
     <td valign="top">
     
-        Choose *Dedicated*.
-
-
+    Choose *Dedicated*.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Token Service URL*
-
-
+    *Token Service URL*
     
     </td>
     <td valign="top">
     
-        Add the *Location* value from Step 1.
-
-
+    Add the *Location* value from Step 1.
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token/alias/subaccount.aws-live-eu10***
-
-
+    `https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token/alias/subaccount.aws-live-eu10`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Token Service User*
-
-
+    *Token Service User*
     
     </td>
     <td valign="top">
     
-        Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
-
-
+    Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746***
-
-
+    `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Token Service Password*
-
-
+    *Token Service Password*
     
     </td>
     <td valign="top">
     
-        Add the *clientsecret* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
-
-
+    Add the *clientsecret* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
@@ -404,67 +324,53 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        *nameIdFormat*
-
-
+    *nameIdFormat*
     
     </td>
     <td valign="top">
     
-        Indicates the SAML name identifier formats supported by the Single Sign-On service.
-
-
+    Indicates the SAML name identifier formats supported by the Single Sign-On service.
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
-    ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress***
-
-
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.enabled*
-
-
+    *tc.enabled*
     
     </td>
     <td valign="top">
     
-        Enables SAP Task Center to connect to the configured task provider destination.
+    Enables SAP Task Center to connect to the configured task provider destination.
 
     > ### Caution:  
     > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
-    > Any value other than ***true*** \(for example ***false***\) would have the following effects:
+    > Any value other than `true` \(for example `false`\) would have the following effects:
     > 
     > -   The previously stored tasks are kept in the task cache.
     > 
@@ -480,145 +386,147 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
-    ***true***
-
-
+    `true`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.provider\_type*
+    *tc.notifications.enabled*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
 
 
     
     </td>
     <td valign="top">
     
-        Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
+    **Example**:
 
-
-    
-    </td>
-    <td valign="top">
-    
-        **Value**:
-
-    ***SPA***
-
-
+    `true`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.ui.group*
+    *tc.provider\_type*
+    
+    </td>
+    <td valign="top">
+    
+    Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
+    
+    </td>
+    <td valign="top">
+    
+    **Value**:
+
+    `SPA`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.ui.group*
 
     and
 
     *tc.ui.group.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
     
-        \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
 
     You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
     For example, add:
 
-    -   the *tc.ui.group* property with the value ***<default\_translation\>*** for a default translation of the group name.
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
 
-    -   the *tc.ui.group.de-DE* property with the value ***<German\_translation\>*** for a German translation of the group name.
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
 
 
     For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
-
-
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***SAP Build Process Automation***
-
-
+    `SAP Build Process Automation`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *tc.ui.label* 
+    *tc.ui.label* 
 
     and
 
     *tc.ui.label.\[language\_code\]*
-
-
     
     </td>
     <td valign="top">
     
-        \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
 
     You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
 
     For example, add:
 
-    -   the *tc.ui.label* property with the value ***<default\_translation\>*** for a default translation of the label.
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE* property with the value ***<German\_translation\>*** for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
-
-
     
     </td>
     <td valign="top">
     
-        **Example for *tc.ui.label***:
+    **Example for *tc.ui.label***:
 
-    ***SAP Build Process Automation Task***
+    `SAP Build Process Automation Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    ***SAP Build Process Automation Aufgabe***
-
-
+    `SAP Build Process Automation Aufgabe`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *userIdSource*
-
-
+    *userIdSource*
     
     </td>
     <td valign="top">
     
-        Provides information about the `userIdSource`to SAP Cloud Identity Services - Identity Authentication.
-
-
+    Provides information about the `userIdSource`to SAP Cloud Identity Services - Identity Authentication.
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
-    ***user\_uuid***
-
-
+    `user_uuid`
     
     </td>
     </tr>

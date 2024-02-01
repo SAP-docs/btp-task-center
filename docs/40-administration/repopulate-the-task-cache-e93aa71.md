@@ -28,7 +28,7 @@ To delete and repopulate the task cache for a destination \(see [Destinations](d
 
 5.  Go back to the Task Center Administration app and wait until the connector to the destination is not visible anymore.
 
-6.  Back in your Cloud Foundry subaccount, open the destination configuration in edit mode, choose *New Property* and add *tc.enabled* with value ***true***. Save the configuration. This allows the jobs in the background to fetch all tasks and task definitions from the task provider system.
+6.  Back in your Cloud Foundry subaccount, open the destination configuration in edit mode, choose *New Property* and add *tc.enabled* with value `true`. Save the configuration. This allows the jobs in the background to fetch all tasks and task definitions from the task provider system.
 
 7.  The destination connector should be visible again in the Task Center Administration app. Make sure that the *INITIAL* job is visible, and the *CONFIG* job is with status *OK* .
 
@@ -39,5 +39,5 @@ To delete and repopulate the task cache for a destination \(see [Destinations](d
 
 ## Results
 
-The task cache is now repopulated for this destination. You should be able to see all tasks from the past 90 days from this destination.
+The task cache is now repopulated for this destination. You should be able to see all tasks from this destination, which have been updated or crated during the maximum initial pull period. For more information about the maximum initial pull period, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md).
 

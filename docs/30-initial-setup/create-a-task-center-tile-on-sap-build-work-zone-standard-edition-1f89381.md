@@ -2,9 +2,9 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Create a Task Center Tile on SAP Build Work Zone, Standard Edition
+# Create a Task Center Tile on SAP Build Work Zone, standard edition
 
-In the SAP BTP, Cloud Foundry environment you can create a Task Center tile in the SAP Build Work Zone, standard edition\(formerly known as SAP Launchpad service\).
+In the SAP BTP, Cloud Foundry environment you can create a Task Center tile in the SAP Build Work Zone, standard edition\(formerly known as SAP Build Work Zone\).
 
 
 
@@ -26,7 +26,7 @@ In the SAP BTP, Cloud Foundry environment you can create a Task Center tile in t
 The following procedure describes how to create a Task Center tile in the SAP Build Work Zone, standard edition. The Web app displays all tasks coming from the online connectors that are relevant for the logged-in user, harmonized by SAP Task Center. For more information about the Web app, see [Using SAP Task Center](../70-using-the-web-app/using-sap-task-center-7de5ff4.md).
 
 > ### Note:  
-> If you are already using SAP Cloud Portal service, you can continue with step 2 and replace *Launchpad service* by *Cloud Portal Service*. For more information about the SAP Cloud Portal service, see [SAP Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US).
+> If you are already using SAP Cloud Portal service, you can continue with step 2 and replace *SAP Build Work Zone, standard edition* by *Cloud Portal Service*. For more information about the SAP Cloud Portal service, see [SAP Cloud Portal Service](https://help.sap.com/viewer/product/Portal_Service/1.0/en-US).
 
 
 
@@ -36,9 +36,9 @@ The following procedure describes how to create a Task Center tile in the SAP Bu
 
     1.  Navigate to your subaccount in the SAP BTP cockpit.
     2.  In the navigation area under *Services*, choose *Service Marketplace*.
-    3.  Choose the *Launchpad Service* tile.
+    3.  Choose the *SAP Build Work Zone, standard edition* tile.
     4.  Choose *Create*.
-    5.  In the wizard, make sure that the service is set to *Launchpad Service*, the plan is set to *standard*, then choose *Create*.
+    5.  In the wizard, make sure that the service is set to *SAP Build Work Zone, standard edition*, the plan is set to *standard*, then choose *Create*.
 
 2.  Create a destination for the SAP Build Work Zone, standard edition integration.
 
@@ -53,93 +53,69 @@ The following procedure describes how to create a Task Center tile in the SAP Bu
         <th valign="top">
 
         Property
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         <th valign="top">
 
         Example or Value
-
-
         
         </th>
         </tr>
         <tr>
         <td valign="top">
         
-                *Service Instance*
-
-
+        *Service Instance*
         
         </td>
         <td valign="top">
         
-                Choose the SAP Task Center service instance you created in the *Prerequisites* section.
-
-
+        Choose the SAP Task Center service instance you created in the *Prerequisites* section.
         
         </td>
         <td valign="top">
         
-                 
-
-
+         
         
         </td>
         </tr>
         <tr>
         <td valign="top">
         
-                *Name*
-
-
+        *Name*
         
         </td>
         <td valign="top">
         
-                Add a name of the destination.
-
-
+        Add a name of the destination.
         
         </td>
         <td valign="top">
         
-                **Example**:
+        **Example**:
 
-        ***Task\_Center***
-
-
+        `Task_Center`
         
         </td>
         </tr>
         <tr>
         <td valign="top">
         
-                *Description*
-
-
+        *Description*
         
         </td>
         <td valign="top">
         
-                \(Optional\) Add a description as a free text.
-
-
+        \(Optional\) Add a description as a free text.
         
         </td>
         <td valign="top">
         
-                 
-
-
+         
         
         </td>
         </tr>
@@ -154,13 +130,13 @@ The following procedure describes how to create a Task Center tile in the SAP Bu
 3.  Create a Task Center tile in the SAP Build Work Zone, standard edition.
 
     1.  In the navigation menu of the SAP BTP cockpit in your subaccount, choose *Instances and Subscriptions*.
-    2.  In the *Subscriptions* section, search for the *Launchpad Service* and choose *Go to Application* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\).
-    3.  In the new window, go to *Channel Manager \(*<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>*\)* \> *HTML 5 Apps* and choose *Update content*\( <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) below *Actions* to fetch the updated content.
-    4.  Go to *Content Manager \(*<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>*\)* \> *Content Explorer* tab, choose *HTML5 Apps*, select the *Task Center* item and choose *\+ Add to My Content*.
-    5.  Go to the *My Content* tab where the *Task Center* app is added.
-    6.  Choose *\+ New* \> *Group*.
-    7.  Add a group title, assign the *Task Center* app from the *Assignments* section, and save your changes.
-    8.  Assign the *Task Center* to a role in the *Content Manager \(*<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>*\)* \> *My Content* tab.
+    2.  In the *Subscriptions* section, search for the *SAP Build Work Zone, standard edition* and choose *Go to Application* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\).
+    3.  In the new window, open *Channel Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\), search for *HTML 5 Apps*, and choose *Update content*\( <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) below *Actions* to fetch the updated content.
+    4.  Go to *Content Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\), and choose *Content Explorer*. Choose *HTML5 Apps*, select the *Task Center* item and choose *\+ Add*.
+    5.  Go back to *Content Manager*, where the *Task Center* app is added.
+    6.  Choose *Create* \> *Group*.
+    7.  Add a group title, enable *Task Center* from the *Assignment Status* column, and save your changes.
+    8.  Assign *Task Center* to a role in the *Content Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>*\)*.
 
         Choose one of the following options, depending on your visibility requirements:
 
@@ -171,8 +147,8 @@ The following procedure describes how to create a Task Center tile in the SAP Bu
 
         For more information, see [Assign Content to a Role](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/baeaf6ee364e48ac95dc09470281f174.html).
 
-    9.  Go to the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). You can use an already existing site or create a new one \(*\+ Create Site*\). For more information, see [Create a Site](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/5778444e0419462bb4060a66a5c20de0.html).
-    10. From the *Site Editor* open the site \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). The Task Center tile is available now.
+    9.  Go to the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). You can assign *Task Center* to an already existing site, or create a new one \(*\+ Create Site*\). For more information, see [Create a Site](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/5778444e0419462bb4060a66a5c20de0.html).
+    10. From the *Site Editor* open the site from the *Go to site* button \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). The Task Center tile is available now.
     11. Activate the languages from the site settings to enable the available translations for the Web app. For more information about the supported languages and how to activate them, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
     12. \(Optional\) Activate the SAP Companion to enable on-screen help in the SAP Task Center Web app. For more information about the SAP Companion, see [SAP Enable Now](https://help.sap.com/viewer/product/SAP_ENABLE_NOW/latest/en-US?task=use_task).
 
@@ -188,95 +164,71 @@ The following procedure describes how to create a Task Center tile in the SAP Bu
             <th valign="top">
 
             Name
-
-
             
             </th>
             <th valign="top">
 
             Value
-
-
             
             </th>
             </tr>
             <tr>
             <td valign="top">
             
-                        product
-
-
+            product
             
             </td>
             <td valign="top">
             
-                        TASK\_CENTER
-
-
+            TASK\_CENTER
             
             </td>
             </tr>
             <tr>
             <td valign="top">
             
-                        version
-
-
+            version
             
             </td>
             <td valign="top">
             
-                        Cloud
-
-
+            Cloud
             
             </td>
             </tr>
             <tr>
             <td valign="top">
             
-                        stateUACP
-
-
+            stateUACP
             
             </td>
             <td valign="top">
             
-                        PRODUCTION
-
-
+            PRODUCTION
             
             </td>
             </tr>
             <tr>
             <td valign="top">
             
-                        dataUrlUACP
-
-
+            dataUrlUACP
             
             </td>
             <td valign="top">
             
-                        https://help.sap.com/webassistant/
-
-
+            https://help.sap.com/webassistant/
             
             </td>
             </tr>
             <tr>
             <td valign="top">
             
-                        resourceUrl
-
-
+            resourceUrl
             
             </td>
             <td valign="top">
             
-                        https://webassistant.enable-now.cloud.sap/web\_assistant/framework/
-
-
+            https://webassistant.enable-now.cloud.sap/web\_assistant/framework/
             
             </td>
             </tr>

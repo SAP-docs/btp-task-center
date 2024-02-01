@@ -11,8 +11,6 @@ Once you create a destination configuration to connect SAP Task Center to a task
 
 Content
 
-
-
 </th>
 </tr>
 <tr>
@@ -25,8 +23,6 @@ Content
 [Service Status API](monitoring-9b30be7.md#loio9b30be76f14f48c5a72dd7ed7e9babe0__section_ServiceStatusAPI)
 
 [Integration with SAP Alert Notification Service for SAP BTP](monitoring-9b30be7.md#loio9b30be76f14f48c5a72dd7ed7e9babe0__section_IntegrationWithAlert)
-
-
 
 </td>
 </tr>
@@ -68,8 +64,8 @@ SAP Task Center exposes a *Connector Status API* that allows you to monitor:
 
 For more information about accessing the *Connector Status API*, see:
 
--   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](../50-development/access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
--   [Using the SAP Task Center API](../50-development/using-the-sap-task-center-api-b66e0cd.md)
+-   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
+-   [Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md)
 -   [Task Center API](https://api.sap.com/package/SAPTaskCenter/rest)
 
 
@@ -93,7 +89,7 @@ For more information about accessing the *Service Status API*, see [Task Center 
 
 ## Integration with SAP Alert Notification service for SAP BTP
 
-You can set up SAP Alert Notification service for SAP BTP to send notifications for changes in the SAP Task Center background job statuses. For more information, see [Integration with SAP Alert Notification Service for SAP Business Technology Platform](integration-with-sap-alert-notification-service-for-sap-business-technology-platform-2c1997b.md).
+You can set up SAP Alert Notification service for SAP BTP to send notifications for changes in the SAP Task Center background job statuses. For more information, see [Set Up Notifications for Administrators](set-up-notifications-for-administrators-2c1997b.md).
 
 **Related Information**  
 

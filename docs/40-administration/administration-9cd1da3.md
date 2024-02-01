@@ -16,15 +16,21 @@ After you complete the initial setup of SAP Task Center \(see [Initial Setup](..
 
 [Monitoring](monitoring-9b30be7.md)
 
+[Export SAP Task Center Service Data](export-sap-task-center-service-data-1dfb750.md)
+
+[Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md)
+
 [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md)
 
 [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md)
 
 [Configure Task Center in the SAP Mobile Start Mobile App](configure-task-center-in-the-sap-mobile-start-mobile-app-732d228.md)
 
-[Repopulate the Task Cache](repopulate-the-task-cache-e93aa71.md)
+[Configure To Dos in SAP Start](configure-to-dos-in-sap-start-c05ad6f.md)
 
-[Export SAP Task Center Service Data](export-sap-task-center-service-data-1dfb750.md)
+[Enable Notifications for End Users](enable-notifications-for-end-users-caf2543.md)
+
+[Repopulate the Task Cache](repopulate-the-task-cache-e93aa71.md)
 
 [Deactivate the SAP Task Center](deactivate-the-sap-task-center-2183b2b.md)
 

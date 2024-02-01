@@ -24,11 +24,11 @@ By creating a new service key, only the `clientsecret` changes and the other par
 
 
 
-### Rotate Credentials for SAP S/4HANA Cloud
+### Rotate Credentials for SAP S/4HANA Cloud, public edition
 
-1.  Create a new service key for the existing service instance, which you created in step *Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created* in [Connect SAP S/4HANA Cloud and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-and-sap-task-center-0aff1b4.md).
+1.  Create a new service key for the existing service instance, which you created in step *Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created* in [Connect SAP S/4HANA Cloud, public edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-public-edition-and-sap-task-center-0aff1b4.md).
 
-2.  Copy the new `clientsecret` and update it in the *Edit Outbound User* dialog box in your SAP S/4HANA Cloud system. For more information, see *Users for Outbound Communication* in [Create a Communication Arrangement](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/913ff1a47a6447e3b7bee17fa6f275ff.html?version=latest).
+2.  Copy the new `clientsecret` and update it in the *Edit Outbound User* dialog box in your SAP S/4HANA Cloud, public edition system. For more information, see *Users for Outbound Communication* in [Create a Communication Arrangement](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/913ff1a47a6447e3b7bee17fa6f275ff.html?version=latest).
 
 
 
@@ -52,7 +52,7 @@ Follow the steps in [Rotate Certificates](https://help.sap.com/docs/CP_CONNECTIV
 
 -   For SAP Ariba, see more about the how to request IDP registration on the SAP Ariba OAuth in [Connect SAP Ariba and SAP Task Center](../40-administration/connect-sap-ariba-and-sap-task-center-d26b525.md).
 -   For SAP Fieldglass, see [Establishing Trust with Destination Service](https://help.sap.com/viewer/73c0a1be6aaa46ef9b66b1c3f28a77f4/cloud/en-US/3fabeb5092a44edd8fc3dd4b4cbc6b9e.html).
--   For SAP S/4HANA Cloud, see [Create a Communication System](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/be1e3da9ea1446a0ac9bbcbe36fb08a2.html).
+-   For SAP S/4HANA Cloud, public edition, see [Create a Communication System](https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/be1e3da9ea1446a0ac9bbcbe36fb08a2.html).
 -   For SAP SuccessFactors, see [Registering Your OAuth2 Client Application](https://help.sap.com/viewer/568480cc877d4337992a2cd9792fbfed/latest/en-US/6b3c741483de47b290d075d798163bc1.html).
 
 > ### Tip:  

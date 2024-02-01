@@ -35,7 +35,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     For more information, see [Add System as Administrator](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/bbbdbdd3899942ce874f3aae9ba9e21d.html#loiocefb742a36754b18bbe5c3503ac6d87c).
 
 
- **Procedure** 
+**Procedure** 
 
 1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
 
@@ -51,216 +51,162 @@ You can set up this connectivity either by using the basic authentication, or vi
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        *Name*
-
-
+    *Name*
     
     </td>
     <td valign="top">
     
-        Add ***Identity\_Authentication\_Connectivity\_IDS*** as name of this destination.
-
-
+    Add `Identity_Authentication_Connectivity_IDS` as name of this destination.
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
-    ***Identity\_Authentication\_Connectivity\_IDS***
-
-
+    `Identity_Authentication_Connectivity_IDS`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Type*
-
-
+    *Type*
     
     </td>
     <td valign="top">
     
-        Choose the *HTTP* option from the dropdown menu.
-
-
+    Choose the *HTTP* option from the dropdown menu.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Description*
-
-
+    *Description*
     
     </td>
     <td valign="top">
     
-        \(Optional\) Add a description.
-
-
+    \(Optional\) Add a description.
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***Identity Authentication Connectivity***
-
-
+    `Identity Authentication Connectivity`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *URL*
-
-
+    *URL*
     
     </td>
     <td valign="top">
     
-        Add the URL you created in *Prerequisites*.
-
-
+    Add the URL you created in *Prerequisites*.
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***https://example.accounts.ondemand.com/scim***
-
-
+    `https://example.accounts.ondemand.com/scim`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Proxy Type*
-
-
+    *Proxy Type*
     
     </td>
     <td valign="top">
     
-        Choose the *Internet* option from the dropdown menu.
-
-
+    Choose the *Internet* option from the dropdown menu.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Authentication*
-
-
+    *Authentication*
     
     </td>
     <td valign="top">
     
-        Choose the *BasicAuthentication* option from the dropdown menu.
-
-
+    Choose the *BasicAuthentication* option from the dropdown menu.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *User*
-
-
+    *User*
     
     </td>
     <td valign="top">
     
-        Add the client ID of the system as administrator.
+    Add the client ID of the system as administrator.
 
     For more information, see *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Password*
-
-
+    *Password*
     
     </td>
     <td valign="top">
     
-        Add the client secret of the system as administrator.
+    Add the client secret of the system as administrator.
 
     For more information, see *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
@@ -290,7 +236,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     > Keep in mind, that the created certificate is generally valid for one year. You have to update this certificate before it expires, to continue retrieving the required information about the business users. In case you don't rotate the certificates, business users might have issues viewing user-related information in SAP Task Center \(for example the *Created By* field\).
 
 
- **Procedure** 
+**Procedure** 
 
 1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
 
@@ -308,239 +254,179 @@ You can set up this connectivity either by using the basic authentication, or vi
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        *Name*
-
-
+    *Name*
     
     </td>
     <td valign="top">
     
-        Add ***Identity\_Authentication\_Connectivity\_IDS*** as name of this destination.
-
-
+    Add `Identity_Authentication_Connectivity_IDS` as name of this destination.
     
     </td>
     <td valign="top">
     
-        **Value**:
+    **Value**:
 
-    ***Identity\_Authentication\_Connectivity\_IDS***
-
-
+    `Identity_Authentication_Connectivity_IDS`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Type*
-
-
+    *Type*
     
     </td>
     <td valign="top">
     
-        Choose the *HTTP* option from the dropdown menu.
-
-
+    Choose the *HTTP* option from the dropdown menu.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Description*
-
-
+    *Description*
     
     </td>
     <td valign="top">
     
-        \(Optional\) Add a description.
-
-
+    \(Optional\) Add a description.
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***Identity Authentication Connectivity***
-
-
+    `Identity Authentication Connectivity`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *URL*
-
-
+    *URL*
     
     </td>
     <td valign="top">
     
-        Add the URL you created in *Prerequisites*.
-
-
+    Add the URL you created in *Prerequisites*.
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***https://example.accounts.ondemand.com/scim***
-
-
+    `https://example.accounts.ondemand.com/scim`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Proxy Type*
-
-
+    *Proxy Type*
     
     </td>
     <td valign="top">
     
-        Choose the *Internet* option from the dropdown menu.
-
-
+    Choose the *Internet* option from the dropdown menu.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Authentication*
-
-
+    *Authentication*
     
     </td>
     <td valign="top">
     
-        Choose the *ClientCertificateAuthentication* option from the dropdown menu.
-
-
+    Choose the *ClientCertificateAuthentication* option from the dropdown menu.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Use client provided certificate*
-
-
+    *Use client provided certificate*
     
     </td>
     <td valign="top">
     
-        Make sure this checkbox is deselected.
-
-
+    Make sure this checkbox is deselected.
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Key Store Location*
-
-
+    *Key Store Location*
     
     </td>
     <td valign="top">
     
-        Choose the certificate you uploaded in *Step 3* from the dropdown menu.
-
-
+    Choose the certificate you uploaded in *Step 3* from the dropdown menu.
     
     </td>
     <td valign="top">
     
-        **Example**:
+    **Example**:
 
-    ***ids.p12***
-
-
+    `ids.p12`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        *Key Store Password*
-
-
+    *Key Store Password*
     
     </td>
     <td valign="top">
     
-        Add the password of the certificate.
+    Add the password of the certificate.
 
     For more information, see *Prerequisites*.
-
-
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>

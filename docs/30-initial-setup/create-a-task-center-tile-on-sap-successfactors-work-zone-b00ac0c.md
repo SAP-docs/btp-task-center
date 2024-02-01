@@ -42,93 +42,69 @@ The following procedure describes how to create a Task Center tile in the SAP Su
         <th valign="top">
 
         Property
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         <th valign="top">
 
         Example or Value
-
-
         
         </th>
         </tr>
         <tr>
         <td valign="top">
         
-                *Service Instance*
-
-
+        *Service Instance*
         
         </td>
         <td valign="top">
         
-                Choose the SAP Task Center service instance you created in the *Prerequisites* section.
-
-
+        Choose the SAP Task Center service instance you created in the *Prerequisites* section.
         
         </td>
         <td valign="top">
         
-                 
-
-
+         
         
         </td>
         </tr>
         <tr>
         <td valign="top">
         
-                *Name*
-
-
+        *Name*
         
         </td>
         <td valign="top">
         
-                Add a name of the destination.
-
-
+        Add a name of the destination.
         
         </td>
         <td valign="top">
         
-                **Example**:
+        **Example**:
 
-        ***Task\_Center***
-
-
+        `Task_Center`
         
         </td>
         </tr>
         <tr>
         <td valign="top">
         
-                *Description*
-
-
+        *Description*
         
         </td>
         <td valign="top">
         
-                \(Optional\) Add a description as a free text.
-
-
+        \(Optional\) Add a description as a free text.
         
         </td>
         <td valign="top">
         
-                 
-
-
+         
         
         </td>
         </tr>
@@ -174,95 +150,71 @@ The following procedure describes how to create a Task Center tile in the SAP Su
             <th valign="top">
 
             Name
-
-
             
             </th>
             <th valign="top">
 
             Value
-
-
             
             </th>
             </tr>
             <tr>
             <td valign="top">
             
-                        product
-
-
+            product
             
             </td>
             <td valign="top">
             
-                        TASK\_CENTER
-
-
+            TASK\_CENTER
             
             </td>
             </tr>
             <tr>
             <td valign="top">
             
-                        version
-
-
+            version
             
             </td>
             <td valign="top">
             
-                        Cloud
-
-
+            Cloud
             
             </td>
             </tr>
             <tr>
             <td valign="top">
             
-                        stateUACP
-
-
+            stateUACP
             
             </td>
             <td valign="top">
             
-                        PRODUCTION
-
-
+            PRODUCTION
             
             </td>
             </tr>
             <tr>
             <td valign="top">
             
-                        dataUrlUACP
-
-
+            dataUrlUACP
             
             </td>
             <td valign="top">
             
-                        https://help.sap.com/webassistant/
-
-
+            https://help.sap.com/webassistant/
             
             </td>
             </tr>
             <tr>
             <td valign="top">
             
-                        resourceUrl
-
-
+            resourceUrl
             
             </td>
             <td valign="top">
             
-                        https://webassistant.enable-now.cloud.sap/web\_assistant/framework/
-
-
+            https://webassistant.enable-now.cloud.sap/web\_assistant/framework/
             
             </td>
             </tr>
