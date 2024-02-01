@@ -129,6 +129,25 @@ The automatic setup does the following for you:
     <tr>
     <td valign="top">
     
+    *Alert\_Notification\_Connectivity\_ANS*
+    
+    </td>
+    <td valign="top">
+    
+    Use this destination to set up notifications for end users.
+
+    This destination is created only by the SAP Build Work Zone, standard edition booster.
+    
+    </td>
+    <td valign="top">
+    
+    [Alert Notifications Connectivity](../40-administration/alert-notifications-connectivity-f6c9f3b.md)
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *Ariba*
     
     </td>

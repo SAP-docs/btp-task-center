@@ -64,8 +64,8 @@ SAP Task Center exposes a *Connector Status API* that allows you to monitor:
 
 For more information about accessing the *Connector Status API*, see:
 
--   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](../50-development/access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
--   [Using the SAP Task Center API](../50-development/using-the-sap-task-center-api-b66e0cd.md)
+-   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
+-   [Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md)
 -   [Task Center API](https://api.sap.com/package/SAPTaskCenter/rest)
 
 

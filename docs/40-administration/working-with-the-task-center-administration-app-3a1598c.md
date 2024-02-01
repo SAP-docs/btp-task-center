@@ -44,9 +44,9 @@ The *Connectors* tab contains the following views:
 -   Job View
 -   Log View
 
-Initially, you see only the active destinations of the connectors. More details are displayed when you select one of the destinations and a job type.
+Initially, you get information only about the active destinations of the connectors. More details are provided when you select one of the destinations and a job type.
 
-The information displayed in the views is provided by the Task Center API. For more information about the Task Center API, see [Using the SAP Task Center API](../50-development/using-the-sap-task-center-api-b66e0cd.md).
+The information in the views is provided by the Task Center API. For more information about the Task Center API, see [Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md).
 
 **Views, Information, and Related End Points**
 
@@ -158,7 +158,7 @@ Log View
 </tr>
 </table>
 
-The *Service Status* tab displays the current status of the following destinations:
+The *Service Status* tab provides information about the current status of the following destinations:
 
 -   *Task\_Center\_global\_settings*
 -   *Identity\_Authentication\_Connectivity\_IDS*
@@ -261,7 +261,7 @@ Date and time when the last status update was retrieved.
 
 [Monitoring](monitoring-9b30be7.md "Once you create a destination configuration to connect SAP Task Center to a task provider application, SAP Task Center creates a connector internally for this configuration.")
 
-[Using the SAP Task Center API](../50-development/using-the-sap-task-center-api-b66e0cd.md "The SAP Task Center API for the Cloud Foundry environment allows you to list and work with user tasks and task definitions, monitor connector configurations, and export service data.")
+[Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md "The SAP Task Center API for the Cloud Foundry environment allows you to list and work with user tasks and task definitions, monitor connector configurations, and export service data.")
 
 [SAP Business API Hub documentation](https://api.sap.com/package/SAPTaskCenter?section=Artifacts)
 

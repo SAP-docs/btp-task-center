@@ -22,6 +22,8 @@ The service destinations are required for some SAP Task Center features.
 > ### Tip:  
 > See also the step-by-step missions for the setup of connection to task providers at [SAP Task Center missions on SAP Discovery Center](https://discovery-center.cloud.sap/missionssearch/SAP%20Task%20Center/).
 
+-   To configure SAP Task Center to work with SAP Advanced Financial Closing, see [Connect SAP Advanced Financial Closing and SAP Task Center](connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md).
+
 -   To configure SAP Task Center to work with SAP Ariba, see [Connect SAP Ariba and SAP Task Center](connect-sap-ariba-and-sap-task-center-d26b525.md).
 
 -   To configure SAP Task Center to work with SAP Build Process Automation, see [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).

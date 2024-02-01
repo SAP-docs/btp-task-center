@@ -43,7 +43,7 @@ Create an OAuth client and obtain an access token to call the SAP Task Center AP
 
 ## Rate Limits
 
-To ensure optimal operation of the service, REST API execution is subject to resource limits, for example, regarding the number of requests per second. If the limits are exceeded, API calls return *HTTP status 429*: ***Too many requests. The caller has sent too many requests in a given amount of time.***. The client should then reduce the number of calls.
+To ensure optimal operation of the service, REST API execution is subject to resource limits, for example, regarding the number of requests per second. If the limits are exceeded, API calls return *HTTP status 429*: ***Too many requests. The caller has sent too many requests in a given amount of time.*** The client should then reduce the number of calls.
 
 **Related Information**  
 

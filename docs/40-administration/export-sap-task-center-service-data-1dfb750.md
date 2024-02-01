@@ -26,13 +26,13 @@ You can use this service data to address, for example, audit needs.
 
 ## Procedure
 
-To export the data, enter the base URL of the SAP Task Center service and add the suffix: `v1/export`. For more information, see [Get the Service Configuration Parameters](../50-development/get-the-service-configuration-parameters-e10e7b2.md).
+To export the data, enter the base URL of the SAP Task Center service and add the suffix: `v1/export`. For more information, see [Get the Service Configuration Parameters](get-the-service-configuration-parameters-e10e7b2.md).
 
 For more information, see:
 
--   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](../50-development/access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
+-   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
 -   [SAP Business Accelerator Hub Task Center API documentation](https://api.sap.com/package/SAPTaskCenter/rest)
--   [Using the SAP Task Center API](../50-development/using-the-sap-task-center-api-b66e0cd.md)
+-   [Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md)
 
 
 

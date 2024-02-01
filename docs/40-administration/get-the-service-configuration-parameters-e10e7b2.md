@@ -18,11 +18,11 @@ You have the *Space Developer* role assigned to your subaccount.
 
 1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, select *Services* \> *Instances and Subscriptions* in the navigation area, and go to *Instances*.
 
-2.  Choose the row of the *SAP Task Center* service to see the details of this instance.
+2.  Choose the row of the *SAP Task Center* service to get more details of this instance.
 
 3.  In the *Service Keys* section choose the available service key, or create one, if no service instance is available.
 
-4.  In the *Credentials* pop-up, open the *JSON* format and search for the parameters listed in the table:
+4.  In the *Credentials* pop-up, open the *JSON* format and search for the parameters listed in the following table:
 
 
     <table>
