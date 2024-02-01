@@ -11,8 +11,6 @@ Once you create a destination configuration to connect SAP Task Center to a task
 
 Content
 
-
-
 </th>
 </tr>
 <tr>
@@ -26,8 +24,6 @@ Content
 
 [Integration with SAP Alert Notification Service for SAP BTP](monitoring-9b30be7.md#loio9b30be76f14f48c5a72dd7ed7e9babe0__section_IntegrationWithAlert)
 
-
-
 </td>
 </tr>
 </table>
@@ -36,9 +32,9 @@ Content
 
 For this new configuration, SAP Task Center creates the following background connector job types:
 
--   *INITIAL* is the initial pull job. It runs for newly created connector destinations and retrieves all tasks, created or updated in the last 90 days, for the specified connector. One connector status record is saved in the status history of this job type.
+-   *INITIAL* is the initial pull job. It runs for newly created connector destinations and retrieves all tasks, created or updated in the past days, corresponding to the maximum initial pull period, for the specified connector. One connector status record is saved in the status history of this job type. For more information about the maximum initial pull period, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md).
 -   *CONFIG* is a connector configuration job. It is used to adapt to changes of connector destination properties. It pulls the configured destinations every minute and saves a history of the last 10 connector status records.
--   *DELTA* is a delta pull job. It retrieves the latest task updates every 30 seconds. It saves a history if the last 30 connector status records.
+-   *DELTA* is a delta pull job. It retrieves the latest task updates every 30 seconds. It saves a history of the last 30 connector status records.
 -   *META* is a meta data pull job. It retrieves the task definitions once a day. It saves a history of the last 5 connector status records.
 -   *PUSH* is a job, which retrieves the latest task updates pushed to SAP Task Center every 5 seconds. It saves a history if the last 30 connector status records.
 
@@ -50,7 +46,7 @@ Each background job can have the following statuses: *OK*, *WARNING*, *RUNNING*,
 
 ## Task Center Administration App
 
-To monitor the status of all active destinations, information about their jobs and job types, we recommend you to use the Task Center Administration app. It connects to the SAP Task Center Connector Status API and helps administrators monitor the overall status of all configured destination connectors, configured on the account of the SAP Task Center instance.
+To monitor the status of the SAP Task Center service and all active destinations, and get information about their jobs and job types, we recommend you to use the Task Center Administration app. It connects to the SAP Task Center Monitoring API and helps administrators monitor the overall status of all destination connectors, configured on the account of the SAP Task Center instance.
 
 For more information, see [Working with the Task Center Administration App](working-with-the-task-center-administration-app-3a1598c.md).
 
@@ -68,8 +64,8 @@ SAP Task Center exposes a *Connector Status API* that allows you to monitor:
 
 For more information about accessing the *Connector Status API*, see:
 
--   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](../50-development/access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
--   [Using the SAP Task Center API](../50-development/using-the-sap-task-center-api-b66e0cd.md)
+-   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
+-   [Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md)
 -   [Task Center API](https://api.sap.com/package/SAPTaskCenter/rest)
 
 
@@ -93,7 +89,7 @@ For more information about accessing the *Service Status API*, see [Task Center 
 
 ## Integration with SAP Alert Notification service for SAP BTP
 
-You can set up SAP Alert Notification service for SAP BTP to send notifications for changes in the SAP Task Center background job statuses. For more information, see [Integration with SAP Alert Notification Service for SAP Business Technology Platform](integration-with-sap-alert-notification-service-for-sap-business-technology-platform-2c1997b.md).
+You can set up SAP Alert Notification service for SAP BTP to send notifications for changes in the SAP Task Center background job statuses. For more information, see [Set Up Notifications for Administrators](set-up-notifications-for-administrators-2c1997b.md).
 
 **Related Information**  
 

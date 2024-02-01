@@ -1,5 +1,7 @@
 <!-- loiob572094a8b584a338e80820d25b0df87 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # SAP Task Center Web App
 
 The SAP Task Center Web app displays all the tasks provided by the SAP Task Center service. You can process workflow tasks in the Web app, which runs on SAP Build Work Zone, standard edition.
@@ -10,7 +12,7 @@ The SAP Task Center Web app displays all the tasks provided by the SAP Task Cent
 
 ## Prerequisites
 
-To use the SAP Task Center Web app, your administrator must have created a *SAP Task Center* tile on the launchpad.
+To use the SAP Task Center Web app, your administrator must have created a *SAP Task Center* tile on one of the supported central points of entry for accessing apps.
 
 
 
@@ -18,14 +20,16 @@ To use the SAP Task Center Web app, your administrator must have created a *SAP 
 
 ## What Is SAP Task Center Web App?
 
-The SAP Task Center is a new unified inbox for approvals across multiple applications with a seamless and integrated user experience. Workflow tasks from multiple SAP solutions are gathered in one list by the SAP Task Center service and ready to be processed with just one click. In the Web app, you can view all workflow tasks that are assigned to you and process them. A workflow task is a type of workflow object that is visualized in the Web app.
+The SAP Task Center is a new unified inbox for approvals across multiple applications with a seamless and integrated user experience. Workflow tasks from multiple SAP solutions are gathered in one list by the SAP Task Center service and ready to be processed with just one click. In the Web app, you can review all workflow tasks that are assigned to you and process them. A workflow task is a type of workflow object that is presented in the Web app.
 
-The SAP Task Center Web app runs on the SAP Build Work Zone, standard edition.
+You can use the Web app on a desktop or a mobile device. The app lists all the tasks that are assigned to you. The task list is organized in tabs. For more information, see [Working with Filter Tabs](working-with-filter-tabs-df0aec8.md).
 
-You can use the Web app on a desktop or a mobile device. The app displays all the tasks that are assigned to you. The task list is organized in tabs. For more information, see [Working with Filter Tabs](working-with-filter-tabs-df0aec8.md).
+![](images/TaskList_5e151cb.png)
+
+![](images/DetailsView_fd3762c.png)
 
 > ### Note:  
-> The header of the table and the icon tab bar have a sticky behavior. This allows you to scroll the task list and have them visible at the same time.
+> The header of the table and the icon tab bar have a sticky behavior so that they are present on top while you scroll the task list.
 
 The columns that are displayed by default in the Web app contain the following information about the user tasks:
 
@@ -38,30 +42,52 @@ The columns that are displayed by default in the Web app contain the following i
 
 Column Name
 
-
-
 </th>
 <th valign="top">
 
 Details
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-*Task*
-
-
+\(Optional\) *Processing Errors*
 
 </td>
 <td valign="top">
 
-Task title and additional information about the task as per destination configuration. For more information, see the information related to *tc.ui.label* in [Destinations](../40-administration/destinations-3470733.md).
+This column appears by default only on the *Failed Tasks* filter tab, if there are failed tasks in the task list. A failed task is a task, for which an attempt to execute an action has failed.
 
+To see details about the failed task, choose the *Processing Errors* icon \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) in the row of the task.
 
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task*
+
+</td>
+<td valign="top">
+
+Task title and additional information about the task as per destination configuration. For more details, see the information related to *tc.ui.label* in [Destinations](../40-administration/destinations-3470733.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task Type*
+
+</td>
+<td valign="top">
+
+The task type name provided by the task provider.
+
+For more information about the supported task types, see [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-use-cases-758209c.md).
+
+This column is not visible by default, but you can unhide it from the *Personalize* button \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
 
 </td>
 </tr>
@@ -70,14 +96,10 @@ Task title and additional information about the task as per destination configur
 
 *Priority*
 
-
-
 </td>
 <td valign="top">
 
 The priority of the task
-
-
 
 </td>
 </tr>
@@ -86,14 +108,10 @@ The priority of the task
 
 *Created By*
 
-
-
 </td>
 <td valign="top">
 
-Shows the display name of the user, who created the task, if set by the task provider system.
-
-
+Shows the display name of the user who created the task, if set by the task provider system.
 
 </td>
 </tr>
@@ -101,8 +119,6 @@ Shows the display name of the user, who created the task, if set by the task pro
 <td valign="top">
 
 *Status*
-
-
 
 </td>
 <td valign="top">
@@ -121,14 +137,10 @@ The current status of the task
 
 *Created On*
 
-
-
 </td>
 <td valign="top">
 
 Creation date
-
-
 
 </td>
 </tr>
@@ -137,14 +149,10 @@ Creation date
 
 *Due*
 
-
-
 </td>
 <td valign="top">
 
 Due date
-
-
 
 </td>
 </tr>
@@ -153,14 +161,12 @@ Due date
 
 *Actions*
 
-
-
 </td>
 <td valign="top">
 
-Displays the list of possible decision options for a task, for example *Approve* or *Reject*.
+Offers the list of possible decision options for a task, for example *Approve* or *Reject*.
 
-
+Additionally, you can open the task in the task provider, by choosing *Open in App*.
 
 </td>
 </tr>
@@ -189,11 +195,20 @@ See [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-us
 -   Quickly process your tasks with the help of inline actions available for tasks.
 -   View all available information about a task, including the display name of the user, who created the task, or available actions in the details view.
 -   Refresh the task list using the *Refresh Tasks* button.
+-   Use the *Mass Actions* function to process multiple tasks in parallel.
+-   Add and manage your substitutions in the *Substitution Management* view.
+-   Create your own views with the preferred filter selection.
 
 **Related Information**  
 
 
 [Working with the Task List](working-with-the-task-list-fe4a8b3.md "In the SAP Task Center Web app, you can search for a specific task in the task list, and filter or sort your user tasks by predefined criteria. You can also refresh the task list and personalize the table columns.")
 
-[Working with Filter Tabs](working-with-filter-tabs-df0aec8.md "Filter Tabs organize your tasks in prefiltered semantic groups for better efficiency.")
+[Working with Filter Tabs](working-with-filter-tabs-df0aec8.md "Filter tabs organize your tasks in prefiltered semantic groups for better efficiency.")
+
+[Working with Multiple Tasks](working-with-multiple-tasks-9f8ef8e.md "You can process multiple tasks at once, by using the Mass Actions functionality.")
+
+[Substitution Management](substitution-management-bef9b2d.md "Use Substitution Management to view and maintain your substitutions.")
+
+[Working with Views](working-with-views-b446cc8.md "Create, store, access your customized search filters in views to easily access the tasks you would like to work on.")
 

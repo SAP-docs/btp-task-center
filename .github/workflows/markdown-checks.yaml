@@ -27,7 +27,7 @@ jobs:
 
     - id: checkout_repo
       name: Check out the repository content
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - id: check_files_changed
       uses: dorny/paths-filter@v2
@@ -47,7 +47,7 @@ jobs:
         npm install \
           --no-package-lock \
           --no-save \
-          markdownlint-cli markdownlint-rule-titlecase markdownlint-rule-helpers
+          markdownlint-cli@0.27 markdownlint-rule-titlecase markdownlint-rule-helpers@0.18
 
     - id: run_linter
       if: steps.check_files_changed.outputs.changed_files

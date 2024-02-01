@@ -35,7 +35,15 @@ The service instance of SAP Task Center scales dynamically according to usage; c
 
 5.  In the wizard, make sure that the service is set to *SAP Task Center*, the plan is set to *standard*, then enter a name for the instance, and choose *Next*.
 
-6.  Choose *Next*.
+6.  Add the following JSON parameters and choose *Next*.
+
+    > ### Sample Code:  
+    > ```
+    > {
+    > 	"authorities": [],
+    >     "defaultCollectionQueryFilter": "own"
+    > }
+    > ```
 
 7.  Check the overview, and then choose *Create*.
 
@@ -49,7 +57,56 @@ The service instance of SAP Task Center scales dynamically according to usage; c
 
     2.  Choose *Create Service Key*.
 
-    3.  In the *New Service Key* wizard, choose a name for your service key.
+        You can create a service key with or without a certificate. The certificate is required when setting up an mTLS communication.
+
+        -   Create a service key \(without certificate\).
+
+            In the *New Service Key* wizard, choose a name for your service key, and choose *Create*.
+
+        -   Create a service key with certificate.
+
+            To create a service key with certificate for mTLS communication, proceed as follows:
+
+            1.  In the *New Service Key* wizard, choose a name for your service key and specify the following parameters in JSON format:
+
+                > ### Sample Code:  
+                > ```
+                > {
+                >     "xsuaa": {
+                >         "credential-type": "x509",
+                >         "x509": {
+                >             "key-length": 2048,
+                >             "validity": 1,
+                >             "validity-type": "YEARS"
+                >         }
+                >     }
+                > }
+                > ```
+
+                Keep in mind that the maximum validity of this certificate is one year \(defined in years, months, days, and so on\).
+
+            2.  Choose *Create*.
+
+
+        > ### Note:  
+        > If your SAP Task Center service instance was created before May 2022, you might have to update your service instance before creating a service key with certificate for mTLS communication. Follow the steps in [Updating Service Instances](https://help.sap.com/docs/service-manager/sap-service-manager/updating-service-instances) and add the following instance parameters:
+        > 
+        > > ### Sample Code:  
+        > > ```
+        > > {
+        > >     "authorities": [],
+        > >     "defaultCollectionQueryFilter": "own",
+        > >     "xs-security": {
+        > >         "oauth2-configuration": {
+        > >             "credential-types": [
+        > >                 "binding-secret",
+        > >                 "instance-secret",
+        > >                 "x509"
+        > >             ]
+        > >         }
+        > >     }
+        > > }
+        > > ```
 
 
     For more information, see [Create Service Keys Using the Cockpit](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/6fcac08409db4b0f9ad55a6acd4d31c5.html) in the SAP Business Technology Platform \(SAP BTP\) documentation.

@@ -1,6 +1,6 @@
 <!-- loio2c1997b4ea224b16b0b39cdda08ab1dd -->
 
-# Integration with SAP Alert Notification Service for SAP Business Technology Platform
+# Set Up Notifications for Administrators
 
 You can set up the SAP Alert Notification service for SAP BTP to send notifications for changes in the SAP Task Center background job statuses.
 
@@ -30,93 +30,69 @@ For more details about the SAP Task Center background job types and statuses, se
     <th valign="top">
 
     Property
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example or Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
-
+    
     *Service Instance*
-
-
     
     </td>
     <td valign="top">
-
+    
     Choose your service instance for SAP Alert Notification service for SAP BTP.
-
-
     
     </td>
     <td valign="top">
-
+    
      
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
+    
     *Name*
-
-
     
     </td>
     <td valign="top">
-
-    The name must be ***Task\_Center\_notifications***.
-
-
+    
+    The name must be `Task_Center_notifications`.
     
     </td>
     <td valign="top">
-
+    
     **Value**:
 
-    ***Task\_Center\_notifications***
-
-
+    `Task_Center_notifications`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
+    
     *Description*
-
-
     
     </td>
     <td valign="top">
-
+    
     \(Optional\) Add a description.
-
-
     
     </td>
     <td valign="top">
-
+    
      
-
-
     
     </td>
     </tr>
@@ -145,7 +121,7 @@ For more details about the SAP Task Center background job types and statuses, se
         > 
         > -   The value of the *resource.resourceName* is the `connectorId` of the respective connector.
         > 
-        > -   The *resource.resourceType* is always ***Connector***.
+        > -   The *resource.resourceType* is always `Connector`.
         > 
         > 
         > You can use this information to set up as many conditions as needed.

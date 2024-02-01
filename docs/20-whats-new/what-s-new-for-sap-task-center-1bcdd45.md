@@ -6,7 +6,7 @@
 
 
 
-**2022**
+**2024**
 
 
 <table>
@@ -15,93 +15,2090 @@
 
 Technical Component
 
-
-
 </th>
 <th valign="top">
 
 Environment
-
-
 
 </th>
 <th valign="top">
 
 Title
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Lifecycle
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Line of Business
-
-
 
 </th>
 <th valign="top">
 
 Modular Business Process
 
-
-
 </th>
 <th valign="top">
 
 Product
-
-
 
 </th>
 <th valign="top">
 
 Latest Revision
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
- SAP Task Center 
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
 
 
+
+</td>
+<td valign="top">
+
+Restart Notifications
+
+</td>
+<td valign="top">
+
+A change in the setup of the notifications has been introduced and requires your action.
+
+If you have already set up notifications for SAP Task Center, please set the *tc.notifications.enabled* property from every task provider destination to `false`, wait for a few minutes and set it back to `true`.
+
+For more information on the task provider destinations, see [Destinations](../40-administration/destinations-3470733.md).
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-01-08
+
+</td>
+<td valign="top">
+
+2024-01-08
+
+</td>
+</tr>
+</table>
+
+**2023**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Technical Component
+
+</th>
+<th valign="top">
+
+Environment
+
+</th>
+<th valign="top">
+
+Title
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Lifecycle
+
+</th>
+<th valign="top">
+
+Type
+
+</th>
+<th valign="top">
+
+Line of Business
+
+</th>
+<th valign="top">
+
+Modular Business Process
+
+</th>
+<th valign="top">
+
+Product
+
+</th>
+<th valign="top">
+
+Latest Revision
+
+</th>
+<th valign="top">
+
+Available as of
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Advanced Financial Closing Supported
+
+</td>
+<td valign="top">
+
+You can now connect SAP Advanced Financial Closing to SAP Task Center. For more information, see [Connect SAP Advanced Financial Closing and SAP Task Center](../40-administration/connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Companion in the SAP Task Center Administration App
+
+</td>
+<td valign="top">
+
+SAP Companion is now available for the SAP Task Center Administration app. For more information, see [Create a Task Center Administration Tile](../30-initial-setup/create-a-task-center-administration-tile-8053d72.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Provide Your Feedback in the SAP Task Center Web App 
+
+</td>
+<td valign="top">
+
+You can now provide your feedback on the SAP Task Center by filling in the feedback form. For more information, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+<td valign="top">
+
+2023-12-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Supported Features
+
+</td>
+<td valign="top">
+
+You can now find the supported features per task provider at [Supported Features](../10-what-is/supported-features-257a0ad.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-11-20
+
+</td>
+<td valign="top">
+
+2023-11-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Notifications Supported in SAP Task Center Web app 
+
+</td>
+<td valign="top">
+
+Notifications are available in the SAP Task Center Web app upon receiving a new task in the task list.
+
+For more information on how to enable the notifications, see [Enable Notifications for End Users](../40-administration/enable-notifications-for-end-users-caf2543.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-09-27
+
+</td>
+<td valign="top">
+
+2023-09-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Creating Substitution Rules for SAP S/4HANA Cloud, public edition Tasks Supported
+
+</td>
+<td valign="top">
+
+You can now create substitution rules for your SAP S/4HANA Cloud, public edition tasks. For more information, see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-08-25
+
+</td>
+<td valign="top">
+
+2023-08-25
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Processing Tasks from SAP Start To Do Cards
+
+</td>
+<td valign="top">
+
+SAP Task Center tasks can be now accessed and processed from the *To Dos* section in SAP Start. For more information, see [To Dos in SAP Start](../70-using-the-web-app/to-dos-in-sap-start-8549f76.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-08-25
+
+</td>
+<td valign="top">
+
+2023-08-25
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Feature
+
+End-User Personalization with Views
+
+</td>
+<td valign="top">
+
+You can now create and manage your personalized views in the SAP Task Center Web app.
+
+For more information, see [Working with Views](../70-using-the-web-app/working-with-views-b446cc8.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Build Work Zone, advanced edition Supported
+
+</td>
+<td valign="top">
+
+You can now connect SAP Build Work Zone, advanced edition to the SAP Task Center service. For more information, see [Connect SAP Build Work Zone, advanced edition and SAP Task Center](../40-administration/connect-sap-build-work-zone-advanced-edition-and-sap-task-center-f07f310.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Substitution Management Improvement
+
+</td>
+<td valign="top">
+
+In the *Substitution Management* view, you can now specify the task providers, for which a substitution rule should apply.
+
+For more information, see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Guided Tour on Substitution Management in SAP Companion
+
+</td>
+<td valign="top">
+
+A new guided tour *Using Substitution Management* is now available in the Guided Tour section of SAP Companion in the SAP Task Center Web app.
+
+For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Task Type Column in Task Table
+
+</td>
+<td valign="top">
+
+A new column for the task type is now available in the task list \(not enabled by default\).
+
+For more information, see [SAP Task Center Web App](../70-using-the-web-app/sap-task-center-web-app-b572094.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+<td valign="top">
+
+2023-08-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Guided Tour on Mass Actions in SAP Companion
+
+</td>
+<td valign="top">
+
+A new guided tour *Processing Multiple Tasks* is now available in the Guided Tour section of SAP Companion in the SAP Task Center Web app.
+
+For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-07-17
+
+</td>
+<td valign="top">
+
+2023-07-17
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Introducing an *M* Indicator for Task Types, Supporting Mass Actions
+
+</td>
+<td valign="top">
+
+The task types, supporting mass actions have now an *M* indicator. For more information about processing multiple tasks, see [Working with Multiple Tasks](../70-using-the-web-app/working-with-multiple-tasks-9f8ef8e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-07-17
+
+</td>
+<td valign="top">
+
+2023-07-17
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Icon for SAP S/4HANA, SAP S/4HANA Cloud, public edition, SAP S/4HANA Cloud, private edition 
+
+</td>
+<td valign="top">
+
+A new icon for SAP S/4HANA, SAP S/4HANA Cloud, public edition, and SAP S/4HANA Cloud, private edition is available in the SAP Task Center Web app.
+
+For more information, see [Configure Filter Tabs in the SAP Task Center Web App](../40-administration/configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-06-30
+
+</td>
+<td valign="top">
+
+2023-06-30
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Semantic Coloring of Action Buttons in the Details View
+
+</td>
+<td valign="top">
+
+The Web app supports now semantic coloring of the action buttons in the details view of the task. For more information, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Change in the Mass Actions Dialog
+
+</td>
+<td valign="top">
+
+Additional information is added in the mass-actions confirmation dialog.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Substitution Management View Availability
+
+</td>
+<td valign="top">
+
+The *Substitution Management* view in the user menu is now visible only when there is at least one active task provider, which supports substitutions. For more information, see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Processing Errors Column Availability
+
+</td>
+<td valign="top">
+
+The *Processing Errors* column in the task table is now visible by default only on the *Failed Tasks* filter tab. For more information, see [SAP Task Center Web App](../70-using-the-web-app/sap-task-center-web-app-b572094.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Optimization of the Details in the First Column
+
+</td>
+<td valign="top">
+
+When you choose a task from the task list, the details of the task appear in a second column. To improve the visibility of the task list, the first column now contains by default the three most important properties \(*Task*, *Priority* and *Due*\). You can change these three properties via the *Personalize* button.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+<td valign="top">
+
+2023-06-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+What's New Available in SAP Companion
+
+</td>
+<td valign="top">
+
+You can now see the What's New release notes also in SAP Companion.
+
+For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-05-22
+
+</td>
+<td valign="top">
+
+2023-05-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Info Icon for Mass Actions Removed
+
+</td>
+<td valign="top">
+
+The info icon for Mass Actions in the UI of the SAP Task Center Web app was removed.
+
+You can find more details on how to use *Mass Actions* in the SAP Companion.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deleted
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-05-09
+
+</td>
+<td valign="top">
+
+2023-05-09
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New SAP Companion Hotspots for Substitution Management and Mass Actions
+
+</td>
+<td valign="top">
+
+You can now find more information about mass actions and substitution management in the SAP Companion of the Web app. For more information about SAP Companion, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-04-25
+
+</td>
+<td valign="top">
+
+2023-04-25
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Service Status Tab in Task Center Administration App
+
+</td>
+<td valign="top">
+
+In the new *Service Status* tab of the Task Center Administration app you can find more information about the current status of the SAP Task Center service. For more information, see [Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-04-25
+
+</td>
+<td valign="top">
+
+2023-04-25
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Updated Label
+
+</td>
+<td valign="top">
+
+The *Open Task* button, which opens the task in the task provider system, is now called *Open in App*.
+
+This button is now also a quick action, available in the *Actions* column. For more information, see [SAP Task Center Web App](../70-using-the-web-app/sap-task-center-web-app-b572094.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-04-10
+
+</td>
+<td valign="top">
+
+2023-04-10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Bug Fixes
+
+</td>
+<td valign="top">
+
+-   Fixed issue with not loading SAP Task Center Web app, when a large amount of user groups are assigned to a user.
+-   Fixed an error when updating a task with too long custom attributes.
+-   Fixed an error when updating a task with not supported language codes.
+-   Fixed an issue with substitution creation for only one day.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-04-10
+
+</td>
+<td valign="top">
+
+2023-04-10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+*Substitution Management* Available
+
+</td>
+<td valign="top">
+
+You can now create substitution rules to apply during your absence. For more information, see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md).
+
+Currently supported only for SAP Fieldglass.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-03-27
+
+</td>
+<td valign="top">
+
+2023-03-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+*Mass Actions* Available
+
+</td>
+<td valign="top">
+
+Processing of multiple tasks is now possible with the *Mass Actions* functionality. For more information, see [Working with Multiple Tasks](../70-using-the-web-app/working-with-multiple-tasks-9f8ef8e.md).
+
+Currently supported only for SAP Fieldglass.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-03-27
+
+</td>
+<td valign="top">
+
+2023-03-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+mTLS Connection to SAP S/4HANA Cloud, public edition Enabled
+
+</td>
+<td valign="top">
+
+You can now connect SAP S/4HANA Cloud, public edition to the SAP Task Center service using mTLS. For more information, see [Connect SAP S/4HANA Cloud, public edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-public-edition-and-sap-task-center-0aff1b4.md) \> Connect SAP S/4HANA Cloud, public edition and SAP Task Center Using mTLS.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2023-03-13
+
+</td>
+<td valign="top">
+
+2023-03-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
 
 </td>
 <td valign="top">
@@ -115,79 +2112,57 @@ Available as of
 
 SAP Concur Supported
 
-
-
 </td>
 <td valign="top">
 
 You can now connect SAP Concur to the SAP Task Center service. For more information, see [Connect SAP Concur and SAP Task Center](../40-administration/connect-sap-concur-and-sap-task-center-f354ef9.md).
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 Announcement
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 2023-02-17
 
-
-
 </td>
 <td valign="top">
 
 2023-02-17
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP Task Center 
-
-
+SAP Task Center 
 
 </td>
 <td valign="top">
@@ -201,21 +2176,15 @@ Not applicable
 
 New Icon for SAP Marketing Cloud 
 
-
-
 </td>
 <td valign="top">
 
 A new icon for SAP Marketing Cloud is available in the SAP Task Center Web app.
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
@@ -232,44 +2201,32 @@ Info only
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 2023-01-30
 
-
-
 </td>
 <td valign="top">
 
 2023-01-30
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP Task Center 
-
-
+SAP Task Center 
 
 </td>
 <td valign="top">
@@ -283,79 +2240,57 @@ Not applicable
 
 Documentation Feedback
 
-
-
 </td>
 <td valign="top">
 
 You can now provide feedback on the SAP Task Center documentation using GitHub. See the related *Тip* in [What Is SAP Task Center?](../10-what-is/what-is-sap-task-center-9693186.md).
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 Announcement
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 2023-01-30
 
-
-
 </td>
 <td valign="top">
 
 2023-01-30
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP Task Center 
-
-
+SAP Task Center 
 
 </td>
 <td valign="top">
@@ -369,1660 +2304,50 @@ Not applicable
 
 New Boosters for SAP Task Center
 
-
-
 </td>
 <td valign="top">
 
 You can now set up SAP Task Center automatically also on SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone by using a booster. For more information, see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Announcement
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 2023-01-16
 
-
-
 </td>
 <td valign="top">
 
 2023-01-16
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
- SAP Task Center Web and Admin apps on SAP Build Work Zone, advanced edition, SAP SuccessFactors Work Zone or SAP Cloud Portal service 
-
-
-
-</td>
-<td valign="top">
-
-The SAP Task Center Web and Administration apps can now be set up also on SAP Build Work Zone, advanced edition, SAP SuccessFactors Work Zone or SAP Cloud Portal service.
-
-For more information, see [Create a Task Center Tile](../30-initial-setup/create-a-task-center-tile-70e7f6e.md) and [Create a Task Center Administration Tile](../30-initial-setup/create-a-task-center-administration-tile-8053d72.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-General Availability
-
-
-
-</td>
-<td valign="top">
-
-Announcement
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-2022-12-19
-
-
-
-</td>
-<td valign="top">
-
-2022-12-19
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-SAP Cloud for Customer Supported
-
-
-
-</td>
-<td valign="top">
-
-You can now connect SAP Cloud for Customer to the SAP Task Center service. For more information, see [Connect SAP Cloud for Customer and SAP Task Center](../40-administration/connect-sap-cloud-for-customer-and-sap-task-center-ec09002.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-General Availability
-
-
-
-</td>
-<td valign="top">
-
-New
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-2022-11-07
-
-
-
-</td>
-<td valign="top">
-
-2022-11-07
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Accessibility Features of SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
-There is now information about the accessibility features of SAP Task Center. For more information, see [Accessibility Features in SAP Task Center](../10-what-is/accessibility-features-in-sap-task-center-b77f9a3.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-General Availability
-
-
-
-</td>
-<td valign="top">
-
-New
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-2022-10-10
-
-
-
-</td>
-<td valign="top">
-
-2022-10-10
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
- SAP Ariba Sourcing Supported
-
-
-
-</td>
-<td valign="top">
-
-You can now connect SAP Ariba Sourcing to the SAP Task Center service. For more information, see [Connect SAP Ariba and SAP Task Center](../40-administration/connect-sap-ariba-and-sap-task-center-d26b525.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-General Availability
-
-
-
-</td>
-<td valign="top">
-
-Announcement
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-2022-09-27
-
-
-
-</td>
-<td valign="top">
-
-2022-09-27
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
- SAP Build Process Automation Supported
-
-
-
-</td>
-<td valign="top">
-
-You can now connect SAP Build Process Automation to the SAP Task Center service. For more information, see [Connect SAP Build Process Automation and SAP Task Center](../40-administration/connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-General Availability
-
-
-
-</td>
-<td valign="top">
-
-Announcement
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-09-15
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Higher SAP UI5 Version Required for SAP Task Center Web app 
-
-
-
-</td>
-<td valign="top">
-
-To use the SAP Task Center Web app, you need SAP UI5 version 1.96 \(latest patch\) or higher. For more information, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-Changed
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-09-12
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
- SAP S/4HANA Cloud, Private Edition Supported
-
-
-
-</td>
-<td valign="top">
-
-You can now connect SAP S/4HANA Cloud, private edition to the SAP Task Center service. For more information, see [Connect SAP S/4HANA Cloud, Private Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-General Availability
-
-
-
-</td>
-<td valign="top">
-
-Announcement
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-08-29
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
- SAP Ariba Buying Supported
-
-
-
-</td>
-<td valign="top">
-
-You can now connect SAP Ariba Buying to the SAP Task Center service. For more information, see [Connect SAP Ariba and SAP Task Center](../40-administration/connect-sap-ariba-and-sap-task-center-d26b525.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-General Availability
-
-
-
-</td>
-<td valign="top">
-
-Announcement
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-08-29
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-New Column in the Task Center Administration App
-
-
-
-</td>
-<td valign="top">
-
-A new column, displaying the status of every execution of the selected job, has been added to the log view of the SAP Task Center Administration app.
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-New
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-08-29
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
- SAP Marketing Cloud Supported
-
-
-
-</td>
-<td valign="top">
-
-You can now connect SAP Marketing Cloud to the SAP Task Center service. For more information, see [Connect SAP Marketing Cloud and SAP Task Center](../40-administration/connect-sap-marketing-cloud-and-sap-task-center-18b3848.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-General Availability
-
-
-
-</td>
-<td valign="top">
-
-Announcement
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-08-15
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Pushing SAP S/4HANA Cloud Tasks
-
-
-
-</td>
-<td valign="top">
-
-You can now enable task updates to be pushed from SAP S/4HANA Cloud. For more information, see *tc.clientId* in [Connect SAP S/4HANA Cloud and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-and-sap-task-center-0aff1b4.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-New
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-08-01
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Web Assistant is now SAP Companion
-
-
-
-</td>
-<td valign="top">
-
-The Web Assistant is now called SAP Companion. For more information about SAP Companion, see [SAP Companion User Guide](https://help.sap.com/doc/49a88466f215455eaaf966aaaa460ece/latest/en-US/SAP_Companion_User_Guide_en-US.pdf).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-Changed
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-07-18
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Spring4Shell Fix
-
-
-
-</td>
-<td valign="top">
-
-The Spring4Shell security vulnerability in the Spring Framework is fixed.
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-New
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-04-11
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Translations Available for the Web Assistant Content
-
-
-
-</td>
-<td valign="top">
-
-The Web assistant content is translated into all languages, supported by the SAP Task Center Web app.
-
-To see the supported languages, visit [Supported Languages](../10-what-is/supported-languages-c66c693.md).
-
-To enable the Web assistant, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-New
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-04-11
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-New Topic *Credentials Rotation* 
-
-
-
-</td>
-<td valign="top">
-
-We recommend you to renew your credentials at regular intervals to ensure a higher level of security. For more information, see [Credentials Rotation](../60-security/credentials-rotation-8080abf.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-New
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-03-28
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-SAP Launchpad Free Service Plan Supported
-
-
-
-</td>
-<td valign="top">
-
-The SAP Launchpad Free service plan is now supported by the SAP Task Center booster. For more information, see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-New
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-03-15
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Bug Fixing for SAP S/4HANA 
-
-
-
-</td>
-<td valign="top">
-
-A bug fix related to visualizing the SAP S/4HANA task details is provided.
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-Changed
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-03-15
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Identity Directory Service Connectivity
-
-
-
-</td>
-<td valign="top">
-
-For security reasons, Identity Directory Connectivity uses now certificates instead of *BasicAuthentication* for authentication. For more information, see [Identity Directory Connectivity](../40-administration/identity-directory-connectivity-3dcfba9.md).
-
-Action: Make sure to update your identity directory connectivity authentication method.
-
-
-
-</td>
-<td valign="top">
-
-Required
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-Changed
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-02-28
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- SAP Task Center 
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Guided Answers
-
-
-
-</td>
-<td valign="top">
-
-The troubleshooting guide was updated with the link to Guided Answers. For more information, see [Troubleshooting](../80-troubleshooting/troubleshooting-89c09a4.md).
-
-
-
-</td>
-<td valign="top">
-
-Info only
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-New
-
-
-
-</td>
-<td valign="top">
-
-Technology
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-2022-01-17
-
-
 
 </td>
 </tr>
