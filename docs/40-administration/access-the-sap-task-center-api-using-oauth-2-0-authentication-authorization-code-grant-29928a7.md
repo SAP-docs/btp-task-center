@@ -52,7 +52,7 @@ SAP Task Center supports Authorization Code Grant flow for accessing its APIs.
         > ### Example:  
         > If you would like to call the connector status API, the user that you authenticate with, must have the `TaskCenterAdmin` role assignment. For more information, see: [Assign Roles to Your Users](../60-security/assign-roles-to-your-users-7e081d8.md).
 
-        The response redirects to the URL similar to: `http://localhost:8080/?code=<authorization_code>`.
+        The response redirects to the URL similar to: `http://localhost/?code=<authorization_code>`.
 
         > ### Note:  
         > If the error *This site can't be reached* appears, get the redirect URL from the address bar of the browser.

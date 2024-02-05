@@ -319,21 +319,144 @@ Choose *OK* to confirm your changes.
 
 ## Inline Decision Options and Predefined Decision Reasons
 
-The *Actions* column of your task list contains the *Open in App* button, which opens the task in the task provider system, and may contain decision options, preconfigured by the task provider, for example *Approve* or *Reject*. You can directly select the suggested decision option, or choose another one from the dropdown list. When you select one of the options, a decision pop-up with the following content appears:
+The *Actions* column of your task list contains various decision options for easier processing of tasks. You can directly select the first suggested decision option or choose another one from the dropdown list.
+
+
+
+### Decision Options
+
+The *Actions* column may contain the following types of actions:
+
+-   Actions defined by task provider
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Action
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    <th valign="top">
+
+    Result
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Claim*
+    
+    </td>
+    <td valign="top">
+    
+    Select *Claim* to reserve a task for processing by you.
+    
+    </td>
+    <td valign="top">
+    
+    -   You get a confirmation that the task is claimed successfully.
+
+    -   The status of the task changes from *Open* to *Reserved*.
+
+    -   You become the processor of the task and the other task recipients no longer have it in their Web app.
+
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Release*
+    
+    </td>
+    <td valign="top">
+    
+    Choose *Release* to release a task of which you are the processor.
+    
+    </td>
+    <td valign="top">
+    
+    -   You get a confirmation that the task is released successfully.
+
+    -   The status of the task changes from *Reserved* to *Open*.
+
+    -   You are no longer assigned as the processor of the task.
+
+    -   The other recipients can find the task in their Web app again.
+
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Forward* 
+    
+    </td>
+    <td valign="top">
+    
+    You can forward tasks to another user for further processing. Please note that in case of embedded UI \(for example, SAP Fiori Elements V.2 object page\), the recipient needs to have the necessary authorizations to the see the embedded UI. Otherwise, the Web app would render the standard user interface for task details.
+    
+    </td>
+    <td valign="top">
+    
+    The task disappears from the task list of the user who forwards the task and appears in the task list of the recipient in status *Reserved*.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Other decision options defined by the task provider
+    
+    </td>
+    <td valign="top">
+    
+    There might be other decision options if the task provider has preconfigured any \(for example *Approve* or *Reject*\).
+    
+    </td>
+    <td valign="top">
+    
+     
+    
+    </td>
+    </tr>
+    </table>
+    
+    For more information, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
+
+-   Standard actions \(valid for every task provider\)
+
+    *Open in App* - Choosing this button opens the task in the task provider system.
+
+
+
+
+### Predefined Decision Reasons and Decision Note
+
+For some of the actions \(except for *Claim*, *Release*, *Open in App*\) the task provider may have set up an additional decision popup for a decision reason and decision note. This decision popup may contain:
 
 -   Confirmation text with the chosen action
 
--   Footer area with *Submit* and *Cancel* buttons
-
-
-Depending on the task configuration, following might be displayed as well:
-
--   *Decision Reason* dropdown list with predefined decision reasons
+-   *Decision Reason* - dropdown list with predefined decision reasons
 
 -   Input field labeled as *Decision Note*
 
+-   Footer area with confirmation and cancellation buttons
 
-The decision reason and decision note can be optional or mandatory \(marked with an asterisk \(\*\)\). The *Submit* button is active only if the mandatory fields are completed. If these fields are not mandatory, you can submit your decision without adding a decision reason or decision note.
+
+The decision reason and decision note can be optional or mandatory \(marked with an asterisk \(\*\)\). The confirmation button is active only if the mandatory fields are completed. If these fields are not mandatory, you can submit your decision without adding a decision reason or decision note.
 
 
 

@@ -99,7 +99,7 @@ The automatic setup does the following for you:
 -   Creates a `service key` of the *default\_taskcenter* service instance.
 -   Creates a subscription to the chosen central point of entry for accessing apps.
 -   Assigns the required roles and role collections to the current user.
--   Creates a destination for integration of the chosen central point of entry for accessing apps with the SAP Task Center Web app.
+-   Creates a destination \(*Task\_Center*\) for integration of the chosen central point of entry for accessing apps with the SAP Task Center Web app. The properties of this destination are already preconfigured and should not be changed.
 -   Creates sample destinations for the SAP solution's connectivity with sample values for the properties. To configure connectivity between SAP Task Center and the required SAP solutions, you should clone the sample destinations and update the created sample properties in the cloned destination with valid destination property values.
 
     > ### Note:  
@@ -377,23 +377,6 @@ The automatic setup does the following for you:
     <td valign="top">
     
     Use this destination for SAP SuccessFactors and create a secondary destination for the principal propagation.
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Task\_Center*
-    
-    </td>
-    <td valign="top">
-    
-    This destination is created for the integration with your central point of entry for accessing apps.
-    
-    </td>
-    <td valign="top">
-    
-    Do not change the settings of this destination.
     
     </td>
     </tr>

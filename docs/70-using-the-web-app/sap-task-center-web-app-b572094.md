@@ -24,9 +24,11 @@ The SAP Task Center is a new unified inbox for approvals across multiple applica
 
 You can use the Web app on a desktop or a mobile device. The app lists all the tasks that are assigned to you. The task list is organized in tabs. For more information, see [Working with Filter Tabs](working-with-filter-tabs-df0aec8.md).
 
-![](images/TaskList_5e151cb.png)
+![An interactive image of the Web app interface. It highlights the main
+							elements which you need to be familiar with to use the app.](images/TaskList_5e151cb.png)
 
-![](images/DetailsView_fd3762c.png)
+![An interactive image of a task's details. Highlights the most important
+							actions related to the task.](images/DetailsView_fd3762c.png)
 
 > ### Note:  
 > The header of the table and the icon tab bar have a sticky behavior so that they are present on top while you scroll the task list.

@@ -15,7 +15,8 @@ Make sure you meet the prerequisites before you perform the initial setup for SA
 
 Before you can use the service, meet the following prerequisites and then perform the initial setup.
 
-![](images/Initial_Setup_727bcc8.png)
+![An interactive graphic of the four main prerequisites you need to
+							complete before setting up the service.](images/Initial_Setup_727bcc8.png)
 
 
 

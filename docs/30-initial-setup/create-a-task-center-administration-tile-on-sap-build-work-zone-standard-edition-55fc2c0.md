@@ -64,6 +64,8 @@ The following procedure describes how to create a Task Center Administration til
 
     For more information about the SAP Companion, see [SAP Enable Now](https://help.sap.com/viewer/product/SAP_ENABLE_NOW/latest/en-US?task=use_task).
 
+    Note, that the SAP Companion content for the Task Center Administration app is currently only in English.
+
     > ### Restriction:  
     > Currently, SAP Build Work Zone, standard edition supports only one SAP Companion per site. For more information, see [Restrictions - General](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/8cf196a5a8544c309086619df29595b1.html).
     > 
