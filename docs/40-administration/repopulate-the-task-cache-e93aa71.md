@@ -24,7 +24,7 @@ To delete and repopulate the task cache for a destination \(see [Destinations](d
 
 3.  Open the Task Center Administration app \(see [Working with the Task Center Administration App](working-with-the-task-center-administration-app-3a1598c.md)\) and verify that the connector to this destination is listed below the destinations.
 
-4.  Go back to the destination configuration in your Cloud Foundry subacount and switch to edit mode. Search for *tc.enabled* below *Additional Properties*, and remove the property \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\). Save your changes.
+4.  Go back to the destination configuration in your Cloud Foundry subacount and switch to edit mode. Search for *tc.enabled* below *Additional Properties*, and remove the property \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\). Save your changes.
 
 5.  Go back to the Task Center Administration app and wait until the connector to the destination is not visible anymore.
 

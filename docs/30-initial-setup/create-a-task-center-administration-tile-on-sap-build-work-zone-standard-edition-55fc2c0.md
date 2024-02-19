@@ -38,11 +38,11 @@ The following procedure describes how to create a Task Center Administration til
 
 1.  In the navigation menu of the SAP BTP cockpit in your subaccount, choose *Instances and Subscriptions*.
 
-2.  In the *Subscriptions* section, search for the *SAP Build Work Zone, standard edition* and choose *Go to Application* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\).
+2.  In the *Subscriptions* section, search for the *SAP Build Work Zone, standard edition* and choose *Go to Application* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\).
 
-3.  In the new window, open *Channel Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\), search for *HTML 5 Apps*, and choose *Update content* \( <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) from the *Actions* column to fetch the updated content.
+3.  In the new window, open *Channel Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\), search for *HTML 5 Apps*, and choose *Update content* \( <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) from the *Actions* column to fetch the updated content.
 
-4.  Go to *Content Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\), and choose *Content Explorer*. Choose *HTML5 Apps*, select the Task Center Administration item and choose *\+ Add*.
+4.  Go to *Content Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\), and choose *Content Explorer*. Choose *HTML5 Apps*, select the Task Center Administration item and choose *\+ Add*.
 
 5.  Go to *My Content*, where the Task Center Administration app is added.
 
@@ -54,11 +54,11 @@ The following procedure describes how to create a Task Center Administration til
 
     For more information, see [Assign Content to a Role](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/baeaf6ee364e48ac95dc09470281f174.html).
 
-9.  Go to the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) and create a new site \(*\+ Create Site*\). For more information, see [Create a Site](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/5778444e0419462bb4060a66a5c20de0.html).
+9.  Go to the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) and create a new site \(*\+ Create Site*\). For more information, see [Create a Site](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/5778444e0419462bb4060a66a5c20de0.html).
 
 10. Make sure you assign the new role to the new site and assign the administrators to the role collection in the SAP BTP cockpit. For more information, see [Assign Roles to a Site](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/13e9abe196604356bb28bc2743e78ae9.html).
 
-11. From the *Site Editor* open the site \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). The Task Center Administration tile is available now.
+11. From the *Site Editor* open the site \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\). The Task Center Administration tile is available now.
 
 12. \(Optional\) Activate the SAP Companion to enable on-screen help in the SAP Task Center Web app.
 
@@ -73,7 +73,7 @@ The following procedure describes how to create a Task Center Administration til
 
     Follow the steps:
 
-    1.  From the *Site Directory*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) open the *Site Settings*\(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+    1.  From the *Site Directory*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) open the *Site Settings*\(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
     2.  Choose *Edit* and activate the *SAP Companion* setting by choosing *YES*.
     3.  Add the following parameters:
 

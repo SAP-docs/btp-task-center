@@ -37,11 +37,11 @@ To enable notifications for end users, for all, or only some of the connected ta
 
     For more information on how to access SAP Build Work Zone, standard edition, see [Create a Task Center Tile on SAP Build Work Zone, standard edition](../30-initial-setup/create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md)\).
 
-2.  From the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) open the *Site Settings* \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) of the site, where you created your Task Center tile.
+2.  From the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) open the *Site Settings* \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) of the site, where you created your Task Center tile.
 
 3.  Choose *Edit*, enable the *Show Notifications* setting under the *Display* section and save your changes. For more information, see the subtopics in [Enabling Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/enabling-notifications).
 
-4.  From the main screen of SAP Build Work Zone, standard edition, open <span style="color:#346187;"><span class="SAP-icons"></span></span> *Settings* and go to the *Notifications* tab. To access this tab, you need the relevant notification roles, as described in [Subaccount Settings](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/subaccount-settings).
+4.  From the main screen of SAP Build Work Zone, standard edition, open <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Settings* and go to the *Notifications* tab. To access this tab, you need the relevant notification roles, as described in [Subaccount Settings](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/subaccount-settings).
 
 5.  Set *Email* as authentication identifier.
 

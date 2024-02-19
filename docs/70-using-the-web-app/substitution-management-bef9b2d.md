@@ -8,7 +8,7 @@ Use *Substitution Management* to view and maintain your substitutions.
 
 When planning your absence you can add substitution rules in the SAP Task Center Web app, so that, for the period that you define, your substitute can work on your tasks, displayed directly in their Web app.
 
-Open the **<span style="color:#346187;"><span class="SAP-icons"></span></span> *Substitution Management* view from the user menu in the upper right corner of your SAP Task Center Web app.
+Open the **<span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Substitution Management* view from the user menu in the upper right corner of your SAP Task Center Web app.
 
 > ### Note:  
 > SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported.
@@ -47,9 +47,9 @@ The *Substitution Management* view consists of the following areas:
 
     The status of the substitutions is also color coded as follows:
 
-    -   Green: No errors \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\)
+    -   Green: No errors \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\)
 
-    -   Orange: Needs your attention. There is at least one error in this substitution \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+    -   Orange: Needs your attention. There is at least one error in this substitution \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
 
     -   Gray: Upcoming substitution without errors
 
@@ -60,11 +60,11 @@ The *Substitution Management* view consists of the following areas:
 
     In the *Scope* table you can see in which task providers the substitution is created, its status for the specific task provider system, and optionally an action button. A substitution can have the following status:
 
-    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> *OK* for substitutions without errors, but with a message you should review.
+    -   <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *OK* for substitutions without errors, but with a message you should review.
 
-    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> *OK* for substitutions without errors.
+    -   <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *OK* for substitutions without errors.
 
-    -   <span style="color:#346187;"><span class="SAP-icons"></span></span> *ERROR* for substitutions with errors, that you can repair from the *Action* column.
+    -   <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *ERROR* for substitutions with errors, that you can repair from the *Action* column.
 
 
 
@@ -103,7 +103,7 @@ The substitution rules are automatically activated on the start date that you se
 > ### Tip:  
 > Once you’ve created a substitution rule, make sure that you check its status in the *Scope* table of the substitution details, or in the *Substitutions* list to the left.
 > 
-> If there is a warning icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the status, this means that something went wrong for at least one task provider and you might need to repair the substitution from the *Repair* button in the *Actions* column in the table of the detailed view.
+> If there is a warning icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the status, this means that something went wrong for at least one task provider and you might need to repair the substitution from the *Repair* button in the *Actions* column in the table of the detailed view.
 
 On the start date of the substitution, an *On Behalf Of* filter is available in the Web app of your substitute. For more information, see [Working with the Task List](working-with-the-task-list-fe4a8b3.md).
 
@@ -113,7 +113,7 @@ On the start date of the substitution, an *On Behalf Of* filter is available in 
 
 ## Delete a Substitution
 
-To delete a substitution, select the rule from the *Substitutions* list and choose *Delete* \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\). If the deletion was successful, you get a message for the successful deletion and the rule disappears from the list of substitution rules.
+To delete a substitution, select the rule from the *Substitutions* list and choose *Delete* \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\). If the deletion was successful, you get a message for the successful deletion and the rule disappears from the list of substitution rules.
 
 > ### Note:  
 > If the deletion does not succeed or succeeds only partially \(for some task providers\), the successfully removed task providers disappear from the scope list in the detailed view. The status of the remaining task providers in the list remains unchanged, and the rule might apply further until the task provider is deleted from the remaining scope list.

@@ -30,7 +30,7 @@ The filter tabs display tasks from different providers based on semantic categor
 
 The filter tabs configured by your administrator are listed in alphabetical order. The default tab *All* is always in first position and contains all your tasks as they are fetched from the SAP Task Center task cache. The *Others* tab is always in the last position.
 
-An additional *Failed Tasks* filter tab appears on second position only if there are tasks, failed during processing. You can choose the *Processing Errors* icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the row of the task for more details. For more information, see [Working with Multiple Tasks](working-with-multiple-tasks-9f8ef8e.md).
+An additional *Failed Tasks* filter tab appears on second position only if there are tasks, failed during processing. You can choose the *Processing Errors* icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the row of the task for more details. For more information, see [Working with Multiple Tasks](working-with-multiple-tasks-9f8ef8e.md).
 
 Each semantic group is displayed with a different icon and name in filter tabs. These icons and names are displayed based on the configuration done by your administrator. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](../40-administration/configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
 

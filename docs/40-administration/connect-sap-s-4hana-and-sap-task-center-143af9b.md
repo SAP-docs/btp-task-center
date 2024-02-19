@@ -27,9 +27,9 @@ Find information about the destination configuration that needs to be done for S
     -   *Virtual Host* and *Virtual Port* from step *Configure access control in the Cloud Connector for your SAP S/4HANA back-end system*
 
 
--   You have performed the steps in [SAP Task Center Integration](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/1da230b82a984cda85d0041e13060a87.html) and have a user name and password for granting access to the task pull service, as described in [Create Service User for Task Pull Service](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/229c5a1f659341efa2bb6205159d6209.html).
+-   You have performed the steps in [SAP Task Center Integration](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/1da230b82a984cda85d0041e13060a87.html) and have a user name and password for granting access to the task pull service, as described in *Create Service User for Task Pull Service*.
 
-    Use the SAP Cloud Connector from the previous prerequisite for the step *Tunnel the request using, for example, the Cloud Connector* in [Configuring SAP Task Center Integration](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/5117f21ef28f4e698d99fe3fdbc1be2a.html).
+    Use the prepared SAP Cloud Connector for the step *Tunnel the request using, for example, the Cloud Connector* in [Configuring SAP Task Center Integration](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/5117f21ef28f4e698d99fe3fdbc1be2a.html).
 
 -   You have the client number of your SAP S/4HANA system.
 

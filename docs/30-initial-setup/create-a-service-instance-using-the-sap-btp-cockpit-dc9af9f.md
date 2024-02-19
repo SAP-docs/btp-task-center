@@ -53,7 +53,7 @@ The service instance of SAP Task Center scales dynamically according to usage; c
 
     You need a service key if you want to call the service API standalone without a UI, for example, from Postman.
 
-    1.  On the *Instances* page, select the service instance and at the end of the row open the *Actions* menu \(<span class="SAP-icons"></span>\).
+    1.  On the *Instances* page, select the service instance and at the end of the row open the *Actions* menu \(<span class="SAP-icons-V5"></span>\).
 
     2.  Choose *Create Service Key*.
 

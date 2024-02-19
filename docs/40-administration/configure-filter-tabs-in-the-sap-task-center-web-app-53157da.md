@@ -81,7 +81,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -98,7 +98,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -115,7 +115,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -132,7 +132,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -149,7 +149,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -166,7 +166,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -183,7 +183,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -200,7 +200,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -217,7 +217,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top" rowspan="3">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -258,13 +258,13 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
     </table>
     
--   The tasks provided by destinations, for which the *tc.ui.group* property is not maintained, are grouped into the *Others* filter tab \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the SAP Task Center Web app.
+-   The tasks provided by destinations, for which the *tc.ui.group* property is not maintained, are grouped into the *Others* filter tab \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the SAP Task Center Web app.
 
     > ### Note:  
     > The *Others* filter tab is only displayed if there is at least one more filter tab, in addition to the *All* filter tab.

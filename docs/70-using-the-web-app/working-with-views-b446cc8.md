@@ -31,7 +31,7 @@ If you make changes to the filter options, which affect the standard view, the v
 
 There can be only one default view, which you can change in the *Manage Views* dialog, or when saving a new view.
 
-If you change the default view, you can open it from the dropdown list of views \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\), or reload the current page.
+If you change the default view, you can open it from the dropdown list of views \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\), or reload the current page.
 
 
 
@@ -45,7 +45,7 @@ You can create a personalized view, based on any of the options, displayed on th
 
     The current view \(*Standard* is default\) is marked with an asterisk \(\*\) to indicate the unsaved changes.
 
-2.  Open the dropdown, next to the name of the current view \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) and choose *Save As*.
+2.  Open the dropdown, next to the name of the current view \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) and choose *Save As*.
 
 3.  In the *Save View* window, add the name of your personalized view, choose if you want to make a default view, and save it.
 
@@ -56,7 +56,7 @@ You can create a personalized view, based on any of the options, displayed on th
 
 ## Open a View
 
-1.  Open the dropdown, next to the name of the current view \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\).
+1.  Open the dropdown, next to the name of the current view \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\).
 
     In *My Views* you get the list of your views, including the default view and the views, marked as favorites by you.
 
@@ -71,5 +71,5 @@ You can create a personalized view, based on any of the options, displayed on th
 
 ## \(Optional\) Manage Views
 
-To see details of the existing views, rename them, set your default and favorite views, which to be displayed in the dropdown list, open the list of views from the dropdown \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\), choose *My Views* \> *Manage*, and make your changes.
+To see details of the existing views, rename them, set your default and favorite views, which to be displayed in the dropdown list, open the list of views from the dropdown \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\), choose *My Views* \> *Manage*, and make your changes.
 

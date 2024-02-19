@@ -35,7 +35,7 @@ In your subaccount, *Security* \> *Administrators* section, you have the *User &
 
 2.  In the navigation area, under *Security*, choose *Role Collections*.
 
-3.  Choose *Create New Role Collection \(*<span style="color:#346187;"><span class="SAP-icons"></span></span>*\)*, enter a name and optionally a description. Then choose *Save*.
+3.  Choose *Create New Role Collection \(*<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>*\)*, enter a name and optionally a description. Then choose *Save*.
 
 4.  Choose the new role collection, then choose *Edit*.
 

@@ -165,7 +165,7 @@ The *Service Status* tab provides information about the current status of the fo
 
 The related end point in the API is `/task-center-service/v1/service-status`.
 
-Use the *Refresh* button \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) to get the latest status.
+Use the *Refresh* button \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) to get the latest status.
 
 > ### Note:  
 > The IDs and all messages returned by the SAP Task Center service are only in English.

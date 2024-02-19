@@ -12,7 +12,7 @@ In the SAP Task Center Web app, you can search for a specific task in the task l
 
 ## Provide Feedback
 
-Provide your feedback on the SAP Task Center by choosing the feedback icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the upper right corner of the Web app.
+Provide your feedback on the SAP Task Center by choosing the feedback icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the upper right corner of the Web app.
 
 
 
@@ -22,7 +22,7 @@ Provide your feedback on the SAP Task Center by choosing the feedback icon \(<sp
 
 With the SAP Companion you can see on-screen information, embedded directly in the SAP Task Center Web app.
 
-To open it, choose the SAP Companion icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the upper right corner of the Web app.
+To open it, choose the SAP Companion icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the upper right corner of the Web app.
 
 > ### Note:  
 > This feature must be enabled by your administrator. For more information, see [Create a Task Center Tile on SAP Build Work Zone, standard edition](../30-initial-setup/create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
@@ -39,9 +39,9 @@ The notifications must be enabled by your administrator. For more information, s
 
 Once enabled, you start receiving notifications in your SAP Task Center Web app whenever a new task is added to your task list.
 
-When you receive a new task, you are notified via the notification icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\), which is updated with the number of notifications. Selecting the notification opens the task details on fullscreen.
+When you receive a new task, you are notified via the notification icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\), which is updated with the number of notifications. Selecting the notification opens the task details on fullscreen.
 
-To adjust your notifications settings, go to the user menu and choose <span style="color:#346187;"><span class="SAP-icons"></span></span> *Settings* \> **<span style="color:#346187;"><span class="SAP-icons"></span></span> *Notifications*. For more information, see [Working with Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/working-with-notifications).
+To adjust your notifications settings, go to the user menu and choose <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Settings* \> **<span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Notifications*. For more information, see [Working with Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/working-with-notifications).
 
 
 
@@ -137,10 +137,10 @@ The native user interface for task details consists the following areas:
 
 ## Sort Tasks
 
-Use the *Sort* icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) to sort the list of tasks. You can choose between ascending or descending order and other predefined sorting criteria.
+Use the *Sort* icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) to sort the list of tasks. You can choose between ascending or descending order and other predefined sorting criteria.
 
 > ### Note:  
-> The current sorting order is marked by an indicator \(<span style="color:#346187;"><span class="SAP-icons"></span></span> or <span style="color:#346187;"><span class="SAP-icons"></span></span>\) after the title of the column that has been selected as the sorting criteria.
+> The current sorting order is marked by an indicator \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span> or <span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) after the title of the column that has been selected as the sorting criteria.
 
 To be able to sort by custom attributes, you have to first filter by a single task type.
 
@@ -181,7 +181,7 @@ Details
 
 The *On Behalf Of* filter is only available when you have at least one active substitution rule.
 
-To see the tasks of a user you are substituting, choose the substitution icon \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) in the *On Behalf Of* field and choose a name. The list contains only the users you are currently substituting.
+To see the tasks of a user you are substituting, choose the substitution icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the *On Behalf Of* field and choose a name. The list contains only the users you are currently substituting.
 
 Once you choose a user, the following changes appear, corresponding to the enabled substitution:
 
@@ -225,7 +225,7 @@ Sometimes tasks with different task IDs might appear with the same task type. In
 To display the available custom attributes as filters and columns for a specific task, filter by the chosen task type.
 
 > ### Note:  
-> Some columns with custom attributes might be hidden for optimal visualization. You can manage the columns from *Personalize* \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+> Some columns with custom attributes might be hidden for optimal visualization. You can manage the columns from *Personalize* \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
 > 
 > To filter by custom attributes, select only one task type.
 
@@ -265,7 +265,7 @@ Select one or more of the following categories: *Open*, *Reserved* or *In Progre
 </td>
 <td valign="top">
 
-Select a time period from the calender \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+Select a time period from the calender \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
 
 </td>
 </tr>
@@ -277,7 +277,7 @@ Select a time period from the calender \(<span style="color:#346187;"><span clas
 </td>
 <td valign="top">
 
-Select a date from the calender \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) to review all tasks, that are due before this date.
+Select a date from the calender \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) to review all tasks, that are due before this date.
 
 </td>
 </tr>
@@ -293,7 +293,7 @@ You can remove all active filters by choosing *Clear*, or customize the visibili
 
 ## Personalize the SAP Task Center Web App
 
-To choose which columns are available in the Web app, choose *Personalize* \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\) on the right side of the table header. This opens the *Columns* dialog box where you can do the following:
+To choose which columns are available in the Web app, choose *Personalize* \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) on the right side of the table header. This opens the *Columns* dialog box where you can do the following:
 
 -   Hide and display columns:
 
@@ -472,7 +472,7 @@ The custom attributes show additional information about a task, depending on the
 
 To see the available custom attributes in the Web app, you first need to filter tasks by a single *Task Type*.
 
-Some columns with custom attributes might be hidden for optimal visualization. You can adjust the display of custom attributes, using the Personalize menu \(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+Some columns with custom attributes might be hidden for optimal visualization. You can adjust the display of custom attributes, using the Personalize menu \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
 
 > ### Note:  
 > Please note that filtering and sorting by a custom attribute, exposing a formatted value is not possible.

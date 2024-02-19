@@ -389,7 +389,7 @@ Find information about the destination configuration that needs to be done for S
     
     This property is used to enable task updates to be pushed from SAP S/4HANA Cloud, public edition.
 
-    The value of this property is the value of the *uaa* \> *clientid* from the service key of the new service instance \(see [Create a Communication Arrangement](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/913ff1a47a6447e3b7bee17fa6f275ff.html?version=latest)\).
+    The value of this property is the value of the *uaa* \> *clientid* from the service key of the new service instance \(see *Prerequisites*\).
 
     > ### Note:  
     > Set this property only when you have completed the SAP Task Center integration from the *Prerequisites* section. If you haven't completed this step, you might not be able to receive tasks from SAP S/4HANA Cloud, public edition.
@@ -995,6 +995,30 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `true`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.clientId*
+    
+    </td>
+    <td valign="top">
+    
+    This property is used to enable task updates to be pushed from SAP S/4HANA Cloud, public edition.
+
+    The value of this property is the value of the *uaa* \> *clientid* from the service key of the new service instance \(see *Prerequisites*\).
+
+    > ### Note:  
+    > Set this property only when you have completed the SAP Task Center integration from the *Prerequisites* section. If you haven't completed this step, you might not be able to receive tasks from SAP S/4HANA Cloud, public edition.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Value** of *clientid*
     
     </td>
     </tr>

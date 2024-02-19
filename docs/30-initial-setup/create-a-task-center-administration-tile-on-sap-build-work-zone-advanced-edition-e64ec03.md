@@ -35,9 +35,9 @@ The following procedure describes how to create a Task Center Administration til
 
 1.  Build your own *Site Directory* link, as described in *Accessing the Site Manager* in [Site Manager in a Nutshell](https://help.sap.com/docs/WZ/b03c84105ff74f809631e494bd612e83/1589c253001a4433980ada7fa94df8d0.html) and open the link.
 
-2.  In the new window, go to *Channel Manager \(*<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>*\)* \> *HTML 5 Apps* and choose *Update content* \( <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) from the *Actions* column to fetch the updated content.
+2.  In the new window, go to *Channel Manager \(*<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>*\)* \> *HTML 5 Apps* and choose *Update content* \( <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) from the *Actions* column to fetch the updated content.
 
-3.  Go to *Content Manager \(*<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>*\)* \> *Content Explorer* tab, choose *HTML5 Apps*, select the Task Center Administration item and choose *\+ Add to My Content*.
+3.  Go to *Content Manager \(*<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>*\)* \> *Content Explorer* tab, choose *HTML5 Apps*, select the Task Center Administration item and choose *\+ Add to My Content*.
 
 4.  Go to the *My Content* tab where the Task Center Administration app is added.
 
@@ -49,7 +49,7 @@ The following procedure describes how to create a Task Center Administration til
 
     For more information, see [Assign Apps to Roles](https://help.sap.com/docs/WZ/b03c84105ff74f809631e494bd612e83/d0842269a2bd4b97a47ac19082e286a5.html).
 
-8.  Go to *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) and choose *Open Site* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\). The Task Center Administration tile is available below *Applications*.
+8.  Go to *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) and choose *Open Site* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\). The Task Center Administration tile is available below *Applications*.
 
 9.  Make sure you assign administrators to the new role collection in the SAP BTP cockpit.
 
@@ -64,7 +64,7 @@ The following procedure describes how to create a Task Center Administration til
 
     Follow the steps:
 
-    1.  From the *Site Directory*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons"></span></span></span>\) open the *Site Settings*\(<span style="color:#346187;"><span class="SAP-icons"></span></span>\).
+    1.  From the *Site Directory*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) open the *Site Settings*\(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
     2.  Choose *Edit* and activate the *SAP Companion* setting by choosing *YES*.
     3.  Add the following parameters:
 

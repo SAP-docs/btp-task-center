@@ -87,6 +87,72 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Support for New Actions - *Claim*, *Release*, *Forward* 
+
+</td>
+<td valign="top">
+
+*Claim*, *Release* and *Forward* are now available for SAP S/4HANA, SAP S/4HANA Cloud, public edition and SAP S/4HANA Cloud, private edition tasks.
+
+For more information, see [Inline Decision Options and Predefined Decision Reasons](https://help.sap.com/docs/task-center/sap-task-center/working-with-task-list?version=Cloud#inline-decision-options-and-predefined-decision-reasons).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-02-05
+
+</td>
+<td valign="top">
+
+2024-02-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Restart Notifications
 
 </td>
