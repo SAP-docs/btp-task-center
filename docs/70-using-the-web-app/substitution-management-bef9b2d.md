@@ -4,16 +4,16 @@
 
 # Substitution Management
 
-Use *Substitution Management* to view and maintain your substitutions.
+Use *Substitution Management* to access and maintain your substitutions.
 
 When planning your absence you can add substitution rules in the SAP Task Center Web app, so that, for the period that you define, your substitute can work on your tasks, displayed directly in their Web app.
 
 Open the **<span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Substitution Management* view from the user menu in the upper right corner of your SAP Task Center Web app.
 
+For more information on the task providers, supporting *Substitution Management*, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
+
 > ### Note:  
 > SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported.
-> 
-> Currently substitutions can be added only for SAP Fieldglass and SAP S/4HANA Cloud, public edition.
 
 
 

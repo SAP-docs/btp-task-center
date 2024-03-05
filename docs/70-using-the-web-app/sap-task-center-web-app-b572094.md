@@ -210,7 +210,7 @@ See [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-us
 
 [Working with Multiple Tasks](working-with-multiple-tasks-9f8ef8e.md "You can process multiple tasks at once, by using the Mass Actions functionality.")
 
-[Substitution Management](substitution-management-bef9b2d.md "Use Substitution Management to view and maintain your substitutions.")
+[Substitution Management](substitution-management-bef9b2d.md "Use Substitution Management to access and maintain your substitutions.")
 
 [Working with Views](working-with-views-b446cc8.md "Create, store, access your customized search filters in views to easily access the tasks you would like to work on.")
 

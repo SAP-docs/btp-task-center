@@ -3193,6 +3193,8 @@ To check the available translations for the Web app, activate the languages from
 When end users are using the SAP Task Center user interface to work on their tasks, the translatable task properties are retrieved from the SAP Task Center service, based on the language of the currently logged-in user and the available translations in the cache. The language of the currently logged-in user is set in the browser's language settings. The SAP Task Center searches for available translations for each property in the following order:
 
 1.  The currently logged-in user's language.
-2.  The fallback language for the corresponding provider system, if present.
-3.  If none of the above is present, `en-US` is used.
+2.  The fallback language for the task provider system, if present. \(Task provider fallback language\)
+3.  If none of the above is present, `en-US` is used. \(SAP Task Center fallback language\)
+
+See also [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
 

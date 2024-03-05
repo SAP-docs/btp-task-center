@@ -1,7 +1,5 @@
 <!-- loio9693186f1fe54cbe801085d6bdfe8287 -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # What Is SAP Task Center?
 
 SAP Task Center helps you integrate tasks into a central solution. 
@@ -58,11 +56,11 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 ![](images/Inbox_Overview_Graphic_efd3c8f.png)
 
 > ### Tip:  
-> This version of the guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
+> The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
 > 
-> -   :pencil2:: Contribute to a documentation page. This option opens a pull request on GitHub.
+> -   *Feedback* \> *Create issue*: Provide feedback about a documentation page. This option opens an issue on GitHub.
 > 
-> -   <span class="SAP-icons-V5"></span> Feedback: Provide feedback about a documentation page. This option opens an issue on GitHub.
+> -   *Feedback* \> *Edit page*: Contribute to a documentation page. This option opens a pull request on GitHub.
 > 
 > 
 > You need a GitHub account to use these options.
@@ -73,9 +71,9 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 > 
 > -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
 > 
-> -   [Introduction Video: Open Documentation Initiative](https://www.youtube.com/watch?v=WJ0oarMlVW4)
+> -   [Introduction Video](https://www.youtube.com/watch?v=WJ0oarMlVW4)
 > 
-> -   [Blog Post: Introducing the Open Documentation Initiative](https://blogs.sap.com/2021/05/20/introducing-the-open-documentation-initiative/)
+> -   [Introduction Blog Post](https://blogs.sap.com/2021/11/29/sap-btp-documentation-goes-github-new-collaboration-process/)
 
 **Related Information**  
 

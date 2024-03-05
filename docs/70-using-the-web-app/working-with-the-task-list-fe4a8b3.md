@@ -43,6 +43,8 @@ When you receive a new task, you are notified via the notification icon \(<span 
 
 To adjust your notifications settings, go to the user menu and choose <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Settings* \> **<span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Notifications*. For more information, see [Working with Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/working-with-notifications).
 
+Currently, the notifications displayed in the SAP Task Center Web app and task center in the SAP Mobile Start mobile app are in English, but might contain information in the fallback language, defined by the task provider.
+
 
 
 <a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_RefreshTasks"/>

@@ -25,9 +25,11 @@ Enable notifications for end users, ensuring that they receive timely task alert
 
 ## Context
 
-Administrators can set up notifications for the end users to be informed upon receiving a new task in their task list \(task assignment\). Currently, the notifications displayed in the SAP Task Center Web app are only in English. Notifications for substitutions or changes in processors are currently not supported.
+Administrators can set up notifications for the end users to be informed upon receiving a new task in their task list \(task assignment\). Currently, the notifications displayed in the SAP Task Center Web app and task center in the SAP Mobile Start mobile app are in English, but might contain information in the fallback language, defined by the task provider. For more information on the fallback language, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
 
-To enable notifications for end users, for all, or only some of the connected task providers, follow the steps in the procedure.
+Notifications for substitutions or changes in processors are currently not supported.
+
+To enable notifications for all or only some of the connected task providers, follow the steps in the procedure.
 
 
 

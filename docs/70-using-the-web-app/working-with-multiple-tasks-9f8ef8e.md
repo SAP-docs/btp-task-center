@@ -14,12 +14,11 @@ To enable the *Mass Actions* functionality, you must filter the task list by a s
 
 The task types, supporting mass actions have an *M* indicator next to the task type name.
 
-When you filter by a single task type, that supports mass actions, the *Mass Actions* button becomes enabled and you can select multiple tasks in the task list.
+When you filter by a single task type, that supports mass actions, *Mass Actions* become enabled and you can select multiple tasks in the task list.
 
 If you select the *Select All* checkbox, only the loaded tasks on the current page are selected. You can select and process up to 2000 tasks.
 
-> ### Note:  
-> Currently you can use the *Mass Actions* functionality only for SAP Fieldglass tasks.
+For more information on the task providers, supporting *Mass Actions*, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
 
 
