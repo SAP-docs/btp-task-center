@@ -5,30 +5,6 @@
 Once you create a destination configuration to connect SAP Task Center to a task provider application, SAP Task Center creates a connector internally for this configuration.
 
 
-<table>
-<tr>
-<th valign="top">
-
-Content
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-[Task Center Administration App](monitoring-9b30be7.md#loio9b30be76f14f48c5a72dd7ed7e9babe0__section_AdminApp)
-
-[Connector Status API](monitoring-9b30be7.md#loio9b30be76f14f48c5a72dd7ed7e9babe0__section_ConnectorStatusAPI)
-
-[Service Status API](monitoring-9b30be7.md#loio9b30be76f14f48c5a72dd7ed7e9babe0__section_ServiceStatusAPI)
-
-[Integration with SAP Alert Notification Service for SAP BTP](monitoring-9b30be7.md#loio9b30be76f14f48c5a72dd7ed7e9babe0__section_IntegrationWithAlert)
-
-</td>
-</tr>
-</table>
-
-
 
 For this new configuration, SAP Task Center creates the following background connector job types:
 

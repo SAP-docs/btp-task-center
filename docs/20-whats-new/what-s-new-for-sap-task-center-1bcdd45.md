@@ -87,6 +87,70 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Pushing SAP S/4HANA and SAP S/4HANA Cloud, private edition Tasks Enabled
+
+</td>
+<td valign="top">
+
+You can now enable task updates to be pushed from SAP S/4HANA or SAP S/4HANA Cloud, private edition. For more information, see the *Prerequisites* section and *tc.clientId* in [Connect SAP S/4HANA and SAP Task Center](../40-administration/connect-sap-s-4hana-and-sap-task-center-143af9b.md) and [Connect SAP S/4HANA Cloud, private edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-03-20
+
+</td>
+<td valign="top">
+
+2024-03-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Support for New Actions - *Claim*, *Release*, *Forward* 
 
 </td>

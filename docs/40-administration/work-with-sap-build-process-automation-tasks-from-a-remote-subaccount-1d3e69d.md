@@ -2,7 +2,7 @@
 
 # Work with SAP Build Process Automation Tasks from a Remote Subaccount
 
-Follow the procedure below to complete the setup and receive tasks from SAP Build Process Automation instance, which is in a different \(remote\) subaccount than the SAP Task Center subaccount.
+Follow the described procedure to complete the setup and receive tasks from SAP Build Process Automation instance, which is in a different \(remote\) subaccount than the SAP Task Center subaccount.
 
 
 
@@ -10,11 +10,11 @@ Follow the procedure below to complete the setup and receive tasks from SAP Buil
 
 ## Prerequisites
 
--   You have a subaccount with an SAP Task Center service instance in the Cloud Foundry environment. In the procedure below we refer to this account as the 'SAP Task Center subaccount'.
+-   You have a subaccount with an SAP Task Center service instance in the Cloud Foundry environment. In the following procedure we refer to this account as the 'SAP Task Center subaccount'.
 
--   You have created a second subaccount with an SAP Build Process Automation instance. In the procedure below we refer to this account as the 'SAP Build Process Automation subaccount'. This subaccount is configured to authenticate users via the same Identity Authentication server as the SAP Task Center subaccount.
+-   You have created a second subaccount with an SAP Build Process Automation instance. In the following procedure we refer to this account as the 'SAP Build Process Automation subaccount'. This subaccount is configured to authenticate users via the same Identity Authentication server as the SAP Task Center subaccount.
 
--   You have performed the steps in [Set Up Principal Propagation Between Subaccounts](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/644357977e414211a730dab2e3094585.html).
+-   You have performed the steps in [Set Up Principal Propagation Between Subaccounts](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/set-up-principal-propagation-between-subaccounts-87df988656ad4190900c209b1d1780b0).
 
 
 > ### Note:  

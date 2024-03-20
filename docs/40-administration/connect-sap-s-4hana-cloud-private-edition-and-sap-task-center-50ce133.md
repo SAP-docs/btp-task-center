@@ -24,7 +24,14 @@ Find information about the destination configuration that needs to be done for S
     -   *Virtual Host* and *Virtual Port* from step *Configure access control in the Cloud Connector for your SAP S/4HANA back-end system*
 
 
--   You have performed the steps in [SAP Task Center Integration](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/1da230b82a984cda85d0041e13060a87.html) and have a user name and password for granting access to the task pull service, as described in [Create Service User for Task Pull Service](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/229c5a1f659341efa2bb6205159d6209.html).
+-   Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created. This enables task updates to be pushed from your ABAP system. Follow the steps in [Create a Service Instance Using the SAP BTP Cockpit](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/dc9af9fd363b4e989af6ff2f19548d32.html?version=Cloud) and create a service key for the service instance. Open the JSON file of the service key and get the following values:
+
+    -   *endpoints* \> *inbox\_rest\_url*
+    -   *uaa* \> *url*
+    -   *uaa* \> *clientid*
+    -   *uaa* \> *clientsecret*
+
+-   You have performed the steps in [Integrating SAP Task Center](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/1da230b82a984cda85d0041e13060a87.html) and have a user name and password for granting access to the task pull service, as described in *Configuring SAP Task Center Integration*.
 
     Use the SAP Cloud Connector from the previous prerequisite for the step *Tunnel the request using, for example, the Cloud Connector* in [Configuring SAP Task Center Integration](https://help.sap.com/viewer/0f18dddf28764f5b807ecd80549044cc/latest/en-US/5117f21ef28f4e698d99fe3fdbc1be2a.html).
 
@@ -285,6 +292,30 @@ Find information about the destination configuration that needs to be done for S
     **Value**:
 
     `true`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.clientId*
+    
+    </td>
+    <td valign="top">
+    
+    This property is used to enable task updates to be pushed from SAP S/4HANA Cloud, private edition.
+
+    The value of this property is the value of the *uaa* \> *clientid* from the service key of the new service instance \(see *Prerequisites*\).
+
+    > ### Note:  
+    > Set this property only when you have completed *Integrating SAP Task Center* from the *Prerequisites* section. If you haven't completed this step, you might not be able to receive tasks from SAP S/4HANA Cloud, private edition.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Value** of *clientid*
     
     </td>
     </tr>

@@ -17,5 +17,7 @@ This guide provides an overview of the security-relevant information that applie
 
 [Auditing and Logging Information](auditing-and-logging-information-09dcab2.md "Here you can find a list of the security events that are logged by the SAP Task Center service.")
 
+[Credentials Rotation](credentials-rotation-8080abf.md "Change your credentials at regular intervals to ensure a higher level of security.")
+
 [Security Guide for SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e129aa20c78c4a9fb379b9803b02e5f6.html)
 

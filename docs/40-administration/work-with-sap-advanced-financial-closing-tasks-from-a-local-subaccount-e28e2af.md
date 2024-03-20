@@ -122,7 +122,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP A
     </td>
     <td valign="top">
     
-    Add the *endpoints \> task-center* value from the *Prerequisites* in [Connect SAP Advanced Financial Closing and SAP Task Center](connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md) and append `/api` to the URL.
+    Add the *endpoints \> task-center* value from the *Prerequisites* in [Connect SAP Advanced Financial Closing and SAP Task Center](connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md) and remove `/task-provider/v2` from the URL.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.

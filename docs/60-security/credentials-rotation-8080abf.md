@@ -24,11 +24,27 @@ By creating a new service key, only the `clientsecret` changes and the other par
 
 
 
+### Rotate Credentials for SAP S/4HANA
+
+1.  Create a new service key for the existing service instance, which you created in step *Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created* in [Connect SAP S/4HANA and SAP Task Center](../40-administration/connect-sap-s-4hana-and-sap-task-center-143af9b.md).
+
+2.  Copy the new `clientsecret` and update it in the *Maintain OAuth 2.0 Client for Task Push Service* step in your SAP S/4HANA system. For more information, see *Execute the activities under SAP Task Center Integration* in [Configuring SAP Task Center Integration](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/0f18dddf28764f5b807ecd80549044cc/5117f21ef28f4e698d99fe3fdbc1be2a.html?version=latest).
+
+
+
 ### Rotate Credentials for SAP S/4HANA Cloud, public edition
 
 1.  Create a new service key for the existing service instance, which you created in step *Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created* in [Connect SAP S/4HANA Cloud, public edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-public-edition-and-sap-task-center-0aff1b4.md).
 
 2.  Copy the new `clientsecret` and update it in the *Edit Outbound User* dialog box in your SAP S/4HANA Cloud, public edition system. For more information, see *Users for Outbound Communication* in [Create a Communication Arrangement](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/913ff1a47a6447e3b7bee17fa6f275ff.html?version=latest).
+
+
+
+### Rotate Credentials for SAP S/4HANA Cloud, private edition
+
+1.  Create a new service key for the existing service instance, which you created in step *Create a dedicated service instance for SAP Task Center in the Cloud Foundry subaccount, where your initial SAP Task Center instance was created* in [Connect SAP S/4HANA Cloud, private edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md).
+
+2.  Copy the new `clientsecret` and update it in the *Maintain OAuth 2.0 Client for Task Push Service* step in your SAP S/4HANA system. For more information, see *Execute the activities under SAP Task Center Integration* in [Configuring SAP Task Center Integration](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/0f18dddf28764f5b807ecd80549044cc/5117f21ef28f4e698d99fe3fdbc1be2a.html?version=latest).
 
 
 
