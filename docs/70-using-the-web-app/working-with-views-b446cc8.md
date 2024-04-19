@@ -4,7 +4,7 @@
 
 # Working with Views
 
-Create, store, access your customized search filters in views to easily access the tasks you would like to work on.
+Create, store, access customized search filters in views to easily access the tasks you would like to work on.
 
 
 
@@ -12,14 +12,14 @@ Create, store, access your customized search filters in views to easily access t
 
 ## Context
 
-In the SAP Task Center Web app, you can store customized filters in personalized views for an easier access to the targeted tasks. Additionally, you can store the sort order of the task list in a view.
+In the SAP Task Center Web app, you can store customized filters in personalized views for an easier access to the targeted tasks. Additionally, you can store the sort order of the task list in a view, or open a public view with filter criteria, predefined by key users in your organization.
 
 > ### Example:  
-> Here are a few example use cases for personalized views:
+> Here are a few example use cases for private or public views:
 > 
 > -   Store your tasks with *High* priority in a view.
 > 
-> -   Store your tasks in status *Open* in a view.
+> -   Open a public view, created by a key user, to filter by predefined criteria.
 
 
 
@@ -69,7 +69,14 @@ You can create a personalized view, based on any of the options, displayed on th
 
 <a name="loiob446cc82948e43b6ad00562b8d3f8609__section_kfb_cvr_kyb"/>
 
-## \(Optional\) Manage Views
+## Manage Views
 
-To see details of the existing views, rename them, set your default and favorite views, which to be displayed in the dropdown list, open the list of views from the dropdown \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\), choose *My Views* \> *Manage*, and make your changes.
+To check the details of existing private or public views, to rename them, or to set your default and favorite views, which to be displayed in the dropdown list, open the list of views from the dropdown \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\), choose *My Views* \> *Manage*, and make your changes.
+
+To access public views, they must have already been set up by key users. For more information, see [Creating Public Views for End Users](../40-administration/creating-public-views-for-end-users-4c2c2af.md).
+
+> ### Note:  
+> Currently, users with key user roles can create public views only based on tasks and task types for which they are assigned as processors.
+
+Choosing a public view as favorite, personalizing it, or making it default view will only make it appear in your personal preferences, but does not affect the preferences of others.
 

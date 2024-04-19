@@ -22,6 +22,8 @@ After you complete the initial setup of SAP Task Center \(see [Initial Setup](..
 
 [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md)
 
+[Creating Public Views for End Users](creating-public-views-for-end-users-4c2c2af.md)
+
 [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md)
 
 [Configure Task Center in the SAP Mobile Start Mobile App](configure-task-center-in-the-sap-mobile-start-mobile-app-732d228.md)

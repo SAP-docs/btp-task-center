@@ -87,6 +87,136 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Updating HTML5 Apps Required
+
+</td>
+<td valign="top">
+
+Following this week's update of SAP Task Center, it is expected that the *Task Center* tile count will start showing *Error*. To restore the tile count, please update the HTML5 apps in the site manager of your central point of entry for accessing apps. For example, see [Create a Task Center Tile](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/create-task-center-tile) for SAP Build Work Zone, advanced edition.
+
+Еnd users might have to clear browser cache and refresh their browser.
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-04-19
+
+</td>
+<td valign="top">
+
+2024-04-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Public Views Enabled
+
+</td>
+<td valign="top">
+
+You can now access public views, predefined by key users. For more information, see [Working with Views](../70-using-the-web-app/working-with-views-b446cc8.md) and [Creating Public Views for End Users](../40-administration/creating-public-views-for-end-users-4c2c2af.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-04-19
+
+</td>
+<td valign="top">
+
+2024-04-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Pushing SAP S/4HANA and SAP S/4HANA Cloud, private edition Tasks Enabled
 
 </td>
