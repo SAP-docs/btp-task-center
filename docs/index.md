@@ -56,6 +56,7 @@
         -   [Get the Service Host](40-administration/get-the-service-host-4e38c03.md)
         -   [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](40-administration/access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md)
     -   [Configure Filter Tabs in the SAP Task Center Web App](40-administration/configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md)
+    -   [Creating Public Views for End Users](40-administration/creating-public-views-for-end-users-4c2c2af.md)
     -   [Configure Labels in SAP Task Center Web App](40-administration/configure-labels-in-sap-task-center-web-app-a0be9ad.md)
     -   [Configure Task Center in the SAP Mobile Start Mobile App](40-administration/configure-task-center-in-the-sap-mobile-start-mobile-app-732d228.md)
     -   [Configure To Dos in SAP Start](40-administration/configure-to-dos-in-sap-start-c05ad6f.md)
