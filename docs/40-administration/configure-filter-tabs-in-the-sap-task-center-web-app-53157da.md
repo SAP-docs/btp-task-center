@@ -166,7 +166,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>
@@ -183,7 +183,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     </td>
     <td valign="top">
     
-    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+    <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
     
     </td>
     </tr>

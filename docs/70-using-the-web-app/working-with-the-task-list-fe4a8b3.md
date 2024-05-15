@@ -438,6 +438,9 @@ The *Actions* column may contain the following types of actions:
     
     For more information, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
+    > ### Note:  
+    > The labels for *Claim*, *Release* and *Forward* are unified and defined by the Web app, regardless of the label, received by the task provider.
+
 -   Standard actions \(valid for every task provider\)
 
     *Open in App* - Choosing this button opens the task in the task provider system.

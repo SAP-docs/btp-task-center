@@ -59,7 +59,7 @@ Prepare your SAP Business Technology Platform \(SAP BTP\) account by making sure
 
 ### Integrate with SAP Cloud Identity Services
 
-Integration with SAP Cloud Identity Service
+Integration with SAP Cloud Identity Services
 
 You have followed the integration guide for SAP Cloud Identity Services and have completed the integration scenario setup for the task providers, which you would like to configure.
 
@@ -83,9 +83,9 @@ You are entitled to use at least one of the following central points of entry fo
 
     The SAP Build Work Zone, standard edition is also available in free tier. For more information, see [Initial Setup](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/fd79b232967545569d1ae4d8f691016b.html) and [Using an Account with a Free Service Plan](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/1868e0dd101a4aa78b75e49ab46c992a.html).
 
--   SAP Start
-
 -   SAP Build Work Zone, advanced edition
+
+-   SAP Start \(For more information, see [Restrictions](https://help.sap.com/docs/start/sap-start/restrictions?q=To).\)
 
 -   SAP SuccessFactors Work Zone
 

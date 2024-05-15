@@ -59,7 +59,7 @@
     -   [Creating Public Views for End Users](40-administration/creating-public-views-for-end-users-4c2c2af.md)
     -   [Configure Labels in SAP Task Center Web App](40-administration/configure-labels-in-sap-task-center-web-app-a0be9ad.md)
     -   [Configure Task Center in the SAP Mobile Start Mobile App](40-administration/configure-task-center-in-the-sap-mobile-start-mobile-app-732d228.md)
-    -   [Configure To Dos in SAP Start](40-administration/configure-to-dos-in-sap-start-c05ad6f.md)
+    -   [Configure To-Dos in SAP Start](40-administration/configure-to-dos-in-sap-start-c05ad6f.md)
     -   [Enable Notifications for End Users](40-administration/enable-notifications-for-end-users-caf2543.md)
     -   [Repopulate the Task Cache](40-administration/repopulate-the-task-cache-e93aa71.md)
     -   [Deactivate the SAP Task Center](40-administration/deactivate-the-sap-task-center-2183b2b.md)
@@ -78,6 +78,6 @@
         -   [Substitution Management](70-using-the-web-app/substitution-management-bef9b2d.md)
         -   [Working with Views](70-using-the-web-app/working-with-views-b446cc8.md)
     -   [Task Center in the SAP Mobile Start Mobile App](70-using-the-web-app/task-center-in-the-sap-mobile-start-mobile-app-cb7cab6.md)
-    -   [To Dos in SAP Start](70-using-the-web-app/to-dos-in-sap-start-8549f76.md)
+    -   [To-Dos in SAP Start](70-using-the-web-app/to-dos-in-sap-start-8549f76.md)
 -   [Troubleshooting](80-troubleshooting/troubleshooting-89c09a4.md)
 

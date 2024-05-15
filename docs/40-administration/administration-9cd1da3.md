@@ -28,7 +28,7 @@ After you complete the initial setup of SAP Task Center \(see [Initial Setup](..
 
 [Configure Task Center in the SAP Mobile Start Mobile App](configure-task-center-in-the-sap-mobile-start-mobile-app-732d228.md)
 
-[Configure To Dos in SAP Start](configure-to-dos-in-sap-start-c05ad6f.md)
+[Configure To-Dos in SAP Start](configure-to-dos-in-sap-start-c05ad6f.md)
 
 [Enable Notifications for End Users](enable-notifications-for-end-users-caf2543.md)
 

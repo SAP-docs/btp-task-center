@@ -27,7 +27,7 @@ The end users can access the public views from the views dropdown <span style="f
 
 ## Prerequisites
 
--   You have one of the roles `FlexPublicViewEditor` or `FlexKeyUser`, or both. For more information, see [Creating Public Views](https://help.sap.com/docs/ui5-flexibility-for-key-users/ui5-flexibility-for-key-users/creating-public-views).
+-   You have one of the roles `FlexPublicViewEditor` or `FlexKeyUser`, or both. For more information, see [Creating Public Views](https://help.sap.com/docs/ui5-flexibility-for-key-users/ui5-flexibility-for-key-users/creating-public-views) and [Assign Roles to Your Users](../60-security/assign-roles-to-your-users-7e081d8.md).
 
 -   You have enabled the *Key User Adaptation* setting in the *Services* section of your *Site Settings*. Make sure that you are updating the site, where your SAP Task Center Web app is located. For more information, see [Site Settings](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configure-site-settings).
 

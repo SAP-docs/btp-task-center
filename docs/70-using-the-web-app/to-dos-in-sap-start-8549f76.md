@@ -9,7 +9,7 @@ In the *To-Dos* section of SAP Start, you can find your most recent tasks \(as r
 **Related Information**  
 
 
-[Configure To-Dos in SAP Start](../40-administration/configure-to-dos-in-sap-start-c05ad6f.md "The To-Dos in SAP Start are cards, visualizing the most important information of the latest tasks in the SAP Task Center task list, allowing users to access and process their tasks from the SAP Start user interface.")
+[Configure To-Dos in SAP Start](../40-administration/configure-to-dos-in-sap-start-c05ad6f.md "The To-Dos in SAP Start are cards, containing the most important information of the latest tasks in the SAP Task Center task list, allowing users to access and process their tasks from the SAP Start user interface.")
 
 [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-use-cases-758209c.md "Review the list of the supported solutions and use cases in SAP Task Center.")
 
