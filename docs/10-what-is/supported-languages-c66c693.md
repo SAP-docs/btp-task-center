@@ -4,7 +4,9 @@
 
 # Supported Languages
 
-The SAP Task Center supports translatable properties of tasks and task definitions in the following languages:
+See the languages, supported by SAP Task Center for tasks and task definitions.
+
+For SAP task providers, SAP Task Center supports translatable properties of tasks and task definitions in the following languages:
 
 
 <table>

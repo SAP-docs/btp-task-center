@@ -80,11 +80,11 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 
 [Conventions and Technical Restrictions](conventions-and-technical-restrictions-f0f13bf.md "These conventions and restrictions apply to the SAP Task Center.")
 
-[Supported Languages](supported-languages-c66c693.md "")
+[Supported Languages](supported-languages-c66c693.md "See the languages, supported by SAP Task Center for tasks and task definitions.")
 
 [Supported Solutions and Use Cases](supported-solutions-and-use-cases-758209c.md "Review the list of the supported solutions and use cases in SAP Task Center.")
 
-[Supported Features](supported-features-257a0ad.md "")
+[Supported Features](supported-features-257a0ad.md "See the SAP Task Center features, supported by task providers.")
 
 [Browser Support](browser-support-d769477.md "")
 

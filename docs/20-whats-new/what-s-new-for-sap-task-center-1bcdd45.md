@@ -1,6 +1,6 @@
 <!-- loio1bcdd459f84d4323a27581226d1d210e -->
 
-# What's New for SAP Task Center?
+# What's New for SAP Task Center
 
 
 
@@ -71,6 +71,74 @@ Latest Revision
 Available as of
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Minor Updates
+
+</td>
+<td valign="top">
+
+Performance optimization in the SAP Task Center Web App.
+
+Improvement of the delta job status retention policy to store the status of only the last 30 delta jobs in the database. Applied automatically. No action required.
+
+Improvement in the navigation from a notification to a task that has already been processed.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-05-28
+
+</td>
+<td valign="top">
+
+2024-05-28
+
+</td>
 </tr>
 <tr>
 <td valign="top">
