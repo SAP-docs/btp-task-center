@@ -4,7 +4,7 @@
 
 SAP Task Center helps you integrate tasks into a central solution. 
 
-The SAP Task Center service enables integration with SAP applications to provide a single entry point for end users to access all their assigned tasks. The tasks can be accessed by end users through the SAP Task Center Web application.
+The SAP Task Center service enables integration with SAP and non-SAP applications to provide a single entry point for end users to access all their assigned tasks. The tasks can be accessed by end users through the SAP Task Center Web app, SAP Mobile Start app, and SAP Start.
 
 You can use SAP Task Center as a unified inbox for tasks across multiple applications with integrated user experience. Tasks from multiple SAP solutions are gathered in one list and ready to be processed in just one click, shortening the completion time for business-critical tasks. For example, business users can process all their tasks from the connected systems, without the need to switch and log in separately into different inboxes.
 
@@ -53,7 +53,7 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 
 ## SAP Task Center Overview
 
-![](images/Inbox_Overview_Graphic_efd3c8f.png)
+![BTP services setup within a customer's subaccount for SAP Task Center. It includes user access, key components like SAP Build Work Zone, SAP Cloud Identity Services and other integrated services.](images/SAP_Task_Center_Level_2_Diagram_07fe584.png)
 
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
@@ -80,11 +80,11 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 
 [Conventions and Technical Restrictions](conventions-and-technical-restrictions-f0f13bf.md "These conventions and restrictions apply to the SAP Task Center.")
 
-[Supported Languages](supported-languages-c66c693.md "See the languages, supported by SAP Task Center for tasks and task definitions.")
+[Supported Languages](supported-languages-c66c693.md "See the languages, supported by SAP Task Center for tasks and task definitions, which are coming from SAP or third-party task providers.")
 
 [Supported Solutions and Use Cases](supported-solutions-and-use-cases-758209c.md "Review the list of the supported solutions and use cases in SAP Task Center.")
 
-[Supported Features](supported-features-257a0ad.md "See the SAP Task Center features, supported by task providers.")
+[Supported Features](supported-features-257a0ad.md "See the SAP Task Center features, supported by SAP, or third-party task providers.")
 
 [Browser Support](browser-support-d769477.md "")
 

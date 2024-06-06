@@ -170,7 +170,19 @@ See [Supported Tasks for Enhanced To-Do Integration](https://help.sap.com/viewer
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Third-Party Task Providers
+
+</td>
+<td valign="top">
+
+For more information, see the official documentation of the respective third-party task provider.
+
+</td>
+</tr>
 </table>
 
-When a new use case \(*Task Type*\) is enabled, the users will find only the tasks, created or updated after the release date of the respective use case. To get the older ones, they have to repopulate the task cache. For more information, see [Repopulate the Task Cache](../40-administration/repopulate-the-task-cache-e93aa71.md).
+When a new use case \(*Task Type*\) is enabled, the users will get only the tasks, created or updated after the release date of the respective use case. To get the older ones, they have to repopulate the task cache. For more information, see [Repopulate the Task Cache](../40-administration/repopulate-the-task-cache-e93aa71.md).
 

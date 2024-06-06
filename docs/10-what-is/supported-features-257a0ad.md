@@ -4,7 +4,7 @@
 
 # Supported Features
 
-See the SAP Task Center features, supported by task providers.
+See the SAP Task Center features, supported by SAP, or third-party task providers.
 
 **SAP Task Center Features Supported by Task Providers**
 
@@ -754,6 +754,9 @@ Forward a Task
 \* See SAP Note [2975987](https://me.sap.com/notes/2975987) .
 
 \*\* See [Supported Tasks for Enhanced To-Do Integration](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568480cc877d4337992a2cd9792fbfed/cbb89cf9d70e4dafb005338f5ab93c3c.html).
+
+> ### Note:  
+> Third-party-task-providers support for features depends on the third-party implementation of the SAP Task Center SPI, as defined in SAP Note [3462266](https://me.sap.com/notes/3462266).
 
 **Related Information**  
 

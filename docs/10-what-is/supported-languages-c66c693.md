@@ -4,7 +4,7 @@
 
 # Supported Languages
 
-See the languages, supported by SAP Task Center for tasks and task definitions.
+See the languages, supported by SAP Task Center for tasks and task definitions, which are coming from SAP or third-party task providers.
 
 For SAP task providers, SAP Task Center supports translatable properties of tasks and task definitions in the following languages:
 
@@ -3178,6 +3178,9 @@ In addition to the languages listed in the preceding table, the SAP Task Center 
 -   Indonesian \(Indonesia\) - id-ID
 -   Portuguese \(Portugal\) - pt-PT
 -   Welsh \(United Kingdom\) - cy-GB
+
+> ### Note:  
+> For more information about the languages, supported for third-party-task-provider tasks, see the official documentation of the respective third-party task provider.
 
 The SAP Task Center Administration app is supported in the following languages:
 

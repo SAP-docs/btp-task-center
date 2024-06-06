@@ -87,6 +87,136 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Third-Party Task Provider Supported
+
+</td>
+<td valign="top">
+
+You can now connect a third-party task provider to SAP Task Center. For more information, see [Connect a Third-Party Task Provider and SAP Task Center](../40-administration/connect-a-third-party-task-provider-and-sap-task-center-c6362b6.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-06-05
+
+</td>
+<td valign="top">
+
+2024-06-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Security Topic Updated
+
+</td>
+<td valign="top">
+
+The security information for SAP Task Center is extended with more details about the SAP Cloud Identity Services and third-party integration.
+
+For more information, see [Security](../60-security/security-2ab2142.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-06-05
+
+</td>
+<td valign="top">
+
+2024-06-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Minor Updates
 
 </td>

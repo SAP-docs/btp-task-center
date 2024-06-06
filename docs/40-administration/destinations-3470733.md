@@ -46,4 +46,6 @@ The service destinations are required for some SAP Task Center features.
 
 -   To configure SAP Task Center to work with SAP SuccessFactors, see [Connect SAP SuccessFactors and SAP Task Center](connect-sap-successfactors-and-sap-task-center-eae23f3.md).
 
+-   To configure SAP Task Center to work with third-party task provider tasks, see [Connect a Third-Party Task Provider and SAP Task Center](connect-a-third-party-task-provider-and-sap-task-center-c6362b6.md).
+
 
