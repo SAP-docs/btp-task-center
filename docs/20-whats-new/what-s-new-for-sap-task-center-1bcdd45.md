@@ -87,6 +87,81 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Minor Updates
+
+</td>
+<td valign="top">
+
+The following improvements have been made:
+
+-   In the communication between the SAP Task Center Web app and the iFrame embedded UI;
+
+-   In the handling of custom attributes, attachment counts and the description shown in the *Additional Information* tab of the standard task UI;
+
+-   In the loading of views with expired filter criteria;
+
+-   In the task count for tasks, processed on behalf of another user;
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-06-12
+
+</td>
+<td valign="top">
+
+2024-06-12
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Third-Party Task Provider Supported
 
 </td>
