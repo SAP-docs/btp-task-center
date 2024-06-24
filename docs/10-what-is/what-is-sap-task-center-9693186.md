@@ -42,7 +42,7 @@ SAP Task Center for Task Processing
 </b></dt>
 <dd>
 
-Access all tasks assigned to you in the SAP Task Center Web app. Search, sort and filter the displayed tasks based on predefined criteria. Navigate to the native task application for full task details and set of actions.
+Access all tasks assigned to you in the SAP Task Center Web app. Search, sort and filter the displayed tasks based on predefined criteria. Review task details and perform actions for certain task types. Navigate to the native task application for full task details and set of actions.
 
 
 

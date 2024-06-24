@@ -62,4 +62,6 @@ Considering this information during development helps you achieve optimal use of
 
 -   Notifications displayed in the SAP Task Center Web app are only in English.
 
+    The general restrictions for retention period and total number of notifications are also valid for SAP Task Center. For more information, see [Working with Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/working-with-notifications).
+
 

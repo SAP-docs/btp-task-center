@@ -87,6 +87,136 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Integration with SAP Cloud ALM
+
+</td>
+<td valign="top">
+
+You can now use the integration of SAP Task Center with SAP Cloud ALM to monitor all the inbound and outbound communication data events with the SAP Task Center REST API.
+
+For more information, see [Integration with SAP Cloud ALM](../40-administration/integration-with-sap-cloud-alm-092288d.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-06-24
+
+</td>
+<td valign="top">
+
+2024-06-24
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Performance Optimization
+
+</td>
+<td valign="top">
+
+Unused APIs have been removed for improved performance and optimization of the SAP Task Center service.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-06-24
+
+</td>
+<td valign="top">
+
+2024-06-24
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Minor Updates
 
 </td>

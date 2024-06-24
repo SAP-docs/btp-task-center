@@ -53,6 +53,7 @@
     -   [Monitoring](40-administration/monitoring-9b30be7.md)
         -   [Working with the Task Center Administration App](40-administration/working-with-the-task-center-administration-app-3a1598c.md)
         -   [Set Up Notifications for Administrators](40-administration/set-up-notifications-for-administrators-2c1997b.md)
+        -   [Integration with SAP Cloud ALM](40-administration/integration-with-sap-cloud-alm-092288d.md)
     -   [Export SAP Task Center Service Data](40-administration/export-sap-task-center-service-data-1dfb750.md)
     -   [Using the SAP Task Center API](40-administration/using-the-sap-task-center-api-b66e0cd.md)
         -   [Get the Service Configuration Parameters](40-administration/get-the-service-configuration-parameters-e10e7b2.md)
