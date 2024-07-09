@@ -2,7 +2,7 @@
 
 # Initial Setup
 
-Make sure you meet the prerequisites before you perform the initial setup for SAP Task Center, following either the automatic setup \(using a booster\) or the manual setup.
+To use the service, make sure you have performed the preliminary setup and meet the prerequisites. Then continue with the initial setup for SAP Task Center, following either the automatic setup \(using a booster\) or the manual setup.
 
 > ### Tip:  
 > Check also the step-by-step mission for the initial setup [Establish a Central Inbox with SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3774/3813/) on SAP Discovery Center.
@@ -13,7 +13,7 @@ Make sure you meet the prerequisites before you perform the initial setup for SA
 
 ## Prerequisites
 
-Before you can use the service, meet the following prerequisites and then perform the initial setup.
+You can perform the initial setup for SAP Task Center following either the automatic setup \(using a booster\) or by manual setup. Before you start, make sure you meet all prerequisites.
 
 ![An interactive graphic of the four main prerequisites you need to
 							complete before setting up the service.](images/Initial_Setup_727bcc8.png)
@@ -48,7 +48,7 @@ Prepare your SAP Business Technology Platform \(SAP BTP\) account by making sure
 
     For more information, see [Add Space Members Using the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/add-space-members-using-cockpit).
 
-5.  Establish trust with the User Account and Authentication \(UAA\) of your subaccount, using Identity Authentication.
+5.  You have established trust with the User Account and Authentication \(UAA\) of your subaccount, using Identity Authentication.
 
     Identity Authentication is mandatory for working with SAP Task Center.
 
@@ -59,11 +59,7 @@ Prepare your SAP Business Technology Platform \(SAP BTP\) account by making sure
 
 ### Integrate with SAP Cloud Identity Services
 
-Integration with SAP Cloud Identity Services
-
-You have followed the integration guide for SAP Cloud Identity Services and have completed the integration scenario setup for the task providers, which you would like to configure.
-
-For more information, see [System Integration Guide for SAP Cloud Identity Services](https://help.sap.com/viewer/b95c3d5bab324a3a8409eee5267a5b75/Cloud/en-US).
+For the integration with SAP Cloud Identity Services, you must have followed the integration guide \(see [System Integration Guide for SAP Cloud Identity Services](https://help.sap.com/viewer/b95c3d5bab324a3a8409eee5267a5b75/Cloud/en-US)\) and have completed the integration scenario setup for the task providers, which you would like to configure.
 
 For the integration with SAP Advanced Financial Closing, SAP Build Process Automation or SAP Build Work Zone, advanced edition as task provider, make sure you follow the [SAP BTP Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-btp-integration-scenario?version=Cloud).
 
@@ -77,23 +73,23 @@ For the integration with SAP Advanced Financial Closing, SAP Build Process Autom
 
 ### Verify Your Central Point of Entry for Accessing Applications
 
-You are entitled to use at least one of the following central points of entry for accessing apps and it is available in your global account.
+You have a subscription to at least one of the following services:
 
 -   SAP Build Work Zone, standard edition, formerly known as SAP Launchpad service
 
-    The SAP Build Work Zone, standard edition is also available in free tier. For more information, see [Initial Setup](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/fd79b232967545569d1ae4d8f691016b.html) and [Using an Account with a Free Service Plan](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/1868e0dd101a4aa78b75e49ab46c992a.html).
+    The SAP Build Work Zone, standard edition is also available in free tier. For more information, see [Initial Setup](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/initial-setup) and [Using an Account with a Free Service Plan](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/1868e0dd101a4aa78b75e49ab46c992a.html).
 
--   SAP Build Work Zone, advanced edition
+-   [SAP Build Work Zone, advanced edition](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/onboarding-to-sap-build-work-zone-advanced-edition)
 
 -   SAP Start \(For more information, see [Restrictions](https://help.sap.com/docs/start/sap-start/restrictions?q=To).\)
 
--   SAP SuccessFactors Work Zone
+-   [SAP SuccessFactors Work Zone](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/onboarding-to-sap-successfactors-work-zone) \(for existing subscriptions only\)
 
--   SAP Cloud Portal service
+-   [SAP Cloud Portal service](https://help.sap.com/docs/cloud-portal-service/sap-cloud-portal-service-on-cloud-foundry/what-is-cloud-portal-service)
 
 
 > ### Note:  
-> Having subscriptions on both SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone on the same subaccount isn't supported. If you are already using SAP SuccessFactors Work Zone in your subaccount, you will need to either choose a different subaccount or unsubscribe before you onboard to SAP Build Work Zone, advanced edition. For more information, see [SAP Build Work Zone, Advanced Edition Administrator Guide](https://help.sap.com/docs/WZ/b03c84105ff74f809631e494bd612e83/9e78b62e8d2a4e1b928d85d22fe957a7.html#create-a-subaccount).
+> Please make sure that you check also the existing conventions and restrictions in the official documentation of your central point of entry for accessing applications.
 
 
 

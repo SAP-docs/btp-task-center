@@ -2,7 +2,7 @@
 
 # Create a Task Center Tile
 
-Create a Task Center tile by folloing the links below.
+Create a Task Center tile by following the links.
 
 You can create a Task Center tile on SAP Build Work Zone, advanced edition, SAP Build Work Zone, standard edition \(formerly known as SAP Launchpad service\), SAP SuccessFactors Work Zone or SAP Cloud Portal service, depending on your needs.
 

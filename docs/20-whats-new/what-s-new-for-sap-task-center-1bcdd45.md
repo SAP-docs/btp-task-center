@@ -87,6 +87,70 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Minor Improvements
+
+</td>
+<td valign="top">
+
+For enhanced performance, the removal of unused API has been finalized.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-07-09
+
+</td>
+<td valign="top">
+
+2024-07-09
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Integration with SAP Cloud ALM
 
 </td>

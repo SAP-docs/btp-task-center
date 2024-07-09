@@ -405,7 +405,7 @@ The automatic setup does the following for you:
 
 [Boosters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fb1b56148f834749a2bf51127421610b.html)
 
-[Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md "Create a Task Center tile by folloing the links below.")
+[Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md "Create a Task Center tile by following the links.")
 
-[Destinations](../40-administration/destinations-3470733.md "The SAP Task Center communicates with the task provider applications via predefined destinations in a customer subaccount.")
+[Destinations](../40-administration/destinations-3470733.md "SAP Task Center communicates with the task provider applications via predefined destinations in a customer subaccount.")
 

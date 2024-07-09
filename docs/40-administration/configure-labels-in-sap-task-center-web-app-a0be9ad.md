@@ -20,5 +20,5 @@ Depending on your user language, the SAP Task Center searches for available tran
 **Related Information**  
 
 
-[Destinations](destinations-3470733.md "The SAP Task Center communicates with the task provider applications via predefined destinations in a customer subaccount.")
+[Destinations](destinations-3470733.md "SAP Task Center communicates with the task provider applications via predefined destinations in a customer subaccount.")
 
