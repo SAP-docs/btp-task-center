@@ -87,6 +87,205 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Improvements
+
+</td>
+<td valign="top">
+
+Improvements in the SAP Task Center Web App:
+
+-   Improvements in the translation handling of the attachments and comments area.
+
+-   Improvements in the error handling in the Web app by creating human-readable messages.
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-07-22
+
+</td>
+<td valign="top">
+
+2024-07-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Updated Documentation for Creating a Tile
+
+</td>
+<td valign="top">
+
+The topics describing how to create the SAP Task Center tiles have now been updated to point to the documentation of the central point of entry for accessing applications. For more information, see [Create a Task Center Tile](../30-initial-setup/create-a-task-center-tile-70e7f6e.md) and [Create a Task Center Administration Tile](../30-initial-setup/create-a-task-center-administration-tile-8053d72.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-07-22
+
+</td>
+<td valign="top">
+
+2024-07-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Destination Status in the SAP Task Center Administration App
+
+</td>
+<td valign="top">
+
+A new connector status *PAUSED* is introduced in the SAP Task Center Administration app. For more information, see [Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-07-22
+
+</td>
+<td valign="top">
+
+2024-07-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Minor Improvements
 
 </td>

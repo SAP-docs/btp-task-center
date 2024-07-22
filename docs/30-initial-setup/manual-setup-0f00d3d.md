@@ -45,7 +45,7 @@ Before you continue with the manual setup, make sure you meet the following prer
 
 [Create a Service Instance of the SAP Task Center Service](create-a-service-instance-of-the-sap-task-center-service-d36035e.md "Create a service instance for the SAP Task Center service either in the cockpit or by using the command-line interface.")
 
-[Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md "Create a Task Center tile by following the links.")
+[Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md "Create a Task Center tile on SAP Build Work Zone, advanced edition, SAP Build Work Zone, standard edition (formerly known as SAP Launchpad service), SAP SuccessFactors Work Zone or SAP Cloud Portal service, depending on your central point of entry for accessing applications.")
 
-[Create a Task Center Administration Tile](create-a-task-center-administration-tile-8053d72.md "Create a Task Center Administration tile by folloing the links below.")
+[Create a Task Center Administration Tile](create-a-task-center-administration-tile-8053d72.md "Create a Task Center Administration tile in the central point of entry for accessing applications of your choice, to provide the opportunity to administrators to monitor the status of the SAP Task Center service and all active destinations, and get information about their jobs and job types.")
 

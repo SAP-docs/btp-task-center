@@ -25,9 +25,7 @@ With the SAP Companion you can see on-screen information, embedded directly in t
 To open it, choose the SAP Companion icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the upper right corner of the Web app.
 
 > ### Note:  
-> This feature must be enabled by your administrator. For more information, see [Create a Task Center Tile on SAP Build Work Zone, standard edition](../30-initial-setup/create-a-task-center-tile-on-sap-build-work-zone-standard-edition-1f89381.md).
-> 
-> You can either use the SAP Companion for SAP Task Center or SAP Companion for SAP Build Work Zone, standard edition, depending on the setup or your system.
+> This feature must be enabled by your administrator. For more information, see [Create a Task Center Tile](../30-initial-setup/create-a-task-center-tile-70e7f6e.md).
 
 
 

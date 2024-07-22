@@ -83,9 +83,14 @@ Destinations View
 
     The destinations can have one of the following statuses:
 
-    -   *OK*
-    -   *WARNING*
-    -   *ERROR*
+    -   *OK* – all jobs are in *OK* state
+
+    -   *WARNING* – at least 1 job is in *Warning* state
+
+    -   *ERROR* – at least 1 job is in *Error* state
+
+    -   *PAUSED* – the *tc.enabled* property of the destination is set to `false`
+
 
 
 
@@ -257,7 +262,7 @@ Date and time when the last status update was retrieved.
 **Related Information**  
 
 
-[Create a Task Center Administration Tile](../30-initial-setup/create-a-task-center-administration-tile-8053d72.md "Create a Task Center Administration tile by folloing the links below.")
+[Create a Task Center Administration Tile](../30-initial-setup/create-a-task-center-administration-tile-8053d72.md "Create a Task Center Administration tile in the central point of entry for accessing applications of your choice, to provide the opportunity to administrators to monitor the status of the SAP Task Center service and all active destinations, and get information about their jobs and job types.")
 
 [Monitoring](monitoring-9b30be7.md "Once you create a destination configuration to connect SAP Task Center to a task provider application, SAP Task Center creates a connector internally for this configuration.")
 

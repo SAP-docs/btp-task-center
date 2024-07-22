@@ -405,7 +405,7 @@ The automatic setup does the following for you:
 
 [Boosters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fb1b56148f834749a2bf51127421610b.html)
 
-[Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md "Create a Task Center tile by following the links.")
+[Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md "Create a Task Center tile on SAP Build Work Zone, advanced edition, SAP Build Work Zone, standard edition (formerly known as SAP Launchpad service), SAP SuccessFactors Work Zone or SAP Cloud Portal service, depending on your central point of entry for accessing applications.")
 
 [Destinations](../40-administration/destinations-3470733.md "SAP Task Center communicates with the task provider applications via predefined destinations in a customer subaccount.")
 
