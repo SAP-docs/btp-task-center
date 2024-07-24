@@ -87,6 +87,74 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Check and Update Your Service Keys and Bindings
+
+</td>
+<td valign="top">
+
+Please make sure your SAP Task Center service keys and service bindings are following the new pattern \(created after July 2022\).
+
+If they are following the old pattern, make sure to recreate and update them by August 31, 2024.
+
+For more information, see SAP Note [3499354](https://me.sap.com/notes/3499354).
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-07-24
+
+</td>
+<td valign="top">
+
+2024-07-24
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+c
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Improvements
 
 </td>
