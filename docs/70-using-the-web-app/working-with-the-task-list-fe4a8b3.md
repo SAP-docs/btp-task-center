@@ -437,7 +437,7 @@ The *Actions* column may contain the following types of actions:
     For more information, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
     > ### Note:  
-    > The labels for *Claim*, *Release* and *Forward* are unified and defined by the Web app, regardless of the label, received by the task provider.
+    > The labels for *Claim*, *Release* and *Forward* are unified and defined by the Web app, regardless of the label, received by the task provider. Note that these actions may appear in the header or footer in the task details view, depending on the task provider setup.
 
 -   Standard actions \(valid for every task provider\)
 
