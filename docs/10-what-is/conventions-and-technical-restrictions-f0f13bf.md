@@ -48,7 +48,7 @@ Considering this information during development helps you achieve optimal use of
 
 -   From all supported languages \(see [Supported Languages](supported-languages-c66c693.md)\), SAP Task Center supports simultaneously up to three language translations for tasks and definitions, which are stored in the SAP Task Center service cache. For more information, see [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
 
--   The SAP Task Center integration does not support substitutions for any of the supported SAP solutions. If there are defined substitutions or delegates in any of the supported SAP solutions, they will not work with the SAP Task Center.
+-   SAP Task Center supports only substitutions created using SAP Task Center Substitution Management \(see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md)\). The SAP Task Center integration does not support substitutions created in the supported task providers. If there are substitutions or delegates, defined in any of the supported SAP or third-party solutions, they will not work with SAP Task Center.
 
 -   Searching, filtering, and sorting by the *Created By* column is not possible.
 

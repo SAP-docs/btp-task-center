@@ -87,6 +87,216 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Improvements
+
+</td>
+<td valign="top">
+
+The following improvements are made in the SAP Task Center Web app:
+
+-   Attachments and comments related to a task are now persistently displayed when switching between tasks.
+
+-   The *Enter Full-Screen Mode* and *Close Column* buttons are now consistently visible, regardless of screen size.
+
+-   A visual separator has been added between the *Open in App* and the option to enter full-screen mode, making it easier to distinguish and select the desired action.
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-08-21
+
+</td>
+<td valign="top">
+
+2024-08-21
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Fieldglass `CONFIG` Job Failing
+
+</td>
+<td valign="top">
+
+The `CONGIF` job for new or existing destinations to SAP Fieldglass might be failing.
+
+For more information, see SAP Note [3507354](https://me.sap.com/notes/3507354).
+
+</td>
+<td valign="top">
+
+Recommended
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-08-15
+
+</td>
+<td valign="top">
+
+2024-08-15
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Improvements
+
+</td>
+<td valign="top">
+
+The following improvements are made in the SAP Task Center Web app:
+
+-   In the decision options not displayed in native user interface for task details.
+
+-   In the navigation to next task, which has failed when completing a task in the Web app in full-screen mode.
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-08-15
+
+</td>
+<td valign="top">
+
+2024-08-15
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Check and Update Your Service Keys and Bindings
 
 </td>

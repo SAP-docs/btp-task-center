@@ -30,10 +30,10 @@ Find information about the destination configuration that needs to be done for S
 
 ## Procedure
 
-In SAP Task Center you can receive tasks from an SAP Build Process Automation instance in the same \(local\) subaccount as the SAP Task Center instance, or from an instance in a different \(remote\) subaccount. Choose one of the options below, depending on your setup:
+In SAP Task Center you can receive tasks from an SAP Build Process Automation instance in the same subaccount as the SAP Task Center instance, or from an instance in a different subaccount. Choose one of the options below, depending on your setup:
 
--   Create a destination for SAP Build Process Automation for a local subaccount. For more information, see [Work with SAP Build Process Automation Tasks from a Local Subaccount](work-with-sap-build-process-automation-tasks-from-a-local-subaccount-f9c57ee.md).
+-   Create a destination for SAP Build Process Automation for local subaccount. For more information, see [Work with SAP Build Process Automation Tasks from the Same Subaccount](work-with-sap-build-process-automation-tasks-from-the-same-subaccount-f9c57ee.md).
 
--   Create a destination for SAP Build Process Automation for a remote subaccount. For more information, see [Work with SAP Build Process Automation Tasks from a Remote Subaccount](work-with-sap-build-process-automation-tasks-from-a-remote-subaccount-1d3e69d.md).
+-   Create a destination for SAP Build Process Automation for a different subaccount. For more information, see [Work with SAP Build Process Automation Tasks from a Different Subaccount](work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
 
 

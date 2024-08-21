@@ -35,7 +35,7 @@ The OAuth2 authentication type \(authorization code and SAML 2.0 Bearer Assertio
 
 For example, the application router provides user-centric authentication mechanisms. For this purpose, it manages the current user’s authorization tokens for the back-end services in the user session. When there is no user session, the user is redirected to the UAA's logon form.
 
-Create an OAuth client and obtain an access token to call the SAP Task Center API methods. For more information, see [Using Platform APIs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/392af9d162694d6595499f1549978aa6.html).
+Create an OAuth client and obtain an access token to call the SAP Task Center API methods. For more information, see [Accessing Administration Using APIs of the SAP Authorization and Trust Management Service](https://help.sap.com/docs/btp/sap-business-technology-platform/accessing-administration-using-apis-of-sap-authorization-and-trust-management-service?version=Cloud).
 
 
 

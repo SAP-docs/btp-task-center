@@ -1,51 +1,29 @@
-<!-- loio1d3e69d3bcd044b892e7c6e145de19e5 -->
+<!-- loiof9c57ee5a66349dbbeeda822cecd2fa2 -->
 
-# Work with SAP Build Process Automation Tasks from a Remote Subaccount
+# Work with SAP Build Process Automation Tasks from the Same Subaccount
 
-Follow the described procedure to complete the setup and receive tasks from SAP Build Process Automation instance, which is in a different \(remote\) subaccount than the SAP Task Center subaccount.
+Follow the described procedure to complete the setup and receive tasks from an SAP Build Process Automation instance in the same subaccount as the SAP Task Center instance.
 
 
 
-<a name="loio1d3e69d3bcd044b892e7c6e145de19e5__prereq_mrn_nvp_qjb"/>
-
-## Prerequisites
-
--   You have a subaccount with an SAP Task Center service instance in the Cloud Foundry environment. In the following procedure we refer to this account as the 'SAP Task Center subaccount'.
-
--   You have created a second subaccount with an SAP Build Process Automation instance. In the following procedure we refer to this account as the 'SAP Build Process Automation subaccount'. This subaccount is configured to authenticate users via the same Identity Authentication server as the SAP Task Center subaccount.
-
--   You have performed the steps in [Set Up Principal Propagation Between Subaccounts](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/set-up-principal-propagation-between-subaccounts-87df988656ad4190900c209b1d1780b0).
-
+## Context
 
 > ### Note:  
 > Do not configure more than one destination to the same SAP Build Process Automation system for one SAP Task Center. This will result in having duplicate tasks for end users.
 
 
 
-## Context
-
-To work with tasks coming from an SAP Build Process Automation subaccount, you need to establish trust between the SAP Build Process Automation subaccount and the SAP Task Center subaccount.
-
-
+<a name="loiof9c57ee5a66349dbbeeda822cecd2fa2__steps_tq2_qs2_tpb"/>
 
 ## Procedure
 
-1.  Download the metadata XML file of your Cloud Foundry subaccount in which SAP Build Process Automation is running. To download the file, navigate to the subaccount in your cockpit, go to *Security* \> *Trust Configuration* and choose *SAML Metadata*.
+1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> *Destinations* tab from the navigation area on.
 
-    From the XML you need the following parameters to complete the destination setup:
+2.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you already have a sample destination called *SAPBuildPA*. You can use the sample destination or clone it, and update the properties as described in the following table.
 
-    -   `entityID`
+    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described next.
 
-    -   The `Location` value from the `AssertionConsumerService` element, where `Binding="urn:oasis:names:tc:SAML:2.0:bindings:URI"` 
-
-
-2.  Navigate to your SAP Task Center subaccount and select the *Connectivity* \> *Destinations* tab from the navigation area on the left.
-
-3.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you already have a sample destination called *SAPBuildPA\_rem* \(for working from a remote subaccount\). You can use the sample destination or clone it, and update the properties as described in the table below.
-
-    If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described below.
-
-4.  Configure the properties of the destination as described in the following table:
+3.  Configure the properties of the destination as described in the following table:
 
 
     <table>
@@ -89,7 +67,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
     **Example**:
 
-    `SAPBuildPA_rem`
+    `SAPBuildPA`
     
     </td>
     </tr>
@@ -135,7 +113,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     </td>
     <td valign="top">
     
-    Add the *endpoints \> api* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append */internal/workflow/rest/v1* to the URL.
+    Add the *endpoints \> api* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append `/internal/workflow/rest/v1` to the URL.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
@@ -193,7 +171,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     </td>
     <td valign="top">
     
-    Add the *entityID* value from Step 1.
+    Add the *url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
     
     </td>
     <td valign="top">
@@ -267,14 +245,14 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     </td>
     <td valign="top">
     
-    Add the *Location* value from Step 1.
+    Add the *url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append `/oauth/token` to the URL.
     
     </td>
     <td valign="top">
     
     **Example**:
 
-    `https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token/alias/subaccount.aws-live-eu10`
+    `https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token`
     
     </td>
     </tr>
@@ -316,7 +294,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     </tr>
     </table>
     
-5.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
+4.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
 
 
     <table>
@@ -511,30 +489,11 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
     </td>
     </tr>
-    <tr>
-    <td valign="top">
-    
-    *userIdSource*
-    
-    </td>
-    <td valign="top">
-    
-    Provides information about the `userIdSource`to SAP Cloud Identity Services - Identity Authentication.
-    
-    </td>
-    <td valign="top">
-    
-    **Value**:
-
-    `user_uuid`
-    
-    </td>
-    </tr>
     </table>
     
-6.  Choose *Save*.
+5.  Choose *Save*.
 
-7.  \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Build Process Automation, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
+6.  \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Build Process Automation, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
     If you choose *Check Connection* in the destination configuration, you may not receive the correct information about the connectivity between the SAP Task Center service and the SAP Build Process Automation.
 
