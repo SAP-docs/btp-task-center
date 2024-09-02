@@ -87,6 +87,77 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Enhanced Error Messages and Extended Export API Functionality
+
+</td>
+<td valign="top">
+
+We made the following improvements:
+
+-   Enhanced error messages in the SAP Task Center Administration app for easier troubleshooting.
+
+-   Extended Export API to include task definitions in the exported file.
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-09-02
+
+</td>
+<td valign="top">
+
+2024-09-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Improvements
 
 </td>

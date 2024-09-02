@@ -19,9 +19,8 @@ Find information about the destination configuration that needs to be done for S
     -   `endpoints > api`
     -   `uaa > clientid`
     -   `uaa > clientsecret`
-    -   `uaa > url`
 
-    For more information, see [Determine Service Configuration Parameters](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/abd070bd5d5f4835b3d5b12d868531b6.html).
+    For more information, see [Determine Service Configuration Parametersuaa \> url](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/abd070bd5d5f4835b3d5b12d868531b6.html).
 
 
 
@@ -30,10 +29,10 @@ Find information about the destination configuration that needs to be done for S
 
 ## Procedure
 
-In SAP Task Center you can receive tasks from an SAP Build Process Automation instance in the same subaccount as the SAP Task Center instance, or from an instance in a different subaccount. Choose one of the options below, depending on your setup:
+In SAP Task Centeruaa you can receive tasks from an SAP Build Process Automation instance in the same subaccount as the SAP Task Center instance, or from an instance in a different subaccount. Choose one of the options below, depending on your setup:
 
--   Create a destination for SAP Build Process Automation for local subaccount. For more information, see [Work with SAP Build Process Automation Tasks from the Same Subaccount](work-with-sap-build-process-automation-tasks-from-the-same-subaccount-f9c57ee.md).
+-   Create a destination for SAP Build Process Automation, where SAP Build Process Automation and SAP Task Center are in the same subaccount. For more information, see [Work with SAP Build Process Automation Tasks from the Same Subaccount](work-with-sap-build-process-automation-tasks-from-the-same-subaccount-f9c57ee.md).
 
--   Create a destination for SAP Build Process Automation for a different subaccount. For more information, see [Work with SAP Build Process Automation Tasks from a Different Subaccount](work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
+-   Create a destination for SAP Build Process Automation, where SAP Build Process Automation and SAP Task Center are in different subaccounts. For more information, see [Work with SAP Build Process Automation Tasks from a Different Subaccount](work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
 
 
