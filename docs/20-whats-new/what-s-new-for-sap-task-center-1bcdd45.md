@@ -87,6 +87,74 @@ SAP Task Center
 </td>
 <td valign="top">
 
+*Intelligent Recommendations* Feature Available for SAP Build Process Automation Tasks
+
+</td>
+<td valign="top">
+
+The new *Intelligent Recommendations* feature is now available for SAP Build Process Automation tasks.
+
+Administrators can now create AI models to offer to the end users a confidence level for their SAP Build Process Automation tasks in the SAP Task Center Web app.
+
+For more information, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md) and [Working with Intelligent Recommendations](../40-administration/working-with-intelligent-recommendations-340651c.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-09-11
+
+</td>
+<td valign="top">
+
+2024-09-11
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Enhanced Error Messages and Extended Export API Functionality
 
 </td>

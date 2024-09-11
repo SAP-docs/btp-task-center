@@ -37,7 +37,7 @@ To enable notifications for all or only some of the connected task providers, fo
 
 1.  Open SAP Build Work Zone, standard edition.
 
-    For more information, see [What Is SAP Build Work Zone, standard edition?](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/what-is-sap-build-work-zone-standard-edition)\).
+    For more information, see [What Is SAP Build Work Zone, standard edition?](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/what-is-sap-build-work-zone-standard-edition).
 
 2.  From the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) open the *Site Settings* \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) of the site, where you created your Task Center tile.
 

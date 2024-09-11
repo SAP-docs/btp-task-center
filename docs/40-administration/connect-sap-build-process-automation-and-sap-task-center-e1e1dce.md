@@ -35,4 +35,6 @@ In SAP Task Centeruaa you can receive tasks from an SAP Build Process Automation
 
 -   Create a destination for SAP Build Process Automation, where SAP Build Process Automation and SAP Task Center are in different subaccounts. For more information, see [Work with SAP Build Process Automation Tasks from a Different Subaccount](work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
 
+-   \(Optional\) Create a destination for the *Intelligent Recommendations* feature. For more information, see [Configure the Intelligent Recommendations Destination](configure-the-intelligent-recommendations-destination-7c8900a.md).
+
 

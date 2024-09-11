@@ -41,6 +41,18 @@ Permission to execute calls to the `Connector Status` API and monitor configured
 <tr>
 <td valign="top">
 
+`TaskCenterBusinessAdministrator` 
+
+</td>
+<td valign="top">
+
+Permission to access the *Intelligent Recommendations* tab in the Task Center Administration app.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `TaskCenterTenantOperator` 
 
 </td>

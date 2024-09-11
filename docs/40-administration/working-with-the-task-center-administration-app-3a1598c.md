@@ -259,6 +259,18 @@ Date and time when the last status update was retrieved.
 </tr>
 </table>
 
+
+
+<a name="loio3a1598cb4b774536befb701f78b36e48__section_tmy_ww5_xbc"/>
+
+## Intelligent Recommendations
+
+On the *Intelligent Recommendations* tab you can create AI models to propose recommendations for the end users. These recommendations are based on the confidence level generated for the task. The confidence level is a numerical value ranging from 0 to 100, which is calculated by a trained AI model. A higher confidence level encourages positive action on the task, such as approval.
+
+Before you start creating intelligent recommendation models, make sure you have configured the destination required for this feature. For more information, see [Configure the Intelligent Recommendations Destination](configure-the-intelligent-recommendations-destination-7c8900a.md).
+
+For more information on how to start creating intelligent recommendation models, see [Working with Intelligent Recommendations](working-with-intelligent-recommendations-340651c.md).
+
 **Related Information**  
 
 
@@ -273,4 +285,6 @@ Date and time when the last status update was retrieved.
 [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md "Configure the Task_Center_global_settings destination, to set the properties valid for all destinations.")
 
 [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md "Configure the Identity_Authentication_Connectivity_IDS destination to connect to the identity directory of Identity Authentication and retrieve the required information about the end users.")
+
+[Working with Intelligent Recommendations](working-with-intelligent-recommendations-340651c.md "You can create intelligent recommendation model to manage recommedations for the approval tasks.")
 

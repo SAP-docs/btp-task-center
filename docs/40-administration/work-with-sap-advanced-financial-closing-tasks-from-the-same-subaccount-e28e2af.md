@@ -1,53 +1,38 @@
-<!-- loio09cee803e4034597b6c68f4d73b28a19 -->
+<!-- loioe28e2af5932d4d33aa4063a94885f5ac -->
 
-# Work with SAP Advanced Financial Closing Tasks from a Remote Subaccount
+# Work with SAP Advanced Financial Closing Tasks from the Same Subaccount
 
-Follow the procedure below to complete the setup and receive tasks from SAP Advanced Financial Closing instance, which is in a different \(remote\) subaccount than the SAP Task Center subaccount.
+Follow the procedure below to complete the setup and receive tasks from an SAP Advanced Financial Closing instance in the same subaccount as the SAP Task Center instance.
 
 
 
-<a name="loio09cee803e4034597b6c68f4d73b28a19__prereq_mrn_nvp_qjb"/>
+<a name="loioe28e2af5932d4d33aa4063a94885f5ac__prereq_xhk_hw3_rzb"/>
 
 ## Prerequisites
 
--   You have the parameters described in [Connect SAP Advanced Financial Closing and SAP Task Center](connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md).
+-   Make sure you have the parameters enlisted in [Connect SAP Advanced Financial Closing and SAP Task Center](connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md).
 
--   You have completed the setup in [How to Set Up the SAP Task Center Integration Using Different Subaccounts](https://help.sap.com/docs/advanced-financial-closing/administration/how-to-set-up-sap-task-center-integration-using-different-subaccounts).
+-   You have completed the setup in [How to Set Up the SAP Task Center Integration Using the Same Subaccount](https://help.sap.com/docs/advanced-financial-closing/administration/how-to-set-up-sap-task-center-integration-using-same-subaccount).
 
--   You have a subaccount with an SAP Task Center service instance in the Cloud Foundry environment. In the procedure below we refer to this account as the 'SAP Task Center subaccount'.
 
--   You have created a second subaccount with an SAP Advanced Financial Closing instance. In the procedure below we refer to this account as the 'SAP Advanced Financial Closing subaccount'. This subaccount is configured to authenticate users via the same Identity Authentication server as the SAP Task Center subaccount.
 
+
+## Context
 
 > ### Note:  
 > Do not configure more than one destination to the same SAP Advanced Financial Closing system for one SAP Task Center. This will result in having duplicate tasks for end users.
 
 
 
-## Context
-
-To work with tasks coming from an SAP Advanced Financial Closing subaccount, you need to establish trust between the SAP Advanced Financial Closing subaccount and the SAP Task Center subaccount.
-
-
+<a name="loioe28e2af5932d4d33aa4063a94885f5ac__steps_tq2_qs2_tpb"/>
 
 ## Procedure
 
-1.  Download the metadata XML file of your Cloud Foundry subaccount in which SAP Advanced Financial Closing is running.
+1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> *Destinations* tab from the navigation area on the left.
 
-    To download the file, navigate to the subaccount in your cockpit, go to *Security* \> *Trust Configuration* and choose *SAML Metadata*.
+2.  Create a new destination and manually add the properties as described below.
 
-    From the XML you need the following parameters to complete the destination setup:
-
-    -   `entityID`
-
-    -   The `Location` value from the `AssertionConsumerService` element, where `Binding="urn:oasis:names:tc:SAML:2.0:bindings:URI"` 
-
-
-2.  Navigate to your SAP Task Center subaccount and select the *Connectivity* \> *Destinations* tab from the navigation area on the left.
-
-3.  Create a new destination and manually add the properties as described below.
-
-4.  Configure the properties of the destination as described in the following table:
+3.  Configure the properties of the destination as described in the following table:
 
 
     <table>
@@ -91,7 +76,7 @@ To work with tasks coming from an SAP Advanced Financial Closing subaccount, you
     
     **Example**:
 
-    `AFC_rem`
+    `AFC`
     
     </td>
     </tr>
@@ -195,14 +180,14 @@ To work with tasks coming from an SAP Advanced Financial Closing subaccount, you
     </td>
     <td valign="top">
     
-    Add the *entityID* value from Step 1.
+    Add the *uaa \> url* value from the *Prerequisites* in [Connect SAP Advanced Financial Closing and SAP Task Center](connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md).
     
     </td>
     <td valign="top">
     
     **Example**:
 
-    `https://subaccount.authentication.sap.hana.ondemand.com`
+    `https://subaccount.authentication.eu10.hana.ondemand.com`
     
     </td>
     </tr>
@@ -269,14 +254,14 @@ To work with tasks coming from an SAP Advanced Financial Closing subaccount, you
     </td>
     <td valign="top">
     
-    Add the *Location* value from Step 1.
+    Add the *uaa \> url* value from the *Prerequisites* in [Connect SAP Advanced Financial Closing and SAP Task Center](connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md) and append `/oauth/token` to the URL.
     
     </td>
     <td valign="top">
     
     **Example**:
 
-    `https://subaccount.authentication.sap.hana.ondemand.com/oauth/token/alias/afc-company.canary`
+    `https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token`
     
     </td>
     </tr>
@@ -318,7 +303,7 @@ To work with tasks coming from an SAP Advanced Financial Closing subaccount, you
     </tr>
     </table>
     
-5.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
+4.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
 
 
     <table>
@@ -495,7 +480,7 @@ To work with tasks coming from an SAP Advanced Financial Closing subaccount, you
 
     -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
 
-    -   the *tc.ui.label.de-DE*`<German_translation> property with the value` for a German translation of the label.
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
 
 
     For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
@@ -503,7 +488,7 @@ To work with tasks coming from an SAP Advanced Financial Closing subaccount, you
     </td>
     <td valign="top">
     
-    **Example for *tc.ui.label*** property with the value:
+    **Example for *tc.ui.label***:
 
     `SAP Advanced Financial Closing Task`
 
@@ -534,15 +519,10 @@ To work with tasks coming from an SAP Advanced Financial Closing subaccount, you
     </tr>
     </table>
     
-6.  Choose *Save*.
+5.  Choose *Save*.
 
-7.  \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Advanced Financial Closing, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
+6.  \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Advanced Financial Closing, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
     If you choose *Check Connection* in the destination configuration, you may not receive the correct information about the connectivity between the SAP Task Center service and the SAP Advanced Financial Closing.
 
-
-**Related Information**  
-
-
-[How to Set Up the SAP Task Center Integration Using Different Subaccounts](https://help.sap.com/docs/advanced-financial-closing/administration-internal/how-to-set-up-sap-task-center-integration-using-different-subaccounts?state=DRAFT&version=DEV&profile=20069045)
 

@@ -13,6 +13,21 @@ SAP does not provide legal advice in any form. SAP software supports data protec
 
 
 
+<a name="loio8bd310af7d424384a0895062d7b8901a__section_nxj_l5v_fcc"/>
+
+## Customer Data Usage for Continuous Improvement of the AI Model
+
+SAP Task Center includes an *Intelligent Recommendations* feature. This feature can read task data, duplicate it, and transform it for subsequent processing. As part of SAP's provisioning of the intelligent recommendation feature in SAP Task Center, SAP will train the machine learning algorithm, which underpins this feature, using customer data and categories as configured by the customer. This is done to provide recommendations to users on whether they should approve or reject a task.
+
+> ### Note:  
+> This applies only if both of the following conditions are met:
+> 
+> 1.  The customer has configured SAP Build Process Automation as SAP Task Center task provider.
+> 
+> 2.  The customer has configured the *Intelligent Recommendation* feature in SAP Task Center. For more information on how to do this, see [Configure the Intelligent Recommendations Destination](../40-administration/configure-the-intelligent-recommendations-destination-7c8900a.md) and [Working with Intelligent Recommendations](../40-administration/working-with-intelligent-recommendations-340651c.md).
+
+
+
 <a name="loio8bd310af7d424384a0895062d7b8901a__section_my2_djp_h3b"/>
 
 ## Read Logging

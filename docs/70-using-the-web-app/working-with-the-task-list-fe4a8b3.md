@@ -281,6 +281,31 @@ Select a date from the calender \(<span style="color:#346187;"><span class="SAP-
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+\(Optional\) *Confidence Level*
+
+</td>
+<td valign="top">
+
+The *Confidence Level* filter provides end users with information about the approval confidence of the tasks, which is calculated by a trained AI model.
+
+If it is enabled by your administrator, the *Confidence Level* filter appears as a custom attribute. To see the filter, choose a *Task Type*, which supports intelligent recommendations, and choose *Go*. In the filter, specify the confidence level range and choose *OK*.
+
+The confidence level is a numerical percentage value ranging from 0 to 100. A higher confidence level encourages positive action on the task, such as approval.
+
+For more information on the task providers supporting the *Intelligent Recommendations* feature, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
+
+For more information on how administrators can enable the *Intelligent Recommendations* feature, see [Working with Intelligent Recommendations](../40-administration/working-with-intelligent-recommendations-340651c.md).
+
+> ### Tip:  
+> If the *Confidence Level* column is not available in the task table, although it appears in the filters, use the *Personalize* option \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) to display or rearrange the table columns.
+
+
+
+</td>
+</tr>
 </table>
 
 When you select all the filters you want to apply, choose *Go* to get the result.

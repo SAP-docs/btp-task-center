@@ -749,6 +749,78 @@ Forward a Task
 
 </td>
 </tr>
+<tr>
+<td valign="top" colspan="2">
+
+Intelligent Recommendations
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
 </table>
 
 \* See SAP Note [2975987](https://me.sap.com/notes/2975987) .
