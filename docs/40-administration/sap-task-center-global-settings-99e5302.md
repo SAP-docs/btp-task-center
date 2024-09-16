@@ -205,6 +205,23 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.wz.home.url*
+    
+    </td>
+    <td valign="top">
+    
+    This property defines the root URL of SAP Task Center in SAP Build Work Zone. It is required for the email notifications from SAP Task Center.
+    
+    </td>
+    <td valign="top">
+    
+    `https://sample.com/site?siteId=1234abcd-12ab-12ab-12ab-123456abcdef#taskcenter-display`
+    
+    </td>
+    </tr>
     </table>
     
 4.  Choose *Save*.

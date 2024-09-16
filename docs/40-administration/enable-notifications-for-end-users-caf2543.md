@@ -61,6 +61,18 @@ To enable notifications for all or only some of the connected task providers, fo
 
 8.  Set the *tc.notifications.enabled* property in the destination of every task provider, for which you want to enable notifications. For more info, see the respective task provider topic in [Destinations to Task Providers](destinations-to-task-providers-b158111.md).
 
+9.  \(Optional\) Enable email notifications for end users.
+
+    To offer email notifications to the end users, you must have completed the previous steps in this topic, then continue as follows:
+
+    1.  Configure a destination to the mail server, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
+
+    2.  Set the *tc.wz.home.url* property in the *Task\_Center\_global\_settings* destination. For more information, see [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
+    3.  Make sure to inform the end users to update their notification settings individually in their *SAP Task Center Web app* \> *User Menu* \> *Settings* \> *Notifications* \> *Emails* section, and select the task types they want to receive email notifications for.
+
+        By default the email notifications are disabled.
+
+
 
 
 

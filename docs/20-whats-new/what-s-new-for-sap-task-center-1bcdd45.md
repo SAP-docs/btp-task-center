@@ -87,6 +87,75 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Notifications Via Email Enabled
+
+</td>
+<td valign="top">
+
+Administrators can now set up an email server to enable email notifications for end users. For more information on how to set up the email server, see [Enable Notifications for End Users](../40-administration/enable-notifications-for-end-users-caf2543.md).
+
+> ### Note:  
+> After administrators have set up the email server, they should inform the end users about the new functionality and how to enable it.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-09-16
+
+</td>
+<td valign="top">
+
+2024-09-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 *Intelligent Recommendations* Feature Available for SAP Build Process Automation Tasks
 
 </td>

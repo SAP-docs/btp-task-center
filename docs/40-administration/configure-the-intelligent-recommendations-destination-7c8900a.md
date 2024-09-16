@@ -15,7 +15,7 @@ Set up an additional destination for the *Intelligent Recommendations* feature.
 -   You must have set up a primary destination for the connection to SAP Build Process Automation. For more information, see [Work with SAP Build Process Automation Tasks from the Same Subaccount](work-with-sap-build-process-automation-tasks-from-the-same-subaccount-f9c57ee.md) or [Work with SAP Build Process Automation Tasks from a Different Subaccount](work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
 
     > ### Note:  
-    > The *Intelligent Recommendations* feature is currently available only for SAP Build Process Automation tasks and only on the data centers described in the SAP Note [3514669](https://me.sap.com/notes/3514669).
+    > The *Intelligent Recommendations* feature is currently available only for SAP Build Process Automation tasks and only on the data centers, described in the SAP Note [3514669](https://me.sap.com/notes/3514669).
 
 -   You have set up the SAP Task Center Administration application and you have the `TaskCenterBusinessAdministrator` role assigned. For more information, see [Authorization Configuration](../60-security/authorization-configuration-75e4130.md).
 
@@ -24,7 +24,15 @@ Set up an additional destination for the *Intelligent Recommendations* feature.
     Make sure that you update the *HTML 5 Apps* content in your central point of entry for accessing applications.
 
     > ### Caution:  
-    > If you have set up the *Task\_Center* destination to the central point of entry for accessing applications before the release of the *Intelligent Recommendations* feature in September 2024, you must delete the existing *Task\_Center* destination and create a new one manually, following the [Destination for the Central Point of Entry for Accessing Applications](destination-for-the-central-point-of-entry-for-accessing-applications-10320af.md) documentation. After that, make sure that you update the *HTML 5 Apps* content on the *Channel Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) tab in your central point of entry for accessing applications. See [Create a Task Center Tile](../30-initial-setup/create-a-task-center-tile-70e7f6e.md).
+    > If you have set up the *Task\_Center* destination to the central point of entry for accessing applications before the release of the *Intelligent Recommendations* feature in September 2024, you must perform the following additional steps:
+    > 
+    > 1.  Delete the existing service key from the SAP Task Center service instance. The service key should be following the name convention `<service instance name>-service-key` \(for example, `task-center-service-key`\).
+    > 
+    > 2.  Delete the existing *Task\_Center* destination for the central point of entry for accessing applications.See [Destination for the Central Point of Entry for Accessing Applications](destination-for-the-central-point-of-entry-for-accessing-applications-10320af.md).
+    > 
+    > 3.  Create a new *Task\_Center* destination manually, following the documentation.
+    > 
+    > 4.  Update the *HTML 5 Apps* content on the *Channel Manager*\(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) tab in your central point of entry for accessing applications. See [Create a Task Center Tile](../30-initial-setup/create-a-task-center-tile-70e7f6e.md).
 
 -   Make sure you are aware of the *Customer Data Usage for Continuous Improvement of the AI Model* described in [Data Protection and Privacy](../60-security/data-protection-and-privacy-8bd310a.md).
 
