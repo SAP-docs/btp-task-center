@@ -46,7 +46,7 @@ Permission to execute calls to the `Connector Status` API and monitor configured
 </td>
 <td valign="top">
 
-Permission to access the *Intelligent Recommendations* tab in the Task Center Administration app.
+Permission to access the *Substitution Management* and *Intelligent Recommendations* tabs in the Task Center Administration app.
 
 </td>
 </tr>

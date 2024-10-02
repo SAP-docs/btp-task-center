@@ -90,9 +90,14 @@ SAP Ariba Buying
 </th>
 </tr>
 <tr>
-<td valign="top" colspan="2">
+<td valign="top" rowspan="2">
 
-Substitutions in SAP Task Center 
+Substitution Management in SAP Task Center
+
+</td>
+<td valign="top">
+
+For End Users
 
 </td>
 <td valign="top">
@@ -113,6 +118,78 @@ Substitutions in SAP Task Center
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+For Business Administrators
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

@@ -13,7 +13,9 @@ Open the **<span style="color:#346187;"><span class="SAP-icons-V5"></span></s
 For more information on the task providers, supporting *Substitution Management*, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
 > ### Note:  
-> SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported.
+> -   SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported.
+> 
+> -   Business administrators can use the substitution management feature in the Task Center Administration app and create or manage substitution rules of behalf of end users. For more information, see [Using Substitution Management for Business Administrators](../40-administration/using-substitution-management-for-business-administrators-3adfedc.md).
 
 
 

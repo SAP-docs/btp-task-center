@@ -77,5 +77,7 @@ To create an intelligent recommendation model, follow the procedure:
 **Related Information**  
 
 
-[SAP Task Center Web App](../70-using-the-web-app/sap-task-center-web-app-b572094.md "The SAP Task Center Web app displays all the tasks provided by the SAP Task Center service. You can process workflow tasks in the Web app, which runs on SAP Build Work Zone, standard edition.")
+[Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md "In the SAP Task Center Web app, you can search for a specific task in the task list, and filter or sort your user tasks by predefined criteria. You can also refresh the task list and personalize the table columns.")
+
+[Data Protection and Privacy](../60-security/data-protection-and-privacy-8bd310a.md "Governments place legal requirements on industry to protect data and privacy. We provide features and functions to help you meet these requirements.")
 

@@ -271,6 +271,16 @@ Before you start creating intelligent recommendation models, make sure you have 
 
 For more information on how to start creating intelligent recommendation models, see [Working with Intelligent Recommendations](working-with-intelligent-recommendations-340651c.md).
 
+
+
+<a name="loio3a1598cb4b774536befb701f78b36e48__section_ahw_yw5_xbc"/>
+
+## Substitution Management
+
+On the *Substitution Management* tab business administrators can create substitution rules on behalf of end users, or manage existing substutution rules.
+
+For more information, see [Using Substitution Management for Business Administrators](using-substitution-management-for-business-administrators-3adfedc.md).
+
 **Related Information**  
 
 
@@ -287,4 +297,6 @@ For more information on how to start creating intelligent recommendation models,
 [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md "Configure the Identity_Authentication_Connectivity_IDS destination to connect to the identity directory of Identity Authentication and retrieve the required information about the end users.")
 
 [Working with Intelligent Recommendations](working-with-intelligent-recommendations-340651c.md "You can create intelligent recommendation model to manage recommedations for the approval tasks.")
+
+[Using Substitution Management for Business Administrators](using-substitution-management-for-business-administrators-3adfedc.md "As a business administrator you can search by users and manage their existing substitution rules.")
 

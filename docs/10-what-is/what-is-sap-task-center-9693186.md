@@ -55,6 +55,10 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 
 ![BTP services setup within a customer's subaccount for SAP Task Center. It includes user access, key components like SAP Build Work Zone, SAP Cloud Identity Services and other integrated services.](images/SAP_Task_Center_Level_2_Diagram_07fe584.png)
 
+
+
+### Feedback in GitHub
+
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
 > 
@@ -74,6 +78,14 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 > -   [Introduction Video](https://www.youtube.com/watch?v=WJ0oarMlVW4)
 > 
 > -   [Introduction Blog Post](https://blogs.sap.com/2021/11/29/sap-btp-documentation-goes-github-new-collaboration-process/)
+
+
+
+### SAP Task Center Documentation Survey
+
+As part of our ongoing commitment to excellence in user documentation, we welcome your feedback on the SAP Task Center documentation through a short, anonymous survey. The survey does not collect any personal information and can be completed in approximately two minutes.
+
+Access the survey at [SAP Task Center Documentation Survey](https://sapinsights.eu.qualtrics.com/jfe/form/SV_0vVIWrgxNFKVeGW).
 
 **Related Information**  
 

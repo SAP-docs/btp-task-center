@@ -87,6 +87,209 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Additional Property Required for SAP Build Process Automation 
+
+</td>
+<td valign="top">
+
+If you are using SAP Build Process Automation as task provider, you must set up an additional property in your SAP Build Process Automation `Identity_Authentication_Connectivity_IDS` destination, as follows:
+
+-   If SAP Build Process Automation and SAP Task Center are in the same subaccount, set the `wfs.tc.local` property to `true`.
+
+-   If SAP Build Process Automation and SAP Task Center are in different subaccounts, set the `wfs.tc.local` property to `false`.
+
+
+For more information, see SAP Note [3522594](https://me.sap.com/notes/3522594).
+
+If you don’t set this property, the end users might be able to access their SAP Build Process Automation tasks, but some actions might not be available in the Web app.
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-10-02
+
+</td>
+<td valign="top">
+
+2024-10-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Substitution Management for Business Administrators Enabled in the Task Center Administration App
+
+</td>
+<td valign="top">
+
+In the Task Center Administration app business administrators can create substitution rules on behalf of end users, and manage existing substitution rules, created by end users.
+
+For more information, see [Using Substitution Management for Business Administrators](../40-administration/using-substitution-management-for-business-administrators-3adfedc.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-10-02
+
+</td>
+<td valign="top">
+
+2024-10-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Task Center Improvements
+
+</td>
+<td valign="top">
+
+Notifications are now displayed consistently for all supported task providers without being deleted every 24 hours.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-10-02
+
+</td>
+<td valign="top">
+
+2024-10-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Notifications Via Email Enabled
 
 </td>

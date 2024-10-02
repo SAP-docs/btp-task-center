@@ -51,6 +51,7 @@
     -   [Monitoring](40-administration/monitoring-9b30be7.md)
         -   [Working with the Task Center Administration App](40-administration/working-with-the-task-center-administration-app-3a1598c.md)
             -   [Working with Intelligent Recommendations](40-administration/working-with-intelligent-recommendations-340651c.md)
+            -   [Using Substitution Management for Business Administrators](40-administration/using-substitution-management-for-business-administrators-3adfedc.md)
         -   [Set Up Notifications for Administrators](40-administration/set-up-notifications-for-administrators-2c1997b.md)
         -   [Integration with SAP Cloud ALM](40-administration/integration-with-sap-cloud-alm-092288d.md)
     -   [Export SAP Task Center Service Data](40-administration/export-sap-task-center-service-data-1dfb750.md)
