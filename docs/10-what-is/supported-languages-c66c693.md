@@ -86,6 +86,11 @@ SAP S/4HANA Cloud, private edition
 SAP SuccessFactors
 
 </th>
+<th valign="top">
+
+UiPath
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -156,6 +161,11 @@ ar-AE
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -240,6 +250,11 @@ bg-BG
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -317,6 +332,11 @@ ca-ES
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -372,6 +392,11 @@ zh-CN
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -471,6 +496,11 @@ zh-TW
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -546,6 +576,11 @@ hr-HR
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -625,6 +660,11 @@ cs-CZ
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -700,6 +740,11 @@ da-DK
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -779,6 +824,11 @@ nl-NL
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -789,6 +839,11 @@ English \(United States\)
 <td valign="top">
 
 en-US
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -933,6 +988,11 @@ et-EE
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1010,6 +1070,11 @@ fi-FI
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1065,6 +1130,11 @@ fr-FR
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -1164,6 +1234,11 @@ de-DE
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1241,6 +1316,11 @@ el-GR
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1311,6 +1391,11 @@ iw-IL
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1395,6 +1480,11 @@ hi-IN
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1470,6 +1560,11 @@ hu-HU
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -1549,6 +1644,11 @@ it-IT
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1624,6 +1724,11 @@ ja-JP
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -1703,6 +1808,11 @@ kk-KZ
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1758,6 +1868,11 @@ ko-KR
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -1857,6 +1972,11 @@ lv-LV
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1934,6 +2054,11 @@ lt-LT
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2004,6 +2129,11 @@ ms-MY
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2088,6 +2218,11 @@ no-NO
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2165,6 +2300,11 @@ pl-PL
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2220,6 +2360,11 @@ pt-BR
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -2319,6 +2464,11 @@ ro-RO
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2394,6 +2544,11 @@ ru-RU
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\*\*
 
 </td>
 </tr>
@@ -2473,6 +2628,11 @@ sr-RS
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2548,6 +2708,11 @@ sk-SK
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -2627,6 +2792,11 @@ sl-Sl
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2704,6 +2874,11 @@ es-MX
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2759,6 +2934,11 @@ es-ES
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -2858,6 +3038,11 @@ sv-SE
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2935,6 +3120,11 @@ th-TH
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2990,6 +3180,11 @@ tr-TR
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -3089,6 +3284,11 @@ uk-UA
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3166,10 +3366,17 @@ vi-VN
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 </table>
 
 \* With restriction \(see the note in [Languages Supported](https://help.sap.com/docs/SAP_CLOUD_FOR_CUSTOMER/ccae7f324201476798977a55c5f10efe/510ad96f735046808c1fe671cf77b0a7.html#languages-supported)\)
+
+\*\* Partially supported
 
 In addition to the languages listed in the preceding table, the SAP Task Center Web app supports also:
 

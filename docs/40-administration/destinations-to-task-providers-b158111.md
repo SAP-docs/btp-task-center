@@ -33,4 +33,6 @@ Set up the destinations to the task providers.
 
 -   To configure SAP Task Center to work with third-party task provider tasks, see [Connect a Third-Party Task Provider and SAP Task Center](connect-a-third-party-task-provider-and-sap-task-center-c6362b6.md).
 
+-   To configure SAP Task Center to work with UiPath tasks, see [Connect UiPath and SAP Task Center](connect-uipath-and-sap-task-center-223b083.md).
+
 

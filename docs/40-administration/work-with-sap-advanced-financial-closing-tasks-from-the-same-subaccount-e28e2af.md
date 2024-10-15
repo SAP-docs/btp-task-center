@@ -339,7 +339,7 @@ Follow the procedure below to complete the setup and receive tasks from an SAP A
     
     **Value**:
 
-    `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
     
     </td>
     </tr>

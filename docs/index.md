@@ -48,6 +48,7 @@
             -   [Connect a Third-Party Task Provider and SAP Task Center](40-administration/connect-a-third-party-task-provider-and-sap-task-center-c6362b6.md)
                 -   [Primary Destination with the Technical User \(Third-Party Task Provider\)](40-administration/primary-destination-with-the-technical-user-third-party-task-provider-b55629f.md)
                 -   [Secondary Destination for the Principal Propagation \(Third-Party Task Provider\)](40-administration/secondary-destination-for-the-principal-propagation-third-party-task-provider-1a6be2c.md)
+            -   [Connect UiPath and SAP Task Center](40-administration/connect-uipath-and-sap-task-center-223b083.md)
     -   [Monitoring](40-administration/monitoring-9b30be7.md)
         -   [Working with the Task Center Administration App](40-administration/working-with-the-task-center-administration-app-3a1598c.md)
             -   [Working with Intelligent Recommendations](40-administration/working-with-intelligent-recommendations-340651c.md)

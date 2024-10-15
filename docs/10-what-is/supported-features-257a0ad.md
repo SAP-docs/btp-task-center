@@ -6,6 +6,8 @@
 
 See the SAP Task Center features, supported by SAP, or third-party task providers.
 
+All connected task providers support the basic scenario, which includes receiving tasks in the SAP Task Center Web app, opening task details and the *Open in App* button, which opens task details in the task provider system. In addition, SAP Task Center offers the following features:
+
 **SAP Task Center Features Supported by Task Providers**
 
 
@@ -76,6 +78,11 @@ SAP Cloud for Customer
 SAP Concur
 
 </th>
+<th valign="top" rowspan="2">
+
+UiPath
+
+</th>
 </tr>
 <tr>
 <th valign="top">
@@ -88,6 +95,83 @@ SAP Ariba Sourcing
 SAP Ariba Buying
 
 </th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+Basic Scenario
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
 </tr>
 <tr>
 <td valign="top" rowspan="2">
@@ -165,11 +249,21 @@ For End Users
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
 For Business Administrators
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -309,6 +403,11 @@ Mass Actions
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top" rowspan="3">
@@ -356,6 +455,11 @@ Partially \*\*
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -460,6 +564,11 @@ Upload
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -500,6 +609,11 @@ Delete
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -609,6 +723,11 @@ View
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -649,6 +768,11 @@ Add
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -735,6 +859,11 @@ Claim / Release a Task
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -803,6 +932,11 @@ Forward a Task
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -880,6 +1014,11 @@ Intelligent Recommendations
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

@@ -182,6 +182,18 @@ For more information, see the official documentation of the respective third-par
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+UiPath
+
+</td>
+<td valign="top">
+
+See [Supported use cases](https://docs.uipath.com/automation-cloud/automation-cloud/latest/sap/uipath-products-and-services-involved-in-the-integration#supported-use-cases).
+
+</td>
+</tr>
 </table>
 
 When a new use case \(*Task Type*\) is enabled, the users will get only the tasks, created or updated after the release date of the respective use case. To get the older ones, they have to repopulate the task cache. For more information, see [Repopulate the Task Cache](../40-administration/repopulate-the-task-cache-e93aa71.md).

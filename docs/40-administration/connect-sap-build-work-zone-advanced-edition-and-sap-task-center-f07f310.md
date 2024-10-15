@@ -346,7 +346,7 @@ Find information about the destination configuration that needs to be done for S
     
     **Value**:
 
-    `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
     
     </td>
     </tr>

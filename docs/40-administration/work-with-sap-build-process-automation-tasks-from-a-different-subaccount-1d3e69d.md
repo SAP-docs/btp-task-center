@@ -352,7 +352,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     
     **Value**:
 
-    `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
     
     </td>
     </tr>
@@ -436,6 +436,38 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     **Value**:
 
     `SPA`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.task.ui.url*
+    
+    </td>
+    <td valign="top">
+    
+    Add this property to access the SAP Build Process Automation tasks without the need of an additional central point of entry for accessing application for SAP Build Process Automation.
+
+    The value of this property must follow the pattern: `https://<root_url>/comsapspaprocessautomation.comsapspainbox/taskui.html`
+
+    To get the correct URL, open My Inbox in the SAP Build Process Automation Lobby, copy the URL of My Inbox and replace `inbox.html` page with `taskui.html`.
+
+    For more information on how to access My Inbox in the SAP Build Process Automation Lobby, see [Use My Inbox](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/using-my-inbox).
+
+    > ### Note:  
+    > -   Custom themes are not supported for task UI visualization.
+    > 
+    > -   This property is not mandatory if you use SAP Build Process Automation on SAP Build Work Zone, standard edition.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `https://<root_url>/comsapspaprocessautomation.comsapspainbox/taskui.html`
     
     </td>
     </tr>

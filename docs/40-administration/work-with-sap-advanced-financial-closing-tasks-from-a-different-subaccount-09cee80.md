@@ -354,7 +354,7 @@ To work with tasks coming from an SAP Advanced Financial Closing subaccount, you
     
     **Value**:
 
-    `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
     
     </td>
     </tr>

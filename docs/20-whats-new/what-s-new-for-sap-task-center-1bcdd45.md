@@ -87,6 +87,136 @@ SAP Task Center
 </td>
 <td valign="top">
 
+UiPath Supported as Task Provider
+
+</td>
+<td valign="top">
+
+You can now connect UiPath as task provider to SAP Task Center. For more information, see [Connect UiPath and SAP Task Center](../40-administration/connect-uipath-and-sap-task-center-223b083.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-10-15
+
+</td>
+<td valign="top">
+
+2024-10-15
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+No Additional Subscriptions for Central Point of Entry for Accessing Applications Are Required for SAP Build Process Automation Tasks
+
+</td>
+<td valign="top">
+
+A new property `tc.task.ui.url` allows you to access tasks without the need of an additional central point of entry for accessing application for SAP Build Process Automation.
+
+For more information, see [Work with SAP Build Process Automation Tasks from the Same Subaccount](../40-administration/work-with-sap-build-process-automation-tasks-from-the-same-subaccount-f9c57ee.md) or [Work with SAP Build Process Automation Tasks from a Different Subaccount](../40-administration/work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-10-15
+
+</td>
+<td valign="top">
+
+2024-10-15
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Additional Property Required for SAP Build Process Automation 
 
 </td>
