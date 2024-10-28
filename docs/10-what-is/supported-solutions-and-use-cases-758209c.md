@@ -92,7 +92,7 @@ SAP Concur
 </td>
 <td valign="top">
 
-See [SAP Task Center Integration with Concur Solutions](https://www.concurtraining.com/customers/tech_pubs/Integration/Shr_SG_Task_Center_Integration.pdf).
+See [SAP Task Center Integration with Concur Solutions](https://help.sap.com/docs/SAP_CONCUR/384ace1050b34555a6fed7ad1e49e2eb/1b9360de6caf1014a1c2f9558d278c18.html).
 
 </td>
 </tr>
@@ -196,5 +196,5 @@ See [Supported use cases](https://docs.uipath.com/automation-cloud/automation-cl
 </tr>
 </table>
 
-When a new use case \(*Task Type*\) is enabled, the users will get only the tasks, created or updated after the release date of the respective use case. To get the older ones, they have to repopulate the task cache. For more information, see [Repopulate the Task Cache](../40-administration/repopulate-the-task-cache-e93aa71.md).
+When a new use case \(*Task Type*\) is enabled, the end users will only get the tasks that are created or updated after the release date of the respective use case. To get the older ones, they have to repopulate the task cache. For more information, see [Repopulate the Task Cache](../40-administration/repopulate-the-task-cache-e93aa71.md).
 

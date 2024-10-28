@@ -87,6 +87,225 @@ SAP Task Center
 </td>
 <td valign="top">
 
+SAP Task Center Improvements
+
+</td>
+<td valign="top">
+
+The following improvements are introduced for the SAP Task Center Web app:
+
+-   Handling of attachments with IDs that include special characters
+
+-   Support for opening task directly via deep links
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-10-28
+
+</td>
+<td valign="top">
+
+2024-10-28
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+*Claim*, *Release*, and *Forward* Now Available for SAP Build Process Automation Tasks
+
+</td>
+<td valign="top">
+
+*Claim*, *Release*, and *Forward* can now be performed, and are available as inline actions on SAP Build Process Automation tasks. For more information on the supported features, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
+
+Additional configuration is required for the cases when SAP Build Process Automation and SAP Task Center are in different subaccounts. For more information, see SAP Note [3522594](https://me.sap.com/notes/3522594).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-10-17
+
+</td>
+<td valign="top">
+
+2024-10-17
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Additional Property Required for SAP Build Process Automation 
+
+</td>
+<td valign="top">
+
+If you are:
+
+-   using SAP Build Process Automation as task provider,
+
+-   SAP Build Process Automation and SAP Task Center are in different subaccounts,
+
+-   the established trust with Identity Authentication is SAML 2.0 \(see [Establish Trust with Identity Authentication](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/establish-trust-with-identity-authentication-43d62657284f4505b2d75f000210bf82?version=Cloud)\),
+
+
+then make sure you add the *wfs.tc.sec.prot.rel* property in your SAP Build Process Automation`Identity_Authentication_Connectivity_IDS` destination and set its value to `true`.
+
+For more information, see SAP Note [3522594](https://me.sap.com/notes/3522594).
+
+> ### Note:  
+> -   If you don’t set this property, the end users might be able to access their SAP Build Process Automation tasks, but some actions might not be available in the Web app.
+> 
+> -   If you have already set up the property `wfs.tc.local`, please remove it from your SAP Build Process Automation `Identity_Authentication_Connectivity_IDS` destination, regardless of whether your SAP Build Process Automation and SAP Task Center are in the same or different subaccounts.
+
+
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-10-17
+
+</td>
+<td valign="top">
+
+2024-10-17
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 UiPath Supported as Task Provider
 
 </td>

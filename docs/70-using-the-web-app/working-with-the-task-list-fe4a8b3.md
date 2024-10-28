@@ -67,7 +67,7 @@ Depending on the type of the selected task, the details view shows the standard 
 
 ### Standard User Interface for Task Details
 
-The standard user interface for task details consists the following areas:
+The standard user interface for task details consists of the following areas:
 
 -   Header with the task title, task type, and an *Open in App* button to open the task details in the task provider system
 -   Details area with additional information, if available for the selected task
@@ -110,7 +110,7 @@ The supported task types for which native task details user interfaces are provi
 
 
 
-The native user interface for task details consists the following areas:
+The native user interface for task details consists of the following areas:
 
 -   Header with the task title, task type and an *Open in App* button to open the task details in the task provider system
 -   Details area with additional information, if available for the selected task. Depending on the task type of the selected task, the details area can contain:
@@ -155,7 +155,7 @@ To be able to sort by custom attributes, you have to first filter by a single ta
 Search for tasks using the *Search* field by entering one or more keywords that are included in the *Task Title*.
 
 > ### Note:  
-> The search is performed among all tasks that are assigned to the user and stored in the back end. It is applies to the fields listed as hint in the *Search* field. When you filter by a task type with custom attributes, the hint in the *Search* field changes dynamically to reflect the current search, and applies to the custom-attribute columns of data type `string`.
+> The search is performed among all tasks that are assigned to the user and stored in the back end. It is applied to the fields listed as hint in the *Search* field. When you filter by a task type with custom attributes, the hint in the *Search* field changes dynamically to reflect the current search, and applies to the custom-attribute columns of data type `string`.
 
 The *Filter* criteria are available in the field above the tasks, next to the *Search* field. By default, you can filter your task list by the following criteria:
 
@@ -439,6 +439,11 @@ The *Actions* column may contain the following types of actions:
     <td valign="top">
     
     The task disappears from the task list of the user who forwards the task and appears in the task list of the recipient in status *Reserved*.
+
+    > ### Note:  
+    > In the case where the *Forward* action is not activated in the workflow model, an error could temporary occur when using the *Forward* action for certain SAP Build Process Automation tasks.
+
+
     
     </td>
     </tr>

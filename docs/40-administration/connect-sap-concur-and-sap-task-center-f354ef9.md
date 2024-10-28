@@ -15,11 +15,11 @@ Find information about the destination configuration that needs to be done for S
 
 -   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP Concur Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-concur-integration-scenario).
 
--   You have an existing SAP Concur entity, and have generated the `Company Request Token` and `Company UUID`. For more information, see *SAP Concur Company Request Token* in [SAP Task Center Integration with Concur Solutions](https://www.concurtraining.com/customers/tech_pubs/Integration/Shr_SG_Task_Center_Integration.pdf).
+-   You have an existing SAP Concur entity, and have generated the `Company Request Token` and `Company UUID`. For more information, see *SAP Concur Company Request Token* in [SAP Task Center Integration with Concur Solutions](https://help.sap.com/docs/SAP_CONCUR/384ace1050b34555a6fed7ad1e49e2eb/1b9360de6caf1014a1c2f9558d278c18.html).
 
     If you need any additional information, contact your SAP Concur implementation consultant.
 
--   You have enabled the workflows for Concur Expense, Concur Request, or both, for SAP Task Center. For more information, see [SAP Task Center Integration with Concur Solutions](https://www.concurtraining.com/customers/tech_pubs/Integration/Shr_SG_Task_Center_Integration.pdf).
+-   You have enabled the workflows for Concur Expense, Concur Request, or both, for SAP Task Center. For more information, see [SAP Task Center Integration with Concur Solutions](https://help.sap.com/docs/SAP_CONCUR/384ace1050b34555a6fed7ad1e49e2eb/1b9360de6caf1014a1c2f9558d278c18.html).
 
 -   You have opened a ticket to verify your Data Privacy Agreement version.
 

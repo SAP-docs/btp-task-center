@@ -42,10 +42,10 @@ To perform mass actions on a set of tasks, proceed as follows:
 
 5.  Submit your decision.
 
-    As result, you receive a confirmation that the tasks are successfully processed.
+    As a result, you receive a confirmation that the tasks are successfully processed.
 
     > ### Note:  
-    > In case that some of the tasks cannot be processed, before completing the action you receive a list of these tasks and the information, that they are skipped. All decisions performed by the mass action are processed asynchronously in SAP Task Center.
+    > In case that some of the tasks cannot be processed, before completing the action you receive a list of these tasks and the information that they are skipped. All decisions performed by the mass action are processed asynchronously in SAP Task Center.
     > 
     > Once you have completed the action, if there was a failure in processing some of the tasks at the task provider side, you can find more details on the *Failed Tasks* filter tab. For more information, see [Working with Filter Tabs](working-with-filter-tabs-df0aec8.md).
 
