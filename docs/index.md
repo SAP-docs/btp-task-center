@@ -85,4 +85,5 @@
     -   [Task Center in the SAP Mobile Start Mobile App](70-using-the-web-app/task-center-in-the-sap-mobile-start-mobile-app-cb7cab6.md)
     -   [To-Dos in SAP Start](70-using-the-web-app/to-dos-in-sap-start-8549f76.md)
 -   [Troubleshooting](80-troubleshooting/troubleshooting-89c09a4.md)
+    -   [Troubleshooting a Task at SAP Task Center \(For Administrators\)](80-troubleshooting/troubleshooting-a-task-at-sap-task-center-for-administrators-2f26551.md)
 

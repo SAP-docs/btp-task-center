@@ -87,6 +87,138 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Troubleshooting Guide Extended
+
+</td>
+<td valign="top">
+
+The troubleshooting guide for administrators is extended with details on how to troubleshoot missing tasks.
+
+For more information, see [Troubleshooting a Task at SAP Task Center \(For Administrators\)](../80-troubleshooting/troubleshooting-a-task-at-sap-task-center-for-administrators-2f26551.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-11-05
+
+</td>
+<td valign="top">
+
+2024-11-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Task Recipients Limited to 100
+
+</td>
+<td valign="top">
+
+Please note that the task recipients are restricted by SAP Task Center to 100 members, applicable to both users and user groups.
+
+For more information, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-11-05
+
+</td>
+<td valign="top">
+
+2024-11-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 SAP Task Center Improvements
 
 </td>

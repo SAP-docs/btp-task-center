@@ -30,16 +30,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     > ### Tip:  
     > The *Tenant ID* is an automatically generated ID by the system. The first administrator created for the tenant receives an activation e-mail with a URL in it. This URL contains the *tenant ID*. For more information about your tenants, see [Viewing Assigned Tenants and Administrators](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/f56e6f24e373404087d6a1a9a13515a2.html).
 
--   You have created a system as administrator in Identity Authentication \(with the *Read Users* authorizations\) and have the client ID and client secret of this system.
+-   You have created a system as administrator in Identity Authentication \(with the *Read Users*
 
     For more information, see [Add System as Administrator](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/bbbdbdd3899942ce874f3aae9ba9e21d.html#loiocefb742a36754b18bbe5c3503ac6d87c).
 
 
 **Procedure** 
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
+1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the authorizations\) and have the client ID and client secret of this system.*Destinations* tab from the navigation area on the left.
 
-2.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you have an already created destination with the name *Identity\_Authentication\_Connectivity\_IDS*. Configure the properties as described below.
+2.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md) authorizations\) and have\), you have an already created destination with the name *Identity\_Authentication\_Connectivity\_IDS*. Configure the properties as described below.
 
     If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described below.
 

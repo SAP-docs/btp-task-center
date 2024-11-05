@@ -66,4 +66,13 @@ Considering this information during development helps you achieve optimal use of
 
 -   The *Intelligent Recommendations* feature is currently supported only by SAP Build Process Automation and for SAP Build Process Automation tasks.
 
+-   A task can be assigned to two types of recipients:
+
+    -   A list of users entitled to process the task, including the processor.
+
+    -   A list of groups, defined in Identity Authentication service, which members are entitled to process the task.
+
+
+    Each list \(users and groups\) is restricted by SAP Task Center to 100 members, and only the first 100 users and user groups are stored in the task cache.
+
 
