@@ -87,6 +87,72 @@ SAP Task Center
 </td>
 <td valign="top">
 
+New Properties to Optimize Search Performance
+
+</td>
+<td valign="top">
+
+Two new properties *tc.pp.user\_types* and *tc.pp.search\_operation* can be set up to optimize the performance of the people search engine for very large user groups.
+
+For more information, see [Identity Directory Connectivity](../40-administration/identity-directory-connectivity-3dcfba9.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-11-19
+
+</td>
+<td valign="top">
+
+2024-11-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Troubleshooting Guide Extended
 
 </td>

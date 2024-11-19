@@ -129,7 +129,7 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Add the *API endpoint* value from the *Prerequisites* section.
+    Add the *API endpoint* value from the *Prerequisites* section and append `/api/v2` to the URL.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.

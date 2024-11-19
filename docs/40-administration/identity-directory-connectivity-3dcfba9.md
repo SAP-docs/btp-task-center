@@ -30,16 +30,16 @@ You can set up this connectivity either by using the basic authentication, or vi
     > ### Tip:  
     > The *Tenant ID* is an automatically generated ID by the system. The first administrator created for the tenant receives an activation e-mail with a URL in it. This URL contains the *tenant ID*. For more information about your tenants, see [Viewing Assigned Tenants and Administrators](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/f56e6f24e373404087d6a1a9a13515a2.html).
 
--   You have created a system as administrator in Identity Authentication \(with the *Read Users*
+-   You have created a system as administrator in Identity Authentication \(with the *Read Users* authorizations\) and have the client ID and client secret of this system.
 
     For more information, see [Add System as Administrator](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/bbbdbdd3899942ce874f3aae9ba9e21d.html#loiocefb742a36754b18bbe5c3503ac6d87c).
 
 
 **Procedure** 
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the authorizations\) and have the client ID and client secret of this system.*Destinations* tab from the navigation area on the left.
+1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
 
-2.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md) authorizations\) and have\), you have an already created destination with the name *Identity\_Authentication\_Connectivity\_IDS*. Configure the properties as described below.
+2.  If you have followed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you have an already created *Identity\_Authentication\_Connectivity\_IDS* destination. Configure the properties as described below.
 
     If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described below.
 
@@ -212,6 +212,103 @@ You can set up this connectivity either by using the basic authentication, or vi
     </tr>
     </table>
     
+    Additional Properties:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Property
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    <th valign="top">
+
+    Example or Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.pp.user\_types*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) You can set this property to optimize the performance of the people search engine for very large user groups.
+
+    The values of this property can be:
+
+    -   `Customer`
+    -   `Employee`
+    -   `Partner`
+    -   `Public`
+    -   `External`
+    -   `Onboardee`
+
+    This value corresponds to the user type in Identity Authentication, to which the user is assigned. For more information, see [Users](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/user-types).
+
+    You can add multiple values by separating the them by comma.
+
+    If the property is set, the user search is performed only in the groups, defined in the value of the property.
+
+    If this property is not set, the user search is performed in all groups.
+
+    This property can be used in combination with the *tc.pp.search\_operation* property.
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `employee, partner`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.pp.search\_operation*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) You can set this property to optimize the performance of the people search engine for very large user groups.
+
+    The value of this property can be `co` or `sw`.
+
+    If this property is set, the user search operates as follows:
+
+    -   `co` stands for `contains`
+
+        The search returns users whose names contain the search string.
+
+    -   `sw` stands for `starts with`
+
+        The search returns users whose names start with the search string.
+
+
+    If this property is not set, the default value is `co`.
+
+    This property can be used in combination with the *tc.pp.user\_types* property.
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `co`
+    
+    </td>
+    </tr>
+    </table>
+    
 4.  Choose *Save*.
 
 
@@ -240,7 +337,7 @@ You can set up this connectivity either by using the basic authentication, or vi
 
 1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Destinations* tab from the navigation area on the left.
 
-2.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you have an already created destination with the name *Identity\_Authentication\_Connectivity\_IDS*. Configure the properties as described below.
+2.  If you have followed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you have an already created *Identity\_Authentication\_Connectivity\_IDS* destination. Configure the properties as described below.
 
     If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described below.
 
@@ -427,6 +524,103 @@ You can set up this connectivity either by using the basic authentication, or vi
     <td valign="top">
     
      
+    
+    </td>
+    </tr>
+    </table>
+    
+    Additional Properties:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Property
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    <th valign="top">
+
+    Example or Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.pp.user\_types*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) You can set this property to optimize the performance of the people search engine for very large user groups.
+
+    The values of this property can be:
+
+    -   `Customer`
+    -   `Employee`
+    -   `Partner`
+    -   `Public`
+    -   `External`
+    -   `Onboardee`
+
+    This value corresponds to the user type in Identity Authentication, to which the user is assigned. For more information, see [Users](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/user-types).
+
+    You can add multiple values by separating the them by comma.
+
+    If the property is set, the user search is performed only in the groups, defined in the value of the property.
+
+    If this property is not set, the user search is performed in all groups.
+
+    This property can be used in combination with the *tc.pp.search\_operation* property.
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `employee, partner`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.pp.search\_operation*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) You can set this property to optimize the performance of the people search engine for very large user groups.
+
+    The value of this property can be `co` or `sw`.
+
+    If this property is set, the user search operates as follows:
+
+    -   `co` stands for `contains`
+
+        The search returns users whose names contain the search string.
+
+    -   `sw` stands for `starts with`
+
+        The search returns users whose names start with the search string.
+
+
+    If this property is not set, the default value is `co`.
+
+    This property can be used in combination with the *tc.pp.user\_types* property.
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `co`
     
     </td>
     </tr>
