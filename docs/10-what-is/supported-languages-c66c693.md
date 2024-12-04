@@ -63,7 +63,7 @@ SAP Build Process Automation
 </th>
 <th valign="top">
 
-SAP Build Work Zone, advanced edition
+SAP Build Work Zone, advanced edition / SAP SuccessFactors Work Zone
 
 </th>
 <th valign="top">

@@ -1,8 +1,8 @@
 <!-- loiof07f3103d40447d6bfbb0ae0b7920f6a -->
 
-# Connect SAP Build Work Zone, advanced edition and SAP Task Center
+# Connect SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone and SAP Task Center
 
-Find information about the destination configuration that needs to be done for SAP Task Center in order to work with tasks from SAP Build Work Zone, advanced edition instance in the same \(local\) subaccount as the SAP Task Center instance on SAP BTP, Cloud Foundry environment.
+Find information about the destination configuration that needs to be done for SAP Task Center in order to work with tasks from SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone instances in the same \(local\) subaccount as the SAP Task Center instance on SAP BTP, Cloud Foundry environment.
 
 
 
@@ -26,6 +26,10 @@ Find information about the destination configuration that needs to be done for S
 
 ## Context
 
+The setup listed in the procedure is valid for both SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone.
+
+Please note that you can set up the connection either to SAP Build Work Zone, advanced edition or to SAP SuccessFactors Work Zone. You cannot have both task providers in the same subaccount.
+
 > ### Note:  
 > Do not configure more than one destination to the same SAP Build Work Zone, advanced edition system for one SAP Task Center. This will result in having duplicate tasks for end users.
 
@@ -35,11 +39,9 @@ Find information about the destination configuration that needs to be done for S
 
 ## Procedure
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> *Destinations* tab from the navigation area.
+1.  Navigate to the Cloud Foundry subaccount where your SAP Task Center instance was created, and select the *Connectivity* \> *Destinations* tab from the navigation area.
 
-2.  If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described in the table.
-
-3.  Configure the properties of the destination as described in the following table:
+2.  Create a new destination and manually add the properties as described in the table:
 
 
     <table>
@@ -310,7 +312,7 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     </table>
     
-4.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
+3.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
 
 
     <table>
@@ -359,9 +361,6 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     Enables SAP Task Center to connect to the configured task provider destination.
-
-    > ### Caution:  
-    > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
     > Any value other than `true` \(for example `false`\) would have the following effects:
@@ -545,10 +544,10 @@ Find information about the destination configuration that needs to be done for S
     </tr>
     </table>
     
-5.  Choose *Save*.
+4.  Choose *Save*.
 
-6.  \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Build Work Zone, advanced edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
+5.  \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Build Work Zone, advanced edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
-    If you choose *Check Connection* in the destination configuration, you may not receive the correct information about the connectivity between the SAP Task Center service and the SAP Build Work Zone, advanced edition.
+    If you choose *Check Connection* in the destination configuration, you may not receive the correct information about the connectivity between the SAP Task Center service and SAP Build Work Zone, advanced edition.
 
 

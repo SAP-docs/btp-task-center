@@ -5,7 +5,7 @@
 To use the service, make sure you have performed the preliminary setup and meet the prerequisites. Then continue with the initial setup for SAP Task Center, following either the automatic setup \(using a booster\) or the manual setup.
 
 > ### Tip:  
-> Check also the step-by-step mission for the initial setup [Establish a Central Inbox with SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3774/3813/) on SAP Discovery Center.
+> ![](images/28x28_launch_png_2484bce.png) Check also the step-by-step mission for the initial setup [Establish a Central Inbox with SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3774/3813/) on SAP Discovery Center.
 
 
 

@@ -87,6 +87,203 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Notifications on SAP Build Work Zone, advanced edition 
+
+</td>
+<td valign="top">
+
+Notifications can now be enabled if you are using SAP Build Work Zone, advanced edition as central point of entry for accessing applications. For more information, see [Enable Notifications for End Users](../40-administration/enable-notifications-for-end-users-caf2543.md) 
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-12-04
+
+</td>
+<td valign="top">
+
+2024-12-04
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP SuccessFactors Work Zone Supported as Task Provider
+
+</td>
+<td valign="top">
+
+You can now connect SAP SuccessFactors Work Zone as task provider to SAP Task Center. For more information, see [Connect SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone and SAP Task Center](../40-administration/connect-sap-build-work-zone-advanced-edition-or-sap-successfactors-work-zone-and-sap-task-f07f310.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-12-04
+
+</td>
+<td valign="top">
+
+2024-12-04
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Task Center Improvements
+
+</td>
+<td valign="top">
+
+-   Improved caching for SAP Task Center service and task provider destinations, optimizing access, database usage, and performance.
+
+-   Internal refactoring and optimizations related a concurrency issue.
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-12-04
+
+</td>
+<td valign="top">
+
+2024-12-04
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New Properties to Optimize Search Performance
 
 </td>

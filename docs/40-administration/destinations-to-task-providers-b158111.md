@@ -5,7 +5,7 @@
 Set up the destinations to the task providers.
 
 > ### Tip:  
-> See also the step-by-step missions for the setup of connection to task providers at [SAP Task Center missions on SAP Discovery Center](https://discovery-center.cloud.sap/missionCatalog/?search=sap-task-center).
+> ![](../30-initial-setup/images/28x28_launch_png_2484bce.png) See also the step-by-step missions for the setup of connection to task providers at [SAP Task Center missions on SAP Discovery Center](https://discovery-center.cloud.sap/missionCatalog/?search=sap-task-center).
 
 -   To configure SAP Task Center to work with SAP Advanced Financial Closing, see [Connect SAP Advanced Financial Closing and SAP Task Center](connect-sap-advanced-financial-closing-and-sap-task-center-2873c51.md).
 
@@ -13,7 +13,7 @@ Set up the destinations to the task providers.
 
 -   To configure SAP Task Center to work with SAP Build Process Automation, see [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
 
--   To configure SAP Task Center to work with SAP Build Work Zone, advanced edition, see [Connect SAP Build Work Zone, advanced edition and SAP Task Center](connect-sap-build-work-zone-advanced-edition-and-sap-task-center-f07f310.md).
+-   To configure SAP Task Center to work with SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone, see [Connect SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone and SAP Task Center](connect-sap-build-work-zone-advanced-edition-or-sap-successfactors-work-zone-and-sap-task-f07f310.md).
 
 -   To configure SAP Task Center to work with SAP Cloud for Customer, see [Connect SAP Cloud for Customer and SAP Task Center](connect-sap-cloud-for-customer-and-sap-task-center-ec09002.md) \(TLS communication supported\).
 

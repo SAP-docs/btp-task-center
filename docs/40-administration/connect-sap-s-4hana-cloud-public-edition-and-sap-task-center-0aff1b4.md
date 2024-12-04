@@ -17,7 +17,7 @@ Find information about the destination configuration that needs to be done for S
 Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP S/4HANA Cloud, public edition on SAP BTP, Cloud Foundry environment.
 
 > ### Tip:  
-> See also the step-by-step mission for the setup of connection to SAP S/4HANA Cloud, public edition at [Integrate Your SAP S/4HANA Cloud Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3906/4071/).
+> ![](../30-initial-setup/images/28x28_launch_png_2484bce.png) See also the step-by-step mission for the setup of connection to SAP S/4HANA Cloud, public edition at [Integrate Your SAP S/4HANA Cloud Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3906/4071/).
 
 **Prerequisites** 
 

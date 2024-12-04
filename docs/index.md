@@ -32,7 +32,7 @@
                 -   [Work with SAP Build Process Automation Tasks from the Same Subaccount](40-administration/work-with-sap-build-process-automation-tasks-from-the-same-subaccount-f9c57ee.md)
                 -   [Work with SAP Build Process Automation Tasks from a Different Subaccount](40-administration/work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md)
                 -   [Configure the Intelligent Recommendations Destination](40-administration/configure-the-intelligent-recommendations-destination-7c8900a.md)
-            -   [Connect SAP Build Work Zone, advanced edition and SAP Task Center](40-administration/connect-sap-build-work-zone-advanced-edition-and-sap-task-center-f07f310.md)
+            -   [Connect SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone and SAP Task Center](40-administration/connect-sap-build-work-zone-advanced-edition-or-sap-successfactors-work-zone-and-sap-task-f07f310.md)
             -   [Connect SAP Cloud for Customer and SAP Task Center](40-administration/connect-sap-cloud-for-customer-and-sap-task-center-ec09002.md)
                 -   [Creating the Primary Destination with the Technical User](40-administration/creating-the-primary-destination-with-the-technical-user-bb3728b.md)
                 -   [Creating a Secondary Destination for the Principal Propagation](40-administration/creating-a-secondary-destination-for-the-principal-propagation-2cc8cee.md)

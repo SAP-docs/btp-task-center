@@ -11,7 +11,7 @@ Find information about the destination configuration that needs to be done for S
 ## Prerequisites
 
 > ### Tip:  
-> See also the step-by-step mission for the setup of connection to SAP Concur at [Integrate Your SAP Concur Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3883/3962/).
+> ![](../30-initial-setup/images/28x28_launch_png_2484bce.png) See also the step-by-step mission for the setup of connection to SAP Concur at [Integrate Your SAP Concur Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3883/3962/).
 
 -   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP Concur Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-concur-integration-scenario).
 

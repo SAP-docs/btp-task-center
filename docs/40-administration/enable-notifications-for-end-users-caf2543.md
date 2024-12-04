@@ -16,7 +16,7 @@ Enable notifications for end users, ensuring that they receive timely task alert
 
 -   You have set up the *Identity\_Authentication\_Connectivity\_IDS* destination. For more information, see [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md).
 
--   You are using the SAP Task Center Web app on SAP Build Work Zone, standard edition.
+-   You are using SAP Build Work Zone, standard edition or SAP Build Work Zone, advanced edition as a central point of entry for accessing applications.
 
 
 
@@ -25,7 +25,7 @@ Enable notifications for end users, ensuring that they receive timely task alert
 
 ## Context
 
-Administrators can set up notifications for the end users to be informed upon receiving a new task in their task list \(task assignment\). Currently, the notifications displayed in the SAP Task Center Web app and task center in the SAP Mobile Start mobile app are in English, but might contain information in the fallback language, defined by the task provider. For more information on the fallback language, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
+Administrators can set up notifications for the end users to be informed upon receiving a new task in their task list \(task assignment\). Currently, the notifications displayed in the SAP Task Center Web app and task center in the SAP Mobile Start mobile app are in English. However, they might contain information in the fallback language, defined by the task provider. For more information on the fallback language, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
 
 Notifications for substitutions or changes in processors are currently not supported.
 
@@ -35,33 +35,31 @@ To enable notifications for all or only some of the connected task providers, fo
 
 ## Procedure
 
-1.  Open SAP Build Work Zone, standard edition.
+1.  Open your central point of entry for accessing applications.
 
-    For more information, see [What Is SAP Build Work Zone, standard edition?](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/what-is-sap-build-work-zone-standard-edition).
+    -   If your central point of entry for accessing applications is SAP Build Work Zone, standard edition, follow the steps in [Enabling Notifications from Cloud Solutions and Services](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/enabling-notifications-from-cloud-solutions).
 
-2.  From the *Site Directory* \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\) open the *Site Settings* \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) of the site, where you created your Task Center tile.
+    -   If your central point of entry for accessing applications is SAP Build Work Zone, advanced edition, follow the steps in [Enabling Notifications from Cloud Solutions and Services](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/enabling-notifications-from-cloud-solutions).
 
-3.  Choose *Edit*, enable the *Show Notifications* setting under the *Display* section and save your changes. For more information, see the subtopics in [Enabling Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/enabling-notifications).
 
-4.  From the main screen of SAP Build Work Zone, standard edition, open <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Settings* and go to the *Notifications* tab. To access this tab, you need the relevant notification roles, as described in [Subaccount Settings](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/subaccount-settings).
+    Make sure you complete the following steps:
 
-5.  Set *Email* as authentication identifier.
+    -   Choose *Email* as authentication identifier.
 
-6.  Choose *Generate* and note down the values of the following properties in the *Generate Credentials* section:
+    -   Generate credentials in the subaccount settings screen.
 
-    -   *Host*
-    -   *OAuth 2.0 Client ID*
-    -   *Client Secret*
-    -   *Token Endpoint*
+        These credentials are used for the connection between SAP Task Center and your central point of entry for accessing applications \(see [Alert Notifications Connectivity](alert-notifications-connectivity-f6c9f3b.md)\).
 
-    > ### Note:  
-    > If you regenerate these credentials, you must update them in the notifications destination, created in the next step.
+    -   Enable the display of notifications in the *Site Settings* \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) screen.
 
-7.  Create a destination for the connection to the notification service, as described in [Alert Notifications Connectivity](alert-notifications-connectivity-f6c9f3b.md).
+    -   Select the notifications \(done by end users after the notifications setup is completed\).
 
-8.  Set the *tc.notifications.enabled* property in the destination of every task provider, for which you want to enable notifications. For more info, see the respective task provider topic in [Destinations to Task Providers](destinations-to-task-providers-b158111.md).
 
-9.  \(Optional\) Enable email notifications for end users.
+2.  Create a destination for the connection to the notification service, as described in [Alert Notifications Connectivity](alert-notifications-connectivity-f6c9f3b.md).
+
+3.  Set the *tc.notifications.enabled* property in the destination of every task provider, for which you want to enable notifications. For more info, see the respective task provider topic in [Destinations to Task Providers](destinations-to-task-providers-b158111.md).
+
+4.  \(Optional\) Enable email notifications for end users.
 
     To offer email notifications to the end users, you must have completed the previous steps in this topic, then continue as follows:
 
@@ -86,4 +84,8 @@ The notifications are now enabled for end users. For more information, see [Work
 
 
 [Developing Cloud Foundry Applications With Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/developing-cloud-foundry-applications-with-notifications)
+
+[Enabling Notifications From Cloud Solutions and Services \(SAP Build Work Zone, standard edition\)](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/enabling-notifications-from-cloud-solutions)
+
+[Enabling Notifications From Cloud Solutions and Services \(SAP Build Work Zone, advanced edition\)](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/enabling-notifications-from-cloud-solutions)
 

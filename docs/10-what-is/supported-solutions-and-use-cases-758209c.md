@@ -65,6 +65,8 @@ For information on restrictions, see [Quotas, Restrictions, and Limits](https://
 
 SAP Build Work Zone, advanced edition
 
+SAP SuccessFactors Work Zone
+
 </td>
 <td valign="top">
 
