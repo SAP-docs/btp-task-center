@@ -92,7 +92,7 @@ Notifications on SAP Build Work Zone, advanced edition
 </td>
 <td valign="top">
 
-Notifications can now be enabled if you are using SAP Build Work Zone, advanced edition as central point of entry for accessing applications. For more information, see [Enable Notifications for End Users](../40-administration/enable-notifications-for-end-users-caf2543.md) 
+Notifications can now be enabled if you are using SAP Build Work Zone, advanced edition as central point of entry for accessing applications. For more information, see [Enable Notifications for End Users](../40-administration/enable-notifications-for-end-users-caf2543.md).
 
 </td>
 <td valign="top">
