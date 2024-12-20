@@ -62,7 +62,7 @@ You can create a personalized view, based on any of the options, displayed on th
 
 2.  Choose a view from the list.
 
-    When you select a view, it automatically loads your tasks in the Web app. In addition, the filter tab, from where the view was initially created, is selected.
+    When you select a view, it automatically loads your tasks in the Web app. The saved preferences on your task list, as well as filter tab, and additional filters are automatically applied.
 
 
 

@@ -4,15 +4,7 @@
 
 When working with the SAP Task Center, you may encounter issues that prevent access or affect performance.
 
-You can use the administration app to monitor or troubleshoot all configured destination connectors. For more information, see [Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md). If this doesn't help you identify the issue, check the guided answers for SAP Task Center, or contact SAP support.
-
-
-
-<a name="loio89c09a4067bd4c62a5a4b2f5c0da48c5__section_czl_k3m_fsb"/>
-
-## Check Guided Answers
-
-In the SAP Support Portal, check the [Guided Answers for SAP Task Center](https://ga.support.sap.com/dtp/viewer/index.html#/tree/3109/actions/47627) as well as the [Guided Answers](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2065/actions/26547) section for SAP Business Technology Platform \(SAP BTP\).
+You can use the administration app to monitor or troubleshoot all configured destination connectors. For more information, see [Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md). If this doesn't help you identify the issue, contact SAP support.
 
 
 
@@ -24,12 +16,19 @@ You can report an incident or error through the [SAP Support Portal](https://sup
 
 When submitting the incident we recommend to include the following information:
 
--   Landscape information \(for example, Canary, EU10, US10\)
+-   Landscape information \(for example, Canary, EU10, US10\).
 
--   The URL of the page where the incident or error occurs
+-   The URL of the page where the incident or error occurs.
 
--   The steps or clicks used to replicate the error
+-   The steps or clicks used to replicate the error.
 
--   Screenshots, videos, or the code entered
+-   Screenshots, videos, or the code entered.
 
+
+**Related Information**  
+
+
+[Troubleshooting a Task at SAP Task Center \(For Administrators\)](troubleshooting-a-task-at-sap-task-center-for-administrators-2f26551.md "Steps for SAP Task Center Administrators to troubleshoot and resolve issues related to task processing.")
+
+[Troubleshooting Notifications at SAP Task Center](troubleshooting-notifications-at-sap-task-center-b1b9c15.md "Steps for SAP Task Center administrators to troubleshoot and resolve issues when end users are not receiving notifications in the SAP Task Center Web App or via email.")
 

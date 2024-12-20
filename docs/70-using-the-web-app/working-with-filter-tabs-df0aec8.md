@@ -20,7 +20,7 @@ Your administrator must have set up the filter tabs in the SAP Task Center Web a
 
 ## Context
 
-The filter tabs display tasks from different providers based on semantic categories, configured by your administrator. That way, you don't have to apply filters to see only your tasks from a given category; for example, your purchase-related tasks originating from different systems in your company. In addition, the filter tabs display the number of tasks from the semantic categories in your inbox.
+The filter tabs display tasks from different providers based on semantic categories configured by your administrator. That way you don't have to apply filters to see only your tasks from a given category; for example, your purchase-related tasks originating from different systems in your company. In addition, the filter tabs indicate the number of tasks from the semantic categories in your inbox.
 
 
 

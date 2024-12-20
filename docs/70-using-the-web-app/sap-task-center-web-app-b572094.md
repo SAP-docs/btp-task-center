@@ -20,7 +20,7 @@ To use the SAP Task Center Web app, your administrator must have created a *SAP 
 
 ## What Is SAP Task Center Web App?
 
-The SAP Task Center is a new unified inbox for approvals across multiple applications with a seamless and integrated user experience. Workflow tasks from multiple SAP solutions are gathered in one list by the SAP Task Center service and ready to be processed with just one click. In the Web app, you can review all workflow tasks that are assigned to you and process them. A workflow task is a type of workflow object that is presented in the Web app.
+The SAP Task Center is a new unified inbox for approvals across multiple applications with a seamless and integrated user experience. Workflow tasks from multiple SAP and non-SAP solutions are gathered in one list by the SAP Task Center service and ready to be processed with just one click. In the Web app, you can review all workflow tasks that are assigned to you and process them. A workflow task is a type of workflow object that is presented in the Web app.
 
 You can use the Web app on a desktop or a mobile device. The app lists all the tasks that are assigned to you. The task list is organized in tabs. For more information, see [Working with Filter Tabs](working-with-filter-tabs-df0aec8.md).
 

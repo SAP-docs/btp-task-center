@@ -87,6 +87,141 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Troubleshooting Guide for Notifications
+
+</td>
+<td valign="top">
+
+A new troubleshooting guide for notifications is available for administrators.
+
+For more information, see [Troubleshooting Notifications at SAP Task Center](../80-troubleshooting/troubleshooting-notifications-at-sap-task-center-b1b9c15.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-12-19
+
+</td>
+<td valign="top">
+
+2024-12-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Task Center Improvements
+
+</td>
+<td valign="top">
+
+-   Improvement in error messaging for `Identity_Authentication_Connectivity_IDS` to provide more clarity when the destination contains invalid properties or values.
+
+-   Improvement in the accuracy of the count displayed on the *Adapt Filters* button in the Web app.
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-12-19
+
+</td>
+<td valign="top">
+
+2024-12-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Notifications on SAP Build Work Zone, advanced edition 
 
 </td>
