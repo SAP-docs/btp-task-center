@@ -307,6 +307,36 @@ You can set up this connectivity either by using the basic authentication, or vi
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.pp.active\_users\_only*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) You can set this property to optimize the performance of the people search engine for very large user groups.
+
+    The value of this property can be `true` or `false`.
+
+    When this property is set, the user search operates as follows:
+
+    -   If `true`, the search returns only active users.
+    -   If `false`, the search returns both active and inactive users.
+
+    If the property is not set, the default value is `true`.
+
+    This property can be used in combination with the *tc.pp.search\_operation* and *tc.pp.user\_types* properties.
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `false`
+    
+    </td>
+    </tr>
     </table>
     
 4.  Choose *Save*.
@@ -621,6 +651,36 @@ You can set up this connectivity either by using the basic authentication, or vi
     **Example**:
 
     `co`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.pp.active\_users\_only*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) You can set this property to optimize the performance of the people search engine for very large user groups.
+
+    The value of this property can be `true` or `false`.
+
+    When this property is set, the user search operates as follows:
+
+    -   If `true`, the search returns only active users.
+    -   If `false`, the search returns both active and inactive users.
+
+    If the property is not set, the default value is `true`.
+
+    This property can be used in combination with the *tc.pp.search\_operation* and *tc.pp.user\_types* properties.
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `false`
     
     </td>
     </tr>

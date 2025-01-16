@@ -446,7 +446,7 @@ The SAP Concur entity may have Concur Expense, Concur Request, or both products.
     </td>
     <td valign="top">
     
-    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+    \(Optional\) Enable this property to turn on the notifications for end users.
 
     Accepted values are `true` and `false`.
 

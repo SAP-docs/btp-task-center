@@ -87,6 +87,138 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Real User Monitoring Available for SAP Task Center 
+
+</td>
+<td valign="top">
+
+You can now use the integration of SAP Task Center with SAP Cloud ALM to monitor application usage and performance with Real User Monitoring.
+
+For more information, see [Integration with SAP Cloud ALM](../40-administration/integration-with-sap-cloud-alm-092288d.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-01-16
+
+</td>
+<td valign="top">
+
+2025-01-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Property to Optimize Search Performance
+
+</td>
+<td valign="top">
+
+A new property *tc.pp.active\_users\_only* can be set up to optimize the performance of the people search engine for very large user groups.
+
+For more information, see [Identity Directory Connectivity](../40-administration/identity-directory-connectivity-3dcfba9.md) 
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-01-16
+
+</td>
+<td valign="top">
+
+2025-01-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Troubleshooting Guide for Notifications
 
 </td>

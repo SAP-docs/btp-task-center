@@ -274,7 +274,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+    \(Optional\) Enable this property to turn on the notifications for end users.
 
     Accepted values are `true` and `false`.
 
@@ -664,7 +664,7 @@ Choose one of the options to see the procedure.
     </td>
     <td valign="top">
     
-    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
+    \(Optional\) Enable this property to turn on the notifications for end users.
 
     Accepted values are `true` and `false`.
 

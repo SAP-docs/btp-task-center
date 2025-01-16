@@ -78,5 +78,5 @@ You can set up SAP Alert Notification service for SAP BTP to send notifications 
 
 [Set Up Notifications for Administrators](set-up-notifications-for-administrators-2c1997b.md "You can set up the SAP Alert Notification service for SAP BTP to send notifications for changes in the SAP Task Center background job statuses.")
 
-[Integration with SAP Cloud ALM](integration-with-sap-cloud-alm-092288d.md "Use the integration of SAP Task Center with SAP Cloud ALM (application lifecycle management) to monitor all the inbound and outbound communication data events with the SAP Task Center REST API. This information pertains to events that a customer system administrator needs to know in order to resolve critical issues, related to task management events.")
+[Integration with SAP Cloud ALM](integration-with-sap-cloud-alm-092288d.md "Use the integration of SAP Task Center with SAP Cloud ALM (Application Lifecycle Management) to monitor all inbound and outbound communication data events with the SAP Task Center REST API. This information pertains to events that a customer system administrator needs to know in order to troubleshoot critical issues, related to task management events.")
 
