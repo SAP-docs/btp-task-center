@@ -36,7 +36,7 @@ For more information on the destinations to task providers, see [Destinations to
 
 
 
-### 4. Check when the task was crated and updated.
+### 4. Check when the task was created and updated.
 
 SAP Task Center loads the tasks, which have been updated or created in the past 90 days. Previous tasks are not loaded into SAP Task Center.
 
@@ -138,7 +138,7 @@ To export the data only for the specific task provider, specify the parameter `c
 
 -   `readme.txt`;
 -   `tasks.json` – cache tasks;
--   `task-users.json`– contains the mapping between the tasks \(`urn:` from `tasks.json` file\) and the user \(`principalId`\) this task was assigned to.
+-   `task-users.json` – contains the mapping between the tasks \(`urn:` from `tasks.json` file\) and the user \(`principalId`\) this task was assigned to.
 
 Search for the newly created test task in the `tasks.json` file. First, open *Tasks* and look for the task by title/ ID/ subject.
 
@@ -194,7 +194,7 @@ Possible outcomes:
 
 -   The value of `processor` corresponds to the correct user but you cannot find the task in the Web app.
 
-    In this case, open a ticket to the task provider. For more information on the support components, see SAP Note [3044195- SAP Task Center Support Components](https://me.sap.com/notes/3044195/E).
+    In this case, open a ticket to the task provider. For more information on the support components, see SAP Note [3044195 - SAP Task Center Support Components](https://me.sap.com/notes/3044195/E).
 
 
 
@@ -218,7 +218,7 @@ In case the task is there but there's no user ID, there are two possibilities:
 -   The task has no `principalID`.
 -   The `principalID` has an unconventional format \(for example, an email\).
 
-In both cases, open a ticket to the task provider. For more information on the support components, see SAP Note [3044195- SAP Task Center Support Components](https://me.sap.com/notes/3044195/E).
+In both cases, open a ticket to the task provider. For more information on the support components, see SAP Note [3044195 - SAP Task Center Support Components](https://me.sap.com/notes/3044195/E).
 
 
 
