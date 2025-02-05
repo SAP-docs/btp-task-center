@@ -2,7 +2,7 @@
 
 # Get the Service Configuration Parameters
 
-In the Cloud Foundry environment, you often require basic configuration parameters of the SAP Task Center to access the Task Center API.
+In the SAP BTP environment, you often require basic configuration parameters of the SAP Task Center to access the Task Center API.
 
 
 
@@ -16,7 +16,7 @@ You have the *Space Developer* role assigned to your subaccount.
 
 ## Procedure
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, select *Services* \> *Instances and Subscriptions* in the navigation area, and go to *Instances*.
+1.  Navigate to the SAP BTP subaccount, where your SAP Task Center instance was created, select *Services* \> *Instances and Subscriptions* in the navigation area, and go to *Instances*.
 
 2.  Choose the row of the *SAP Task Center* service to get more details of this instance.
 

@@ -288,7 +288,7 @@ For more information, see [Using Substitution Management for Business Administra
 
 [Monitoring](monitoring-9b30be7.md "Once you create a destination configuration to connect SAP Task Center to a task provider application, SAP Task Center creates a connector internally for this configuration.")
 
-[Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md "The SAP Task Center API for the Cloud Foundry environment allows you to list and work with user tasks and task definitions, monitor connector configurations, and export service data.")
+[Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md "The SAP Task Center API allows you to list and work with user tasks and task definitions, monitor connector configurations, and export service data.")
 
 [SAP Business API Hub documentation](https://api.sap.com/package/SAPTaskCenter?section=Artifacts)
 

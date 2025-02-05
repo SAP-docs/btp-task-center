@@ -73,7 +73,7 @@ For the integration with SAP Advanced Financial Closing, SAP Build Process Autom
 
 ### Verify Your Central Point of Entry for Accessing Applications
 
-You have a subscription to at least one of the following services, in the same subaccount as your SAP Task Center subscription:
+You have a subscription to at least one of the following services in the same subaccount as your SAP Task Center subscription:
 
 -   SAP Build Work Zone, standard edition, formerly known as SAP Launchpad service
 

@@ -87,6 +87,75 @@ SAP Task Center
 </td>
 <td valign="top">
 
+New Commercial Plans Available for SAP Task Center 
+
+</td>
+<td valign="top">
+
+The following two new service plans are available for SAP Task Center:
+
+-   *Cloud-Only Tasks*
+-   *All Tasks*
+
+You can find more information at [Service Plans and Metering](../10-what-is/service-plans-and-metering-7b6b689.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-02-05
+
+</td>
+<td valign="top">
+
+2025-02-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 SAP Task Center Improvements
 
 </td>

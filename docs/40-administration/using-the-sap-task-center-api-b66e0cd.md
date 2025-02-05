@@ -2,7 +2,7 @@
 
 # Using the SAP Task Center API
 
-The SAP Task Center API for the Cloud Foundry environment allows you to list and work with user tasks and task definitions, monitor connector configurations, and export service data.
+The SAP Task Center API allows you to list and work with user tasks and task definitions, monitor connector configurations, and export service data.
 
 The SAP Task Center API comprises a set of REST methods that provide functionalities related to:
 
@@ -31,7 +31,7 @@ See the [SAP Business API Hub Task Center API documentation](https://api.sap.com
 
 The SAP Task Center API is protected with OAuth 2.0 client credentials.
 
-The OAuth2 authentication type \(authorization code and SAML 2.0 Bearer Assertion Flow for OAuth 2.0\) is supported. Certain authentication mechanisms are managed transparently by the application router for Cloud Foundry applications that are bound to the SAP Task Center service.
+The OAuth2 authentication type \(authorization code and SAML 2.0 Bearer Assertion Flow for OAuth 2.0\) is supported. Certain authentication mechanisms are managed transparently by the application router for applications that are bound to the SAP Task Center service.
 
 For example, the application router provides user-centric authentication mechanisms. For this purpose, it manages the current user’s authorization tokens for the back-end services in the user session. When there is no user session, the user is redirected to the UAA's logon form.
 
@@ -48,7 +48,7 @@ To ensure optimal operation of the service, REST API execution is subject to res
 **Related Information**  
 
 
-[Get the Service Configuration Parameters](get-the-service-configuration-parameters-e10e7b2.md "In the Cloud Foundry environment, you often require basic configuration parameters of the SAP Task Center to access the Task Center API.")
+[Get the Service Configuration Parameters](get-the-service-configuration-parameters-e10e7b2.md "In the SAP BTP environment, you often require basic configuration parameters of the SAP Task Center to access the Task Center API.")
 
 [Get the Service Host](get-the-service-host-4e38c03.md "The base URL of the SAP Task Center service is available from the endpoints.inbox_rest_url configuration parameter of the service key or of the service binding, depending on your application type.")
 

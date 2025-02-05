@@ -7,6 +7,7 @@
     -   [Supported Features](10-what-is/supported-features-257a0ad.md)
     -   [Browser Support](10-what-is/browser-support-d769477.md)
     -   [Accessibility Features in SAP Task Center](10-what-is/accessibility-features-in-sap-task-center-b77f9a3.md)
+    -   [Service Plans and Metering](10-what-is/service-plans-and-metering-7b6b689.md)
 -   [What's New for SAP Task Center](20-whats-new/what-s-new-for-sap-task-center-1bcdd45.md)
 -   [Initial Setup](30-initial-setup/initial-setup-8347694.md)
     -   [Automatic Setup](30-initial-setup/automatic-setup-3a49967.md)

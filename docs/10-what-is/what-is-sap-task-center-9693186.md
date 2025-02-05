@@ -42,7 +42,7 @@ SAP Task Center for Task Processing
 </b></dt>
 <dd>
 
-Access all tasks assigned to you in the SAP Task Center Web app. Search, sort and filter the displayed tasks based on predefined criteria. Review task details and perform actions for certain task types. Navigate to the native task application for full task details and set of actions.
+Access all tasks assigned to you in the SAP Task Center Web app. Search, sort and filter the tasks based on predefined criteria. Review task details and perform actions, or navigate to the native task application for full task details and set of actions.
 
 
 
@@ -71,7 +71,7 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 > 
 > More information:
 > 
-> -   [Collaborate with us – SAP Task Center Opens It‘s Documentation for Your Feedback with GitHub!](https://blogs.sap.com/2023/02/01/collaborate-with-us-sap-task-center-opens-its-documentation-for-your-feedback-with-github/comment-page-1/#comment-658159)
+> -   [Collaborate with us – SAP Task Center Opens Its Documentation for Your Feedback with GitHub!](https://blogs.sap.com/2023/02/01/collaborate-with-us-sap-task-center-opens-its-documentation-for-your-feedback-with-github/comment-page-1/#comment-658159)
 > 
 > -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
 > 
@@ -101,4 +101,6 @@ Access the survey at [SAP Task Center Documentation Survey](https://sapinsights.
 [Browser Support](browser-support-d769477.md "")
 
 [Accessibility Features in SAP Task Center](accessibility-features-in-sap-task-center-b77f9a3.md "To optimize your experience of SAP Task Center, SAP Business Technology Platform (SAP BTP) provides features and settings that help you use the software efficiently.")
+
+[Service Plans and Metering](service-plans-and-metering-7b6b689.md "This page explains the relationship between the service plans in the SAP Discovery Center and those in the SAP BTP cockpit, and provides information to help you understand how SAP Task Center is billed.")
 
