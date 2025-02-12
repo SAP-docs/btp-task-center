@@ -87,6 +87,70 @@ SAP Task Center
 </td>
 <td valign="top">
 
+SAP Task Center Improvements
+
+</td>
+<td valign="top">
+
+Improvement in error messaging in the SAP Task Center Web app and the SAP Task Center Administration app.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-02-11
+
+</td>
+<td valign="top">
+
+2025-02-11
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New Commercial Plans Available for SAP Task Center 
 
 </td>
