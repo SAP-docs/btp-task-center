@@ -12,6 +12,13 @@ This page explains the relationship between the service plans in the SAP Discove
 
 The following commercial models are available for SAP Task Center:
 
+-   Consumption-based commercial model
+
+-   Subscription-based commercial model
+
+
+For more information, see [Commercial Models](https://help.sap.com/docs/btp/sap-business-technology-platform/commercial-models).
+
 ![](images/Consumption-Based_Models_STC_e56c6f4.png)
 
 \* For more information on the SAP Build Work Zone SKUs, see [SAP Build Work Zone, standard edition - Service Plans and Metering](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/commercial-models-and-metering) and [SAP Build Work Zone, advanced edition - Service Plans and Metering](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/commercial-models-and-metering).
@@ -94,7 +101,7 @@ Users are allowed to use for free up to 20 tasks \(2 blocks of 10 records\) stor
 > ### Note:  
 > For the subscription-based commercial model: All tasks above this number are charged and you will be requested to use the consumption-based commercial model, `all-tasks` service plan.
 > 
-> In this case you'll also need a SAP BTPEA \(SAP BTP Enterprise Agreement\) license. For more informaiton, see [What Is the Consumption-Based Commercial Model?](https://help.sap.com/docs/btp/sap-business-technology-platform/what-is-consumption-based-commercial-model).
+> In this case you'll also need a SAP BTPEA \(SAP BTP Enterprise Agreement\) license. For more information, see [What Is the Consumption-Based Commercial Model?](https://help.sap.com/docs/btp/sap-business-technology-platform/what-is-consumption-based-commercial-model).
 
 
 
@@ -138,19 +145,6 @@ The *On-Premise and Third-Party* plan enables the integration of SAP Task Center
 </table>
 
 For more information on the SAP Task Center availability and service plans, see [SAP Task Center Service Plans on SAP Discovery Center](https://discovery-center.cloud.sap/protected/index.html#/serviceCatalog/sap-task-center?tab=service_plan&region=all).
-
-
-
-### SAP BTP Cockpit: Commercial Models
-
-The following commercial models are offered for SAP Task Center:
-
--   Consumption-based commercial model
-
--   Subscription-based commercial model
-
-
-For more information, see [Commercial Models](https://help.sap.com/docs/btp/sap-business-technology-platform/commercial-models).
 
 
 

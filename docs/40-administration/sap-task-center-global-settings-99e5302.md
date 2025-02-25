@@ -213,7 +213,9 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     </td>
     <td valign="top">
     
-    This property defines the root URL of SAP Task Center in SAP Build Work Zone. It is required for the email notifications from SAP Task Center.
+    This property defines the root URL of SAP Task Center in SAP Build Work Zone.
+
+    It is required, for example, for the email notifications from SAP Task Center.
     
     </td>
     <td valign="top">

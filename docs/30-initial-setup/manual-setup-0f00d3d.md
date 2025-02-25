@@ -14,7 +14,7 @@ Before you continue with the manual setup, make sure you meet the following prer
 
 -   You have completed all prerequisites listed in [Initial Setup](initial-setup-8347694.md).
 
--   Your subaccount is entitled to use SAP Task Center with a *standard* plan.
+-   Your subaccount is entitled to use SAP Task Center with the `all-tasks` or `cloud-only-tasks` SAP Task Center service plans.
 
     For more information, see [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html).
 

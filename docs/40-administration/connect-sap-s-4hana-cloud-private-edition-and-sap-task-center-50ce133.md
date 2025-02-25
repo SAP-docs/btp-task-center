@@ -468,6 +468,9 @@ Find information about the destination configuration that needs to be done for S
     -   the region, where your SAP Task Center is hosted \(for example, `eu10`, `ap10`\). You can find the region as part of the *API Endpoint* on the *Overview* page of your subaccount in the SAP BTP cockpit. For more information about regions, see [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-and-api-endpoints-available-for-cloud-foundry-environment?version=Cloud).
 
 
+    > ### Note:  
+    > If you have set up SAP Task Center with the `all-tasks` service plan, this verification is done automatically, the SAP S/4HANA Cloud, private edition destination should be already enabled and you can skip this step.
+
 6.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP S/4HANA Cloud, private edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
     If you choose *Check Connection* in the destination configuration, you may not receive correct information about the connectivity between the SAP Task Center service and SAP S/4HANA Cloud, private edition.

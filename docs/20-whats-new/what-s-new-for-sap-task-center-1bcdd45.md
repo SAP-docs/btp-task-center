@@ -87,6 +87,70 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Improved Onboarding for SAP S/4HANA Cloud, public edition with `all-tasks` Service Plan
+
+</td>
+<td valign="top">
+
+If you are setting up SAP S/4HANA Cloud, public edition with the `all-tasks` service plan, you don't need to create an additional ticket to enable the destination anymore. This step is now automated. For more information, see [Connect SAP S/4HANA Cloud, private edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-02-25
+
+</td>
+<td valign="top">
+
+2025-02-25
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 SAP Task Center Improvements
 
 </td>
