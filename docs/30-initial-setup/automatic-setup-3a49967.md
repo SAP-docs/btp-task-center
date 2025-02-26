@@ -279,12 +279,12 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    Use this destination for the connection with SAP S/4HANA Cloud, public edition.
+    Use this destination for the connection with SAP S/4HANA Cloud Public Edition.
     
     </td>
     <td valign="top">
     
-    [Connect SAP S/4HANA Cloud, public edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-public-edition-and-sap-task-center-0aff1b4.md)
+    [Connect SAP S/4HANA Cloud Public Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-public-edition-and-sap-task-center-0aff1b4.md)
     
     </td>
     </tr>
@@ -296,12 +296,12 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    Use this destination for the connection with SAP S/4HANA Cloud, private edition.
+    Use this destination for the connection with SAP S/4HANA Cloud Private Edition.
     
     </td>
     <td valign="top">
     
-    [Connect SAP S/4HANA Cloud, private edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md)
+    [Connect SAP S/4HANA Cloud Private Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md)
     
     </td>
     </tr>

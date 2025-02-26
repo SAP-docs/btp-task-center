@@ -87,12 +87,12 @@ SAP Task Center
 </td>
 <td valign="top">
 
-Improved Onboarding for SAP S/4HANA Cloud, public edition with `all-tasks` Service Plan
+Improved Onboarding for SAP S/4HANA Cloud Private Edition with `all-tasks` Service Plan
 
 </td>
 <td valign="top">
 
-If you are setting up SAP S/4HANA Cloud, public edition with the `all-tasks` service plan, you don't need to create an additional ticket to enable the destination anymore. This step is now automated. For more information, see [Connect SAP S/4HANA Cloud, private edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md).
+If you are setting up SAP S/4HANA Cloud Private Edition with the `all-tasks` service plan, you don't need to create an additional ticket to enable the destination anymore. This step is now automated. For more information, see [Connect SAP S/4HANA Cloud Private Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md).
 
 </td>
 <td valign="top">

@@ -73,12 +73,12 @@ SAP S/4HANA
 </th>
 <th valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition
 
 </th>
 <th valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition
 
 </th>
 <th valign="top">
