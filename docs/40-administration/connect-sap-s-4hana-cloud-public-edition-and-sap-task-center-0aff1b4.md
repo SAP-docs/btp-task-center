@@ -219,11 +219,18 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
+
+    Possible values:
+
+    -   `urn:oasis:names:tc:SAML:2.0:ac:classes:X509`
+    -   `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
+
+
     
     </td>
     <td valign="top">
     
-    **Value**:
+    **Example**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:X509`
     
@@ -823,11 +830,18 @@ Find information about the destination configuration that needs to be done for S
     <td valign="top">
     
     Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
+
+    Possible values:
+
+    -   `urn:oasis:names:tc:SAML:2.0:ac:classes:X509`
+    -   `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
+
+
     
     </td>
     <td valign="top">
     
-    **Value**:
+    **Example**:
 
     `urn:oasis:names:tc:SAML:2.0:ac:classes:X509`
     

@@ -69,6 +69,8 @@ Description
 </td>
 <td valign="top">
 
+To be used only with SAP Start.
+
 The SAP Task Center free *Cloud-Only Tasks* service plan enables the integration of SAP Task Center with the supported SAP cloud solutions.
 
 This service plan must be used only for the SAP Start use case \(in conjunction with the SAP Build Work Zone foundation service plan\). For more information, see [SAP Start - Service Plans and Metering](https://help.sap.com/docs/start/sap-start/availability).

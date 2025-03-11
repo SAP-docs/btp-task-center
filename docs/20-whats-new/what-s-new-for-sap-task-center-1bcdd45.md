@@ -87,6 +87,72 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Boosters Set Up SAP Task Center with the `all-tasks` Service Plan
+
+</td>
+<td valign="top">
+
+The SAP Task Center boosters have been updated to set up SAP Task Center with the `all-tasks` service plan.
+
+For more information on the service plans, see [Service Plans and Metering](../10-what-is/service-plans-and-metering-7b6b689.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-03-11
+
+</td>
+<td valign="top">
+
+2025-03-11
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Improved Onboarding for SAP S/4HANA Cloud Private Edition with `all-tasks` Service Plan
 
 </td>
