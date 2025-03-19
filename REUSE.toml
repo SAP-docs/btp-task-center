@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "btp-task-center"
+SPDX-PackageSupplier = "Valentina Valkanova (valentina.valkanova@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/sap-docs/btp-task-center"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2023 SAP SE or an SAP affiliate company and btp-task-center contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
