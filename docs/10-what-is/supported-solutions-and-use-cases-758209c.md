@@ -139,7 +139,7 @@ For more information, see [SAP Task Center Integration](https://help.sap.com/doc
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, public edition
+SAP S/4HANA Cloud Public Edition
 
 </td>
 <td valign="top">
@@ -151,7 +151,7 @@ All approval use cases
 <tr>
 <td valign="top">
 
-SAP S/4HANA Cloud, private edition
+SAP S/4HANA Cloud Private Edition
 
 </td>
 <td valign="top">

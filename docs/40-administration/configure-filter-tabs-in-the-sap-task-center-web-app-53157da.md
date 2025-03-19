@@ -224,7 +224,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     <tr>
     <td valign="top">
     
-    SAP S/4HANA Cloud, public edition
+    SAP S/4HANA Cloud Public Edition
     
     </td>
     <td valign="top">
@@ -236,7 +236,7 @@ Administrators can create custom filter tabs, based on the following semantics:
     <tr>
     <td valign="top">
     
-    SAP S/4HANA Cloud, private edition
+    SAP S/4HANA Cloud Private Edition
     
     </td>
     <td valign="top">
