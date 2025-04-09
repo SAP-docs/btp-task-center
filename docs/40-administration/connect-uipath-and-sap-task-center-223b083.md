@@ -322,6 +322,29 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     <tr>
     <td valign="top">
     
+    *tc.inbox.pull.days*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) By default, the initial pull job of SAP Task Center loads tasks that have been updated or created in the past 90 days. You can adjust this period to a maximum of 180 days by configuring the *tc.inbox.pull.days* property. The allowed values range from 0 to 180.
+
+    Please note that this property is available only with the `all-tasks` service plan. For more information on the service plan and its details, see [Service Plans and Metering](../10-what-is/service-plans-and-metering-7b6b689.md).
+
+    After setting this property, you must trigger the initial pull job for this task provider by repopulating the task cache, as described in [Repopulate the Task Cache](repopulate-the-task-cache-e93aa71.md).
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `180`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *tc.notifications.enabled*
     
     </td>

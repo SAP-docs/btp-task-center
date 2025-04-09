@@ -12,7 +12,9 @@ Considering this information during development helps you achieve optimal use of
 
 ## Conventions
 
--   During the initial pull SAP Task Center loads the tasks, which have been updated or created in the past 90 days \(this is the **maximum initial pull period**\). Previous tasks are not loaded into SAP Task Center.
+-   By default, during the initial pull SAP Task Center loads the tasks, which have been updated or created in the past 90 days \(this is the **maximum initial pull period**\).
+
+    If you are using the `all-tasks` service plan, the retention period of every task provider can be adjusted to a maximum of 180 days by configuring the *tc.inbox.pull.days* property. The allowed values range from 0 to 180. For more information, see the respective task provider destination at [Destinations to Task Providers](../40-administration/destinations-to-task-providers-b158111.md).
 
 -   During the initial pull load, if SAP Task Center cannot retrieve a token in one hour, it automatically sets the *tc.enabled* property to `false`. To continue, you need to manually set the property to `true`.
 
@@ -22,7 +24,7 @@ Considering this information during development helps you achieve optimal use of
 
     -   If the `tc.clientId` property is set up for the enabled connector, then the task cache is updated every 5 seconds.
 
-    -   If the `tc.clientId` property is not set up for the enabled connector, then the task cache is updated every 30 seconds.
+    -   If the `tc.clientId` property is not set up for the enabled connector, then the task cache is updated every 30 seconds \(the interval may vary\).
 
         > ### Note:  
         > Currently the `tc.clientId` property is not available for every task provider.

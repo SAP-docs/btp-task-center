@@ -182,6 +182,11 @@ Third-Party Task Providers
 
 For more information, see the official documentation of the respective third-party task provider.
 
+> ### Note:  
+> Please note that connecting an on-premise third-party task provider is currently not supported.
+
+
+
 </td>
 </tr>
 <tr>

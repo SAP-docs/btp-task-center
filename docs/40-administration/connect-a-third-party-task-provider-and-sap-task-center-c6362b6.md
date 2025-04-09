@@ -23,6 +23,9 @@ Find information about the destination configuration that needs to be done for S
 
     These properties should be available in the third-party task provider documentation.
 
+    > ### Note:  
+    > Please note that connecting an on-premise third-party task provider is currently not supported.
+
 
 
 
