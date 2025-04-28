@@ -1037,11 +1037,90 @@ Intelligent Recommendations
 
 </td>
 </tr>
+<tr>
+<td valign="top" colspan="2">
+
+Outbox \*\*\*
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
 </table>
 
 \* See SAP Note [2975987](https://me.sap.com/notes/2975987) .
 
 \*\* See [Supported Tasks for Enhanced To-Do Integration](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568480cc877d4337992a2cd9792fbfed/cbb89cf9d70e4dafb005338f5ab93c3c.html).
+
+\*\*\* See SAP Note [3582581](https://me.sap.com/notes/3582581).
 
 > ### Note:  
 > Third-party-task-providers support for features depends on the third-party implementation of the SAP Task Center SPI, as defined in SAP Note [3462266](https://me.sap.com/notes/3462266).

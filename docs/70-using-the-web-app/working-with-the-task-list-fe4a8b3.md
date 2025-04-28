@@ -262,6 +262,20 @@ Select one or more of the following categories: *Open*, *Reserved* or *In Progre
 <tr>
 <td valign="top">
 
+\(Outbox Only\) *Completed Within*
+
+</td>
+<td valign="top">
+
+Select a time period from the calender \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\(Inbox Only\)
+
 *Created Within* 
 
 </td>

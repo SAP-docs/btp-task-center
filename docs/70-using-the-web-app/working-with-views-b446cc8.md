@@ -33,6 +33,11 @@ There can be only one default view, which you can change in the *Manage Views* d
 
 If you change the default view, you can open it from the dropdown list of views \(<span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>\), or reload the current page.
 
+> ### Remember:  
+> The *Inbox* and *Outbox* tabs share the same list of views. Any new custom views you create in either tab will automatically appear in the dropdown list of views in both tabs. Custom views are not shared between the tabs, so a view created in one tab does not apply to the other.
+> 
+> Each tab has its own *Standard* view, which appears only once in the list.
+
 
 
 <a name="loiob446cc82948e43b6ad00562b8d3f8609__section_hbb_hpm_jyb"/>
@@ -50,6 +55,9 @@ You can create a personalized view, based on any of the options, displayed on th
 3.  In the *Save View* window, add the name of your personalized view, choose if you want to make a default view, and save it.
 
 
+> ### Tip:  
+> To keep your views organized and easily identifiable, it's good practice to include `Inbox` or `Outbox` in the name of each custom view you create. This will help you to quickly determine which tab the view is related to.
+
 
 
 <a name="loiob446cc82948e43b6ad00562b8d3f8609__section_p51_3pm_jyb"/>
@@ -63,6 +71,8 @@ You can create a personalized view, based on any of the options, displayed on th
 2.  Choose a view from the list.
 
     When you select a view, it automatically loads your tasks in the Web app. The saved preferences on your task list, as well as filter tab, and additional filters are automatically applied.
+
+    When you select a view, it automatically loads your tasks in the Web app. The saved preferences on *Inbox* or *Outbox*, as well as filter tab, and additional filters are automatically applied.
 
 
 

@@ -180,12 +180,7 @@ Third-Party Task Providers
 </td>
 <td valign="top">
 
-For more information, see the official documentation of the respective third-party task provider.
-
-> ### Note:  
-> Please note that connecting an on-premise third-party task provider is currently not supported.
-
-
+The supported task types depend on your custom implementation of the third party task provider. For more information on how to integrate a third-party task provider, see [Connect a Third-Party Task Provider and SAP Task Center](../40-administration/connect-a-third-party-task-provider-and-sap-task-center-c6362b6.md).
 
 </td>
 </tr>

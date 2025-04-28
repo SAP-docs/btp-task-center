@@ -224,6 +224,32 @@ Configure the *Task\_Center\_global\_settings* destination, to set the propertie
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.outbox*
+    
+    </td>
+    <td valign="top">
+    
+    This property enables the *Outbox* tab in the SAP Task Center Web app.
+
+    > ### Note:  
+    > To display tasks in the *Outbox* tab that are completed before enabling this feature, you must repopulate the task cache as described in [Repopulate the Task Cache](repopulate-the-task-cache-e93aa71.md).
+    > 
+    > Once the *tc.outbox* property is enabled, all new task providers receive both inbox and outbox task lists automatically populated.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `true`
+    
+    </td>
+    </tr>
     </table>
     
 4.  Choose *Save*.

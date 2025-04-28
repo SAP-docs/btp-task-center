@@ -10,7 +10,7 @@ Find information about the destination configuration that needs to be done for S
 
 ## Prerequisites
 
--   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](../30-initial-setup/initial-setup-8347694.md). Make sure you have followed the [Third-Party Scenarios](https://help.sap.com/docs/cloud-identity/system-integration-guide/third-party-integration).
+-   You have completed the initial setup of SAP Task Center \(see [Initial Setup](../30-initial-setup/initial-setup-8347694.md)\) and have followed the [Third-Party Scenarios](https://help.sap.com/docs/cloud-identity/system-integration-guide/third-party-integration) documentation for the integration with SAP Cloud Identity Services.
 
 -   You have a third-party task provider tenant with an existing SPI implementation, according to the description in SAP Note [3462266](https://me.sap.com/notes/3462266).
 

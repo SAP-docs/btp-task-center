@@ -87,6 +87,72 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Outbox Feature Available in the SAP Task Center Web App 
+
+</td>
+<td valign="top">
+
+A new Outbox feature is available in the Web app for users to view their completed tasks, along with their details, comments, and attachments. For more information, see [Outbox](../70-using-the-web-app/sap-task-center-web-app-b572094.md#loiob572094a8b584a338e80820d25b0df87__section_Outbox).
+
+A new property *tc.outbox* must be set by administrators to enable the *Outbox* tab in the Web app. For more information, see [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-04-28
+
+</td>
+<td valign="top">
+
+2025-04-28
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Feedback Option for Documentation
 
 </td>

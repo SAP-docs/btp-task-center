@@ -62,7 +62,7 @@ To create an intelligent recommendation model, follow the procedure:
 
 4.  Choose *Create*.
 
-    An intelligent recommendation model is created and is listed under *Intelligent Recommendations* with the *Preparing Data* status. The model transitions to *In Training* status once 1000 tasks have been completed following the creation of the Intelligent Recommendation scenario.
+    An intelligent recommendation model is created and is listed under *Intelligent Recommendations* with the *Preparing Data* status. The model transitions to *In Training* status once 1000 tasks have been completed following the creation of the Intelligent Recommendation model.
 
 5.  Once the model is *Ready for Activation*, select *Activate* option.
 

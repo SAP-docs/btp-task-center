@@ -12,6 +12,8 @@ Use the *tc.enabled* property to repopulate tasks and task definitions in the SA
 
 The tasks and task definitions, fetched from the task provider systems, are stored in the task cache of SAP Task Center. This allows the SAP Task Center Web app and task center in the SAP Mobile Start mobile app to have quick access to the tasks.
 
+If the Outbox feature is enabled, repopulating the task cache will also fetch the completed tasks from the task provider systems and will store them in the task cache of SAP Task Center. To enable Outbox, see [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
+
 To delete and repopulate the task cache for a destination \(see [Destinations](destinations-3470733.md)\), you have to remove the *tc.enabled* property for this destination and add it again in a few minutes.
 
 

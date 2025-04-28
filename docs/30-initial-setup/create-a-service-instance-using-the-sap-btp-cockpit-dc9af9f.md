@@ -33,7 +33,7 @@ The service instance of SAP Task Center scales dynamically according to usage; c
 
 4.  Choose *Create*.
 
-5.  In the wizard, make sure that the service is set to *SAP Task Center*, the plan is set to *standard*, then enter a name for the instance, and choose *Next*.
+5.  In the wizard, make sure that the service is set to *SAP Task Center*, choose a service plan \(*all-tasks* service plan is recommended\), then enter a name for the instance, and choose *Next*.
 
 6.  Add the following JSON parameters and choose *Next*.
 
