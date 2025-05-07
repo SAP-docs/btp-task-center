@@ -25,6 +25,8 @@ For more information, see [Commercial Models](https://help.sap.com/docs/btp/sap-
 
 ![](images/Subscriptions_STC_pptx_8f54345.png)
 
+\* For more information on the SAP Build `build-default` service plan, see [Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering).
+
 
 
 <a name="loio7b6b6898251f449a978fffdb27cc5e50__section_hbp_bwc_w1c"/>
@@ -114,6 +116,40 @@ Users are allowed to use for free up to 20 tasks \(2 blocks of 10 records\) stor
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+`build-default`
+
+</td>
+<td valign="top">
+
+*Build Default*
+
+</td>
+<td valign="top">
+
+Availabe with SAP-BUILD subscription only.
+
+The SAP Task Center *Build default* plan enables the integration of SAP Task Center with all supported SAP cloud, SAP S/4HANA on-premise, and third-party task providers.
+
+This service plan must be used with SAP Build Work Zone, standard edition; SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone service plans. For more information, see [SAP Build Work Zone, standard edition - Service Plans and Metering](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/commercial-models-and-metering) and [SAP Build Work Zone, advanced edition - Service Plans and Metering](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/commercial-models-and-metering).
+
+Users are allowed to use for free up to 20 tasks \(2 blocks of 10 records\) stored in the SAP Task Center task cache for each active user, and for each block of 100 SAP Build Work Zone connections on global account level.
+
+> ### Note:  
+> For the subscription-based commercial model:
+> 
+> -   All tasks above those 20 tasks are charged and you will be requested to use the consumption-based commercial model, `all-tasks` service plan.
+> 
+>     In this case you'll also need a SAP BTPEA \(SAP BTP Enterprise Agreement\) license. For more information, see [What Is the Consumption-Based Commercial Model?](https://help.sap.com/docs/btp/sap-business-technology-platform/what-is-consumption-based-commercial-model).
+> 
+> -   On a global account level all licensed users are considered as active users
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="2">
 
 `standard`
@@ -126,10 +162,7 @@ Users are allowed to use for free up to 20 tasks \(2 blocks of 10 records\) stor
 </td>
 <td valign="top">
 
-> ### Note:  
-> This service plan will be deprecated. We recommend using the *All Tasks* service plan.
-
-The free *Standard* plan enables the integration of SAP Task Center with the supported SAP cloud solutions.
+This service plan is scheduled to be removed from the list of Eligible Cloud Services as of November 15. It will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *Standard* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
 
 </td>
 </tr>
@@ -141,10 +174,7 @@ The free *Standard* plan enables the integration of SAP Task Center with the sup
 </td>
 <td valign="top">
 
-> ### Note:  
-> This service plan will be deprecated. We recommend using the *All Tasks* service plan.
-
-The *On-Premise and Third-Party* plan enables the integration of SAP Task Center with SAP S/4HANA and third-party task providers.
+This service plan is scheduled to be removed from the list of Eligible Cloud Services as of November 15. It will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *On-Premise and Third-Party* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
 
 </td>
 </tr>

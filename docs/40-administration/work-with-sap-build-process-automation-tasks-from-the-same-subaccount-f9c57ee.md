@@ -401,7 +401,7 @@ Follow the described procedure to complete the setup and receive tasks from an S
     </td>
     <td valign="top">
     
-    \(Optional\) Enable this property to turn on the notifications for end users.
+    \(Optional\) Enable this property to turn on SAP Task Center notifications for end users.
 
     Accepted values are `true` and `false`.
 
@@ -410,6 +410,11 @@ Follow the described procedure to complete the setup and receive tasks from an S
     > ### Note:  
     > Any value other than `true` and `false` sets the connector in status *Warning*.
 
+    This property, combined with the *Alert\_Notification\_Connectivity\_ANS* destination, allows you to decide if end users should receive notifications from SAP Build Process Automation, or both SAP Task Center and SAP Build Process Automation.
+
+    -   If the property is set to `true` and you have set up the *Alert\_Notification\_Connectivity\_ANS* destination as described in [Enable Notifications](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/enable-notifications), then the end users will receive notifications from both SAP Task Center and SAP Build Process Automation. This might include duplicate notifications for created or forwarded tasks.
+    -   \(Recommended\) If the property is set to `false` and you have set up *Alert\_Notification\_Connectivity\_ANS* as described in [Enable Notifications](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/enable-notifications), then the end users will receive notifications only from SAP Build Process Automation and not from SAP Task Center.
+
 
     
     </td>
@@ -417,7 +422,7 @@ Follow the described procedure to complete the setup and receive tasks from an S
     
     **Example**:
 
-    `true`
+    `false`
     
     </td>
     </tr>

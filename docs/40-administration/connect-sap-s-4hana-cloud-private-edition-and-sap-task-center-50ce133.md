@@ -492,7 +492,7 @@ Find information about the destination configuration that needs to be done for S
 
 
     > ### Note:  
-    > If you have set up SAP Task Center with the `all-tasks` service plan, this verification is done automatically. The SAP S/4HANA Cloud Private Edition destination should already be enabled and you can skip this step.
+    > If you have set up SAP Task Center with the `all-tasks` service plan or the `build-default` service plan, this verification is done automatically. The SAP S/4HANA Cloud Private Edition destination should already be enabled and you can skip this step.
 
 6.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP S/4HANA Cloud Private Edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 

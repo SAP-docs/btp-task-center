@@ -35,7 +35,9 @@ The OAuth2 authentication type \(authorization code and SAML 2.0 Bearer Assertio
 
 For example, the application router provides user-centric authentication mechanisms. For this purpose, it manages the current user’s authorization tokens for the back-end services in the user session. When there is no user session, the user is redirected to the UAA's logon form.
 
-Create an OAuth client and obtain an access token to call the SAP Task Center API methods. For more information, see [Accessing Administration Using APIs of the SAP Authorization and Trust Management Service](https://help.sap.com/docs/btp/sap-business-technology-platform/accessing-administration-using-apis-of-sap-authorization-and-trust-management-service?version=Cloud).
+Create an OAuth client and obtain an access token to call the SAP Task Center API methods. For more information, see [Accessing Administration Using APIs of the SAP Authorization and Trust Management Service](https://help.sap.com/docs/btp/sap-business-technology-platform/accessing-administration-using-apis-of-sap-authorization-and-trust-management-service).
+
+In some cases, applications may need to propagate principals or have technical communication arrangements between them. The SAP Task Center API can be consumed directly through SAP Cloud Identity Services - Identity Authentication. For more information, see [Access the SAP Task Center API Using Identity Authentication](access-the-sap-task-center-api-using-identity-authentication-c45c4c3.md) and [Integrating Applications](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/integrating-applications).
 
 
 
@@ -53,4 +55,6 @@ To ensure optimal operation of the service, REST API execution is subject to res
 [Get the Service Host](get-the-service-host-4e38c03.md "The base URL of the SAP Task Center service is available from the endpoints.inbox_rest_url configuration parameter of the service key or of the service binding, depending on your application type.")
 
 [Access the SAP Task Center API Using OAuth 2.0 Authentication \(Authorization Code Grant\)](access-the-sap-task-center-api-using-oauth-2-0-authentication-authorization-code-grant-29928a7.md "This procedure illustrates how to call SAP Task Center APIs using OAuth 2.0 authentication using an example walk-through of the authorization code flow. It shows how several OAuth2 concepts are specifically applied to SAP Task Center, and which configuration parameters are used.")
+
+[Access the SAP Task Center API Using Identity Authentication](access-the-sap-task-center-api-using-identity-authentication-c45c4c3.md "Access the SAP Task Center API by utilizing direct authentication via SAP Cloud Identity Services - Identity Authentication.")
 

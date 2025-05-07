@@ -6,13 +6,13 @@ Once you create a destination configuration to connect SAP Task Center to a task
 
 
 
-For this new configuration, SAP Task Center creates the following background connector job types:
+For this new configuration, SAP Task Center creates the following background connector job types or mechanisms:
 
 -   *INITIAL* is the initial pull job. It runs for newly created connector destinations and retrieves all tasks, created or updated in the past days, corresponding to the maximum initial pull period, for the specified connector. One connector status record is saved in the status history of this job type. For more information about the maximum initial pull period, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md).
 -   *CONFIG* is a connector configuration job. It is used to adapt to changes of connector destination properties. It pulls the configured destinations every minute and saves a history of the last 10 connector status records.
 -   *DELTA* is a delta pull job. It retrieves the latest task updates every 30 seconds \(the interval may vary\). It saves a history of the last 30 connector status records.
 -   *META* is a meta data pull job. It retrieves the task definitions once a day. It saves a history of the last 5 connector status records.
--   *PUSH* is a job, which retrieves the latest task updates pushed to SAP Task Center every 5 seconds. It saves a history if the last 30 connector status records.
+-   *PUSH* is a mechanism, used to receive the latest task updates in SAP Task Center, which are pushed to by the task providers. It saves a history if the last 30 connector status records.
 
 Each background job can have the following statuses: *OK*, *WARNING*, *RUNNING*, or *ERROR*.
 

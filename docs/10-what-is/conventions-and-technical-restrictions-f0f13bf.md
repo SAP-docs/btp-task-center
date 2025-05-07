@@ -22,7 +22,7 @@ Considering this information during development helps you achieve optimal use of
 
 -   For every enabled connector \(with the property `tc.enabled = true`\), after the initial pull has passed, the task cache is updated with the recently created, modified, or completed tasks as follows:
 
-    -   If the `tc.clientId` property is set up for the enabled connector, then the task cache is updated every 5 seconds.
+    -   If the `tc.clientId` property is set up for the enabled connector, then the task cache is updated upon received information by the task providers.
 
     -   If the `tc.clientId` property is not set up for the enabled connector, then the task cache is updated every 30 seconds \(the interval may vary\).
 
