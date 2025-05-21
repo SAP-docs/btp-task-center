@@ -130,7 +130,7 @@ Users are allowed to use for free up to 20 tasks \(2 blocks of 10 records\) stor
 
 Availabe with SAP-BUILD subscription only.
 
-The SAP Task Center *Build default* plan enables the integration of SAP Task Center with all supported SAP cloud, SAP S/4HANA on-premise, and third-party task providers.
+The SAP Task Center *Build Default* plan enables the integration of SAP Task Center with all supported SAP cloud, SAP S/4HANA on-premise, and third-party task providers.
 
 This service plan must be used with SAP Build Work Zone, standard edition; SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone service plans. For more information, see [SAP Build Work Zone, standard edition - Service Plans and Metering](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/commercial-models-and-metering) and [SAP Build Work Zone, advanced edition - Service Plans and Metering](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/commercial-models-and-metering).
 
@@ -232,7 +232,7 @@ For the Cloud Service, a record is a line-item in the input to the reconciliatio
 </tr>
 </table>
 
-Records with the service plan *All Tasks* are tasks, stored in the SAP Task Center task cache and are counted only for users who have used SAP Task Center at least once in the past 30 days. This defines the number of active SAP Task Center users.
+Records with the service plan *All Tasks* are tasks, stored in the SAP Task Center task cache and are counted only for users who have used SAP Task Center at least once in the past 30 days. This defines the number of active SAP Task Center users. This count includes tasks in both the SAP Task Center *Inbox* and *Outbox*.
 
 Please keep in mind that the tasks are kept in the SAP Task Center task cache for 180 days \(retention period\).
 
@@ -248,8 +248,9 @@ Please keep in mind that the tasks are kept in the SAP Task Center task cache fo
 
 You can have multiple instances of SAP Task Center in the same sub account with different service plans, but only one active service plan. The active service plan for a subaccount is:
 
--   `all-tasks`, if there is at least one SAP Task Center instance with the `all-tasks` service plan.
--   `cloud-only-tasks`, if there is no instance with the `all-tasks` service plan and at least one instance with the `cloud-only-tasks` plan service.
+-   `build-default`, if there is at least one SAP Task Center instance with the `build-default` service plan.
+-   `all-tasks`, if there is no instance with the `build-default` service plan and at least one instance with the `all-tasks` service plan.
+-   `cloud-only-tasks`, if there is no instance with the `build-default` or `all-tasks` service plan, and at least one instance with the `cloud-only-tasks` service plan.
 -   `standard`, if all instances are only with plan `standard`.
 
 
@@ -280,6 +281,56 @@ You can have multiple instances of SAP Task Center in the same sub account with 
 > -   `all-tasks`
 > 
 > The effective service plan is `all-tasks`. Cloud, on-premise, and third-party tasks are allowed.
+
+> ### Example:  
+> **Example 4:** You have a subaccount which contains SAP Task Center instances with the following plans:
+> 
+> -   `build-default`
+> -   `all-tasks`
+> 
+> The effective service plan is `build-default`. Cloud, on-premise, and third-party tasks are allowed.
+
+
+
+<a name="loio7b6b6898251f449a978fffdb27cc5e50__section_avt_bvp_hfc"/>
+
+## Migrating to a Different SAP Task Center Service Plan
+
+If you're planning to switch from one SAP Task Center service plan to another, here's what you need to know:
+
+
+
+### Service Plans Ranking
+
+SAP Task Center offers the following service plans, which are ordered by priority:
+
+1.  `build-default`
+2.  `all-tasks`
+3.  `cloud-only-tasks`
+4.  `standard`
+
+This ranking means that if your subaccount has multiple service instances with different service plans, the service instance with the highest-ranking plan in the list is the active one. For example, if you have a `build-default` plan, it takes priority over the other service plans.
+
+In the case of multiple SAP Task Center instances in a single subaccount, only the instance with the highest-ranking plan will be active, but configuration from non-active service instances might still be used by SAP Task Center.
+
+
+
+### How to Migrate to Another Service Plan
+
+If you want to migrate from one SAP Task Center service plan to another, you must have in mind the service plans ranking.
+
+To migrate from a lower-ranking to a higher-ranking service plan \(for example, from `standard` to `all-tasks`, proceed as follows:
+
+1.  Navigate to your Cloud Foundry subaccount which contains an instance of the SAP Task Center lower-ranking service plan \(for example, `standard`\).
+2.  In the same subaccount create a new service instance with the higher-ranking service plan \(for example, `all-tasks`\).
+
+    For more information on how to create a new service instance, see [Create a Service Instance Using the SAP BTP Cockpit](../30-initial-setup/create-a-service-instance-using-the-sap-btp-cockpit-dc9af9f.md).
+
+
+If you need support to migrate from a higher-ranking to a lower-ranking service plan \(for example, from `all-tasks` to `cloud-only-tasks`\), create a ticket to the SAP Task Center component as described in [Troubleshooting](../80-troubleshooting/troubleshooting-89c09a4.md).
+
+> ### Caution:  
+> Removal of existing service instances on which you have set up SAP Task Center might lead to loss of data or SAP Task Center configurations.
 
 
 

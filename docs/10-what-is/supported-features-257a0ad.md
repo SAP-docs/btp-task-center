@@ -231,7 +231,7 @@ For End Users
 </td>
 <td valign="top">
 
- 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">

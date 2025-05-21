@@ -87,6 +87,136 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Service Plan Migration Guide Available
+
+</td>
+<td valign="top">
+
+To learn how to migrate between SAP Task Center service plans, follow the migration guide at [Service Plans and Metering](../10-what-is/service-plans-and-metering-7b6b689.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-05-21
+
+</td>
+<td valign="top">
+
+2025-05-21
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Substitution Management for End-Users Available for SAP Build Process Automation 
+
+</td>
+<td valign="top">
+
+You can now create substitution rules for your SAP Build Process Automation tasks.
+
+For more information, see [Substitution Management](https://help.sap.com/docs/task-center/sap-task-center-internal2/substitution-management?state=DRAFT).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-05-21
+
+</td>
+<td valign="top">
+
+2025-05-21
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New Commercial Plan `build-default` Available for SAP Task Center 
 
 </td>
