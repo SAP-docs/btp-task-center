@@ -44,21 +44,22 @@ The service instance of the SAP Task Center scales dynamically according to usag
     cf marketplace
     ```
 
-    You can see a service named SAP Task Center with a plan named *standard*.
+    You should be able to see the SAP Task Center service with the service plans you are entitled to use. For more information on the service plans, see [Service Plans and Metering](../10-what-is/service-plans-and-metering-7b6b689.md).
 
 2.  Create a service instance of the SAP Task Center:
 
-    ```
-    cf create-service one-inbox-service standard <inbox_instance>
-    ```
+    > ### Example:  
+    > ```
+    > cf create-service one-inbox-service all-tasks inbox_instance
+    > ```
 
     Specify the following parameters:
 
-    -   `SERVICE`: The name of the service that you want to create an instance of. In the example above: `inbox`.
+    -   `SERVICE`: The name of the service that you want to create an instance of. In the example above: `one-inbox-service`
 
-    -   `PLAN`: The name of the service plan that you want to use. In the example above: `standard`.
+    -   `PLAN`: The name of the service plan that you want to use. In the example above: `all-tasks`
 
-    -   `SERVICE_INSTANCE`: The new name for your service instance. Use only alphanumeric characters, hyphens, and underscores. In the example above: `inbox_instance`.
+    -   `SERVICE_INSTANCE`: The new name for your service instance. Use only alphanumeric characters, hyphens, and underscores. In the example above: `inbox_instance`
 
 
 

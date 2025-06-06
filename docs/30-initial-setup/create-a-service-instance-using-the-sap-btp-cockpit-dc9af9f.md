@@ -35,21 +35,11 @@ The service instance of SAP Task Center scales dynamically according to usage; c
 
 5.  In the wizard, make sure that the service is set to *SAP Task Center*, choose a service plan \(*all-tasks* service plan is recommended\), then enter a name for the instance, and choose *Next*.
 
-6.  Add the following JSON parameters and choose *Next*.
-
-    > ### Sample Code:  
-    > ```
-    > {
-    > 	"authorities": [],
-    >     "defaultCollectionQueryFilter": "own"
-    > }
-    > ```
-
-7.  Check the overview, and then choose *Create*.
+6.  Check the overview, and then choose *Create*.
 
     The new instance appears on the *Instances* page after a short while.
 
-8.  \(Optional\) Create a service key for the service instance.
+7.  \(Optional\) Create a service key for the service instance.
 
     You need a service key if you want to call the service API standalone without a UI, for example, from Postman.
 

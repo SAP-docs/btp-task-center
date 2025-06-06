@@ -162,7 +162,7 @@ Users are allowed to use for free up to 20 tasks \(2 blocks of 10 records\) stor
 </td>
 <td valign="top">
 
-This service plan is scheduled to be removed from the list of Eligible Cloud Services as of November 15. It will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *Standard* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
+This service plan is scheduled to be removed from the list of Eligible Cloud Services as of November 15, 2025. It will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *Standard* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ This service plan is scheduled to be removed from the list of Eligible Cloud Ser
 </td>
 <td valign="top">
 
-This service plan is scheduled to be removed from the list of Eligible Cloud Services as of November 15. It will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *On-Premise and Third-Party* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
+This service plan is scheduled to be removed from the list of Eligible Cloud Services as of November 15, 2025. It will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *On-Premise and Third-Party* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
 
 </td>
 </tr>
@@ -319,10 +319,11 @@ In the case of multiple SAP Task Center instances in a single subaccount, only t
 
 If you want to migrate from one SAP Task Center service plan to another, you must have in mind the service plans ranking.
 
-To migrate from a lower-ranking to a higher-ranking service plan \(for example, from `standard` to `all-tasks`, proceed as follows:
+To migrate from a lower-ranking to a higher-ranking service plan \(for example, from `standard` to `all-tasks`\), proceed as follows:
 
-1.  Navigate to your Cloud Foundry subaccount which contains an instance of the SAP Task Center lower-ranking service plan \(for example, `standard`\).
-2.  In the same subaccount create a new service instance with the higher-ranking service plan \(for example, `all-tasks`\).
+1.  Make sure that your subaccount is entitled to use SAP Task Center with the chosen higher-ranking service plan. For more information, see [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts).
+2.  Navigate to your Cloud Foundry subaccount which contains an instance of the SAP Task Center lower-ranking service plan \(for example, `standard`\).
+3.  In the same subaccount create a new service instance with the higher-ranking service plan \(for example, `all-tasks`\).
 
     For more information on how to create a new service instance, see [Create a Service Instance Using the SAP BTP Cockpit](../30-initial-setup/create-a-service-instance-using-the-sap-btp-cockpit-dc9af9f.md).
 

@@ -79,10 +79,10 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Configure a destination name. It can be up to 16 characters long.
+    Configure a destination name. It can be up to 64 characters long.
 
     > ### Note:  
-    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
+    > The name of the destination must not be longer than 64 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
 
 
     
@@ -482,17 +482,17 @@ Find information about the destination configuration that needs to be done for S
     
 4.  Save your configuration.
 
-5.  Your SAP S/4HANA Cloud Private Edition destination will be initially in *Error* state. To get it enabled, open a ticket through the [SAP Support Portal](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fsupport.sap.com%2F), using the **LOD-BPM-INB** component. Use "SAP S/4HANA Cloud, Private Edition Verification" as subject of the ticket, asking the SAP colleagues to enable your destination and provide the following information:
+5.  Check for the status of the destination in the Task Center Administration app.
 
-    -   name of the destination you just created
+    -   If the destination is in state *OK*, then it is ready to be used and you can continue with the next step.
+    -   If the destination is in state *Error*, and you are using the `cloud-only-tasks` or `standard` service plans, then open a ticket through the [SAP Support Portal](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fsupport.sap.com%2F) to get it enabled. Use the **LOD-BPM-INB** component and "SAP S/4HANA Cloud, Private Edition Verification" as subject of the ticket, asking the SAP colleagues to enable your destination. Provide the following information:
+        -   name of the destination you just created
 
-    -   your subaccount tenant ID
+        -   your subaccount tenant ID
 
-    -   the region, where your SAP Task Center is hosted \(for example, `eu10`, `ap10`\). You can find the region as part of the *API Endpoint* on the *Overview* page of your subaccount in the SAP BTP cockpit. For more information about regions, see [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-and-api-endpoints-available-for-cloud-foundry-environment?version=Cloud).
+        -   the region, where your SAP Task Center is hosted \(for example, `eu10`, `ap10`\). You can find the region as part of the *API Endpoint* on the *Overview* page of your subaccount in the SAP BTP cockpit. For more information about regions, see [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-and-api-endpoints-available-for-cloud-foundry-environment?version=Cloud).
 
 
-    > ### Note:  
-    > If you have set up SAP Task Center with the `all-tasks` service plan or the `build-default` service plan, this verification is done automatically. The SAP S/4HANA Cloud Private Edition destination should already be enabled and you can skip this step.
 
 6.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP S/4HANA Cloud Private Edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
