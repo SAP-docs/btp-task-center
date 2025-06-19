@@ -87,6 +87,70 @@ SAP Task Center
 </td>
 <td valign="top">
 
+SAP Field Service Management Supported as Task Provider
+
+</td>
+<td valign="top">
+
+You can now connect SAP Field Service Management as task provider to SAP Task Center. For more information, see [Connect SAP Field Service Management and SAP Task Center](../40-administration/connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-06-18
+
+</td>
+<td valign="top">
+
+2025-06-18
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Service Plan Migration Guide Available
 
 </td>

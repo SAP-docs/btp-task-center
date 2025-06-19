@@ -50,7 +50,7 @@ Considering this information during development helps you achieve optimal use of
 
 -   From all supported languages \(see [Supported Languages](supported-languages-c66c693.md)\), SAP Task Center supports simultaneously up to three language translations for tasks and definitions, which are stored in the SAP Task Center service cache. For more information, see [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
 
--   SAP Task Center supports only substitutions created using SAP Task Center Substitution Management \(see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md)\). The SAP Task Center integration does not support substitutions created in the supported task providers. If there are substitutions or delegates, defined in any of the supported SAP or third-party solutions, they will not work with SAP Task Center.
+-   SAP Task Center supports only substitutions created using SAP Task Center Substitution Management \(see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md)\). The SAP Task Center integration does not support substitutions created in the supported task providers, except for those created in SAP Build Process Automation. If there are substitutions or delegates, defined in any of the supported SAP or third-party solutions, they will not work with SAP Task Center.
 
 -   Searching, filtering, and sorting by the *Created By* column is not possible.
 
@@ -73,5 +73,13 @@ Considering this information during development helps you achieve optimal use of
     Example:
 
     A task is assigned to 104 users and 125 user groups. This task will be received by the first 100 users and 100 user groups in each list.
+
+-   A task can have multiple recipients but only one single processor. A user is the processor of a task if:
+
+    -   the user is assigned as the single recipient of the task, or
+    -   the task is assigned to multiple users as task recipients. One of those recipient users claims the task and becomes its processor. For more information on how to claim a task, see [Working with the Task List](../70-using-the-web-app/working-with-the-task-list-fe4a8b3.md).
+
+        When a task has a processor, it is visible only in the inbox of its processor. None of the other recipients are able to see the task in their inbox.
+
 
 

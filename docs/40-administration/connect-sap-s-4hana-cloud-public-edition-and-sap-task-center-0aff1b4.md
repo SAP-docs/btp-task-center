@@ -81,10 +81,10 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Configure a destination name. It can be up to 16 characters long.
+    Configure a destination name. It can be up to 64 characters long.
 
     > ### Note:  
-    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
+    > The name of the destination must not be longer than 64 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
 
 
     
@@ -715,10 +715,10 @@ Find information about the destination configuration that needs to be done for S
     </td>
     <td valign="top">
     
-    Configure a destination name. It can be up to 16 characters long.
+    Configure a destination name. It can be up to 64 characters long.
 
     > ### Note:  
-    > The name of the destination must not be longer than 16 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
+    > The name of the destination must not be longer than 64 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
 
 
     

@@ -485,7 +485,7 @@ Find information about the destination configuration that needs to be done for S
 5.  Check for the status of the destination in the Task Center Administration app.
 
     -   If the destination is in state *OK*, then it is ready to be used and you can continue with the next step.
-    -   If the destination is in state *Error*, and you are using the `cloud-only-tasks` or `standard` service plans, then open a ticket through the [SAP Support Portal](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fsupport.sap.com%2F) to get it enabled. Use the **LOD-BPM-INB** component and "SAP S/4HANA Cloud, Private Edition Verification" as subject of the ticket, asking the SAP colleagues to enable your destination. Provide the following information:
+    -   If the destination is in state *Error* with the following error message: "To enable the SAP S/4HANA Cloud, private edition connector for the \[destination name\] destination, you must have created a ticket as per the SAP Task Center documentation.", and you are using the `cloud-only-tasks` or `standard` service plans, then open a ticket through the [SAP Support Portal](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fsupport.sap.com%2F) to get it enabled. Use the **LOD-BPM-INB** component and "SAP S/4HANA Cloud, Private Edition Verification" as subject of the ticket, asking the SAP colleagues to enable your destination. Provide the following information:
         -   name of the destination you just created
 
         -   your subaccount tenant ID

@@ -21,6 +21,8 @@ Set up the destinations to the task providers.
 
 -   To configure SAP Task Center to work with SAP Fieldglass, see [Connect SAP Fieldglass and SAP Task Center](connect-sap-fieldglass-and-sap-task-center-9367f0d.md).
 
+-   To configure SAP Task Center to work with SAP Field Service Management, see [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+
 -   To configure SAP Task Center to work with SAP Marketing Cloud, see [Connect SAP Marketing Cloud and SAP Task Center](connect-sap-marketing-cloud-and-sap-task-center-18b3848.md).
 
 -   To configure SAP Task Center to work with SAP S/4HANA, see [Connect SAP S/4HANA and SAP Task Center](connect-sap-s-4hana-and-sap-task-center-143af9b.md).

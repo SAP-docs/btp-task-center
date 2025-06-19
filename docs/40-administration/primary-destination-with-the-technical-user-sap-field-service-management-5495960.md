@@ -1,47 +1,26 @@
-<!-- loiof07f3103d40447d6bfbb0ae0b7920f6a -->
+<!-- loio54959605631841b0a47e14225cdc1f16 -->
 
-# Connect SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone and SAP Task Center
-
-Find information about the destination configuration that needs to be done for SAP Task Center in order to work with tasks from SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone instances in the same \(local\) subaccount as the SAP Task Center instance on SAP BTP, Cloud Foundry environment.
+# Primary Destination with the Technical User \(SAP Field Service Management\)
 
 
+
+<a name="loio54959605631841b0a47e14225cdc1f16__prereq_r2r_3ls_dnb"/>
 
 ## Prerequisites
 
--   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP BTP Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-btp-integration-scenario).
-
--   You must have performed the steps in [Integration with SAP Task Center](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/integration-with-sap-task-center). You need the following parameters for the setup of this destinations:
-
-    -   *API Endpoint*
-    -   *Audience*
-    -   *Client Key*
-    -   *Token Service URL*
-    -   *Token Service User*
-    -   *Token Service Password*
+-   You have completed the prerequisites section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md) and have the values of the listed parameters.
 
 
 
-
-<a name="loiof07f3103d40447d6bfbb0ae0b7920f6a__context_b2g_cr4_hyb"/>
-
-## Context
-
-The setup listed in the procedure is valid for both SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone.
-
-Please note that you can set up the connection either to SAP Build Work Zone, advanced edition or to SAP SuccessFactors Work Zone. You cannot have both task providers in the same subaccount.
-
-> ### Note:  
-> Do not configure more than one destination to the same SAP Build Work Zone, advanced edition system for one SAP Task Center. This will result in having duplicate tasks for end users.
-
-
-
-<a name="loiof07f3103d40447d6bfbb0ae0b7920f6a__steps_tq2_qs2_tpb"/>
 
 ## Procedure
 
-1.  Navigate to the Cloud Foundry subaccount where your SAP Task Center instance was created, and select the *Connectivity* \> *Destinations* tab from the navigation area.
+1.  In the SAP BTP cockpit, create and configure an *OAuth2ClientCredentials* destination:
 
-2.  Create a new destination and manually add the properties as described in the table:
+    1.  Navigate to the Cloud Foundry subaccount where your SAP Task Center instance was created, and select *Connectivity* \> *Destinations* from the navigation area on the left.
+
+    2.  Create a new destination and manually add the properties as follows:
+
 
 
     <table>
@@ -70,13 +49,14 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     </td>
     <td valign="top">
     
-    The destination name can be up to 64 characters.
+    The destination name can have up to 64 characters.
 
     > ### Note:  
-    > The name of the destination must not be longer than 64 characters, as otherwise, the status of the respective SAP Task Center connector will be set to `Error`.
-
-    > ### Note:  
-    > If you change the *name* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
+    > -   The name of the destination must not be longer than 64 characters, otherwise the status of the respective SAP Task Center connector will be set to `Error`.
+    > 
+    > -   If you change the *name* of an already configured destination, for which there are stored tasks in the `Task Cache`, the tasks in it will be repopulated.
+    > 
+    > -   If you change this destination name, you should also update the destination name for the principal propagation.
 
 
     
@@ -85,7 +65,7 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     
     **Example**:
 
-    `WorkZone`
+    `FSM`
     
     </td>
     </tr>
@@ -131,10 +111,10 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     </td>
     <td valign="top">
     
-    Add the *API endpoint* value from the *Prerequisites* section and append `/api/v2` to the URL.
+    Add the value of *FSM cluster url* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
 
     > ### Note:  
-    > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
+    > If you change the *URL* of an already configured destination, for which there are stored tasks in the `Task Cache`, the tasks in it will be repopulated.
 
 
     
@@ -143,14 +123,14 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     
     **Example**:
 
-    `https://sample.workzone.ondemand.com/api/v2`
+    `https://eu.fsm.cloud.sap/cloud-approval-service/api`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *Proxy type*
+    *Proxy Type*
     
     </td>
     <td valign="top">
@@ -172,7 +152,7 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     </td>
     <td valign="top">
     
-    Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
+    Choose the *OAuth2ClientCredentials* option from the dropdown menu.
     
     </td>
     <td valign="top">
@@ -184,57 +164,34 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     <tr>
     <td valign="top">
     
-    *Audience*
+    *Client ID*
     
     </td>
     <td valign="top">
     
-    Add the *Audience* value from the *Prerequisites* section.
+    Add the value of *Client ID* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
     
-    **Example**:
-
-    `https://sample.workzone.ondemand.com/`
+     
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *AuthnContextClassRef*
+    *Client Secret*
     
     </td>
     <td valign="top">
     
-    Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
+    Add the value of *Client Secret* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
     
-    **Value**:
-
-    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Client Key*
-    
-    </td>
-    <td valign="top">
-    
-    Add the *Client Key* value from the *Prerequisites* section.
-    
-    </td>
-    <td valign="top">
-    
-    **Example**:
-
-    `AWtZNx9LX8vxeQ4Ui9DS`
+     
     
     </td>
     </tr>
@@ -263,14 +220,16 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     </td>
     <td valign="top">
     
-    Add the *Token Service URL* value from the *Prerequisites* section.
+    Create the *Token Service URL* value from the *FSM cluster url*, following the pattern:
+
+    `https://{cluster}.fsm.cloud.sap/api/oauth2/v2/token`
     
     </td>
     <td valign="top">
     
     **Example**:
 
-    `https://sample.workzone.ondemand.com/api/v2/auth/token`
+    `https://eu.fsm.cloud.sap/api/oauth2/v2/token`
     
     </td>
     </tr>
@@ -282,14 +241,12 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     </td>
     <td valign="top">
     
-    Add the *Token Service User* value from the *Prerequisites* section.
+    Add the value of *Client ID* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
     
-    **Example**:
 
-    `AWtZNx9LX8vxeQ4Ui9DS`
     
     </td>
     </tr>
@@ -301,7 +258,7 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     </td>
     <td valign="top">
     
-    Add the *Token Service Password* value from the *Prerequisites* section.
+    Add the value of *Client Secret* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
@@ -312,7 +269,7 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     </tr>
     </table>
     
-3.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
+2.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
 
 
     <table>
@@ -336,31 +293,15 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     <tr>
     <td valign="top">
     
-    *nameIdFormat*
-    
-    </td>
-    <td valign="top">
-    
-    Indicates the SAML name identifier formats supported by the Single Sign-On service.
-    
-    </td>
-    <td valign="top">
-    
-    **Value**:
-
-    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
     *tc.enabled*
     
     </td>
     <td valign="top">
     
     Enables SAP Task Center to connect to the configured task provider destination.
+
+    > ### Caution:  
+    > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
 
     > ### Note:  
     > Any value other than `true` \(for example `false`\) would have the following effects:
@@ -416,7 +357,7 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     </td>
     <td valign="top">
     
-    \(Optional\) Enable this property to turn on the notifications for end users.
+    \(Optional\) Enable this property to turn on the notifications for end users, sent by SAP Alert Notification service for SAP BTP.
 
     Accepted values are `true` and `false`.
 
@@ -451,7 +392,7 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     
     **Value**:
 
-    `WorkZone`
+    `FSM`
     
     </td>
     </tr>
@@ -485,7 +426,7 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     
     **Example**:
 
-    `SAP Build Work Zone, advanced edition`
+    `SAP Field Service Management`
     
     </td>
     </tr>
@@ -519,58 +460,98 @@ Please note that you can set up the connection either to SAP Build Work Zone, ad
     
     **Example for *tc.ui.label***:
 
-    `SAP Build Work Zone, advanced edition Task`
+    `SAP Field Service Management Task`
 
     **Example for *tc.ui.label.de-DE***:
 
-    `SAP Build Work Zone, advanced edition Aufgabe`
+    `SAP Field Service Management Aufgabe`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *tokenServiceURL.headers.authAttribute*
+    *URL.headers.X-Account-ID*
     
     </td>
     <td valign="top">
     
-    The value of this property is needed during token retrieval.
+    Add the value of *FSM account ID* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
     
-    **Value**:
+    **Example**:
 
-    `user_uuid`
+    654321
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *userIdSource*
+    *URL.headers.X-Client-Id*
     
     </td>
     <td valign="top">
     
-    Provides information about the `userIdSource`to SAP Cloud Identity Services - Identity Authentication.
+    Add `sap-task-center` as value.
     
     </td>
     <td valign="top">
     
     **Value**:
 
-    `user_uuid`
+    `sap-task-center`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL.headers.X-Client-Version*
+    
+    </td>
+    <td valign="top">
+    
+    Add `1.0` as value.
+    
+    </td>
+    <td valign="top">
+    
+    **Value**:
+
+    1.0
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL.headers.X-Company-ID*
+    
+    </td>
+    <td valign="top">
+    
+    Add the value of *FSM company ID* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    123456
     
     </td>
     </tr>
     </table>
     
+3.  Select the *Use default JDK truststore* checkbox.
+
 4.  Choose *Save*.
 
-5.  \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Build Work Zone, advanced edition, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
+5.  \(Optional\) To check the connectivity between the SAP Task Center service and SAP Field Service Management, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
-    If you choose *Check Connection* in the destination configuration, you may not receive the correct information about the connectivity between the SAP Task Center service and SAP Build Work Zone, advanced edition.
+    If you choose *Check Connection* in the destination configuration, you may not receive correct information about the connectivity between the SAP Task Center service and SAP Field Service Management.
 
 

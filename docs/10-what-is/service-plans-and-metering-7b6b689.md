@@ -246,7 +246,7 @@ Please keep in mind that the tasks are kept in the SAP Task Center task cache fo
 
 ### Formula
 
-You can have multiple instances of SAP Task Center in the same sub account with different service plans, but only one active service plan. The active service plan for a subaccount is:
+You can have multiple instances of SAP Task Center in the same subaccount with different service plans, but only one active service plan. The active service plan for a subaccount is:
 
 -   `build-default`, if there is at least one SAP Task Center instance with the `build-default` service plan.
 -   `all-tasks`, if there is no instance with the `build-default` service plan and at least one instance with the `all-tasks` service plan.

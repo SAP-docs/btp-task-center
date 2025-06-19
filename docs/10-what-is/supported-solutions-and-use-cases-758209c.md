@@ -113,6 +113,18 @@ See [Supported Use Cases](https://help.sap.com/docs/SAP_FIELDGLASS_INTEGRATION/7
 <tr>
 <td valign="top">
 
+SAP Field Service Management
+
+</td>
+<td valign="top">
+
+See [Supported Scenarios and Use Cases for SAP Task Center Integration](https://help.sap.com/docs/SAP_FIELD_SERVICE_MANAGEMENT/fsm_integration/task-center-integr-supported-scenarios-use-cases.html).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Marketing Cloud
 
 </td>

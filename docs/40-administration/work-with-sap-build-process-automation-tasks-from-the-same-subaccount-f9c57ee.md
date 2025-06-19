@@ -52,10 +52,10 @@ Follow the described procedure to complete the setup and receive tasks from an S
     </td>
     <td valign="top">
     
-    The destination name can be up to 16 characters.
+    The destination name can be up to 64 characters.
 
     > ### Note:  
-    > The name of the destination must not be longer than 16 characters, as otherwise, the status of the respective SAP Task Center connector will be set to `Error`.
+    > The name of the destination must not be longer than 64 characters, as otherwise, the status of the respective SAP Task Center connector will be set to `Error`.
 
     > ### Note:  
     > If you change the *name* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
