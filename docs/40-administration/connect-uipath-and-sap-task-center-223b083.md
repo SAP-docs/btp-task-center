@@ -12,14 +12,13 @@ Find information about the destination configuration that needs to be done for S
 
 -   You have completed the initial setup of SAP Task Center. Make sure you have followed the [Third-Party Scenarios](https://help.sap.com/docs/cloud-identity/system-integration-guide/third-party-integration).
 
--   You have completed the steps described in the document [Connecting SAP Task Center to UiPath Action Center](https://docs.uipath.com/automation-cloud/automation-cloud/latest/sap/configuring-the-connection) to enable the functionality in UiPath and you have the values of the following properties:
+-   You have completed the steps described in the document [Connecting SAP Task Center to UiPath Action Center](https://docs.uipath.com/automation-cloud/automation-cloud/latest/sap/configuring-the-connection#enabling-the-push-of-task-updates) to enable the functionality in UiPath and you have the values of the following properties:
 
-    -   *Task SPI Details URL*
-    -   *Task SPI Details - URL.headers.ServiceUrl*
-    -   *Access Token - Client ID*
-    -   *Access Token - Client Secret*
-    -   *Access Token - Token Service URL*
-    -   *Access Token - Arc Values*
+    -   *Task SPI*
+    -   *Client Id*
+    -   *Client Secret*
+    -   *Token Service URL*
+    -   *URL.headers.ServiceUrl*
 
 
 > ### Note:  
@@ -31,9 +30,18 @@ SAP Task Center supports translatable properties of tasks and task definitions f
 
 ## Procedure
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> ***Destinations* tab from the navigation area.
+1.  Create a new service instance to enable task updates to be pushed from UiPath. Follow the steps in [Create a Service Instance Using the SAP BTP Cockpit](../30-initial-setup/create-a-service-instance-using-the-sap-btp-cockpit-dc9af9f.md) and create a service key for the service instance. Open the JSON file of the service key and get the following values:
 
-2.  Create a new destination and manually add the properties as described in the following table.
+    -   *endpoints* \> *inbox\_rest\_url*
+    -   *uaa* \> *url*
+    -   *uaa* \> *clientid*
+    -   *uaa* \> *clientsecret*
+
+2.  Follow the steps described in [Connecting SAP Task Center to UiPath Action Center](https://docs.uipath.com/automation-cloud/automation-cloud/latest/sap/configuring-the-connection#enabling-the-push-of-task-updates) to enable task updates to be pushed from UiPath.
+
+3.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> ***Destinations* tab from the navigation area.
+
+4.  Create a new destination and manually add the properties as described in the following table.
 
 
     <table>
@@ -123,7 +131,7 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     </td>
     <td valign="top">
     
-    Add the *Task SPI Details URL* from the *Prerequisites* section.
+    Add the *Task SPI* from the *Prerequisites* section.
 
     > ### Note:  
     > If you change the *URL* of an already configured destination, for which there are stored tasks in the `Task Cache`, the tasks in it will be repopulated.
@@ -181,12 +189,12 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     </td>
     <td valign="top">
     
-    Add the value of the *Access Token - Client ID* property from the *Prerequisites* section.
+    Add the value of the *Client Id* property from the *Prerequisites* section.
     
     </td>
     <td valign="top">
     
-    **Value** of *Access Token - Client ID*
+    **Value** of *Client Id*
     
     </td>
     </tr>
@@ -198,12 +206,12 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     </td>
     <td valign="top">
     
-    Add the value of the *Access Token - Client Secret* property from the *Prerequisites* section.
+    Add the value of the *Client Secret* property from the *Prerequisites* section.
     
     </td>
     <td valign="top">
     
-    **Value** of *Access Token - Client Secret*
+    **Value** of *Client Secret*
     
     </td>
     </tr>
@@ -215,7 +223,7 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     </td>
     <td valign="top">
     
-    Add the *Access Token - Token Service URL* from the *Prerequisites* section.
+    Add the *Token Service URL* from the *Prerequisites* section.
     
     </td>
     <td valign="top">
@@ -234,12 +242,12 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     </td>
     <td valign="top">
     
-    Add the *Access Token - Client ID* value from the *Prerequisites* section.
+    Add the *Client Id* value from the *Prerequisites* section.
     
     </td>
     <td valign="top">
     
-    **Value** of *Access Token - Client ID*
+    **Value** of *Client Id*
     
     </td>
     </tr>
@@ -251,18 +259,18 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     </td>
     <td valign="top">
     
-    Add the *Access Token - Client Secret* value from the *Prerequisites* section.
+    Add the *Client Secret* value from the *Prerequisites* section.
     
     </td>
     <td valign="top">
     
-    **Value** of *Access Token - Client Secret*
+    **Value** of *Client Secret*
     
     </td>
     </tr>
     </table>
     
-3.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
+5.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
 
 
     <table>
@@ -282,6 +290,30 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     Example or Value
     
     </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.clientId*
+    
+    </td>
+    <td valign="top">
+    
+    This property is used to enable task updates to be pushed from UiPath.
+
+    The value of this property is the value of the *uaa* \> *clientid* from the service key of the new service instance \(see *Step 1*\).
+
+    > ### Note:  
+    > Set this property only when you have enabled task updates to be pushed from UiPath \(see *Step 2*\). If you haven't completed this step, you might not be able to receive tasks from UiPath.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Value** of *clientid*
+    
+    </td>
     </tr>
     <tr>
     <td valign="top">
@@ -464,25 +496,6 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     <tr>
     <td valign="top">
     
-    *tokenService.body.acr\_values*
-    
-    </td>
-    <td valign="top">
-    
-    Add the *Access Token - Arc Values* from the *Prerequisites* section.
-    
-    </td>
-    <td valign="top">
-    
-    **Example**:
-
-    tenant:12a12345-12a1-123a-1a1a-a12a12ab1234
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
     *tokenService.body.scope*
     
     </td>
@@ -495,7 +508,7 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     
     **Value**:
 
-    `OR.Tasks.Read`
+    `OR.Tasks`
     
     </td>
     </tr>
@@ -507,7 +520,7 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     </td>
     <td valign="top">
     
-    Add the *Task SPI Details - URL.headers.ServiceUrl* value from the *Prerequisites* section.
+    Add the *URL.headers.ServiceUrl* value from the *Prerequisites* section.
 
     This value is used when making calls to the *URL* in this destination.
     
@@ -522,11 +535,11 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     </tr>
     </table>
     
-4.  Select the *Use default JDK truststore* checkbox.
+6.  Select the *Use default JDK truststore* checkbox.
 
-5.  Choose *Save*.
+7.  Choose *Save*.
 
-6.  \(Optional\) To check the connectivity between the SAP Task Center service and UiPath, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](https://help.sap.com/docs/task-center/sap-task-center/monitoring).
+8.  \(Optional\) To check the connectivity between the SAP Task Center service and UiPath, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](https://help.sap.com/docs/task-center/sap-task-center/monitoring).
 
     If you choose *Check Connection* in the destination configuration, you may not receive correct information about the connectivity between the SAP Task Center service and UiPath.
 

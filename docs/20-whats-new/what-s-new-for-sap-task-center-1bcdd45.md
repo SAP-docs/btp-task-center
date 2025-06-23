@@ -87,6 +87,72 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Pushing UiPath Tasks Enabled
+
+</td>
+<td valign="top">
+
+You can now enable task updates to be pushed from UiPath. For more information, see step 1, 2, and the *tc.clientId* property in [Connect UiPath and SAP Task Center](../40-administration/connect-uipath-and-sap-task-center-223b083.md).
+
+End users can access tasks through the SAP Task Center Web app directly for review and approval of processed documents.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-06-23
+
+</td>
+<td valign="top">
+
+2025-06-23
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 SAP Field Service Management Supported as Task Provider
 
 </td>

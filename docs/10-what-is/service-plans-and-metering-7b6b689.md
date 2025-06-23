@@ -25,7 +25,7 @@ For more information, see [Commercial Models](https://help.sap.com/docs/btp/sap-
 
 ![](images/Subscriptions_STC_pptx_8f54345.png)
 
-\* For more information on the SAP Build `build-default` service plan, see [Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering).
+\* For more information on the SAP Build `build-default` service plan, see [SAP Build - Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering).
 
 
 
