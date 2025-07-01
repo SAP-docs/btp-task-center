@@ -20,7 +20,7 @@ Find information about the destination configuration that needs to be done for S
     -   `uaa > clientid`
     -   `uaa > clientsecret`
 
-    For more information, see [Determine Service Configuration Parametersuaa \> url](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/abd070bd5d5f4835b3d5b12d868531b6.html).
+    For more information, see [Determine Service Configuration Parameters](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/abd070bd5d5f4835b3d5b12d868531b6.html).
 
 
 

@@ -87,6 +87,134 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Extended Service Plan Migration Guide
+
+</td>
+<td valign="top">
+
+The service plan migration guide was extended with details on how to migrate to a lower-ranking service plan and additional steps you might need to consider when updating to another service plan. For more information, see [Migrating to a Different SAP Task Center Service Plan](https://help.sap.com/docs/task-center/sap-task-center/service-plans-and-metering?version=Cloud#migrating-to-a-different-sap-task-center-service-plan).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-07-01
+
+</td>
+<td valign="top">
+
+2025-07-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Deep Links Support for Completed Tasks
+
+</td>
+<td valign="top">
+
+You can now open completed tasks directly using deep links.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-07-01
+
+</td>
+<td valign="top">
+
+2025-07-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Pushing UiPath Tasks Enabled
 
 </td>

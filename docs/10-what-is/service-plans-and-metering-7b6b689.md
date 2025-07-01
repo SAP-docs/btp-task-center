@@ -1,5 +1,7 @@
 <!-- loio7b6b6898251f449a978fffdb27cc5e50 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Service Plans and Metering
 
 This page explains the relationship between the service plans in the SAP Discovery Center and those in the SAP BTP cockpit, and provides information to help you understand how SAP Task Center is billed.
@@ -319,19 +321,42 @@ In the case of multiple SAP Task Center instances in a single subaccount, only t
 
 If you want to migrate from one SAP Task Center service plan to another, you must have in mind the service plans ranking.
 
-To migrate from a lower-ranking to a higher-ranking service plan \(for example, from `standard` to `all-tasks`\), proceed as follows:
-
-1.  Make sure that your subaccount is entitled to use SAP Task Center with the chosen higher-ranking service plan. For more information, see [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts).
-2.  Navigate to your Cloud Foundry subaccount which contains an instance of the SAP Task Center lower-ranking service plan \(for example, `standard`\).
-3.  In the same subaccount create a new service instance with the higher-ranking service plan \(for example, `all-tasks`\).
-
-    For more information on how to create a new service instance, see [Create a Service Instance Using the SAP BTP Cockpit](../30-initial-setup/create-a-service-instance-using-the-sap-btp-cockpit-dc9af9f.md).
-
-
-If you need support to migrate from a higher-ranking to a lower-ranking service plan \(for example, from `all-tasks` to `cloud-only-tasks`\), create a ticket to the SAP Task Center component as described in [Troubleshooting](../80-troubleshooting/troubleshooting-89c09a4.md).
+> ### Tip:  
+> If you want to migrate from a lower-ranking to a higher-ranking service plan \(for example, from `standard` to `all-tasks`\) you can just create a new service instance to the higher-ranking service plan, as described in *Steps 1-3* of the following procedure and skip the rest of the steps. In this case you'll continue having two service instances in your subaccount, but only the higher-ranking service plan will be active.
+> 
+> For a more comprehensive and organized approach, we recommend completing the entire migration procedure.
 
 > ### Caution:  
-> Removal of existing service instances on which you have set up SAP Task Center might lead to loss of data or SAP Task Center configurations.
+> While performing the migration procedure, some functionalities of SAP Task Center might be temporarily inaccessible until the migration is complete. For example, this could affect the SAP Task Center Web app tile, or the push of task updates from task providers.
+
+To migrate to the new service plan and remove unnecessary service instances and configurations, perform the following migration steps:
+
+1.  Make sure that your subaccount is entitled to use SAP Task Center with the new service plan. For more information, see [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts).
+2.  Navigate to your Cloud Foundry subaccount which contains an instance of the old SAP Task Center service plan.
+3.  In the same subaccount, create a new service instance with the new service plan. For more information on how to create a new service instance, see [Create a Service Instance Using the SAP BTP Cockpit](../30-initial-setup/create-a-service-instance-using-the-sap-btp-cockpit-dc9af9f.md).
+4.  In the *Destinations* tab, delete the existing *Task\_Center* destination for the central point of entry for accessing applications. For more information, see [Destination for the Central Point of Entry for Accessing Applications](../40-administration/destination-for-the-central-point-of-entry-for-accessing-applications-10320af.md).
+5.  Create a new service instance destination to the new service instance, and name it *Task\_Center*, following the documentation at [Destination for the Central Point of Entry for Accessing Applications](../40-administration/destination-for-the-central-point-of-entry-for-accessing-applications-10320af.md).
+6.  Go to your central point of entry for accessing applications.
+    1.  On the *Channel Manager* tab \(<span class="SAP-icons-V5"></span>\), update the content of the *HTML5 Apps* by choosing :arrows_clockwise:.
+    2.  On the *Content Manager* tab \(:package:\), choose the *Content Explorer* button, and choose *HTML5 Apps*.
+    3.  Remove the *Task Center* and, if available, *Task Center Administration* content items.
+    4.  Add the *Task Center* and *Task Center Administration* content items again.
+    5.  On the *Content Manager* tab, open the designed role for the application users and reassign the respective app to the correct role. For more information, find the documentation of your central point of entry for accessing applications at [Create a Task Center Tile](../30-initial-setup/create-a-task-center-tile-70e7f6e.md).
+
+7.  For every destination with enabled push of tasks \(for example, SAP SuccessFactors, SAP S/4HANA Cloud Public Edition\) create new service instances with the new service plan, and update the credentials as follows:
+    1.  Create a new dedicated service instance to the new service plan to enable task updates to be pushed from the task provider to SAP Task Center.
+    2.  In the new service instance, create a new service key.
+    3.  Exchange the old by the new credentials in the task provider system, as described in the respective task provider documentation. For more information, see also [Credentials Rotation](../60-security/credentials-rotation-8080abf.md).
+
+        > ### Note:  
+        > Keep in mind that no task updates will be pushed until you update the *tc.clientId* property in the next step.
+
+    4.  In your *Cloud Foundry subaccount* \> *Destinations tab*, go to the task provider destination and update the value of the *tc.clientId* property, as described in the respective task provider topic. For more information, see [Destinations to Task Providers](../40-administration/destinations-to-task-providers-b158111.md).
+
+8.  \(Optional\) If you previously have created SAP Task Center service instances with keys and bindings for accessing the SAP Task Center API for the old service plan, make sure that you create new SAP Task Center instances from the new service plan, and new keys and bindings to be used for accessing the SAP Task Center API.
+9.  Delete all service keys and bindings which are associated with SAP Task Center instances of the old service plan.
+10. Delete all service instances which are associated with old service plans.
+11. Make sure that your SAP Task Center applications are working with the new service plan.
 
 
 
