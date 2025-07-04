@@ -32,13 +32,13 @@ By completing this procedure, you allow a consumer application to consume the AP
 
 ## Procedure
 
-1.  Create a subscription to the SAP Task Center Service as follows:
+1.  Make sure that you have a subscription to the SAP Task Center service. This subscription might have been automatically created if you have used the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\). In this case you'll be able to see the subscription to the SAP Task Center service in *Services* \> *Instances and Subscriptions* \> *Subscriptions*.
 
-    1.  In the navigation area of your subaccount, under *Services* choose *Service Marketplace*.
+    In case that a subscription to the SAP Task Center service is not available, create one by following the steps:
+
+    1.  In the navigation area of your subaccount, choose *Services* \> *Service Marketplace*.
     2.  Choose the SAP Task Center tile and choose *Create*.
     3.  In the wizard, make sure that the service is set to SAP Task Center. Then, select one of the plans of type *Subscription* and choose *Create*.
-
-    For more information about the SAP Task Center service plans, see [Service Plans and Metering](../10-what-is/service-plans-and-metering-7b6b689.md).
 
 2.  Define a dependency to the SAP Task Center API as provider application as described in [Configure Integration Between Applications](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/communicate-between-applications).
 3.  Consume the SAP Task Center API using the defined dependency. For more information, see [Consume an API from a Provider Application](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/consume-api-from-another-application).

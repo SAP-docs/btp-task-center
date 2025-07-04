@@ -96,6 +96,7 @@ The automatic setup does the following for you:
 -   Configures the entitlement of SAP Task Center.
 -   Creates a default space, if you don't already have one.
 -   Creates a *default\_taskcenter* service instance in *Services* \> *Instances and Subscriptions* \> *Instances* tab.
+-   If you have selected the `all-tasks` or `build-default` service plans, the booster creates a subscription to the SAP Task Center service in *Services* \> *Instances and Subscriptions* \> *Subscriptions*.
 -   Creates a `service key` of the *default\_taskcenter* service instance.
 -   Creates a subscription to the chosen central point of entry for accessing apps.
 -   Assigns the required roles and role collections to the current user.
