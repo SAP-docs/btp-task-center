@@ -162,7 +162,7 @@ If SAP Build Process Automation and SAP Task Center are in the same subaccount, 
     
     **Example**:
 
-    `https://spa-api-gateway-eu10.cfapps.sap.hana.ondemand.com`
+    `https://spa-api-gateway-eu10.cfapps.sap.hana.ondemand.com/internal/visibility/intelligence/rest/v1`
     
     </td>
     </tr>
@@ -411,7 +411,7 @@ If SAP Build Process Automation and SAP Task Center are in the different subacco
     
     **Example**:
 
-    `https://spa-api-gateway-eu10.cfapps.sap.hana.ondemand.com`
+    `https://spa-api-gateway-eu10.cfapps.sap.hana.ondemand.com/internal/visibility/intelligence/rest/v1`
     
     </td>
     </tr>

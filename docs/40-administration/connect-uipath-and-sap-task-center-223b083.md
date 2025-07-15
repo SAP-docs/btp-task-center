@@ -143,7 +143,7 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     
     **Example**:
 
-    `https://abc.uipath.com/uipalpsapstge2e/DefaultTenant/bupproxyservice_/orchestrator/api`
+    `https://cloud.uipath.com/uipalpsapstge2e/DefaultTenant/bupproxyservice_/orchestrator/api`
     
     </td>
     </tr>
@@ -230,7 +230,7 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     
     **Example**:
 
-    `https://abc.uipath.com/000abc1a-abc1-11a1-1234-a1234ab1a123/identity_/connect/token`
+    `https://cloud.uipath.com/000abc1a-abc1-11a1-1234-a1234ab1a123/identity_/connect/token`
     
     </td>
     </tr>
@@ -529,7 +529,7 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     
     **Example**:
 
-    `https://abc.uipath.com/uipalpsapstge2e/DefaultTenant/orchestrator_`
+    `https://cloud.uipath.com/uipalpsapstge2e/DefaultTenant/orchestrator_`
     
     </td>
     </tr>

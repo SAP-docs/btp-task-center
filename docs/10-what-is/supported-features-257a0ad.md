@@ -73,7 +73,7 @@ SAP Build Work Zone, advanced edition / SAP SuccessFactors Work Zone
 SAP Cloud for Customer
 
 </th>
-<th valign="top" rowspan="2">
+<th valign="top" colspan="2">
 
 SAP Concur
 
@@ -100,11 +100,26 @@ SAP Ariba Sourcing
 SAP Ariba Buying
 
 </th>
+<th valign="top">
+
+SAP Concur Expense
+
+</th>
+<th valign="top">
+
+SAP Concur Request
+
+</th>
 </tr>
 <tr>
 <td valign="top" colspan="2">
 
 Basic Scenario
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -269,11 +284,21 @@ For End Users
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
 For Business Administrators
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -433,6 +458,11 @@ Mass Actions
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top" rowspan="3">
@@ -509,6 +539,11 @@ Partially \*\*
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -562,6 +597,11 @@ Upload
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -686,6 +726,11 @@ Delete
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top" rowspan="2">
@@ -756,6 +801,11 @@ View
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -842,6 +892,11 @@ Add
 </td>
 <td valign="top">
 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -910,6 +965,11 @@ Claim / Release a Task
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1019,6 +1079,11 @@ Forward a Task
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top" colspan="2">
@@ -1074,6 +1139,11 @@ Intelligent Recommendations
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1171,6 +1241,11 @@ Outbox \*\*\*
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> 
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">

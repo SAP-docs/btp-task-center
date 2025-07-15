@@ -87,6 +87,72 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Intelligent Recommendation - URL Updated
+
+</td>
+<td valign="top">
+
+The URL for the *Intelligent Recommendations* destination has been updated. If you have already configured this destination, update the *URL* property to match the new pattern.
+
+For more information, see [Configure the Intelligent Recommendations Destination](../40-administration/configure-the-intelligent-recommendations-destination-7c8900a.md).
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-07-15
+
+</td>
+<td valign="top">
+
+2025-07-15
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Extended Service Plan Migration Guide
 
 </td>
@@ -1778,7 +1844,7 @@ Not applicable
 <tr>
 <td valign="top">
 
-
+SAP Task Center 
 
 </td>
 <td valign="top">

@@ -38,6 +38,8 @@
                 -   [Creating the Primary Destination with the Technical User](40-administration/creating-the-primary-destination-with-the-technical-user-bb3728b.md)
                 -   [Creating a Secondary Destination for the Principal Propagation](40-administration/creating-a-secondary-destination-for-the-principal-propagation-2cc8cee.md)
             -   [Connect SAP Concur and SAP Task Center](40-administration/connect-sap-concur-and-sap-task-center-f354ef9.md)
+                -   [Connect SAP Concur Expense and SAP Task Center](40-administration/connect-sap-concur-expense-and-sap-task-center-a087adb.md)
+                -   [Connect SAP Concur Request and SAP Task Center](40-administration/connect-sap-concur-request-and-sap-task-center-65bd21c.md)
             -   [Connect SAP Fieldglass and SAP Task Center](40-administration/connect-sap-fieldglass-and-sap-task-center-9367f0d.md)
             -   [Connect SAP Field Service Management and SAP Task Center](40-administration/connect-sap-field-service-management-and-sap-task-center-4a61a25.md)
                 -   [Primary Destination with the Technical User \(SAP Field Service Management\)](40-administration/primary-destination-with-the-technical-user-sap-field-service-management-5495960.md)
