@@ -74,12 +74,14 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
     </tr>
     </table>
     
-    Follow the wizard to select your subaccount, organization, and space for the initial setup.
+3.  Follow the wizard to verify the selected entitlements, select your subaccount, organization, and space for the initial setup.
 
     > ### Note:  
-    > The SAP Build Work Zone, standard edition Standard plan is set as default, but you can also use the Free plan instead. For more information about the Free plan of SAP Build Work Zone, standard edition, see [Using an Account with a Free Service Plan](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/1868e0dd101a4aa78b75e49ab46c992a.html).
+    > -   The SAP Build Work Zone, standard edition Standard plan is set as default, but you can also use the Free plan instead. For more information about the Free plan of SAP Build Work Zone, standard edition, see [Using an Account with a Free Service Plan](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/1868e0dd101a4aa78b75e49ab46c992a.html).
+    > 
+    > -   If you receive a warning for missing global entitlements, remove the subscription to the SAP Task Center service \(*one-inbox-application*\) from the list of entitlements. You will be able to add it manually afterward as described in [Access the SAP Task Center API Using Identity Authentication](../40-administration/access-the-sap-task-center-api-using-identity-authentication-c45c4c3.md).
 
-3.  Create a Task Center tile as described in [Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md).
+4.  Create a Task Center tile as described in [Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md).
 
 
 
@@ -88,7 +90,7 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
 
 ## Results
 
-When the booster has finished, you can configure connectivity between SAP Task Center and the required SAP solutions in your subaccount.
+When the booster has finished, you can configure the connectivity between SAP Task Center and the task providers in your subaccount.
 
 The automatic setup does the following for you:
 
