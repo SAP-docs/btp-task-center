@@ -87,6 +87,74 @@ SAP Task Center
 </td>
 <td valign="top">
 
+New Feature
+
+Activity Log
+
+</td>
+<td valign="top">
+
+You can now view your task's history with the *Activity Log* in the SAP Task Center Web app.
+
+For more information, see [Activity Log, Attachments and Comments](https://help.sap.com/docs/task-center/sap-task-center/working-with-task-list?version=Cloud#activity-log,-attachments-and-comments).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-08-14
+
+</td>
+<td valign="top">
+
+2025-08-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Intelligent Recommendation - URL Updated
 
 </td>
@@ -676,7 +744,7 @@ Outbox Feature Available in the SAP Task Center Web App
 </td>
 <td valign="top">
 
-A new Outbox feature is available in the Web app for users to view their completed tasks, along with their details, comments, and attachments. For more information, see [https://help.sap.com/docs/task-center/sap-task-center/sap-task-center-web-app\#outbox](https://help.sap.com/docs/task-center/sap-task-center/sap-task-center-web-app#outbox).
+A new Outbox feature is available in the Web app for users to view their completed tasks, along with their details, comments, and attachments. For more information, see [SAP Task Center Web App - Outbox](https://help.sap.com/docs/task-center/sap-task-center/sap-task-center-web-app#outbox).
 
 A new property *tc.outbox* must be set by administrators to enable the *Outbox* tab in the Web app. For more information, see [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
 
@@ -742,7 +810,7 @@ Feedback Option for Documentation
 </td>
 <td valign="top">
 
-You can now provide feedback on the SAP Task Center documentation using the *Feedback* \> *Comments* function on the SAP Help Portal, without the need to use GitHub. You just need to login to the SAP Help Portal with your email.
+You can now provide feedback on the SAP Task Center documentation using the *Feedback* \> *Comments* function on the SAP Help Portal, without the need to use GitHub. You just need to log in to the SAP Help Portal with your email.
 
 For more information, see [Creating Better Documentation Together: SAP Help Portal’s new approach to Collaboration and Feedback](https://community.sap.com/t5/additional-blogs-by-sap/creating-better-documentation-together-sap-help-portal-s-new-approach-to/ba-p/13575238).
 

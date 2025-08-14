@@ -530,11 +530,18 @@ Some columns with custom attributes might be hidden for optimal visualization. Y
 
 <a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_attachments-comments"/>
 
-## Attachments and Comments
+## Activity Log, Attachments and Comments
 
-To see the attachments and comments, open the task, choose *Show More* and go to the corresponding tab.
+Open a task and choose the *Show More* button to view additional details about the task. You can select from the following options if supported by the task provider:
 
-You can also upload an attachment or add a comment on these tabs if the functionality is supported by the task provider system.
+-   Activity Log - you can view the task’s history, including how it was processed, who performed each action, and when the event occurred.
+-   Attachments - you can view, download or delete existing attachments, as well as upload new ones.
+-   Comments - you can view existing comments and add new ones.
+
+> ### Note:  
+> The order of events in the *Activity Log* is determined by each task provider.
+
+For more information on the task providers supporting each feature, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
 
 

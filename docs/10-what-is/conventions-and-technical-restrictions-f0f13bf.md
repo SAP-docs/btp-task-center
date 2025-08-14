@@ -32,9 +32,9 @@ Considering this information during development helps you achieve optimal use of
 
 -   A clean-up job runs on a daily basis for every tenant. This job deletes from the task cache the following tasks:
 
-    -   All finalized tasks \(with status *Completed* or *Canceled*\) that have not been updated in the past 1 day
+    -   All finalized tasks \(with status *Completed* or *Canceled*\) that have not been updated in the past 1 day. If Outbox is enabled, only canceled tasks are deleted from the task cache.
 
-    -   All not-finalized tasks \(for example with status *Ready* or *Reserved*\) that have not been updated in the past 180 days \(this is the **retention period**\)
+    -   All completed and non-finalized tasks \(for example with status *Ready* or *Reserved*\) that have not been updated in the past 180 days \(this is the **retention period**\)
 
 
 -   To delete the task cache, you have to temporarily remove the *tc.enabled* property. For more information, see the details for the property *tc.enabled* in the corresponding destination topic \(see [Destinations](../40-administration/destinations-3470733.md)\).
