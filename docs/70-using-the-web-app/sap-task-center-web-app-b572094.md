@@ -240,6 +240,8 @@ To access the *Outbox* tab, your administrator must have enabled it. For more in
 
 > ### Note:  
 > Please note that the behavior of Outbox may differ across different task providers. For more information see SAP Note [3582581](https://me.sap.com/notes/3582581).
+> 
+> For more information on the task providers supporting the *Outbox* feature, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
 > ### Note:  
 > The header of the table and the icon tab bar have a sticky behavior so that they are present on top while you scroll the task list.

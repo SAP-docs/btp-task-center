@@ -9,7 +9,7 @@ For general information about data protection and privacy on SAP Business Techno
 SAP does not provide legal advice in any form. SAP software supports data protection compliance by providing security features and data protection-relevant functions, such as blocking and deletion of personal data. In many cases, compliance with applicable data protection and privacy laws is not covered by a product feature. Furthermore, this information should not be taken as advice or a recommendation regarding additional features that would be required in specific IT environments. Decisions related to data protection must be made on a case-by-case basis, taking into consideration the given system landscape and the applicable legal requirements. Definitions and other terms used in this documentation are not taken from a specific legal source.
 
 > ### Caution:  
-> Do not use the SAP Task Center service for storing and processing personal data.
+> Do not use the SAP Task Center service for storing and processing any sensitive personal data that is subject to the data protection laws.
 
 
 
@@ -62,7 +62,9 @@ Personal data can also include referenced data. The challenge for deletion and b
 As part of the SAP Business Technology Platform \(SAP BTP\) offboarding process, all data stored within SAP Task Center is deleted.
 
 > ### Note:  
-> Erasing the SAP Task Center destination configuration, which is used for SAP Task Center connector configuration, deletes all tasks from the `Task Cache` that have been fetched via this destination. For more information, see [Deactivate the SAP Task Center](../40-administration/deactivate-the-sap-task-center-2183b2b.md).
+> Erasing the SAP Task Center destination configuration, which is used for SAP Task Center connector configuration, deletes all tasks from the task cache that have been fetched via this destination. For more information, see [Deactivate the SAP Task Center](../40-administration/deactivate-the-sap-task-center-2183b2b.md).
+> 
+> A clean-up job runs on a daily basis for every tenant. This job deletes from the task cache all finalized tasks that have not been updated in the past 1 day, excluding completed tasks \(if Outbox is enabled\), and all completed and non-finalized tasks that haven't been updated in the past 180 days. For more information, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md#loiof0f13bf49e3f45488bcf24218a2771e4__clean-up-job).
 
 
 

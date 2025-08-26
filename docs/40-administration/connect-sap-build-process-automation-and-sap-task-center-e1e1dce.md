@@ -22,6 +22,9 @@ Find information about the destination configuration that needs to be done for S
 
     For more information, see [Determine Service Configuration Parameters](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/abd070bd5d5f4835b3d5b12d868531b6.html).
 
+    > ### Tip:  
+    > There is a transition guide available for switching from My Inbox to SAP Task Center. For more information, see [Feature Comparison - My Inbox and SAP Task Center](https://help.sap.com/docs/task-center/transition-guide-to-stc/my-inbox-vs-sap-task-center).
+
 
 
 

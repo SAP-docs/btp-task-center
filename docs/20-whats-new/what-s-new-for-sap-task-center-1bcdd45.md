@@ -87,6 +87,70 @@ SAP Task Center
 </td>
 <td valign="top">
 
+New Transition Guide - From My Inbox to SAP Task Center 
+
+</td>
+<td valign="top">
+
+A new guide on how to transition from My Inbox to SAP Task Center is available. For more information, see [Transition Guide to SAP Task Center](https://help.sap.com/docs/task-center/transition-guide-to-stc).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-08-26
+
+</td>
+<td valign="top">
+
+2025-08-26
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New Feature
 
 Activity Log
