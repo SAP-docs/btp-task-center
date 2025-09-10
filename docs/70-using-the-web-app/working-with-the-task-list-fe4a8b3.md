@@ -47,14 +47,6 @@ Currently, the notifications displayed in the SAP Task Center Web app and task c
 
 
 
-<a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_RefreshTasks"/>
-
-## Refresh Tasks
-
-Choose *Refresh Tasks* to update your task list and synchronize it with the current state of the tasks stored in the SAP Task Center task cache.
-
-
-
 <a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_OpenTasks"/>
 
 ## Open Task Details
@@ -135,6 +127,25 @@ The native user interface for task details consists of the following areas:
 
 
 
+<a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_SearchTasks"/>
+
+## Search Tasks
+
+Search for tasks using the *Search* field by entering one or more keywords that are included in the *Task Title*.
+
+> ### Note:  
+> The search is performed among all tasks that are assigned to the user and stored in the back end. It is applied to the fields listed as hint in the *Search* field. When you filter by a task type with custom attributes, the hint in the *Search* field changes dynamically to reflect the current search, and applies to the custom-attribute columns of data type `string`.
+
+
+
+<a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_RefreshTasks"/>
+
+## Refresh Tasks
+
+Use the *Refresh Tasks* icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) to update your task list and synchronize it with the current state of the tasks stored in the SAP Task Center task cache.
+
+
+
 <a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_SortTasks"/>
 
 ## Sort Tasks
@@ -148,16 +159,11 @@ To be able to sort by custom attributes, you have to first filter by a single ta
 
 
 
-<a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_SearchTasks"/>
+<a name="loiofe4a8b3be3e84daeb5b73a4b77c5be7e__section_FilterTasks"/>
 
-## Search and Filter Tasks
+## Filter Tasks
 
-Search for tasks using the *Search* field by entering one or more keywords that are included in the *Task Title*.
-
-> ### Note:  
-> The search is performed among all tasks that are assigned to the user and stored in the back end. It is applied to the fields listed as hint in the *Search* field. When you filter by a task type with custom attributes, the hint in the *Search* field changes dynamically to reflect the current search, and applies to the custom-attribute columns of data type `string`.
-
-The *Filter* criteria are available in the field above the tasks, next to the *Search* field. By default, you can filter your task list by the following criteria:
+The *Filter* criteria are available in the field above the tasks. By default, you can filter your task list by the following criteria:
 
 
 <table>
@@ -535,6 +541,9 @@ Some columns with custom attributes might be hidden for optimal visualization. Y
 Open a task and choose the *Show More* button to view additional details about the task. You can select from the following options if supported by the task provider:
 
 -   Activity Log - you can view the task’s history, including how it was processed, who performed each action, and when the event occurred.
+
+    You may filter by *Task Participants*, *Date & Time Range* or *Event Type* using the filter option. When using the search function, it applies only to the text, but does not apply to the date and time.
+
 -   Attachments - you can view, download or delete existing attachments, as well as upload new ones.
 -   Comments - you can view existing comments and add new ones.
 

@@ -87,6 +87,72 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Action Required to Maintain Views
+
+</td>
+<td valign="top">
+
+To maintain the existing views for end users, SAP Task Center administrators must update the content of the *HTML5 Apps* on the *Channel Manager* tab of your central point of entry for accessing applications. For more information on the central point of entry for accessing applications, see [Create a Task Center Tile](../30-initial-setup/create-a-task-center-tile-70e7f6e.md).
+
+If end users encounter an "Unable to load the data" error after September 18th, please follow the same steps outlined above.
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-09-10
+
+</td>
+<td valign="top">
+
+2025-09-10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New Transition Guide - From My Inbox to SAP Task Center 
 
 </td>

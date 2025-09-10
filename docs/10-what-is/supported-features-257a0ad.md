@@ -35,17 +35,7 @@ SAP S/4HANA Cloud Private Edition\*
 </th>
 <th valign="top" rowspan="2">
 
-SAP Fieldglass
-
-</th>
-<th valign="top" rowspan="2">
-
-SAP Marketing Cloud
-
-</th>
-<th valign="top" rowspan="2">
-
-SAP SuccessFactors
+SAP Build Process Automation
 
 </th>
 <th valign="top" colspan="2">
@@ -53,14 +43,24 @@ SAP SuccessFactors
 SAP Ariba
 
 </th>
-<th valign="top" rowspan="2">
+<th valign="top" colspan="2">
 
-SAP Advanced Financial Closing
+SAP Concur
 
 </th>
 <th valign="top" rowspan="2">
 
-SAP Build Process Automation
+SAP Fieldglass
+
+</th>
+<th valign="top" rowspan="2">
+
+SAP SuccessFactors
+
+</th>
+<th valign="top" rowspan="2">
+
+SAP Advanced Financial Closing
 
 </th>
 <th valign="top" rowspan="2">
@@ -73,9 +73,9 @@ SAP Build Work Zone, advanced edition / SAP SuccessFactors Work Zone
 SAP Cloud for Customer
 
 </th>
-<th valign="top" colspan="2">
+<th valign="top" rowspan="2">
 
-SAP Concur
+SAP Marketing Cloud
 
 </th>
 <th valign="top" rowspan="2">
@@ -92,12 +92,12 @@ UiPath
 <tr>
 <th valign="top">
 
-SAP Ariba Sourcing
+SAP Ariba
 
 </th>
 <th valign="top">
 
-SAP Ariba Buying
+SAP Ariba Sourcing
 
 </th>
 <th valign="top">
@@ -251,12 +251,12 @@ For End Users
 </td>
 <td valign="top">
 
- 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
 
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+ 
 
 </td>
 <td valign="top">
@@ -400,6 +400,31 @@ Mass Actions
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
@@ -410,32 +435,7 @@ Mass Actions
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -492,12 +492,32 @@ View/ Download
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -509,11 +529,6 @@ Partially \*\*
 </td>
 <td valign="top">
 
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
-
-</td>
-<td valign="top">
-
  
 
 </td>
@@ -525,21 +540,6 @@ Partially \*\*
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -586,7 +586,7 @@ Upload
 </td>
 <td valign="top">
 
- 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -596,7 +596,7 @@ Upload
 </td>
 <td valign="top">
 
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> 
+ 
 
 </td>
 <td valign="top">
@@ -673,17 +673,17 @@ Delete
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -760,42 +760,12 @@ View
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
-
-</td>
-<td valign="top">
-
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -811,6 +781,36 @@ View
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -862,7 +862,12 @@ Add
 </td>
 <td valign="top">
 
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -893,11 +898,6 @@ Add
 <td valign="top">
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -934,37 +934,37 @@ Claim / Release a Task
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1021,37 +1021,37 @@ Forward a Task
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1108,37 +1108,37 @@ Intelligent Recommendations
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1210,7 +1210,17 @@ Outbox \*\*\*
 </td>
 <td valign="top">
 
- 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+
+</td>
+<td valign="top">
+
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
@@ -1225,11 +1235,6 @@ Outbox \*\*\*
 </td>
 <td valign="top">
 
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
-
-</td>
-<td valign="top">
-
  
 
 </td>
@@ -1240,12 +1245,7 @@ Outbox \*\*\*
 </td>
 <td valign="top">
 
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> 
-
-</td>
-<td valign="top">
-
-<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
+ 
 
 </td>
 <td valign="top">

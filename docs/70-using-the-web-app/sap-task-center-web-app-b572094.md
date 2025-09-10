@@ -121,8 +121,6 @@ Task title and additional information about the task as per destination configur
 </td>
 <td valign="top">
 
-The task type name provided by the task provider.
-
 For more information about the supported task types, see [Supported Solutions and Use Cases](../10-what-is/supported-solutions-and-use-cases-758209c.md).
 
 This column is not visible by default, but you can unhide it from the *Personalize* button \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
