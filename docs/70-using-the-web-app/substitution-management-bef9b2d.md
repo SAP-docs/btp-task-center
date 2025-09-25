@@ -13,7 +13,7 @@ Open the **<span style="color:#346187;"><span class="SAP-icons-V5"></span></s
 For more information on the task providers, supporting *Substitution Management*, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
 > ### Note:  
-> -   SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported, except for the substitutions created in My Inbox in SAP Build Process Automation.
+> -   SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported, except for those created in My Inbox in SAP Build Process Automation. Unplanned substitutions from My Inbox in SAP Build Process Automation are visualized in SAP Task Center as substitutions without an end date.
 > 
 >     Note that substitutions created in My Inbox in SAP Build Process Automation may have a shift in start and end dates by one day due to the user's time zone. If you have any doubts, check the original substitution rule in My Inbox in SAP Build Process Automation.
 > 

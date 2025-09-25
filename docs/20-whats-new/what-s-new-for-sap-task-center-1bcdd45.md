@@ -87,6 +87,70 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Use SAP Build Work Zone to Access SAP Task Center When Both Are in Different Subaccounts
+
+</td>
+<td valign="top">
+
+You can now use SAP Build Work Zone as your central point of entry for accessing your SAP Task Center, when both are in different subaccounts. For more information, see [Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts](../30-initial-setup/connect-sap-task-center-and-sap-build-work-zone-in-different-subaccounts-111e261.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-09-25
+
+</td>
+<td valign="top">
+
+2025-09-25
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Action Required to Maintain Views
 
 </td>

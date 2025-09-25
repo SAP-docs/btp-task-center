@@ -52,7 +52,7 @@ Prepare your SAP Business Technology Platform \(SAP BTP\) account by making sure
 
     Identity Authentication is mandatory for working with SAP Task Center.
 
-    For more information, see [Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/161f8f0cfac64c4fa2d973bc5f08a894.html) or [Manually Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7c6aa87459764b179aeccadccd4f91f3.html).
+    For more information, see [Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/161f8f0cfac64c4fa2d973bc5f08a894.html)\(recommended\) or [Manually Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7c6aa87459764b179aeccadccd4f91f3.html).
 
 
 
@@ -87,6 +87,8 @@ You have a subscription to at least one of the following services in the same su
 
 -   [SAP Cloud Portal service](https://help.sap.com/docs/cloud-portal-service/sap-cloud-portal-service-on-cloud-foundry/what-is-cloud-portal-service)
 
+
+If SAP Task Center and your central point of entry for accessing applications are in different sybaccounts, please follow the manual setup and [Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts](connect-sap-task-center-and-sap-build-work-zone-in-different-subaccounts-111e261.md).
 
 > ### Note:  
 > Please make sure that you check also the existing conventions and restrictions in the official documentation of your central point of entry for accessing applications.

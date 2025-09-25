@@ -15,6 +15,8 @@
         -   [Create a Service Instance of the SAP Task Center Service](30-initial-setup/create-a-service-instance-of-the-sap-task-center-service-d36035e.md)
             -   [Create a Service Instance Using the SAP BTP Cockpit](30-initial-setup/create-a-service-instance-using-the-sap-btp-cockpit-dc9af9f.md)
             -   [Create a Service Instance Using the Command-Line Interface](30-initial-setup/create-a-service-instance-using-the-command-line-interface-119fefd.md)
+        -   [Create a Subscription to the SAP Task Center Service](30-initial-setup/create-a-subscription-to-the-sap-task-center-service-fd137e3.md)
+        -   [Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts](30-initial-setup/connect-sap-task-center-and-sap-build-work-zone-in-different-subaccounts-111e261.md)
     -   [Create a Task Center Tile](30-initial-setup/create-a-task-center-tile-70e7f6e.md)
     -   [Create a Task Center Administration Tile](30-initial-setup/create-a-task-center-administration-tile-8053d72.md)
 -   [Administration](40-administration/administration-9cd1da3.md)
