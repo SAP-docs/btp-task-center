@@ -130,11 +130,9 @@ For more information on the support components, see SAP Note [3044195 - SAP Task
 
 ### 15. If you can't identify the new task in the task list, or the task does not appear in the list.
 
-If there are too many tasks in your task list and you can't easily find the newly created task, use the [Export SAP Task Center Service Data](../40-administration/export-sap-task-center-service-data-1dfb750.md) \(or [API Data Export](https://api.sap.com/api/TaskCenterAPIForCloudFoundry/resource/Data_Export)\) to export data for the task provider.
+If your task list contains too many tasks and you can't easily find the newly created task, export the data for a specific task provider using the *Export Cache* button in the SAP Task Center Administration app. For more information, see [Export SAP Task Center Service Data](../40-administration/export-sap-task-center-service-data-1dfb750.md).
 
-To do this, go to *API Business Hub* \> *SAP Task Center API* \> *API Reference*.
-
-To export the data only for the specific task provider, specify the parameter `conectorId` with `value=Connector ID`. The exported `.zip` file contains the following files:
+The exported `.zip` file contains the following files:
 
 -   `readme.txt`;
 -   `tasks.json` – cache tasks;

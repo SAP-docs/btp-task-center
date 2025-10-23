@@ -83,9 +83,13 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 
 ### SAP Task Center Documentation Survey
 
-As part of our ongoing commitment to excellence in user documentation, we welcome your feedback on the SAP Task Center documentation through a short, anonymous survey. The survey does not collect any personal information and can be completed in approximately two minutes.
+![](images/DocuSurvey_4d67af1.jpg)
 
-Access the survey at [SAP Task Center Documentation Survey](https://sapinsights.eu.qualtrics.com/jfe/form/SV_0vVIWrgxNFKVeGW).
+As we work to ensure the SAP Task Center documentation meets your needs, your feedback is essential. Please take a moment to complete our short, anonymous survey, which will take about two minutes. No personal information is collected.
+
+You can access the survey at [SAP Task Center Documentation Survey](https://sapinsights.eu.qualtrics.com/jfe/form/SV_0vVIWrgxNFKVeGW?source=HP).
+
+If you have additional thoughts or specific suggestions, you can also provide them using the comments function in the *Feedback* section in the header of this page. We value your detailed input to help us make the documentation as useful and relevant as possible.
 
 **Related Information**  
 

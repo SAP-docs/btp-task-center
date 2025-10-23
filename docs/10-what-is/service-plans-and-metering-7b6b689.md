@@ -21,13 +21,14 @@ The following commercial models are available for SAP Task Center:
 
 For more information, see [Commercial Models](https://help.sap.com/docs/btp/sap-business-technology-platform/commercial-models).
 
+> ### Note:  
+> Starting from April 2025, SAP Task Center is also available as part of SAP Build default service plan, which offers a package of services. For more information, see [SAP Build - Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering).
+
 ![](images/Consumption-Based_Models_STC_e56c6f4.png)
 
 \* For more information on the SAP Build Work Zone SKUs, see [SAP Build Work Zone, standard edition - Service Plans and Metering](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/commercial-models-and-metering) and [SAP Build Work Zone, advanced edition - Service Plans and Metering](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/commercial-models-and-metering).
 
 ![](images/Subscriptions_STC_pptx_8f54345.png)
-
-\* For more information on the SAP Build `build-default` service plan, see [SAP Build - Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering).
 
 
 

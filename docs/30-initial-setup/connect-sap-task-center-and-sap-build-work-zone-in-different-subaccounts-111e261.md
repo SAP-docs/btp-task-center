@@ -49,7 +49,7 @@ You have one global account with two subaccounts. The first one has a subscripti
 
 1.  In the administration console for SAP Cloud Identity Services, go to *Applications and Resources* \> *Applications*.
 
-2.  Make sure that you see both the SAP Task Center and SAP Build Work Zone subaccounts in the *Bundled Applications* section.
+2.  Make sure that you see both applications of the SAP Task Center and SAP Build Work Zone subaccounts in the *Bundled Applications* section.
 
 3.  Choose the SAP Build Work Zone subaccount in the *Bundled Application* section and configure a dependency to SAP Task Center as an application. For more information, see [Configure Integration Between Applications](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/communicate-between-applications).
 

@@ -48,6 +48,8 @@ Initially, you get information only about the active destinations of the connect
 
 The information in the views is provided by the Task Center API. For more information about the Task Center API, see [Using the SAP Task Center API](using-the-sap-task-center-api-b66e0cd.md).
 
+Use the *Export Cache* button to export data about a specific destination. For more information, see [Export SAP Task Center Service Data](export-sap-task-center-service-data-1dfb750.md).
+
 **Views, Information, and Related End Points**
 
 
