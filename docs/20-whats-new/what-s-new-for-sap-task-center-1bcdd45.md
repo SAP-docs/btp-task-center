@@ -87,6 +87,136 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Connect SAP Task Center and SAP Build Process Automation by Creating Dependency
+
+</td>
+<td valign="top">
+
+You can now connect SAP Task Center with SAP Build Process Automation from a different subaccount by creating a dependency in SAP Cloud Identity Services - Identity Authentication. For more information, see [Work with SAP Build Process Automation Tasks from a Different Subaccount](../40-administration/work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-11-18
+
+</td>
+<td valign="top">
+
+2025-11-18
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Process Overview Available for the *Activity Log* 
+
+</td>
+<td valign="top">
+
+You can now view the overview of a process within the *Activity Log* in the SAP Task Center Web app.
+
+For more information, see [Activity Log, Attachments and Comments](https://help.sap.com/docs/task-center/sap-task-center/working-with-task-list?version=Cloud#activity-log,-attachments-and-comments).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-11-04
+
+</td>
+<td valign="top">
+
+2025-11-04
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Share Your Feedback on the SAP Task Center Documentation
 
 </td>

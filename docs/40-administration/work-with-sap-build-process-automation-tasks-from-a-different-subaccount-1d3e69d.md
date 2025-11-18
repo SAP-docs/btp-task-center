@@ -6,13 +6,11 @@ Follow the described procedure to complete the setup and receive tasks from SAP 
 
 
 
-<a name="loio1d3e69d3bcd044b892e7c6e145de19e5__prereq_mrn_nvp_qjb"/>
-
 ## Prerequisites
 
--   You have a subaccount with an SAP Task Center service instance in the Cloud Foundry environment. In the following procedure we refer to this account as the 'SAP Task Center subaccount'.
+-   You have a subaccount with an SAP Task Center service instance in the Cloud Foundry environment. In the following procedure, we refer to this account as the 'SAP Task Center subaccount'.
 
--   You have created a second subaccount with an SAP Build Process Automation instance. In the following procedure we refer to this account as the 'SAP Build Process Automation subaccount'. This subaccount is configured to authenticate users via the same Identity Authentication server as the SAP Task Center subaccount.
+-   You have created a second subaccount with an SAP Build Process Automation instance. In the following procedure, we refer to this account as the 'SAP Build Process Automation subaccount'. This subaccount is configured to authenticate users via the same Identity Authentication server as the SAP Task Center subaccount.
 
 -   You have performed the steps in [Set Up Principal Propagation Between Subaccounts](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/set-up-principal-propagation-between-subaccounts-87df988656ad4190900c209b1d1780b0).
 
@@ -24,15 +22,23 @@ Follow the described procedure to complete the setup and receive tasks from SAP 
 
 ## Context
 
-To work with tasks coming from an SAP Build Process Automation subaccount, you need to establish trust between the SAP Build Process Automation subaccount and the SAP Task Center subaccount.
+You can either choose to set up the connection manually, or by configuring an integration between the two applications.
 
 
 
 ## Procedure
 
+![](images/SBPA_STC-app2app_75f5606.png)
+
+
+
+### Connecting SAP Build Process Automation and SAP Task Center from Different Subaccounts
+
+To work with tasks coming from an SAP Build Process Automation subaccount, you need to establish trust between the SAP Build Process Automation subaccount and the SAP Task Center subaccount.
+
 1.  Download the metadata XML file of your Cloud Foundry subaccount in which SAP Build Process Automation is running. To download the file, navigate to the subaccount in your cockpit, go to *Security* \> *Trust Configuration* and choose *SAML Metadata*.
 
-    From the XML you need the following parameters to complete the destination setup:
+    From the XML, you need the following parameters to complete the destination setup:
 
     -   `entityID`
 
@@ -40,8 +46,7 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
 
 
 2.  Navigate to your SAP Task Center subaccount and select the *Connectivity* \> *Destinations* tab from the navigation area on the left.
-
-3.  If you have executed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you already have a sample destination called *SAPBuildPA\_rem* \(for working from a different subaccount\). You can use the sample destination or clone it, and update the properties as described in the table below.
+3.  If you have completed the automatic setup \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you already have a sample destination called *SAPBuildPA\_rem* \(for working from a different subaccount\). You can use the sample destination or clone it, and update the properties as described in the table below.
 
     If you have followed the manual setup \(see [Manual Setup](../30-initial-setup/manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described below.
 
@@ -593,8 +598,628 @@ To work with tasks coming from an SAP Build Process Automation subaccount, you n
     </table>
     
 6.  Choose *Save*.
-
 7.  \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Build Process Automation, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
+
+    If you choose *Check Connection* in the destination configuration, you may not receive the correct information about the connectivity between the SAP Task Center service and the SAP Build Process Automation.
+
+
+
+
+### Connecting SAP Build Process Automation and SAP Task Center from Different Subaccounts by Creating Dependency
+
+**Context**
+
+You can connect SAP Build Process Automation and SAP Task Center when both are in different subaccounts, by creating a dependency between the two applications. You need to have two subaccounts in the same global account, and configure the integration between the two applications in SAP Cloud Identity Services - Identity Authentication.
+
+> ### Note:  
+> This configuration is possible only if you have a subscription to SAP Build Process Automation with the `build-default` service plan.
+
+**Prerequisites**
+
+You have one global account with two subaccounts. The first one has a subscription to SAP Task Center - this is your SAP Task Center subaccount. The second one has a subscription to SAP Build Process Automation - this is your SAP Build Process Automation subaccount.
+
+-   In the SAP Task Center subaccount you have:
+    -   Prepared your SAP Business Technology Platform \(SAP BTP\) account as described in [Prepare Your SAP Business Technology Platform \(SAP BTP\) Account](https://help.sap.com/docs/task-center/sap-task-center/initial-setup?version=Cloud#loio834769400794464489f390350a82bbd6__BTPaccount).
+
+        As part of this, you have established trust of type OpenID Connect with the User Account and Authentication \(UAA\) of your SAP Task Center subaccount, using Identity Authentication. For more information, see [Establishing Trust of Type OpenID Connect](https://help.sap.com/docs/btp/sap-business-technology-platform/establishing-trust-automatically).
+
+        For more information, see [Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/161f8f0cfac64c4fa2d973bc5f08a894.html) or [Manually Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7c6aa87459764b179aeccadccd4f91f3.html).
+
+    -   Entitlements to create a service instance and subscription of SAP Task Center. For more information, see [Check Your Entitlements and Commercial Model](https://help.sap.com/docs/task-center/sap-task-center/834769400794464489f390350a82bbd6.html?locale=en-US&state=PRODUCTION&version=Cloud#loio834769400794464489f390350a82bbd6__CommercialModel).
+
+    -   Set up the integration with SAP Cloud Identity Services and Identity Authentication as described in [Integrate with SAP Cloud Identity Services](https://help.sap.com/docs/task-center/sap-task-center/834769400794464489f390350a82bbd6.html?locale=en-US&state=PRODUCTION&version=Cloud#loio834769400794464489f390350a82bbd6__CIS).
+    -   You have created a service instance of SAP Task Center and you have created a service key. For more information, see [Create a Service Instance Using the SAP BTP Cockpit](../30-initial-setup/create-a-service-instance-using-the-sap-btp-cockpit-dc9af9f.md).
+    -   You have a subscription to SAP Task Center. For more information on how to subscribe to SAP Task Center, see [Create a Subscription to the SAP Task Center Service](../30-initial-setup/create-a-subscription-to-the-sap-task-center-service-fd137e3.md).
+    -   You have connected SAP Task Center and the SAP Build Work Zone of your choice by configuring integration between the two applications. For more information, see [Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts](../30-initial-setup/connect-sap-task-center-and-sap-build-work-zone-in-different-subaccounts-111e261.md).
+
+-   In the SAP Build Process Automation subaccount you have:
+    -   Established trust of type OpenID Connect with the same identity provider as the one in the SAP Task Center subaccount. For more information, see [Establishing Trust of Type OpenID Connect](https://help.sap.com/docs/btp/sap-business-technology-platform/establishing-trust-automatically).
+
+        For more information, see [Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/161f8f0cfac64c4fa2d973bc5f08a894.html) or [Manually Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7c6aa87459764b179aeccadccd4f91f3.html).
+
+    -   Entitlements to create a service instance and subscription of SAP Build Process Automation.
+    -   You have an instance and subscription to SAP Build Process Automation, and you are using the SAP Build Process Automation subscription with the `build-default` service plan.
+
+
+**Procedure**
+
+1.  In the administration console for SAP Cloud Identity Services, go to *Applications and Resources* \> *Applications*.
+
+2.  Make sure that in the *Bundled Applications* section you see the applications, which are connected respectively to the SAP Task Center and the SAP Build Process Automation subaccounts. The names of the applications should contain the product name, followed by the name of the subaccount in parentheses.
+
+3.  Choose the SAP Task Center subaccount in the *Bundled Application* section and configure a dependency to SAP Build Process Automation as an application. For more information, see [Configure Integration Between Applications](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/communicate-between-applications).
+
+4.  Note down the dependency name of the newly created dependency.
+5.  In the SAP BTP cockpit, go to your SAP Task Center subaccount and open *Connectivity* \> *Destinations*.
+6.  Navigate to your SAP Task Center subaccount and select the *Connectivity* \> *Destinations* tab from the navigation area on the left.
+7.  Create a new destination and add the properties as follows:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Property
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    <th valign="top">
+
+    Example or Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Name*
+    
+    </td>
+    <td valign="top">
+    
+    The destination name can be up to 64 characters.
+
+    > ### Note:  
+    > The name of the destination must not be longer than 64 characters, as otherwise, the status of the respective SAP Task Center connector will be set to `Error`.
+
+    > ### Note:  
+    > If you change the *name* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `SAPBuildPA_rem`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Type*
+    
+    </td>
+    <td valign="top">
+    
+    Choose the *HTTP* option from the dropdown menu.
+    
+    </td>
+    <td valign="top">
+    
+     
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Description*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Add a description.
+    
+    </td>
+    <td valign="top">
+    
+     
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL*
+    
+    </td>
+    <td valign="top">
+    
+    Add the *endpoints \> api* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md) and append */internal/workflow/rest/v1* to the URL.
+
+    > ### Note:  
+    > If you change the *URL* of an already configured destination, for which there are stored tasks in the task cache, the tasks in it will be repopulated.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `https://spa-api-gateway-sample.cfapps.sap.hana.ondemand.com/internal/workflow/rest/v1`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Proxy type*
+    
+    </td>
+    <td valign="top">
+    
+    Choose the *Internet* option from the dropdown menu.
+    
+    </td>
+    <td valign="top">
+    
+     
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Authentication*
+    
+    </td>
+    <td valign="top">
+    
+    Choose the *OAuth2SAMLBearerAssertion* option from the dropdown menu.
+    
+    </td>
+    <td valign="top">
+    
+     
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Audience*
+    
+    </td>
+    <td valign="top">
+    
+    Add the *uaa \> url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `https://subaccount.authentication.eu10.hana.ondemand.com`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *AuthnContextClassRef*
+    
+    </td>
+    <td valign="top">
+    
+    Defines which mechanism is used to authenticate the user through *AuthnContextClassRef*.
+    
+    </td>
+    <td valign="top">
+    
+    **Value**:
+
+    `urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Client Key*
+    
+    </td>
+    <td valign="top">
+    
+    Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Token Service URL Type*
+    
+    </td>
+    <td valign="top">
+    
+    Choose *Dedicated*.
+    
+    </td>
+    <td valign="top">
+    
+     
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Token Service URL*
+    
+    </td>
+    <td valign="top">
+    
+    Add the *uaa \> url* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md), and append*/oauth/token*.
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `https://subaccount.authentication.eu10.hana.ondemand.com/oauth/token`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Token Service User*
+    
+    </td>
+    <td valign="top">
+    
+    Add the *clientid* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `sb-clone-b0610b21-dbf4-49bf-a6d2-5efef90e2736!b5550|xsuaa!b2746`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Token Service Password*
+    
+    </td>
+    <td valign="top">
+    
+    Add the *clientsecret* value from the *Prerequisites* in [Connect SAP Build Process Automation and SAP Task Center](connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md).
+    
+    </td>
+    <td valign="top">
+    
+     
+    
+    </td>
+    </tr>
+    </table>
+    
+8.  Select *New Property* on the right side of the *Destination Configuration* pane and add the following properties:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Property
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    <th valign="top">
+
+    Example or Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *nameIdFormat*
+    
+    </td>
+    <td valign="top">
+    
+    Indicates the SAML name identifier formats supported by the Single Sign-On service.
+    
+    </td>
+    <td valign="top">
+    
+    **Value**:
+
+    `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.enabled*
+    
+    </td>
+    <td valign="top">
+    
+    Enables SAP Task Center to connect to the configured task provider destination.
+
+    > ### Caution:  
+    > If you are using the sample destinations created by the booster \(see [Automatic Setup](../30-initial-setup/automatic-setup-3a49967.md)\), you must add the *tc.enabled* property manually. Without this property, the destination cannot be used by SAP Task Center.
+
+    > ### Note:  
+    > Any value other than `true` \(for example `false`\) would have the following effects:
+    > 
+    > -   The previously stored tasks are kept in the task cache.
+    > 
+    > -   The tasks from this destination are **not** displayed in the SAP Task Center Web app.
+    > 
+    > -   The task cache is not updated with tasks from this destination.
+    > 
+    > 
+    > If you want to delete the task cache and repopulate it for this destination, see [Repopulate the Task Cache](repopulate-the-task-cache-e93aa71.md).
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Value**:
+
+    `true`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.inbox.pull.days*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) By default, the initial pull job of SAP Task Center loads tasks that have been updated or created in the past 90 days. You can adjust this period to a maximum of 180 days by configuring the *tc.inbox.pull.days* property. The allowed values range from 0 to 180.
+
+    Please note that this property is available only with the `all-tasks` service plan. For more information on the service plan and its details, see [Service Plans and Metering](../10-what-is/service-plans-and-metering-7b6b689.md).
+
+    After setting this property, you must trigger the initial pull job for this task provider by repopulating the task cache, as described in [Repopulate the Task Cache](repopulate-the-task-cache-e93aa71.md).
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `180`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.notifications.enabled*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable this property to turn on SAP Task Center notifications for end users.
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
+
+    This property, combined with the *Alert\_Notification\_Connectivity\_ANS* destination, allows you to decide if end users should receive notifications from SAP Build Process Automation, or both SAP Task Center and SAP Build Process Automation.
+
+    -   If the property is set to `true` and you have set up the *Alert\_Notification\_Connectivity\_ANS* destination as described in [Enable Notifications](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/enable-notifications), then the end users will receive notifications from both SAP Task Center and SAP Build Process Automation. This might include duplicate notifications for created or forwarded tasks.
+    -   \(Recommended\) If the property is set to `false` and you have set up *Alert\_Notification\_Connectivity\_ANS* as described in [Enable Notifications](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/enable-notifications), then the end users will receive notifications only from SAP Build Process Automation and not from SAP Task Center.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `false`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.provider\_type*
+    
+    </td>
+    <td valign="top">
+    
+    Type of the task provider. This property is needed if you want to configure a *Filter Tab* in the SAP Task Center Web app. Based on the value provided, the SAP Task Center Web app shows a predefined icon for the related *Filter Tabs*. For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md). 
+    
+    </td>
+    <td valign="top">
+    
+    **Value**:
+
+    `SPA`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.task.ui.url*
+    
+    </td>
+    <td valign="top">
+    
+    Add this property to access the SAP Build Process Automation tasks without the need of an additional central point of entry for accessing applications for SAP Build Process Automation.
+
+    The value of this property must follow the pattern: `https://<root_url>/comsapspaprocessautomation.comsapspainbox/taskui.html`
+
+    To get the correct URL, open My Inbox in the SAP Build Process Automation Lobby, copy the URL of My Inbox and replace `inbox.html` page with `taskui.html`.
+
+    For more information on how to access My Inbox in the SAP Build Process Automation Lobby, see [Use My Inbox](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/using-my-inbox).
+
+    > ### Note:  
+    > -   Custom themes are not supported for task UI visualization.
+    > 
+    > -   This property is not mandatory if you use SAP Build Process Automation on SAP Build Work Zone, standard edition.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `https://<root_url>/comsapspaprocessautomation.comsapspainbox/taskui.html`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.ui.group*
+
+    and
+
+    *tc.ui.group.\[language\_code\]*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Provides grouping for the SAP Task Center Web app *Filter Tabs*.
+
+    You can define a separate property for a filter tab translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
+
+    For example, add:
+
+    -   the *tc.ui.group* property with the value `<default_translation>` for a default translation of the group name.
+
+    -   the *tc.ui.group.de-DE* property with the value `<German_translation>` for a German translation of the group name.
+
+
+    For more information, see [Configure Filter Tabs in the SAP Task Center Web App](configure-filter-tabs-in-the-sap-task-center-web-app-53157da.md).
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `SAP Build Process Automation`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.ui.label* 
+
+    and
+
+    *tc.ui.label.\[language\_code\]*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Provides additional information about the task. The value of the property is displayed in the *Task* column of the SAP Task Center Web app under the *Task Title*.
+
+    You can define a separate property for a task label translation for each of the supported languages \(see [Supported Languages](../10-what-is/supported-languages-c66c693.md)\), by appending the respective language code to the property.
+
+    For example, add:
+
+    -   the *tc.ui.label* property with the value `<default_translation>` for a default translation of the label.
+
+    -   the *tc.ui.label.de-DE* property with the value `<German_translation>` for a German translation of the label.
+
+
+    For more information, see [Configure Labels in SAP Task Center Web App](configure-labels-in-sap-task-center-web-app-a0be9ad.md).
+    
+    </td>
+    <td valign="top">
+    
+    **Example for *tc.ui.label***:
+
+    `SAP Build Process Automation Task`
+
+    **Example for *tc.ui.label.de-DE***:
+
+    `SAP Build Process Automation Aufgabe`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *userIdSource*
+    
+    </td>
+    <td valign="top">
+    
+    Provides information about the `userIdSource`to SAP Cloud Identity Services - Identity Authentication.
+    
+    </td>
+    <td valign="top">
+    
+    **Value**:
+
+    `user_uuid`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.ias.dependency\_name*
+    
+    </td>
+    <td valign="top">
+    
+    The name of the dependency you created in *Step 3* of this procedure.
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    dependencyname
+    
+    </td>
+    </tr>
+    </table>
+    
+9.  Choose *Save*.
+10. \(Optional\) To check the connectivity between the SAP Task Center service and the SAP Build Process Automation, use the monitoring functionality of SAP Task Center. For more information, see [Monitoring](monitoring-9b30be7.md).
 
     If you choose *Check Connection* in the destination configuration, you may not receive the correct information about the connectivity between the SAP Task Center service and the SAP Build Process Automation.
 

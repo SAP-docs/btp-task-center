@@ -189,7 +189,7 @@ Details
 
 The *On Behalf Of* filter is only available when you have at least one active substitution rule.
 
-To see the tasks of a user you are substituting, choose the substitution icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the *On Behalf Of* field and choose a name. The list contains only the users you are currently substituting.
+To see the tasks of a user you are substituting, choose the substitution icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the *On Behalf Of* field and choose a name. The list contains only the users you are currently substituting, their email address and the remaining duration of the substitution period.
 
 Once you choose a user, the following changes appear, corresponding to the enabled substitution:
 
@@ -540,7 +540,7 @@ Some columns with custom attributes might be hidden for optimal visualization. Y
 
 Open a task and choose the *Show More* button to view additional details about the task. You can select from the following options if supported by the task provider:
 
--   Activity Log - you can view the task’s history, including how it was processed, who performed each action, and when the event occurred.
+-   Activity Log - You can view the process overview of a selected task and access process flow information by selecting a specific event. The log also tracks history, including how the task was processed, who performed each action, and when the event occurred.
 
     You may filter by *Task Participants*, *Date & Time Range* or *Event Type* using the filter option. When using the search function, it applies only to the text, but does not apply to the date and time.
 

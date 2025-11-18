@@ -88,7 +88,7 @@ You have a subscription to at least one of the following services in the same su
 -   [SAP Cloud Portal service](https://help.sap.com/docs/cloud-portal-service/sap-cloud-portal-service-on-cloud-foundry/what-is-cloud-portal-service)
 
 
-If SAP Task Center and your central point of entry for accessing applications are in different sybaccounts, please follow the manual setup and [Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts](connect-sap-task-center-and-sap-build-work-zone-in-different-subaccounts-111e261.md).
+If SAP Task Center and your central point of entry for accessing applications are in different subaccounts, please follow the manual setup and [Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts](connect-sap-task-center-and-sap-build-work-zone-in-different-subaccounts-111e261.md).
 
 > ### Note:  
 > Please make sure that you check also the existing conventions and restrictions in the official documentation of your central point of entry for accessing applications.

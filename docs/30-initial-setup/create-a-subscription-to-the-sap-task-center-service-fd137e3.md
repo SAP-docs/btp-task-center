@@ -6,6 +6,14 @@ Subscribe to the SAP Task Center from the *Subscriptions* page in the SAP BTP Co
 
 
 
+<a name="loiofd137e37b6dd411cbe90f5b5e8190aa6__prereq_y3r_fyb_fhc"/>
+
+## Prerequisites
+
+You have created a service instance of the SAP Task Center Service, as described by [Create a Service Instance of the SAP Task Center Service](create-a-service-instance-of-the-sap-task-center-service-d36035e.md).
+
+
+
 ## Context
 
 Creating a subscription to the SAP Task Center service ensures that your applications can interact with it if you want to access the Task Center API using Identity Authentication.

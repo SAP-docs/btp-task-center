@@ -41,6 +41,8 @@ Considering this information during development helps you achieve optimal use of
 
 -   To use the SAP Task Center Web app, you need UI5 version 1.108 \(latest patch\) or higher.
 
+-   The subaccounts of SAP Task Center and the task provider in the SAP BTP, Cloud Foundry environment, must be on the same datacenter.
+
 
 
 
