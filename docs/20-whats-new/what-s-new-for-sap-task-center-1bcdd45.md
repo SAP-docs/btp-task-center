@@ -87,6 +87,142 @@ SAP Task Center
 </td>
 <td valign="top">
 
+*Mass Actions* are Now Available for SAP Build Process Automation 
+
+</td>
+<td valign="top">
+
+Processing multiple tasks is now available with the *Mass Actions* functionality for SAP Build Process Automation tasks.
+
+For more information, see [Working with Multiple Tasks](../70-using-the-web-app/working-with-multiple-tasks-9f8ef8e.md) 
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-11-25
+
+</td>
+<td valign="top">
+
+2025-11-25
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Substitution Management for Business Administrators Now Available for SAP Build Process Automation 
+
+</td>
+<td valign="top">
+
+In the Task Center Administration app, business administrators can create and delete substitution rules on behalf of SAP Build Process Automation users.
+
+For more information, see [Using Substitution Management for Business Administrators](../40-administration/using-substitution-management-for-business-administrators-3adfedc.md).
+
+To allow users to create and delete substitution rules on behalf of others, assign the `ProcessAutomationAdmin` role collection in SAP Build Process Automation.
+
+For more information on role collections, see [Authorizations](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/authorizations).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-11-21
+
+</td>
+<td valign="top">
+
+2025-11-21
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Connect SAP Task Center and SAP Build Process Automation by Creating Dependency
 
 </td>
