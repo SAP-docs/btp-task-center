@@ -8,7 +8,46 @@ Find information about the destination configuration that needs to be done for S
 
 **Context**
 
-![](images/PushWithMTLS_-_S4_Cloud_Public_Edition_ad82bb2.png)
+![](images/S4Cloud-Public_pptx_ad82bb2.png)
+
+
+
+### Connect SAP S/4HANA Cloud Public Edition and SAP Task Center Using a Formation
+
+Configure the connection between SAP Task Center and SAP S/4HANA Cloud Public Edition using a formation.
+
+**Context**
+
+A formation is a logical grouping of SAP systems following a business scenario. Formations allow you to combine SAP solution systems to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your integration or extension scenario.
+
+When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP solutions you want to extend.
+
+When using a formation to connect to SAP S/4HANA Cloud Public Edition, you can set up the connection only with basic authentication. If you want to set up the connection using mTLS, follow the documentation at [Connect SAP S/4HANA Cloud Public Edition and SAP Task Center](connect-sap-s-4hana-cloud-public-edition-and-sap-task-center-0aff1b4.md) and create the destination manually.
+
+**Prerequisites**
+
+-   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP S/4HANA Cloud Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-s-4hana-cloud-integration-scenario?version=Cloud) when setting up the *Global User ID*.
+
+-   You have established trust of type OIDC between and the SAP Task Center subaccount and Identity Authentication.
+-   You have created a subscription to the SAP Task Center service as described in [Create a Subscription to the SAP Task Center Service](../30-initial-setup/create-a-subscription-to-the-sap-task-center-service-fd137e3.md).
+-   To set up SAP Task Center with SAP S/4HANA Cloud Public Edition on SAP BTP, Cloud Foundry environment you need to have both systems included in a formation of type *Integration with SAP Task Center* in the *System Landscape* \> *Systems* page of the SAP BTP, Cloud Foundry environment cockpit.
+
+    SAP S/4HANA Cloud Public Edition system is auto-discovered because it is associated with your global account and has been discovered and added automatically to the list, based on information of the existing system landscape.
+
+    Please note that the SAP Task Center system for a specific consumer account can be visible only after a successful SAP Task Center subscription.
+
+
+**Procedure**
+
+Perform the steps in [Automating Integrations with SAP Task Center](https://help.sap.com/docs/btp/sap-business-technology-platform/automating-integrations-with-sap-task-center) to create a formation.
+
+**Result**
+
+After you compete the creation of the formation and you have:
+
+-   A connection between SAP Task Center and SAP S/4HANA Cloud Public Edition, including a new destination in the SAP BTP cockpit.
+-   A new service instance with service plan `cloud-only`.
+-   Enabled task updates to be pushed from your SAP S/4HANA Cloud Public Edition system.
 
 
 
@@ -19,7 +58,7 @@ Find information about the destination configuration that needs to be done for S
 > ### Tip:  
 > ![](../30-initial-setup/images/28x28_launch_png_2484bce.png) See also the step-by-step mission for the setup of connection to SAP S/4HANA Cloud Public Edition at [Integrate Your SAP S/4HANA Cloud Tasks Into SAP Task Center](https://discovery-center.cloud.sap/missiondetail/3906/4071/).
 
-**Prerequisites** 
+**Prerequisites**
 
 1.  You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html). Make sure you have followed the [SAP S/4HANA Cloud Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-s-4hana-cloud-integration-scenario?version=Cloud).
 

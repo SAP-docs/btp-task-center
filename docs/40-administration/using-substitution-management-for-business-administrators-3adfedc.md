@@ -12,7 +12,9 @@ As a business administrator you can search by users and manage their existing su
 
 ## Prerequisites
 
--   You've set up the SAP Task Center Administration application and you have the `TaskCenterBusinessAdministrator` role assigned. For more information, see [Authorization Configuration](../60-security/authorization-configuration-75e4130.md).
+-   You've set up the SAP Task Center Administration application. For more information, see [Create a Task Center Administration Tile](../30-initial-setup/create-a-task-center-administration-tile-8053d72.md).
+
+-   You have the `TaskCenterBusinessAdministrator` role assigned. For more information, see [Authorization Configuration](../60-security/authorization-configuration-75e4130.md).
 
 -   The task providers must have enabled the substitution management for business administrators feature. For more information, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
@@ -26,9 +28,7 @@ In the *Substitution Management* tab in the Task Center Administration app, busi
 > ### Note:  
 > SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported.
 
-![An interactive image of the substitution management for business
-							administrators views. Highlights the most important actions related to
-							the task.](images/SubstitutionManagement-BusinessAdmin_7c5db0d.png)
+![An interactive image of the substitution management for business							administrators views. Highlights the most important actions related to							the task.](images/SubstitutionManagement-BusinessAdmin_7c5db0d.png)
 
 
 

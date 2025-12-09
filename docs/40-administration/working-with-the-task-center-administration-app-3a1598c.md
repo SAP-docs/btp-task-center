@@ -4,11 +4,13 @@
 
 # Working with the Task Center Administration App
 
-The Task Center Administration app displays the status of SAP Task Center service, status of all active destinations, and information about their jobs and job types.
+The Task Center Administration app provides an overview of the SAP Task Center service status, the status of all active destinations, including information about their jobs and job types. It allows configuration of the SAP Task Center global settings.
 
 
 
 The Task Center Administration app connects to the SAP Task Center Monitoring API and helps administrators monitor the overall status of the SAP Task Center service and all destination connectors, configured on the account of the SAP Task Center instance.
+
+In the Task Center Administration app you can also set the global settings of SAP Task Center that apply to all task providers.
 
 For more information about the Monitoring Status API, see [SAP Business Accelerator Hub Task Center API](https://int.api.hana.ondemand.com/package/SAPTaskCenter?section=Artifacts).
 
@@ -31,12 +33,17 @@ For more information about the languages supported in the Task Center Administra
 
 ## Working with the Task Center Administration App
 
-The Task Center Administration app provides information on the following two tabs:
+The Task Center Administration app provides information on the following tabs:
 
 -   *Connectors*
 
 -   *Service Status*
 
+-   *Global Settings*
+
+
+
+### Connectors Tab
 
 The *Connectors* tab contains the following views:
 
@@ -165,6 +172,10 @@ Log View
 </tr>
 </table>
 
+
+
+### Service Status Tab
+
 The *Service Status* tab provides information about the current status of the following destinations:
 
 -   *Task\_Center\_global\_settings*
@@ -176,90 +187,107 @@ Use the *Refresh* button \(<span style="color:#346187;"><span class="SAP-icons-V
 
 > ### Note:  
 > The IDs and all messages returned by the SAP Task Center service are only in English.
+> 
+> **Information in the Service Status Table**
+> 
+> 
+> <table>
+> <tr>
+> <th valign="top">
+> 
+> Column
+> 
+> </th>
+> <th valign="top">
+> 
+> Details
+> 
+> </th>
+> </tr>
+> <tr>
+> <td valign="top" rowspan="2">
+> 
+> *ID*
+> 
+> </td>
+> <td valign="top">
+> 
+> The *Service\_Configuration* ID is related to the *Task\_Center\_global\_settings* destination. See also [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> The *IDS\_Configuration* ID is related to the *Identity\_Authentication\_Connectivity\_IDS* destination. See also [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md).
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> *Status*
+> 
+> </td>
+> <td valign="top">
+> 
+> The service can have the following status:
+> 
+> -   *OK*
+> -   *WARNING*
+> -   *ERROR*
+> 
+> For more information, see the message.
+> 
+> > ### Note:  
+> > Only the last retrieved status is displayed.
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> *Message*
+> 
+> </td>
+> <td valign="top">
+> 
+> Displays a message returned by the service.
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> *Modified At*
+> 
+> </td>
+> <td valign="top">
+> 
+> Date and time when the last status update was retrieved.
+> 
+> </td>
+> </tr>
+> </table>
 
-**Information in the Service Status Table**
 
 
-<table>
-<tr>
-<th valign="top">
+### Global Settings Tab
 
-Column
+The *Global Settings* tab provides the following information about the settings in SAP Task Center that are valid for all task providers:
 
-</th>
-<th valign="top">
-
-Details
-
-</th>
-</tr>
-<tr>
-<td valign="top" rowspan="2">
-
-*ID*
-
-</td>
-<td valign="top">
-
-The *Service\_Configuration* ID is related to the *Task\_Center\_global\_settings* destination. See also [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-The *IDS\_Configuration* ID is related to the *Identity\_Authentication\_Connectivity\_IDS* destination. See also [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Status*
-
-</td>
-<td valign="top">
-
-The service can have the following status:
-
--   *OK*
--   *WARNING*
--   *ERROR*
-
-For more information, see the message.
+-   *Languages* - allows you to pick up to 3 languages for the translations of tasks and task definitions. For more information, see [Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md#loiof0f13bf49e3f45488bcf24218a2771e4__section_q4p_zk5_ymb).
+-   *Outbox* - allows you to enable or disable the *Outbox* tab in the Web app which shows completed tasks. For more information, see [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
+-   *Email Notifications Root URL* - allows you to set the root URL that is used for generating working links in email notifications. For more information, see [Enable Notifications for End Users](enable-notifications-for-end-users-caf2543.md).
 
 > ### Note:  
-> Only the last retrieved status is displayed.
+> To use the *Global Settings* tab, you must first create the *Task\_Center\_global\_settings* destination. This destination can't be created through the SAP Task Center Administration app.
 
+Any changes you make in the *Global Settings* tab are automatically synchronized with the destination and vice versa.
 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Message*
-
-</td>
-<td valign="top">
-
-Displays a message returned by the service.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Modified At*
-
-</td>
-<td valign="top">
-
-Date and time when the last status update was retrieved.
-
-</td>
-</tr>
-</table>
+For more information on each setting, see [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
 
 
 
@@ -279,7 +307,7 @@ For more information on how to start creating intelligent recommendation models,
 
 ## Substitution Management
 
-On the *Substitution Management* tab business administrators can create substitution rules on behalf of end users, or manage existing substutution rules.
+On the *Substitution Management* tab business administrators can create substitution rules on behalf of end users, or manage existing substitution rules.
 
 For more information, see [Using Substitution Management for Business Administrators](using-substitution-management-for-business-administrators-3adfedc.md).
 

@@ -261,7 +261,7 @@ If neither of these options resolves the issue, open a ticket to the SAP Task Ce
 **Related Information**  
 
 
-[Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md "The Task Center Administration app displays the status of SAP Task Center service, status of all active destinations, and information about their jobs and job types.")
+[Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md "The Task Center Administration app provides an overview of the SAP Task Center service status, the status of all active destinations, including information about their jobs and job types. It allows configuration of the SAP Task Center global settings.")
 
 [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md "These conventions and restrictions apply to the SAP Task Center.")
 

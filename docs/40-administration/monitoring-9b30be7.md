@@ -74,7 +74,7 @@ You can set up SAP Alert Notification service for SAP BTP to send notifications 
 
 [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md "Configure the Identity_Authentication_Connectivity_IDS destination to connect to the identity directory of Identity Authentication and retrieve the required information about the end users.")
 
-[Working with the Task Center Administration App](working-with-the-task-center-administration-app-3a1598c.md "The Task Center Administration app displays the status of SAP Task Center service, status of all active destinations, and information about their jobs and job types.")
+[Working with the Task Center Administration App](working-with-the-task-center-administration-app-3a1598c.md "The Task Center Administration app provides an overview of the SAP Task Center service status, the status of all active destinations, including information about their jobs and job types. It allows configuration of the SAP Task Center global settings.")
 
 [Set Up Notifications for Administrators](set-up-notifications-for-administrators-2c1997b.md "You can set up the SAP Alert Notification service for SAP BTP to send notifications for changes in the SAP Task Center background job statuses.")
 

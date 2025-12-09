@@ -87,6 +87,136 @@ SAP Task Center
 </td>
 <td valign="top">
 
+New *Global Settings* Tab Available in the SAP Task Center Administration App
+
+</td>
+<td valign="top">
+
+In the SAP Task Center Administration app, administrators can now configure the properties of the *Task\_Center\_global\_settings* destination that apply to all task providers.
+
+For more information, see [Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-12-09
+
+</td>
+<td valign="top">
+
+2025-12-09
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Connect SAP Task Center and SAP S/4HANA Cloud Public Edition Using a Formation
+
+</td>
+<td valign="top">
+
+You can now connect SAP Task Center and SAP S/4HANA Cloud Public Edition by using a formation. For more information, see [Connect SAP S/4HANA Cloud Public Edition and SAP Task Center](https://help.sap.com/docs/task-center/sap-task-center/connect-sap-s-4hana-cloud-and-sap-task-center).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-11-26
+
+</td>
+<td valign="top">
+
+2025-11-26
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 *Mass Actions* are Now Available for SAP Build Process Automation 
 
 </td>
