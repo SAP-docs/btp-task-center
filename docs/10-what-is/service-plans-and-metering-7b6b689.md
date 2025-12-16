@@ -121,7 +121,7 @@ Users are allowed to use for free up to 20 tasks \(2 blocks of 10 records\) stor
 <tr>
 <td valign="top" rowspan="2">
 
-`standard`
+\(Deprecated\) `standard`
 
 </td>
 <td valign="top">
@@ -131,7 +131,7 @@ Users are allowed to use for free up to 20 tasks \(2 blocks of 10 records\) stor
 </td>
 <td valign="top">
 
-This service plan is scheduled to be removed from the list of Eligible Cloud Services as of November 15, 2025. It will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *Standard* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
+This service plan was deprecated. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *Standard* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ This service plan is scheduled to be removed from the list of Eligible Cloud Ser
 </td>
 <td valign="top">
 
-This service plan is scheduled to be removed from the list of Eligible Cloud Services as of November 15, 2025. It will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *On-Premise and Third-Party* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
+This service plan was been deprecated. You can use the *All Tasks* or *Build Default* service plans, which now include the features of the *On-Premise and Third-Party* service plan, or the *Cloud-Only Tasks* service plan if you want to integrate with the supported SAP cloud solutions.
 
 </td>
 </tr>

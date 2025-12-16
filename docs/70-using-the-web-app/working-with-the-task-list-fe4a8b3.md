@@ -540,7 +540,10 @@ Some columns with custom attributes might be hidden for optimal visualization. Y
 
 Open a task and choose the *Show More* button to view additional details about the task. You can select from the following options if supported by the task provider:
 
--   Activity Log - You can view the process overview of a selected task and access process flow information by selecting a specific event. The log also tracks history, including how the task was processed, who performed each action, and when the event occurred.
+-   Activity Log - may include one or both of the following functionalities:
+
+    -   Task Log - you can track the history of the selected task, including how the task was processed, who performed each action, and when the event occurred.
+    -   Process Overview - you can see where the process stands by highlighting each step, its status, and the people or groups involved. It also lets you see all tasks within those steps and the actions others have taken. You can directly navigate to a specific task from any of the steps in the process.
 
     You may filter by *Task Participants*, *Date & Time Range* or *Event Type* using the filter option. When using the search function, it applies only to the text, but does not apply to the date and time.
 

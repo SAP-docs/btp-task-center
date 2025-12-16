@@ -87,6 +87,72 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Expanded Transition Guide - From My Inbox to SAP Task Center
+
+</td>
+<td valign="top">
+
+The transition guide is expanded to cover a transition from My Inbox in SAP S/4HANA, SAP S/4HANA Cloud Private Edition, and SAP S/4HANA Cloud Public Edition to SAP Task Center.
+
+For more information, see [Transition Guide to SAP Task Center](https://help.sap.com/docs/task-center/transition-guide-to-stc).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-12-16
+
+</td>
+<td valign="top">
+
+2025-12-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New *Global Settings* Tab Available in the SAP Task Center Administration App
 
 </td>

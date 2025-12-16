@@ -285,7 +285,7 @@ The *Global Settings* tab provides the following information about the settings 
 > ### Note:  
 > To use the *Global Settings* tab, you must first create the *Task\_Center\_global\_settings* destination. This destination can't be created through the SAP Task Center Administration app.
 
-Any changes you make in the *Global Settings* tab are automatically synchronized with the destination and vice versa.
+Any changes you make in the *Global Settings* tab are automatically synchronized with the destination and vice versa. Keep in mind that
 
 For more information on each setting, see [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
 
