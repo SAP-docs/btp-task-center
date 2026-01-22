@@ -12,7 +12,7 @@ The Task Center Administration app connects to the SAP Task Center Monitoring AP
 
 In the Task Center Administration app you can also set the global settings of SAP Task Center that apply to all task providers.
 
-For more information about the Monitoring Status API, see [SAP Business Accelerator Hub Task Center API](https://int.api.hana.ondemand.com/package/SAPTaskCenter?section=Artifacts).
+For more information about the Monitoring Status API, see [SAP Business Accelerator Hub Task Center API ](https://int.api.hana.ondemand.com/package/SAPTaskCenter?section=Artifacts).
 
 For more information about the languages supported in the Task Center Administration app, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
 
@@ -35,11 +35,11 @@ For more information about the languages supported in the Task Center Administra
 
 The Task Center Administration app provides information on the following tabs:
 
--   *Connectors*
+-   *Connectors* 
 
--   *Service Status*
+-   *Service Status* 
 
--   *Global Settings*
+-   *Global Settings* 
 
 
 
@@ -98,16 +98,16 @@ Destinations View
 
     -   *ERROR* – at least 1 job is in *Error* state
 
-    -   *PAUSED* – the *tc.enabled* property of the destination is set to `false`
+    -   *PAUSED* – the *tc.enabled* property of the destination is set to `false` 
 
 
 
-
+Use the <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Connectors* button to refresh the destinations. The Job and Log view are also refreshed if they are opened.
 
 </td>
 <td valign="top">
 
-`/task-center-service/v1/connectors`
+`/task-center-service/v1/connectors` 
 
 </td>
 </tr>
@@ -124,29 +124,31 @@ Job View
 
     The job types can be:
 
-    -   *INITIAL*
-    -   *CONFIG*
-    -   *DELTA*
-    -   *META*
-    -   *PUSH*
+    -   *INITIAL* 
+    -   *CONFIG* 
+    -   *DELTA* 
+    -   *META* 
+    -   *PUSH* 
 
 -   Statuses of the job types
 
     The jobs can have one of the following statuses:
 
-    -   *OK*
-    -   *RUNNING*
-    -   *WARNING*
-    -   *ERROR*
+    -   *OK* 
+    -   *RUNNING* 
+    -   *WARNING* 
+    -   *ERROR* 
 
 -   More details about the job type
+
+Use the <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Job Status* button to refresh all jobs. The Log view is also refreshed if it is opened.
 
 For more information about the available job types and their statuses, see [Monitoring](monitoring-9b30be7.md).
 
 </td>
 <td valign="top">
 
-`/task-center-service/v1/connectors/{connectorId}`
+`/task-center-service/v1/connectors/{connectorId}` 
 
 </td>
 </tr>
@@ -161,12 +163,12 @@ Log View
 -   Job status and job type
 -   All log messages, start, and end of the log
 
-
+Use the <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Event Log* button to refresh the events.
 
 </td>
 <td valign="top">
 
-`/task-center-service/v1/connectors/{connectorId}/jobTypes/{jobType}`
+`/task-center-service/v1/connectors/{connectorId}/jobTypes/{jobType}` 
 
 </td>
 </tr>
@@ -178,8 +180,8 @@ Log View
 
 The *Service Status* tab provides information about the current status of the following destinations:
 
--   *Task\_Center\_global\_settings*
--   *Identity\_Authentication\_Connectivity\_IDS*
+-   *Task\_Center\_global\_settings* 
+-   *Identity\_Authentication\_Connectivity\_IDS* 
 
 The related end point in the API is `/task-center-service/v1/service-status`.
 
@@ -207,35 +209,35 @@ Use the *Refresh* button \(<span style="color:#346187;"><span class="SAP-icons-V
 > <tr>
 > <td valign="top" rowspan="2">
 > 
-> *ID*
+> *ID* 
 > 
 > </td>
 > <td valign="top">
 > 
-> The *Service\_Configuration* ID is related to the *Task\_Center\_global\_settings* destination. See also [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
-> 
-> </td>
-> </tr>
-> <tr>
-> <td valign="top">
-> 
-> The *IDS\_Configuration* ID is related to the *Identity\_Authentication\_Connectivity\_IDS* destination. See also [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md).
+> The *Service\_Configuration* ID is related to the *Task\_Center\_global\_settings* destination. See also [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
 > 
 > </td>
 > </tr>
 > <tr>
 > <td valign="top">
 > 
-> *Status*
+> The *IDS\_Configuration* ID is related to the *Identity\_Authentication\_Connectivity\_IDS* destination. See also [Identity Directory Connectivity](../30-initial-setup/identity-directory-connectivity-3dcfba9.md).
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> *Status* 
 > 
 > </td>
 > <td valign="top">
 > 
 > The service can have the following status:
 > 
-> -   *OK*
-> -   *WARNING*
-> -   *ERROR*
+> -   *OK* 
+> -   *WARNING* 
+> -   *ERROR* 
 > 
 > For more information, see the message.
 > 
@@ -249,7 +251,7 @@ Use the *Refresh* button \(<span style="color:#346187;"><span class="SAP-icons-V
 > <tr>
 > <td valign="top">
 > 
-> *Message*
+> *Message* 
 > 
 > </td>
 > <td valign="top">
@@ -261,7 +263,7 @@ Use the *Refresh* button \(<span style="color:#346187;"><span class="SAP-icons-V
 > <tr>
 > <td valign="top">
 > 
-> *Modified At*
+> *Modified At* 
 > 
 > </td>
 > <td valign="top">
@@ -279,7 +281,7 @@ Use the *Refresh* button \(<span style="color:#346187;"><span class="SAP-icons-V
 The *Global Settings* tab provides the following information about the settings in SAP Task Center that are valid for all task providers:
 
 -   *Languages* - allows you to pick up to 3 languages for the translations of tasks and task definitions. For more information, see [Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md#loiof0f13bf49e3f45488bcf24218a2771e4__section_q4p_zk5_ymb).
--   *Outbox* - allows you to enable or disable the *Outbox* tab in the Web app which shows completed tasks. For more information, see [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
+-   *Outbox* - allows you to enable or disable the *Outbox* tab in the Web app which shows completed tasks. For more information, see [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
 -   *Email Notifications Root URL* - allows you to set the root URL that is used for generating working links in email notifications. For more information, see [Enable Notifications for End Users](enable-notifications-for-end-users-caf2543.md).
 
 > ### Note:  
@@ -287,7 +289,7 @@ The *Global Settings* tab provides the following information about the settings 
 
 Any changes you make in the *Global Settings* tab are automatically synchronized with the destination and vice versa. Keep in mind that
 
-For more information on each setting, see [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
+For more information on each setting, see [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
 
 
 
@@ -297,7 +299,7 @@ For more information on each setting, see [SAP Task Center Global Settings](sap-
 
 On the *Intelligent Recommendations* tab you can create AI models to propose recommendations for the end users. These recommendations are based on the confidence level generated for the task. The confidence level is a numerical value ranging from 0 to 100, which is calculated by a trained AI model. A higher confidence level encourages positive action on the task, such as approval.
 
-Before you start creating intelligent recommendation models, make sure you have configured the destination required for this feature. For more information, see [Configure the Intelligent Recommendations Destination](configure-the-intelligent-recommendations-destination-7c8900a.md).
+Before you start creating intelligent recommendation models, make sure you have configured the destination required for this feature. For more information, see [Configure the Intelligent Recommendations Destination](../configure-the-intelligent-recommendations-destination-7c8900a.md).
 
 For more information on how to start creating intelligent recommendation models, see [Working with Intelligent Recommendations](working-with-intelligent-recommendations-340651c.md).
 
@@ -322,9 +324,9 @@ For more information, see [Using Substitution Management for Business Administra
 
 [SAP Business API Hub documentation](https://api.sap.com/package/SAPTaskCenter?section=Artifacts)
 
-[SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md "Configure the Task_Center_global_settings destination, to set the properties valid for all destinations.")
+[SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md "Configure the Task_Center_global_settings destination, to set the properties valid for all destinations.")
 
-[Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md "Configure the Identity_Authentication_Connectivity_IDS destination to connect to the identity directory of Identity Authentication and retrieve the required information about the end users.")
+[Identity Directory Connectivity](../30-initial-setup/identity-directory-connectivity-3dcfba9.md "Configure the Identity_Authentication_Connectivity_IDS destination to connect to the identity directory of Identity Authentication and retrieve the required information about the end users.")
 
 [Working with Intelligent Recommendations](working-with-intelligent-recommendations-340651c.md "You can create intelligent recommendation model to manage recommedations for the approval tasks.")
 

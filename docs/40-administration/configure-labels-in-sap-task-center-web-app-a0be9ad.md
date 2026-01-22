@@ -20,5 +20,5 @@ Depending on your user language, the SAP Task Center searches for available tran
 **Related Information**  
 
 
-[Destinations](destinations-3470733.md "SAP Task Center communicates with the task provider applications via predefined destinations in a customer subaccount.")
+[Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md "Create a dedicated connection for each task provider to bring its tasks into the SAP Task Center Web app.")
 

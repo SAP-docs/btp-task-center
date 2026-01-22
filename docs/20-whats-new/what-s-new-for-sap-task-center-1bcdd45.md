@@ -6,6 +6,270 @@
 
 
 
+**2026**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Technical Component
+
+</th>
+<th valign="top">
+
+Environment
+
+</th>
+<th valign="top">
+
+Title
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Lifecycle
+
+</th>
+<th valign="top">
+
+Type
+
+</th>
+<th valign="top">
+
+Line of Business
+
+</th>
+<th valign="top">
+
+Modular Business Process
+
+</th>
+<th valign="top">
+
+Product
+
+</th>
+<th valign="top">
+
+Latest Revision
+
+</th>
+<th valign="top">
+
+Available as of
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Task Center Documentation Restructured
+
+</td>
+<td valign="top">
+
+The SAP Task Center documentation has been restructured for better usability. The content is now more organized, helping you find information quickly. We welcome your feedback - submit it through the documentation feedback form at [Documentation Survey](https://sapinsights.eu.qualtrics.com/jfe/form/SV_0vVIWrgxNFKVeGW?source=HP) or via the Comments section on the SAP Help Portal \(*Feedback* \> *Comments*\).
+
+Your input is essential for our continuous improvement.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-01-22
+
+</td>
+<td valign="top">
+
+2026-01-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Feature for Refreshing Connectors
+
+</td>
+<td valign="top">
+
+In the SAP Task Center Administration app, administrators can refresh destinations, jobs, and event logs from the *Connectors* tab.
+
+For more information, see [Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-01-22
+
+</td>
+<td valign="top">
+
+2026-01-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Task Center Documentation Translations Available
+
+</td>
+<td valign="top">
+
+The SAP Task Center documentation on the SAP Help Portal is now translated into 39 languages through on-the-fly machine translation. You can now generate translation of content instantly by selecting the respective language from the dropdown list next to the title of the product *SAP Task Center*.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-04-09
+
+</td>
+<td valign="top">
+
+2025-04-09
+
+</td>
+</tr>
+</table>
+
 **2025**
 
 
@@ -424,7 +688,7 @@ Connect SAP Task Center and SAP Build Process Automation by Creating Dependency
 </td>
 <td valign="top">
 
-You can now connect SAP Task Center with SAP Build Process Automation from a different subaccount by creating a dependency in SAP Cloud Identity Services - Identity Authentication. For more information, see [Work with SAP Build Process Automation Tasks from a Different Subaccount](../40-administration/work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
+You can now connect SAP Task Center with SAP Build Process Automation from a different subaccount by creating a dependency in SAP Cloud Identity Services - Identity Authentication. For more information, see [Work with SAP Build Process Automation Tasks from a Different Subaccount](../work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
 
 </td>
 <td valign="top">
@@ -946,7 +1210,7 @@ Intelligent Recommendation - URL Updated
 
 The URL for the *Intelligent Recommendations* destination has been updated. If you have already configured this destination, update the *URL* property to match the new pattern.
 
-For more information, see [Configure the Intelligent Recommendations Destination](../40-administration/configure-the-intelligent-recommendations-destination-7c8900a.md).
+For more information, see [Configure the Intelligent Recommendations Destination](../configure-the-intelligent-recommendations-destination-7c8900a.md).
 
 </td>
 <td valign="top">
@@ -1138,7 +1402,7 @@ Pushing UiPath Tasks Enabled
 </td>
 <td valign="top">
 
-You can now enable task updates to be pushed from UiPath. For more information, see step 1, 2, and the *tc.clientId* property in [Connect UiPath and SAP Task Center](../40-administration/connect-uipath-and-sap-task-center-223b083.md).
+You can now enable task updates to be pushed from UiPath. For more information, see step 1, 2, and the *tc.clientId* property in [Connect UiPath and SAP Task Center](../connect-uipath-and-sap-task-center-223b083.md).
 
 End users can access tasks through the SAP Task Center Web app directly for review and approval of processed documents.
 
@@ -1204,7 +1468,7 @@ SAP Field Service Management Supported as Task Provider
 </td>
 <td valign="top">
 
-You can now connect SAP Field Service Management as task provider to SAP Task Center. For more information, see [Connect SAP Field Service Management and SAP Task Center](../40-administration/connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+You can now connect SAP Field Service Management as task provider to SAP Task Center. For more information, see [Connect SAP Field Service Management and SAP Task Center](../connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
 
 </td>
 <td valign="top">
@@ -1530,7 +1794,7 @@ Outbox Feature Available in the SAP Task Center Web App
 
 A new Outbox feature is available in the Web app for users to view their completed tasks, along with their details, comments, and attachments. For more information, see [SAP Task Center Web App - Outbox](https://help.sap.com/docs/task-center/sap-task-center/sap-task-center-web-app#outbox).
 
-A new property *tc.outbox* must be set by administrators to enable the *Outbox* tab in the Web app. For more information, see [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
+A new property *tc.outbox* must be set by administrators to enable the *Outbox* tab in the Web app. For more information, see [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
 
 </td>
 <td valign="top">
@@ -1856,7 +2120,7 @@ New Property for Extending the Maximum Pull Period
 </td>
 <td valign="top">
 
-The new property *tc.inbox.pull.days*, available for the `all-tasks` service plan, allows administrators to extend the maximum pull period of the initial pull job per task provider to up to 180 days. For more information, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md) and the respective [task provider destinations](../40-administration/destinations-to-task-providers-b158111.md).
+The new property *tc.inbox.pull.days*, available for the `all-tasks` service plan, allows administrators to extend the maximum pull period of the initial pull job per task provider to up to 180 days. For more information, see [Conventions and Technical Restrictions](../10-what-is/conventions-and-technical-restrictions-f0f13bf.md) and the respective [task provider destinations](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 </td>
 <td valign="top">
@@ -1986,7 +2250,7 @@ Improved Onboarding for SAP S/4HANA Cloud Private Edition with `all-tasks` Servi
 </td>
 <td valign="top">
 
-If you are setting up SAP S/4HANA Cloud Private Edition with the `all-tasks` service plan, you don't need to create an additional ticket to enable the destination anymore. This step is now automated. For more information, see [Connect SAP S/4HANA Cloud Private Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md).
+If you are setting up SAP S/4HANA Cloud Private Edition with the `all-tasks` service plan, you don't need to create an additional ticket to enable the destination anymore. This step is now automated. For more information, see [Connect SAP S/4HANA Cloud Private Edition and SAP Task Center](../connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md).
 
 </td>
 <td valign="top">
@@ -2318,7 +2582,7 @@ New Property to Optimize Search Performance
 
 A new property *tc.pp.active\_users\_only* can be set up to optimize the performance of the people search engine for very large user groups.
 
-For more information, see [Identity Directory Connectivity](../40-administration/identity-directory-connectivity-3dcfba9.md).
+For more information, see [Identity Directory Connectivity](../30-initial-setup/identity-directory-connectivity-3dcfba9.md).
 
 </td>
 <td valign="top">

@@ -14,7 +14,7 @@ Considering this information during development helps you achieve optimal use of
 
 -   By default, during the initial pull SAP Task Center loads the tasks, which have been updated or created in the past 90 days \(this is the **maximum initial pull period**\).
 
-    If you are using the `all-tasks` service plan, the retention period of every task provider can be adjusted to a maximum of 180 days by configuring the *tc.inbox.pull.days* property. The allowed values range from 0 to 180. For more information, see the respective task provider destination at [Destinations to Task Providers](../40-administration/destinations-to-task-providers-b158111.md).
+    If you are using the `all-tasks` service plan, the retention period of every task provider can be adjusted to a maximum of 180 days by configuring the *tc.inbox.pull.days* property. The allowed values range from 0 to 180. For more information, see the respective task provider destination at [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 -   During the initial pull load, if SAP Task Center cannot retrieve a token in one hour, it automatically sets the *tc.enabled* property to `false`. To continue, you need to manually set the property to `true`.
 
@@ -37,7 +37,7 @@ Considering this information during development helps you achieve optimal use of
     -   All completed and non-finalized tasks \(for example with status *Ready* or *Reserved*\) that have not been updated in the past 180 days \(this is the **retention period**\)
 
 
--   To delete the task cache, you have to temporarily remove the *tc.enabled* property. For more information, see the details for the property *tc.enabled* in the corresponding destination topic \(see [Destinations](../40-administration/destinations-3470733.md)\).
+-   To delete the task cache, you have to temporarily remove the *tc.enabled* property. For more information, see the details for the property *tc.enabled* in the corresponding destination topic \(see [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md)\).
 
 -   To use the SAP Task Center Web app, you need UI5 version 1.108 \(latest patch\) or higher.
 
@@ -50,7 +50,7 @@ Considering this information during development helps you achieve optimal use of
 
 ## Technical Restrictions
 
--   From all supported languages \(see [Supported Languages](supported-languages-c66c693.md)\), SAP Task Center supports simultaneously up to three language translations for tasks and definitions, which are stored in the SAP Task Center service cache. For more information, see [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
+-   From all supported languages \(see [Supported Languages](supported-languages-c66c693.md)\), SAP Task Center supports simultaneously up to three language translations for tasks and definitions, which are stored in the SAP Task Center service cache. For more information, see [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
 
 -   SAP Task Center supports only substitutions created using SAP Task Center Substitution Management \(see [Substitution Management](../70-using-the-web-app/substitution-management-bef9b2d.md)\). The SAP Task Center integration does not support substitutions created in the supported task providers, except for those created in SAP Build Process Automation. If there are substitutions or delegates, defined in any of the supported SAP or third-party solutions, they will not work with SAP Task Center.
 

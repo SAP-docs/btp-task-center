@@ -21,7 +21,7 @@ Steps for SAP Task Center administrators to troubleshoot and resolve issues when
 
 ### 1. Check the property `tc.notifications.enabled`.
 
-Make sure that the `tc.notifications.enabled` property in the task provider destination is set to `true`. For more information, choose your task provider topic from the list of [Destinations to Task Providers](../40-administration/destinations-to-task-providers-b158111.md).
+Make sure that the `tc.notifications.enabled` property in the task provider destination is set to `true`. For more information, choose your task provider topic from the list of [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 
 
@@ -31,7 +31,7 @@ From the **Task Center Administration ****app**\> *Service Status*, check if the
 
 For more information on the Task Center Administration app, see [Working with the Task Center Administration App](../40-administration/working-with-the-task-center-administration-app-3a1598c.md).
 
-The destination *Identity\_Authentication\_Connectivity\_IDS* should be created in your Cloud Foundry subaccount. For more information, see [Identity Directory Connectivity](../40-administration/identity-directory-connectivity-3dcfba9.md). If you have set up the connectivity with *ClientCertificateAuthentication*, ensure that the uploaded certificate is valid.
+The destination *Identity\_Authentication\_Connectivity\_IDS* should be created in your Cloud Foundry subaccount. For more information, see [Identity Directory Connectivity](../30-initial-setup/identity-directory-connectivity-3dcfba9.md). If you have set up the connectivity with *ClientCertificateAuthentication*, ensure that the uploaded certificate is valid.
 
 If multiple Identity Authentication services are in use, the destination should be directed to the same Identity Authentication that the end user has logged into.
 
@@ -39,7 +39,7 @@ If multiple Identity Authentication services are in use, the destination should 
 
 ### 3. Check the destination *Alert\_Notification\_Connectivity\_ANS*.
 
-Make sure you've configured the *Alert\_Notification\_Connectivity\_ANS* destination in your Cloud Foundry subaccount. For more information, see [Alert Notifications Connectivity](../40-administration/alert-notifications-connectivity-f6c9f3b.md).
+Make sure you've configured the *Alert\_Notification\_Connectivity\_ANS* destination in your Cloud Foundry subaccount. For more information, see [Alert Notifications Connectivity](../30-initial-setup/alert-notifications-connectivity-f6c9f3b.md).
 
 
 
@@ -57,7 +57,7 @@ Go to your Cloud Foundry subaccount and select the *Destinations* tab. In the *T
 
 ### 1. Check the SMTP mail configuration.
 
-Make sure a destination is pointing to the SMTP mail server of your company. For more information, see [Alert Notifications Connectivity](../40-administration/alert-notifications-connectivity-f6c9f3b.md) and [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
+Make sure a destination is pointing to the SMTP mail server of your company. For more information, see [Alert Notifications Connectivity](../30-initial-setup/alert-notifications-connectivity-f6c9f3b.md) and [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
 
 
 
@@ -71,7 +71,7 @@ The end user should check in the Web app if the notifications are enabled from t
 
 ### 3. If the end users receive email notifications, but the link from the email doesn't work, check the property `tc.wz.home.url`.
 
-If email notifications work, but the link from the email doesn't, make sure the property <code><code>tc.wz.home.url</code></code> in the destination *Task\_Center\_global\_settings* is set. For more information, see [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
+If email notifications work, but the link from the email doesn't, make sure the property <code><code>tc.wz.home.url</code></code> in the destination *Task\_Center\_global\_settings* is set. For more information, see [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
 
 > ### Tip:  
 > If the troubleshooting steps, didn't help you resolve the notifications issue, please submit an incident to SAP Task Center. For more information on the support components, see [3044195 - SAP Task Center Support Components](https://me.sap.com/notes/3044195/E).

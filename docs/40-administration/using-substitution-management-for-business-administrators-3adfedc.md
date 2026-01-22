@@ -26,7 +26,7 @@ As a business administrator you can search by users and manage their existing su
 In the *Substitution Management* tab in the Task Center Administration app, business administrators can search for the existing substitution rules of end users, delete substitutions, or create substitutions on behalf of the end users.
 
 > ### Note:  
-> SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported.
+> SAP Task Center works only with substitutions created in the *Substitution Management* of SAP Task Center. Substitutions created in the task providers are not supported, except for those created in My Inbox in SAP Build Process Automation.
 
 ![An interactive image of the substitution management for business							administrators views. Highlights the most important actions related to							the task.](images/SubstitutionManagement-BusinessAdmin_7c5db0d.png)
 

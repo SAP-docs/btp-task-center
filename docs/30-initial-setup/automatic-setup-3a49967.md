@@ -10,7 +10,7 @@ Get started with the SAP Task Center service using a booster and creating a Task
 
 ## Prerequisites
 
-Before you continue with the automatic setup, make sure you meet all prerequisites in [Initial Setup](initial-setup-8347694.md).
+Before you continue with the automatic setup, make sure you meet all prerequisites in [Prerequisites](prerequisites-ecc99ef.md).
 
 
 
@@ -18,7 +18,7 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
 
 1.  Access your global account page in the SAP BTP cockpit, and choose *Boosters* from the navigation menu.
 
-2.  Search for *SAP Task Center* and start one of the following boosters, depening on the central point of entry for accessing apps, that you have set up in the prerequisites in [Initial Setup](initial-setup-8347694.md):
+2.  Search for *SAP Task Center* and start one of the following boosters, depending on the central point of entry for accessing apps, that you have set up in the prerequisites in [Prerequisites](prerequisites-ecc99ef.md):
 
     **SAP Task Center Boosters**
 
@@ -144,7 +144,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    [Alert Notifications Connectivity](../40-administration/alert-notifications-connectivity-f6c9f3b.md)
+    [Alert Notifications Connectivity](alert-notifications-connectivity-f6c9f3b.md)
     
     </td>
     </tr>
@@ -161,7 +161,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    [Connect SAP Ariba and SAP Task Center](../40-administration/connect-sap-ariba-and-sap-task-center-d26b525.md)
+    [Connect SAP Ariba and SAP Task Center](../connect-sap-ariba-and-sap-task-center-d26b525.md)
     
     </td>
     </tr>
@@ -178,7 +178,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top" rowspan="2">
     
-    [Connect SAP Cloud for Customer and SAP Task Center](../40-administration/connect-sap-cloud-for-customer-and-sap-task-center-ec09002.md)
+    [Connect SAP Cloud for Customer and SAP Task Center](../connect-sap-cloud-for-customer-and-sap-task-center-ec09002.md)
     
     </td>
     </tr>
@@ -207,7 +207,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top" rowspan="2">
     
-    [Connect SAP Concur and SAP Task Center](../40-administration/connect-sap-concur-and-sap-task-center-f354ef9.md)
+    [Connect SAP Concur and SAP Task Center](../connect-sap-concur-and-sap-task-center-f354ef9.md)
     
     </td>
     </tr>
@@ -236,7 +236,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    [Connect SAP Fieldglass and SAP Task Center](../40-administration/connect-sap-fieldglass-and-sap-task-center-9367f0d.md)
+    [Connect SAP Fieldglass and SAP Task Center](../connect-sap-fieldglass-and-sap-task-center-9367f0d.md)
     
     </td>
     </tr>
@@ -253,7 +253,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    [Identity Directory Connectivity](../40-administration/identity-directory-connectivity-3dcfba9.md)
+    [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md)
     
     </td>
     </tr>
@@ -270,7 +270,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    [Connect SAP S/4HANA and SAP Task Center](../40-administration/connect-sap-s-4hana-and-sap-task-center-143af9b.md)
+    [Connect SAP S/4HANA and SAP Task Center](../connect-sap-s-4hana-and-sap-task-center-143af9b.md)
     
     </td>
     </tr>
@@ -287,7 +287,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    [Connect SAP S/4HANA Cloud Public Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-public-edition-and-sap-task-center-0aff1b4.md)
+    [Connect SAP S/4HANA Cloud Public Edition and SAP Task Center](../connect-sap-s-4hana-cloud-public-edition-and-sap-task-center-0aff1b4.md)
     
     </td>
     </tr>
@@ -304,7 +304,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    [Connect SAP S/4HANA Cloud Private Edition and SAP Task Center](../40-administration/connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md)
+    [Connect SAP S/4HANA Cloud Private Edition and SAP Task Center](../connect-sap-s-4hana-cloud-private-edition-and-sap-task-center-50ce133.md)
     
     </td>
     </tr>
@@ -321,7 +321,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top" rowspan="2">
     
-    [Connect SAP Build Process Automation and SAP Task Center](../40-administration/connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md)
+    [Connect SAP Build Process Automation and SAP Task Center](../connect-sap-build-process-automation-and-sap-task-center-e1e1dce.md)
     
     </td>
     </tr>
@@ -350,7 +350,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    [Connect SAP Marketing Cloud and SAP Task Center](../40-administration/connect-sap-marketing-cloud-and-sap-task-center-18b3848.md)
+    [Connect SAP Marketing Cloud and SAP Task Center](../connect-sap-marketing-cloud-and-sap-task-center-18b3848.md)
     
     </td>
     </tr>
@@ -367,7 +367,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top" rowspan="2">
     
-    [Connect SAP SuccessFactors and SAP Task Center](../40-administration/connect-sap-successfactors-and-sap-task-center-eae23f3.md)
+    [Connect SAP SuccessFactors and SAP Task Center](../connect-sap-successfactors-and-sap-task-center-eae23f3.md)
     
     </td>
     </tr>
@@ -396,7 +396,7 @@ The automatic setup does the following for you:
     </td>
     <td valign="top">
     
-    [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md)
+    [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md)
     
     </td>
     </tr>
@@ -408,7 +408,7 @@ The automatic setup does the following for you:
 
 [Boosters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fb1b56148f834749a2bf51127421610b.html)
 
-[Create a Task Center Tile](create-a-task-center-tile-70e7f6e.md "Create a Task Center tile on SAP Build Work Zone, advanced edition, SAP Build Work Zone, standard edition (formerly known as SAP Launchpad service), SAP SuccessFactors Work Zone or SAP Cloud Portal service, depending on your central point of entry for accessing applications.")
+[Create SAP Task Center Tiles](create-sap-task-center-tiles-ddae256.md "Create tiles to access the SAP Task Center Web App and the SAP Task Center Administration App from your central point of entry.")
 
-[Destinations](../40-administration/destinations-3470733.md "SAP Task Center communicates with the task provider applications via predefined destinations in a customer subaccount.")
+[Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md "Create a dedicated connection for each task provider to bring its tasks into the SAP Task Center Web app.")
 

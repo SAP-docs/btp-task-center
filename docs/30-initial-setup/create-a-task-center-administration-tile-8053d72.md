@@ -14,7 +14,7 @@ Create a Task Center Administration tile in the central point of entry for acces
 
 -   You have created a service instance of the SAP Task Center service. For more information, see [Create a Service Instance of the SAP Task Center Service](create-a-service-instance-of-the-sap-task-center-service-d36035e.md).
 
--   You have created the *Task\_Center* destination for the integration with your central point of entry for accessing applications. For more information, see [Destination for the Central Point of Entry for Accessing Applications](../40-administration/destination-for-the-central-point-of-entry-for-accessing-applications-10320af.md).
+-   You have created the *Task\_Center* destination for the integration with your central point of entry for accessing applications. For more information, see [Destination for the Central Point of Entry for Accessing Applications](destination-for-the-central-point-of-entry-for-accessing-applications-10320af.md).
 
 -   You have the `TaskCenterAdmin` role. For more information, see [Authorization Configuration](../60-security/authorization-configuration-75e4130.md).
 

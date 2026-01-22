@@ -3613,5 +3613,5 @@ When end users are using the SAP Task Center user interface to work on their tas
 2.  The fallback language for the task provider system, if present. \(Task provider fallback language\)
 3.  If none of the above is present, `en-US` is used. \(SAP Task Center fallback language\)
 
-See also [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
+See also [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
 

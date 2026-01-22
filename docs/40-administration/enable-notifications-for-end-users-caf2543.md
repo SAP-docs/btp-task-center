@@ -14,7 +14,7 @@ Enable notifications for end users, ensuring that they receive timely task alert
 
 -   You have completed the initial setup of SAP Task Center. For more information, see [Initial Setup](https://help.sap.com/docs/TASK_CENTER/08cbda59b4954e93abb2ec85f1db399d/834769400794464489f390350a82bbd6.html).
 
--   You have set up the *Identity\_Authentication\_Connectivity\_IDS* destination. For more information, see [Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md).
+-   You have set up the *Identity\_Authentication\_Connectivity\_IDS* destination. For more information, see [Identity Directory Connectivity](../30-initial-setup/identity-directory-connectivity-3dcfba9.md).
 
 -   You are using SAP Build Work Zone, standard edition or SAP Build Work Zone, advanced edition as a central point of entry for accessing applications.
 
@@ -48,16 +48,16 @@ To enable notifications for all or only some of the connected task providers, fo
 
     -   Generate credentials in the subaccount settings screen.
 
-        These credentials are used for the connection between SAP Task Center and your central point of entry for accessing applications \(see [Alert Notifications Connectivity](alert-notifications-connectivity-f6c9f3b.md)\).
+        These credentials are used for the connection between SAP Task Center and your central point of entry for accessing applications \(see [Alert Notifications Connectivity](../30-initial-setup/alert-notifications-connectivity-f6c9f3b.md)\).
 
     -   Enable the display of notifications in the *Site Settings* \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) screen.
 
     -   Select the notifications \(done by end users after the notifications setup is completed\).
 
 
-2.  Create a destination for the connection to the notification service, as described in [Alert Notifications Connectivity](alert-notifications-connectivity-f6c9f3b.md).
+2.  Create a destination for the connection to the notification service, as described in [Alert Notifications Connectivity](../30-initial-setup/alert-notifications-connectivity-f6c9f3b.md).
 
-3.  Set the *tc.notifications.enabled* property in the destination of every task provider, for which you want to enable notifications. For more info, see the respective task provider topic in [Destinations to Task Providers](destinations-to-task-providers-b158111.md).
+3.  Set the *tc.notifications.enabled* property in the destination of every task provider, for which you want to enable notifications. For more info, see the respective task provider topic in [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 4.  \(Optional\) Enable email notifications for end users.
 
@@ -65,7 +65,7 @@ To enable notifications for all or only some of the connected task providers, fo
 
     1.  Configure a destination to the mail server, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
 
-    2.  Set the *tc.wz.home.url* property in the *Task\_Center\_global\_settings* destination. For more information, see [SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md).
+    2.  Set the *tc.wz.home.url* property in the *Task\_Center\_global\_settings* destination. For more information, see [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
     3.  Make sure to inform the end users to update their notification settings individually in their *SAP Task Center Web app* \> *User Menu* \> *Settings* \> *Notifications* \> *Emails* section, and select the task types they want to receive email notifications for.
 
         By default the email notifications are disabled.

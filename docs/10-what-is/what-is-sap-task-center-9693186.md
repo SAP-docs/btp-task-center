@@ -53,7 +53,9 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 
 ## SAP Task Center Overview
 
-![BTP services setup within a customer's subaccount for SAP Task Center. It includes user access, key components like SAP Build Work Zone, SAP Cloud Identity Services and other integrated services.](images/SAP_Task_Center_Level_2_Diagram_07fe584.png)
+SAP Task Center integrates key SAP BTP services and components to enable centralized task management across your landscape. For an architectural overview and details about the solution setup, see [Solution Architecture](solution-architecture-64c01ef.md).
+
+
 
 
 
@@ -71,13 +73,13 @@ Access all tasks assigned to you in the SAP Task Center Web app. Search, sort an
 > 
 > More information:
 > 
-> -   [Collaborate with us – SAP Task Center Opens Its Documentation for Your Feedback with GitHub!](https://blogs.sap.com/2023/02/01/collaborate-with-us-sap-task-center-opens-its-documentation-for-your-feedback-with-github/comment-page-1/#comment-658159)
+> -   [Collaborate with us – SAP Task Center Opens Its Documentation for Your Feedback with GitHub!](https://blogs.sap.com/2023/02/01/collaborate-with-us-sap-task-center-opens-its-documentation-for-your-feedback-with-github/comment-page-1/#comment-658159) 
 > 
-> -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
+> -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html) 
 > 
-> -   [Introduction Video](https://www.youtube.com/watch?v=WJ0oarMlVW4)
+> -   [Introduction Video](https://www.youtube.com/watch?v=WJ0oarMlVW4) 
 > 
-> -   [Introduction Blog Post](https://blogs.sap.com/2021/11/29/sap-btp-documentation-goes-github-new-collaboration-process/)
+> -   [Introduction Blog Post](https://blogs.sap.com/2021/11/29/sap-btp-documentation-goes-github-new-collaboration-process/) 
 
 
 
@@ -107,4 +109,6 @@ If you have additional thoughts or specific suggestions, you can also provide th
 [Accessibility Features in SAP Task Center](accessibility-features-in-sap-task-center-b77f9a3.md "To optimize your experience of SAP Task Center, SAP Business Technology Platform (SAP BTP) provides features and settings that help you use the software efficiently.")
 
 [Service Plans and Metering](service-plans-and-metering-7b6b689.md "This page explains the relationship between the service plans in the SAP Discovery Center and those in the SAP BTP cockpit, and provides information to help you understand how SAP Task Center is billed.")
+
+[Solution Architecture](solution-architecture-64c01ef.md "Use the reference architecture diagram to understand the architecture and key components involved in SAP Task Center.")
 

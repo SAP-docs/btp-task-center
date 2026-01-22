@@ -16,7 +16,7 @@ Steps for SAP Task Center Administrators to troubleshoot and resolve issues rela
 
 ### 1. Check if all prerequisites are completed.
 
-Make sure that all prerequisites in [Initial Setup](../30-initial-setup/initial-setup-8347694.md#loio834769400794464489f390350a82bbd6__section_rvy_tcp_pzb) are completed. Pay specific attention to the part about [Integration with SAP Cloud Identity Service](../30-initial-setup/initial-setup-8347694.md#loio834769400794464489f390350a82bbd6__CIS).
+Make sure that all prerequisites in [Prerequisites](../30-initial-setup/prerequisites-ecc99ef.md) are completed. Pay specific attention to the part about [c](../30-initial-setup/prerequisites-ecc99ef.md#loioecc99ef63ada436498cc283799c231db__CIS).
 
 The task may have been assigned an ID, which is internal to the task provider/ task-provider specific. In this case, it will appear in cache but will not be assigned to the correct processor.
 
@@ -32,7 +32,7 @@ Check if the task type is supported by SAP Task Center. For more information, se
 
 Check in the task provider destination if the `tc.enabled` property is set to `true`.
 
-For more information on the destinations to task providers, see [Destinations to Task Providers](../40-administration/destinations-to-task-providers-b158111.md).
+For more information on the destinations to task providers, see [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 
 
@@ -176,7 +176,7 @@ In this case, open a ticket with screenshots and as much detail as possible to t
 
 ### 19. The `isValid` property is `true`.
 
-If the `isValid` property is `true`, check for the `processor` property. Every task must have an assigned processor, and the ID of the processor must be the global user ID of the respective person in SAP Cloud Identity Services. For more information, see [Integrate with SAP Cloud Identity Services](../30-initial-setup/initial-setup-8347694.md) and [Global User ID in Integration Scenarios](https://help.sap.com/docs/cloud-identity/system-integration-guide/global-user-id-in-integration-scenarios?version=Cloud).
+If the `isValid` property is `true`, check for the `processor` property. Every task must have an assigned processor, and the ID of the processor must be the global user ID of the respective person in SAP Cloud Identity Services. For more information, see [Integration with SAP Cloud Identity Service](../30-initial-setup/prerequisites-ecc99ef.md#loioecc99ef63ada436498cc283799c231db__CIS) and [Global User ID in Integration Scenarios](https://help.sap.com/docs/cloud-identity/system-integration-guide/global-user-id-in-integration-scenarios?version=Cloud).
 
 
 
@@ -269,5 +269,5 @@ If neither of these options resolves the issue, open a ticket to the SAP Task Ce
 
 [Initial Setup](../30-initial-setup/initial-setup-8347694.md "To use the service, make sure you have performed the preliminary setup and meet the prerequisites. Then continue with the initial setup for SAP Task Center, following either the automatic setup (using a booster) or the manual setup.")
 
-[Destinations](../40-administration/destinations-3470733.md "SAP Task Center communicates with the task provider applications via predefined destinations in a customer subaccount.")
+[Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md "Create a dedicated connection for each task provider to bring its tasks into the SAP Task Center Web app.")
 

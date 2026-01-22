@@ -13,7 +13,7 @@ The destination in the SAP BTP cockpit, configured for connectivity from SAP Tas
 -   *tc.ui.group*
 
 
-For more information about the target task-provider systems and their setup, see [Destinations](destinations-3470733.md).
+For more information about the target task-provider systems and their setup, see [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 The SAP Task Center Web app provides the following filter tabs by default:
 

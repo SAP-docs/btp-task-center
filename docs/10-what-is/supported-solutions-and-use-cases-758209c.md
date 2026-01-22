@@ -192,7 +192,7 @@ Third-Party Task Providers
 </td>
 <td valign="top">
 
-The supported task types depend on your custom implementation of the third party task provider. For more information on how to integrate a third-party task provider, see [Connect a Third-Party Task Provider and SAP Task Center](../40-administration/connect-a-third-party-task-provider-and-sap-task-center-c6362b6.md).
+The supported task types depend on your custom implementation of the third party task provider. For more information on how to integrate a third-party task provider, see [Connect a Third-Party Task Provider and SAP Task Center](../connect-a-third-party-task-provider-and-sap-task-center-c6362b6.md).
 
 </td>
 </tr>

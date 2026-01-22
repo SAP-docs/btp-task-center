@@ -70,9 +70,9 @@ You can set up SAP Alert Notification service for SAP BTP to send notifications 
 **Related Information**  
 
 
-[SAP Task Center Global Settings](sap-task-center-global-settings-99e5302.md "Configure the Task_Center_global_settings destination, to set the properties valid for all destinations.")
+[SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md "Configure the Task_Center_global_settings destination, to set the properties valid for all destinations.")
 
-[Identity Directory Connectivity](identity-directory-connectivity-3dcfba9.md "Configure the Identity_Authentication_Connectivity_IDS destination to connect to the identity directory of Identity Authentication and retrieve the required information about the end users.")
+[Identity Directory Connectivity](../30-initial-setup/identity-directory-connectivity-3dcfba9.md "Configure the Identity_Authentication_Connectivity_IDS destination to connect to the identity directory of Identity Authentication and retrieve the required information about the end users.")
 
 [Working with the Task Center Administration App](working-with-the-task-center-administration-app-3a1598c.md "The Task Center Administration app provides an overview of the SAP Task Center service status, the status of all active destinations, including information about their jobs and job types. It allows configuration of the SAP Task Center global settings.")
 

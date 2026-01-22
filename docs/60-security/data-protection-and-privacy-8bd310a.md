@@ -24,7 +24,7 @@ SAP Task Center includes an *Intelligent Recommendations* feature. This feature 
 > 
 > 1.  The customer has configured SAP Build Process Automation as SAP Task Center task provider.
 > 
-> 2.  The customer has configured the *Intelligent Recommendation* feature in SAP Task Center. For more information on how to do this, see [Configure the Intelligent Recommendations Destination](../40-administration/configure-the-intelligent-recommendations-destination-7c8900a.md) and [Working with Intelligent Recommendations](../40-administration/working-with-intelligent-recommendations-340651c.md).
+> 2.  The customer has configured the *Intelligent Recommendation* feature in SAP Task Center. For more information on how to do this, see [Configure the Intelligent Recommendations Destination](../configure-the-intelligent-recommendations-destination-7c8900a.md) and [Working with Intelligent Recommendations](../40-administration/working-with-intelligent-recommendations-340651c.md).
 
 
 

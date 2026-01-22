@@ -14,7 +14,7 @@ You can create intelligent recommendation model to manage recommedations for the
 
 -   You've set up the SAP Task Center Administration application and you have the `TaskCenterBusinessAdministrator` role assigned. For more information, see [Authorization Configuration](../60-security/authorization-configuration-75e4130.md).
 
--   You have the destination configured for Intelligent Recommendations. For more information, see [Configure the Intelligent Recommendations Destination](configure-the-intelligent-recommendations-destination-7c8900a.md).
+-   You have the destination configured for Intelligent Recommendations. For more information, see [Configure the Intelligent Recommendations Destination](../configure-the-intelligent-recommendations-destination-7c8900a.md).
 
 
 

@@ -109,7 +109,7 @@ To see details about the failed task, choose the *Processing Errors* icon \(<spa
 </td>
 <td valign="top">
 
-Task title and additional information about the task as per destination configuration. For more details, see the information related to *tc.ui.label* in [Destinations](../40-administration/destinations-3470733.md).
+Task title and additional information about the task as per destination configuration. For more details, see the information related to *tc.ui.label* in [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ The SAP Task Center Web app outbox is a centralized location where you can view 
 
 ### Prerequisites
 
-To access the *Outbox* tab, your administrator must have enabled it. For more information, see [SAP Task Center Global Settings](../40-administration/sap-task-center-global-settings-99e5302.md).
+To access the *Outbox* tab, your administrator must have enabled it. For more information, see [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
 
 > ### Note:  
 > Please note that the behavior of Outbox may differ across different task providers. For more information see SAP Note [3582581](https://me.sap.com/notes/3582581).
@@ -272,7 +272,7 @@ Details
 </td>
 <td valign="top">
 
-Task title and additional information about the completed task as per destination configuration. For more details, see the information related to *tc.ui.label* in [Destinations](../40-administration/destinations-3470733.md).
+Task title and additional information about the completed task as per destination configuration. For more details, see the information related to *tc.ui.label* in [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 </td>
 </tr>

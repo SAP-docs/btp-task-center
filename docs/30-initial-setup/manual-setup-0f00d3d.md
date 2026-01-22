@@ -12,7 +12,7 @@ Get started with the SAP Task Center service using the standard procedures for S
 
 Before you continue with the manual setup, make sure you meet the following prerequisites:
 
--   You have completed all prerequisites listed in [Initial Setup](initial-setup-8347694.md).
+-   You have completed all prerequisites listed in [Prerequisites](prerequisites-ecc99ef.md).
 
 -   Your subaccount is entitled to use SAP Task Center with the service plan of your choice. For more information on the SAP Task Center service plans, see [Service Plans and Metering](../10-what-is/service-plans-and-metering-7b6b689.md).
 
@@ -33,7 +33,7 @@ Before you continue with the manual setup, make sure you meet the following prer
 
 4.  Set up the service destinations and connect the SAP Task Center service to the SAP task provider solutions via destination configurations.
 
-    For more information, see [Destinations](../40-administration/destinations-3470733.md).
+    For more information, see [SAP Task Center Service Destinations](sap-task-center-service-destinations-494aa0c.md) and [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 5.  Configure the consumer content of your central point of entry for accessing apps for the SAP Task Center Web app.
 

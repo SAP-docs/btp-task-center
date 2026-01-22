@@ -102,7 +102,7 @@ The following procedure describes how to create a Task Center tile in your centr
 
 ## Procedure
 
-1.  Make sure that you have the *Task\_Center* destination for the integration with your central point of entry for accessing applications. For more information, see [Destination for the Central Point of Entry for Accessing Applications](../40-administration/destination-for-the-central-point-of-entry-for-accessing-applications-10320af.md).
+1.  Make sure that you have the *Task\_Center* destination for the integration with your central point of entry for accessing applications. For more information, see [Destination for the Central Point of Entry for Accessing Applications](destination-for-the-central-point-of-entry-for-accessing-applications-10320af.md).
 
     > ### Caution:  
     > If you have followed the [Automatic Setup](automatic-setup-3a49967.md), this destination is already created by the booster. Please do not change this destination, and do not create a second destination for the central point of entry for accessing applications.
@@ -269,7 +269,7 @@ The following procedure describes how to create a Task Center tile in your centr
 
 ## Results
 
-Once you complete this setup, the Task Center tile should be available to the selected user group. To make tasks from the supported task providers available in the SAP Task Center Web app, create a destination to every task provider you want to use. For more information, see [Destinations](../40-administration/destinations-3470733.md).
+Once you complete this setup, the Task Center tile should be available to the selected user group. To make tasks from the supported task providers available in the SAP Task Center Web app, create a destination to every task provider you want to use. For more information, see [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 The end users can access the available on-screen help by choosing the SAP Companion icon \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) in the upper right corner of the Web app.
 
