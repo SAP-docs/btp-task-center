@@ -19,9 +19,16 @@ You can perform the initial setup for SAP Task Center following either the autom
 
 ### Check Your Entitlements and Commercial Model
 
-Make sure that you are entitled to create an instance of the SAP Task Center service and your global account uses the consumption-based commercial model.
+Make sure that you are entitled to create an instance of the SAP Task Center service and that your global account uses the consumption-based commercial model.
 
-For more information, see [What Is the Consumption-Based Commercial Model?](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/7047eb4a15a84ac7be3c8612179e6d1f.html).
+For more information, see
+
+-   [What Is the Consumption-Based Commercial Model?](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/7047eb4a15a84ac7be3c8612179e6d1f.html)
+-   [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts?version=Cloud&ai=true)
+-   [SAP Discovery Center Service - SAP Task Center](https://discovery-center.cloud.sap/serviceCatalog/sap-task-center?tab=service_plan&commercialModel=btpea&service_plan=all-tasks&region=all)
+-   [Service Plans and Metering](https://help.sap.com/docs/task-center/sap-task-center/service-plans-and-metering?version=Cloud&ai=true)
+
+.
 
 
 
@@ -56,15 +63,15 @@ Prepare your SAP Business Technology Platform \(SAP BTP\) account by making sure
 
 ### Integrate with SAP Cloud Identity Services
 
-For the integration with SAP Cloud Identity Services, you must have followed the integration guide \(see [System Integration Guide for SAP Cloud Identity Services](https://help.sap.com/viewer/b95c3d5bab324a3a8409eee5267a5b75/Cloud/en-US)\) and have completed the integration scenario setup for the task providers, which you would like to configure.
+For the integration with SAP Cloud Identity Services, you must have followed the integration guide \(see [System Integration Guide for SAP Cloud Identity Services](https://help.sap.com/viewer/b95c3d5bab324a3a8409eee5267a5b75/Cloud/en-US)\) and have completed the integration scenario setup for the task providers that you would like to configure.
 
-For the integration with SAP Advanced Financial Closing, SAP Build Process Automation or SAP Build Work Zone, advanced edition as task provider, make sure you follow the [SAP BTP Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-btp-integration-scenario?version=Cloud).
+For the integration with SAP Advanced Financial Closing, SAP Build Process Automation or SAP Build Work Zone, advanced edition as the task provider, make sure you follow the [SAP BTP Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-btp-integration-scenario?version=Cloud).
 
 > ### Caution:  
 > -   All task providers and the SAP Task Center UAA of your subaccount must be configured to work with the same Identity Authentication tenant.
-> -   Make sure that the *Display Name*, *E-Mail* and *Global User ID* fields are maintained for every user in your Identity Authentication tenant. For more information, see [Global User ID in Integration Scenarios](https://help.sap.com/docs/SAP_CLOUD_IDENTITY/b95c3d5bab324a3a8409eee5267a5b75/a04611df60404a248a7a8089c85b9761.html) and [List and Edit User Details](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/045cb01bd2034b05a69e1a626e46570f.html).
+> -   Make sure that the *Display Name*, *E-Mail*, and *Global User ID* fields are maintained for every user in your Identity Authentication tenant. For more information, see [Global User ID in Integration Scenarios](https://help.sap.com/docs/SAP_CLOUD_IDENTITY/b95c3d5bab324a3a8409eee5267a5b75/a04611df60404a248a7a8089c85b9761.html) and [List and Edit User Details](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/045cb01bd2034b05a69e1a626e46570f.html).
 > 
->     Note, that **None** should not be defined as *Display Name* in Identity Authentication, as it is reserved for technical usage.
+>     Note that **None** should not be defined as *Display Name* in Identity Authentication, as it is reserved for technical usage.
 
 
 
@@ -78,15 +85,15 @@ You have a subscription to at least one of the following services in the same su
 
 -   [SAP Build Work Zone, advanced edition](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/onboarding-to-sap-build-work-zone-advanced-edition)
 
--   SAP Start \(For more information, see [Restrictions](https://help.sap.com/docs/start/sap-start/restrictions?q=To).\)
-
 -   [SAP SuccessFactors Work Zone](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/onboarding-to-sap-successfactors-work-zone) \(for existing subscriptions only\)
+
+-   SAP Start \(For more information, see [Restrictions](https://help.sap.com/docs/start/sap-start/restrictions?q=To).\)
 
 -   [SAP Cloud Portal service](https://help.sap.com/docs/cloud-portal-service/sap-cloud-portal-service-on-cloud-foundry/what-is-cloud-portal-service)
 
 
-If SAP Task Center and your central point of entry for accessing applications are in different subaccounts, please follow the manual setup and [Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts](connect-sap-task-center-and-sap-build-work-zone-in-different-subaccounts-111e261.md).
+If SAP Task Center and your central point of entry for accessing applications are in different subaccounts, follow the manual setup and [Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts](connect-sap-task-center-and-sap-build-work-zone-in-different-subaccounts-111e261.md).
 
 > ### Note:  
-> Please make sure that you check also the existing conventions and restrictions in the official documentation of your central point of entry for accessing applications.
+> Make sure that you also check the existing conventions and restrictions in the official documentation of your point of entry for accessing applications.
 

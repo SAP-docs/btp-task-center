@@ -87,6 +87,1064 @@ SAP Task Center
 </td>
 <td valign="top">
 
+Filtering Referenced Custom Attributes
+
+</td>
+<td valign="top">
+
+You can now filter tasks using referenced custom attributes.
+
+For more information, see [Working with the Task List](https://help.sap.com/docs/task-center/sap-task-center/working-with-task-list?version=Cloud&q=custom+attribtes&ai=true).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-09-03
+
+</td>
+<td valign="top">
+
+2026-09-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Validating Global User IDs
+
+</td>
+<td valign="top">
+
+You can now validate Global User IDs in the Task Center Administration app.
+
+For more information, see [Global User ID Validator Tab](https://help.sap.com/docs/task-center/sap-task-center/global-user-id-validator-tab).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-08-06
+
+</td>
+<td valign="top">
+
+2026-08-06
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Navigation to Substitutions
+
+</td>
+<td valign="top">
+
+You can now access substitutions from the *My Substitutions* tab in the header of the SAP Task Center Web app instead of accessing them from the user menu.
+
+For more information, see [Substitution Management](https://help.sap.com/docs/task-center/sap-task-center/substitution-management?version=Cloud)
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-07-10
+
+</td>
+<td valign="top">
+
+2026-07-10
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Reverting to the Latest SAPUI5 Version
+
+</td>
+<td valign="top">
+
+Required Action: To make SAP Task Center use the latest SAPUI5 version, SAP Task Center administrators must update the content of the *HTML5 Apps* on the *Channel Manager* tab of the central entry point for accessing applications.
+
+For more information, see [Create a Task Center Tile](https://help.sap.com/docs/task-center/sap-task-center/create-task-center-tile?version=Cloud).
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-06-11
+
+</td>
+<td valign="top">
+
+2026-06-11
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Update to Formation Name
+
+</td>
+<td valign="top">
+
+We have updated the name of the *Integration with SAP Task Center* formation. It is now called *Integrate with Customer-Managed SAP Task Center*.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-05-28
+
+</td>
+<td valign="top">
+
+2026-05-28
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Configure Notifications
+
+</td>
+<td valign="top">
+
+You can now enable and disable notifications for selected task providers
+
+For more information, see [https://help.sap.com/docs/task-center/sap-task-center/notification-settings-tab?version=Cloud](https://help.sap.com/docs/task-center/sap-task-center/notification-settings-tab?version=Cloud).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-08-28
+
+</td>
+<td valign="top">
+
+2026-05-28
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Substitution Management for Unexpected Absences in the SAP Task Center Web app 
+
+</td>
+<td valign="top">
+
+You can now create substitution rules for unexpected absences in the Web App. New *Substituted By* and *Substituted For* tabs in Substitution Management allow you to manage your substitutions.
+
+For more information, see [Substitution Management](https://help.sap.com/docs/task-center/sap-task-center/substitution-management?version=Cloud)
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-05-15
+
+</td>
+<td valign="top">
+
+2026-05-15
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Performance Improvements
+
+</td>
+<td valign="top">
+
+We have made performance improvements for SAP Task Center background jobs such as DELTA pull.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-05-15
+
+</td>
+<td valign="top">
+
+2026-05-15
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Refresh connectors in the *Connector Monitoring* tab
+
+</td>
+<td valign="top">
+
+In the Task Center Administration in the *Connectors* tab, administrators can now refresh individual connectors.
+
+We have also renamed the *Connector* tab, and it is now called *Connector Monitoring*. The *Destinations* view is now called *Connectors*.
+
+For more information, see [Connector Monitoring Tab](https://help.sap.com/docs/task-center/sap-task-center/connectors-tab?version=Cloud).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-05-05
+
+</td>
+<td valign="top">
+
+2026-05-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New *Notification Settings* Tab Available in the SAP Task Center Administration App
+
+</td>
+<td valign="top">
+
+In the SAP Task Center Administration app, administrators can manage the notifications for end users from the *Notification Settings* tab.
+
+For more information, see [Notification Settings Tab](../40-administration/notification-settings-tab-ac89094.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-04-03
+
+</td>
+<td valign="top">
+
+2026-04-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Enable Email Notifications for New Notification Types
+
+</td>
+<td valign="top">
+
+Administrators can enable email notifications for new notification types from the *Notification Settings* tab in the SAP Task Center Administration app or by setting the *tc.notif.email.enabled* property in the task provider's destination.
+
+For more information, see [Notification Settings Tab](../40-administration/notification-settings-tab-ac89094.md) and the respective task provider's topic: [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md)
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-04-03
+
+</td>
+<td valign="top">
+
+2026-04-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Enable Notifications for Tasks Whose Due Dates are Approaching
+
+</td>
+<td valign="top">
+
+Administrators can enable notifications for tasks whose due date is approaching from the *Notification Settings* tab in the SAP Task Center Administration app or by setting the following properties in the task provider's destination:
+
+-   *tc.notif.due.reminder.enabled*
+-   *tc.notif.due.reminder.hours*
+
+For more information, see [Notification Settings Tab](../40-administration/notification-settings-tab-ac89094.md) and the respective task provider's topic: [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-04-03
+
+</td>
+<td valign="top">
+
+2026-04-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Enable Notifications for Overdue Tasks
+
+</td>
+<td valign="top">
+
+Administrators can enable notifications for overdue tasks from the *Notification Settings* tab in the SAP Task Center Administration app or by setting the following properties in the task provider's destination:
+
+-   *tc.notif.due.overdue.enabled*
+-   *tc.notif.due.overdue.hours*
+
+For more information, see [Notification Settings Tab](../40-administration/notification-settings-tab-ac89094.md) and the respective task provider's topic: [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-04-03
+
+</td>
+<td valign="top">
+
+2026-04-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Minor Improvements and Bug Fixes
+
+</td>
+<td valign="top">
+
+This release includes bug fixes that enhance overall stability and user experience.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-03-06
+
+</td>
+<td valign="top">
+
+2026-03-06
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Way to Embed the SAP Task Center Applications in SAP Build Work Zone or SAP SuccessFactors Work Zone 
+
+</td>
+<td valign="top">
+
+You can now embed the SAP Task Center applications in SAP Build Work Zone, standard edition, SAP Build Work Zone, advanced edition, or SAP SuccessFactors Work Zone by creating a subscription to SAP Task Center.
+
+For more information, see [Embed the UI of the SAP Task Center Applications in SAP Build Work Zone or SAP SuccessFactors Work Zone](../30-initial-setup/embed-the-ui-of-the-sap-task-center-applications-in-sap-build-work-zone-or-sap-successfac-c8b7aeb.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-02-05
+
+</td>
+<td valign="top">
+
+2026-02-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New *Connector Settings* Tab Available in the SAP Task Center Administration App
+
+</td>
+<td valign="top">
+
+In the SAP Task Center Administration app, administrators can now configure the properties of the connected task providers.
+
+For more information, see [Connector Settings Tab](../40-administration/connector-settings-tab-749a569.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-02-05
+
+</td>
+<td valign="top">
+
+2026-02-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Task Center 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 SAP Task Center Documentation Restructured
 
 </td>
@@ -620,7 +1678,7 @@ Substitution Management for Business Administrators Now Available for SAP Build 
 
 In the Task Center Administration app, business administrators can create and delete substitution rules on behalf of SAP Build Process Automation users.
 
-For more information, see [Using Substitution Management for Business Administrators](../40-administration/using-substitution-management-for-business-administrators-3adfedc.md).
+For more information, see [Substitution Management for Business Administrators](../40-administration/substitution-management-for-business-administrators-3adfedc.md).
 
 To allow users to create and delete substitution rules on behalf of others, assign the `ProcessAutomationAdmin` role collection in SAP Build Process Automation.
 
@@ -1463,12 +2521,12 @@ SAP Task Center
 </td>
 <td valign="top">
 
-SAP Field Service Management Supported as Task Provider
+SAP Field Service and Asset Management Supported as Task Provider
 
 </td>
 <td valign="top">
 
-You can now connect SAP Field Service Management as task provider to SAP Task Center. For more information, see [Connect SAP Field Service Management and SAP Task Center](../connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+You can now connect SAP Field Service and Asset Management as task provider to SAP Task Center. For more information, see [Connect SAP Field Service and Asset Management and SAP Task Center](../connect-sap-field-service-and-asset-management-and-sap-task-center-4a61a25.md).
 
 </td>
 <td valign="top">

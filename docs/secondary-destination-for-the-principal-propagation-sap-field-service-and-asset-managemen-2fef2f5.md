@@ -1,6 +1,6 @@
 <!-- loio2fef2f526d4f4d4faaddaaff047816db -->
 
-# Secondary Destination for the Principal Propagation \(SAP Field Service Management\)
+# Secondary Destination for the Principal Propagation \(SAP Field Service and Asset Management\)
 
 
 
@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
--   You have performed the steps described in [Primary Destination with the Technical User \(SAP Field Service Management\)](primary-destination-with-the-technical-user-sap-field-service-management-5495960.md).
+-   You have performed the steps described in [Primary Destination with the Technical User \(SAP Field Service and Asset Management\)](primary-destination-with-the-technical-user-sap-field-service-and-asset-management-5495960.md).
 
 
 
@@ -51,7 +51,7 @@
     
     The destination name for the principal propagation must be the same as the name of the primary destination for the technical user with the suffix `_PP`.
 
-    For more information about the name of the primary destination, see [Primary Destination with the Technical User \(SAP Field Service Management\)](primary-destination-with-the-technical-user-sap-field-service-management-5495960.md).
+    For more information about the name of the primary destination, see [Primary Destination with the Technical User \(SAP Field Service and Asset Management\)](primary-destination-with-the-technical-user-sap-field-service-and-asset-management-5495960.md).
 
     > ### Note:  
     > If you change the name of the primary destination, you should also update this destination name.
@@ -109,7 +109,7 @@
     </td>
     <td valign="top">
     
-    Add the value of *FSM cluster url* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+    Add the value of *FSM cluster url* from the *Prerequisites* section in [Connect SAP Field Service and Asset Management and SAP Task Center](connect-sap-field-service-and-asset-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
@@ -162,7 +162,7 @@
     </td>
     <td valign="top">
     
-    Add the value of *SAML metadata* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+    Add the value of *SAML metadata* from the *Prerequisites* section in [Connect SAP Field Service and Asset Management and SAP Task Center](connect-sap-field-service-and-asset-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
@@ -255,7 +255,7 @@
     </td>
     <td valign="top">
     
-    Add the value of *Client ID* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+    Add the value of *Client ID* from the *Prerequisites* section in [Connect SAP Field Service and Asset Management and SAP Task Center](connect-sap-field-service-and-asset-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
@@ -272,7 +272,7 @@
     </td>
     <td valign="top">
     
-    Add the value of *Client Secret* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+    Add the value of *Client Secret* from the *Prerequisites* section in [Connect SAP Field Service and Asset Management and SAP Task Center](connect-sap-field-service-and-asset-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
@@ -331,7 +331,7 @@
     </td>
     <td valign="top">
     
-    Add the value of *FSM account ID* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+    Add the value of *FSM account ID* from the *Prerequisites* section in [Connect SAP Field Service and Asset Management and SAP Task Center](connect-sap-field-service-and-asset-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">
@@ -388,7 +388,7 @@
     </td>
     <td valign="top">
     
-    Add the value of *FSM company ID* from the *Prerequisites* section in [Connect SAP Field Service Management and SAP Task Center](connect-sap-field-service-management-and-sap-task-center-4a61a25.md).
+    Add the value of *FSM company ID* from the *Prerequisites* section in [Connect SAP Field Service and Asset Management and SAP Task Center](connect-sap-field-service-and-asset-management-and-sap-task-center-4a61a25.md).
     
     </td>
     <td valign="top">

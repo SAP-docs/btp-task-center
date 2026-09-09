@@ -19,7 +19,9 @@ You have created a service instance of the SAP Task Center Service, as described
 Creating a subscription to the SAP Task Center service ensures that your applications can interact with it if you want to access the Task Center API using Identity Authentication.
 
 > ### Note:  
-> Creating a subscription to the SAP Task Center service is necessary only if you want to access the Task Center API using Identity Authentication. For more information, see [Access the SAP Task Center API Using Identity Authentication](../40-administration/access-the-sap-task-center-api-using-identity-authentication-c45c4c3.md).
+> To embed the SAP Task Center applications, your global account must be located on a public cloud data center.
+> 
+> For more information, see [Access the SAP Task Center API Using Identity Authentication](../40-administration/access-the-sap-task-center-api-using-identity-authentication-c45c4c3.md).
 
 
 
@@ -34,5 +36,16 @@ Creating a subscription to the SAP Task Center service ensures that your applica
 4.  In the wizard, make sure that the service is set to SAP Task Center. Then, select one of the plans of type *Subscription*.
 
 5.  Choose *Create*.
+
+
+
+
+## Next Steps
+
+After subscribing to the service, the following role collections are created. Assign them to the relevant users to access the SAP Task Center applications using the subscription link:
+
+-   ~<ID\>\_TaskCenterAdministration - gives users access to the SAP Task Center Administration App and to the SAP Task Center Web App.
+
+-   ~<ID\>\_TaskCenterEveryone - gives users access to the SAP Task Center Web App.
 
 

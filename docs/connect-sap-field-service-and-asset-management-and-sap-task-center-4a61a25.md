@@ -1,8 +1,8 @@
 <!-- loio4a61a2586a8c46b893b621f22a50df8f -->
 
-# Connect SAP Field Service Management and SAP Task Center
+# Connect SAP Field Service and Asset Management and SAP Task Center
 
-Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP Field Service Management on SAP BTP, Cloud Foundry environment.
+Find information about the destination configuration that needs to be done for SAP Task Center in order to work with task from SAP Field Service and Asset Management on SAP BTP, Cloud Foundry environment.
 
 
 
@@ -45,11 +45,11 @@ Find information about the destination configuration that needs to be done for S
 
 ## Procedure
 
-1.  Create a primary destination with the technical user, as described in [Primary Destination with the Technical User \(SAP Field Service Management\)](primary-destination-with-the-technical-user-sap-field-service-management-5495960.md).
+1.  Create a primary destination with the technical user, as described in [Primary Destination with the Technical User \(SAP Field Service and Asset Management\)](primary-destination-with-the-technical-user-sap-field-service-and-asset-management-5495960.md).
 
     > ### Note:  
-    > Do not configure more than one primary destination to the same SAP Field Service Management system for each SAP Task Center. This will result in having duplicate tasks for end users.
+    > Do not configure more than one primary destination to the same SAP Field Service and Asset Management system for each SAP Task Center. This will result in having duplicate tasks for end users.
 
-2.  Create a secondary destination for the principal propagation, as described in [Secondary Destination for the Principal Propagation \(SAP Field Service Management\)](secondary-destination-for-the-principal-propagation-sap-field-service-management-2fef2f5.md).
+2.  Create a secondary destination for the principal propagation, as described in [Secondary Destination for the Principal Propagation \(SAP Field Service and Asset Management\)](secondary-destination-for-the-principal-propagation-sap-field-service-and-asset-managemen-2fef2f5.md).
 
 

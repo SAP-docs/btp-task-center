@@ -43,7 +43,7 @@ You can also be notified via email, if this option is enabled by your administra
 
 To adjust your notifications settings, go to the user menu and choose <span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Settings* \> **<span style="color:#346187;"><span class="SAP-icons-V5"></span></span> *Notifications*. For more information, see [Working with Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/working-with-notifications).
 
-Currently, the notifications displayed in the SAP Task Center Web app and task center in the SAP Mobile Start mobile app are in English, but might contain information in the fallback language, defined by the task provider.
+Currently, the notifications displayed in the SAP Task Center Web app and task center in the Joule Work mobile app are in English, but might contain information in the fallback language, defined by the task provider.
 
 
 
@@ -104,7 +104,7 @@ The supported task types for which native task details user interfaces are provi
 
 The native user interface for task details consists of the following areas:
 
--   Header with the task title, task type and an *Open in App* button to open the task details in the task provider system
+-   Header with the task title, task type, and an *Open in App* button to open the task details in the task provider system
 -   Details area with additional information, if available for the selected task. Depending on the task type of the selected task, the details area can contain:
     -   *Details* tab
 
@@ -114,7 +114,7 @@ The native user interface for task details consists of the following areas:
 -   \(Optional\) Footer area with the available actions for the task \(for example *Approve* or *Reject*\)
 
 > ### Note:  
-> Depending on configuration done by the task provider, the action buttons in the details area of a task might be displayed in semantic colors as follows:
+> Depending on the configuration done by the task provider, the action buttons in the details area of a task might be displayed in semantic colors as follows:
 > 
 > -   Green - tasks with positive nature
 > 
@@ -195,7 +195,7 @@ Once you choose a user, the following changes appear, corresponding to the enabl
 
 -   The number of all tasks and tasks in the filter tabs is updated
 
--   The task list offers only tasks, coming from the substitution
+-   The task list offers only tasks coming from the substitution
 
 -   The preselected filters are cleared
 
@@ -226,7 +226,7 @@ Use the *Select All* check box to select all available task types in the list.
 
 The list of task types contains only the task types relevant for the filter tab that you selected, sorted alphabetically. If there are tasks without a task type, then these tasks are grouped into the *Others* category at the end of the *Task Type* filter dropdown list.
 
-The task types, supporting mass actions have an *M* indicator. For more information about processing multiple tasks, see [Working with Multiple Tasks](working-with-multiple-tasks-9f8ef8e.md).
+The task types supporting mass actions, have an *M* indicator. For more information about processing multiple tasks, see [Working with Multiple Tasks](working-with-multiple-tasks-9f8ef8e.md).
 
 Sometimes tasks with different task IDs might appear with the same task type. In this case, the SAP Task Center Web app appends a number to the end of the task type \(for example *Task Type \(1\)*, *Task Type \(2\)*\) for easier differentiation.
 
@@ -273,21 +273,19 @@ Select one or more of the following categories: *Open*, *Reserved* or *In Progre
 </td>
 <td valign="top">
 
-Select a time period from the calender \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
+Select a time period from the calendar \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-\(Inbox Only\)
-
-*Created Within* 
+\(Inbox Only\) *Created Within* 
 
 </td>
 <td valign="top">
 
-Select a time period from the calender \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
+Select a time period from the calendar \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\).
 
 </td>
 </tr>
@@ -299,7 +297,7 @@ Select a time period from the calender \(<span style="color:#346187;"><span clas
 </td>
 <td valign="top">
 
-Select a date from the calender \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) to review all tasks, that are due before this date.
+Select a date from the calendar \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) to review all tasks that are due before this date.
 
 </td>
 </tr>
@@ -319,7 +317,7 @@ The confidence level is a numerical percentage value ranging from 0 to 100. A hi
 
 For more information on the task providers supporting the *Intelligent Recommendations* feature, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
-For more information on how administrators can enable the *Intelligent Recommendations* feature, see [Working with Intelligent Recommendations](../40-administration/working-with-intelligent-recommendations-340651c.md).
+For more information on how administrators can enable the *Intelligent Recommendations* feature, see [Intelligent Recommendations](../40-administration/intelligent-recommendations-340651c.md).
 
 > ### Tip:  
 > If the *Confidence Level* column is not available in the task table, although it appears in the filters, use the *Personalize* option \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\) to display or rearrange the table columns.

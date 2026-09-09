@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Using Substitution Management for Business Administrators
+# Substitution Management for Business Administrators
 
 As a business administrator you can search by users and manage their existing substitution rules.
 
@@ -18,6 +18,7 @@ As a business administrator you can search by users and manage their existing su
 
 -   The task providers must have enabled the substitution management for business administrators feature. For more information, see [Supported Features](../10-what-is/supported-features-257a0ad.md).
 
+-   At least one task exists for a given task provider.
 
 
 

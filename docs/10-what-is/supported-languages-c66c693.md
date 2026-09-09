@@ -53,7 +53,7 @@ SAP Fieldglass
 </th>
 <th valign="top">
 
-SAP Field Service Management
+SAP Field Service and Asset Management
 
 </th>
 <th valign="top">
@@ -2889,7 +2889,7 @@ Slovenian \(Slovenia\)
 </td>
 <td valign="top">
 
-sl-Sl
+sl-SI
 
 </td>
 <td valign="top">

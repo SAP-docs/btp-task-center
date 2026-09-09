@@ -32,3 +32,5 @@ When submitting the incident we recommend to include the following information:
 
 [Troubleshooting Notifications at SAP Task Center](troubleshooting-notifications-at-sap-task-center-b1b9c15.md "Steps for SAP Task Center administrators to troubleshoot and resolve issues when end users are not receiving notifications in the SAP Task Center Web App or via email.")
 
+[Troubleshooting an Error in Task Details](troubleshooting-an-error-in-task-details-306702c.md "Steps for SAP Task Center Administrators to troubleshoot and resolve issues in the task details.")
+

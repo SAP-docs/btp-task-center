@@ -4,6 +4,9 @@
 
 Access the SAP Task Center API by utilizing direct authentication via SAP Cloud Identity Services - Identity Authentication.
 
+> ### Note:  
+> To access the SAP Task Center API using Identity Authentication, your global account must be located on a public cloud data center.
+
 
 
 <a name="loioc45c4c34eb794df885ffccb94226e0a5__section_vbd_hsk_w2c"/>

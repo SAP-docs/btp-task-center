@@ -25,9 +25,12 @@ Enable notifications for end users, ensuring that they receive timely task alert
 
 ## Context
 
-Administrators can set up notifications for the end users to be informed upon receiving a new task in their task list \(task assignment\). Currently, the notifications displayed in the SAP Task Center Web app and task center in the SAP Mobile Start mobile app are in English. However, they might contain information in the fallback language, defined by the task provider. For more information on the fallback language, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
+Administrators can set up notifications for the end users to be informed when they receive a new task in their task list \(task assignment\). Currently, the notifications displayed in the SAP Task Center Web app and task center in the Joule Work mobile app are in English. However, they might contain information in the fallback language defined by the task provider. For more information about the fallback language, see [Supported Languages](../10-what-is/supported-languages-c66c693.md).
 
-Notifications for substitutions or changes in processors are currently not supported.
+> ### Note:  
+> Notifications for substitutions or changes in processors are currently not supported.
+> 
+> Substitutions and notifications do not work for tasks that are assigned to Identity Authentication groups. They only work when tasks are assigned to users using their Identity Authentication Global User ID.
 
 To enable notifications for all or only some of the connected task providers, follow the steps in the procedure.
 
@@ -44,7 +47,7 @@ To enable notifications for all or only some of the connected task providers, fo
 
     Make sure you complete the following steps:
 
-    -   Choose *Email* as authentication identifier.
+    -   Choose *Email* as the authentication identifier.
 
     -   Generate credentials in the subaccount settings screen.
 
@@ -57,7 +60,7 @@ To enable notifications for all or only some of the connected task providers, fo
 
 2.  Create a destination for the connection to the notification service, as described in [Alert Notifications Connectivity](../30-initial-setup/alert-notifications-connectivity-f6c9f3b.md).
 
-3.  Set the *tc.notifications.enabled* property in the destination of every task provider, for which you want to enable notifications. For more info, see the respective task provider topic in [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
+3.  Set the *tc.notifications.enabled* and the property in the destination of every task provider for which you want to enable notifications. For more information, see the respective task provider topic in [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
 
 4.  \(Optional\) Enable email notifications for end users.
 
@@ -66,7 +69,11 @@ To enable notifications for all or only some of the connected task providers, fo
     1.  Configure a destination to the mail server, as described in [Configuring an SMTP Mail Destination](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configuring-smtp-mail-destination).
 
     2.  Set the *tc.wz.home.url* property in the *Task\_Center\_global\_settings* destination. For more information, see [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
-    3.  Make sure to inform the end users to update their notification settings individually in their *SAP Task Center Web app* \> *User Menu* \> *Settings* \> *Notifications* \> *Emails* section, and select the task types they want to receive email notifications for.
+    3.  \(Optional\) Enable email notifications for new notification types for all end users. You can do this in one of the following ways:
+        -   By enabling the feature from the *Notification Settings* tab in the SAP Task Center Administration app. For more information, see [Notification Settings Tab](notification-settings-tab-ac89094.md).
+        -   By setting the *tc.notif.email.enabled* property to `true` in the destination of every task provider. For more information, see the respective task provider topic in [Integrate SAP Task Center with Task Providers](../integrate-sap-task-center-with-task-providers-b158111.md).
+
+    4.  The end users can update their notification settings individually in their *SAP Task Center Web app* \> *User Menu* \> *Settings* \> *Notifications* \> *Emails* section, and select the notification types they want to receive email notifications for.
 
         By default the email notifications are disabled.
 

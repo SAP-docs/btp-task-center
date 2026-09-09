@@ -49,7 +49,7 @@ SAP Task Center fetches tasks from multiple and various task providers and it re
 -   Enable other current and future functionalities.
 
 
-![BTP services setup within a customer's subaccount for SAP Task Center. It includes user access, key components like SAP Build Work Zone, SAP Cloud Identity Services and other integrated services.](../10-what-is/images/SAP_Task_Center_Level_2_Diagram_07fe584.png)
+![SAP BTP services setup within a customer's subaccount for SAP Task Center. It includes user access, key components like SAP Build Work Zone, SAP Cloud Identity Services and other integrated services.](../10-what-is/images/SAP_Task_Center_Level_2_Diagram_07fe584.png)
 
 
 
@@ -73,7 +73,7 @@ For more information, see [System Integration Guide for SAP Cloud Identity Servi
 **Related Information**  
 
 
-[Identity Provider and Identity Management](identity-provider-and-identity-management-69b3bae.md "For identity management and authentication, the SAP Task Center tenant relies on the Identity Authentication as the identity provider (IdP) that is configured in the customer subaccount that owns the respective subscriptions.")
+[Identity Provider and Identity Management](identity-provider-and-identity-management-69b3bae.md "For identity management and authentication, the SAP Task Center tenant relies on SAP Cloud Identity Services- Identity Authentication as the identity provider and Identity Directory as user store.")
 
 [Authorization Configuration](authorization-configuration-75e4130.md "Assign roles to specific users using the SAP Task Center instance.")
 
@@ -81,7 +81,7 @@ For more information, see [System Integration Guide for SAP Cloud Identity Servi
 
 [Data Protection and Privacy](data-protection-and-privacy-8bd310a.md "Governments place legal requirements on industry to protect data and privacy. We provide features and functions to help you meet these requirements.")
 
-[Auditing and Logging Information](auditing-and-logging-information-09dcab2.md "Here you can find a list of the security events that are logged by the SAP Task Center service.")
+[Auditing and Logging Information for SAP Audit Log Service V2](auditing-and-logging-information-for-sap-audit-log-service-v2-09dcab2.md "Here you can find a list of the security events that are logged by the SAP Task Center service.")
 
 [Credentials Rotation](credentials-rotation-8080abf.md "Change your credentials at regular intervals to ensure a higher level of security.")
 

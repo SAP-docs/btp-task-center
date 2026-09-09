@@ -2,7 +2,7 @@
 
 # Identity Provider and Identity Management
 
-For identity management and authentication, the SAP Task Center tenant relies on the Identity Authentication as the identity provider \(IdP\) that is configured in the customer subaccount that owns the respective subscriptions.
+For identity management and authentication, the SAP Task Center tenant relies on SAP Cloud Identity Services- Identity Authentication as the identity provider and Identity Directory as user store.
 
 All requests handled by the SAP Task Center subscriptions are authenticated against the Identity Authentication, which is configured in the customer subaccount and authorized against the role assignments, specified on the subscriptions in the customer subaccount.
 

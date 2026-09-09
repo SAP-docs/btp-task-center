@@ -44,7 +44,7 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
     </td>
     <td valign="top">
     
-    *Set up an account for SAP Task Center with SAP Build Work Zone, standard edition*
+    *Set up an account for SAP Task Center with*SAP Build Work Zone, standard edition
     
     </td>
     </tr>
@@ -56,7 +56,7 @@ Before you continue with the automatic setup, make sure you meet all prerequisit
     </td>
     <td valign="top">
     
-    *Set up an account for SAP Task Center with SAP Build Work Zone*
+    *Set up an account for SAP Task Center with*SAP Build Work Zone
     
     </td>
     </tr>

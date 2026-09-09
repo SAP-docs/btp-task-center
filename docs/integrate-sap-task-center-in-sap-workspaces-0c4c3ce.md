@@ -2,10 +2,10 @@
 
 # Integrate SAP Task Center in SAP Workspaces
 
-Integrate SAP Task Center with SAP Start and SAP Mobile Start to visualize the tasks of the users in their *To-Do* sections.
+Integrate SAP Task Center with SAP Start and the Joule Work mobile app to visualize the tasks of the users in their *To-Do* sections.
 
-You can configureSAP Start and SAP Mobile Start to display the tasks from the SAP Task Center task cache. Once enabled, a *To-Do* section automatically shows a list of the tasks of the logged-in user.
+You can configure SAP Start and Joule Work to display the tasks from the SAP Task Center task cache. Once enabled, a *To-Do* section automatically shows a list of the tasks of the logged-in user.
 
--   [Configure Task Center in the SAP Mobile Start Mobile App](configure-task-center-in-the-sap-mobile-start-mobile-app-732d228.md)
+-   [Configure Task Center in the Joule Work App](configure-task-center-in-the-joule-work-app-732d228.md)
 -   [Configure To-Dos in SAP Start](configure-to-dos-in-sap-start-c05ad6f.md)
 

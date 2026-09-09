@@ -361,7 +361,7 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     
     \(Optional\) By default, the initial pull job of SAP Task Center loads tasks that have been updated or created in the past 90 days. You can adjust this period to a maximum of 180 days by configuring the *tc.inbox.pull.days* property. The allowed values range from 0 to 180.
 
-    Please note that this property is available only with the `all-tasks` service plan. For more information on the service plan and its details, see [Service Plans and Metering](10-what-is/service-plans-and-metering-7b6b689.md).
+    This property is available for all service plans, excluding the deprecated `standard` plan. For more information on the service plans, see [Service Plans and Metering](10-what-is/service-plans-and-metering-7b6b689.md).
 
     After setting this property, you must trigger the initial pull job for this task provider by repopulating the task cache, as described in [Repopulate the Task Cache](40-administration/repopulate-the-task-cache-e93aa71.md).
     
@@ -399,6 +399,166 @@ SAP Task Center supports translatable properties of tasks and task definitions f
     **Example**:
 
     `true`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.notif.email.enabled*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enables email notifications for new notification types from the task provider. By enabling it, end users will receive email notifications unless they modify their individual notification preferences.
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
+
+    If you want the end users to receive email notifications for existing task types and notification types, you need to remove the *tc.enabled* property from the task provider's destination and add it again in a few minutes, as described in [Repopulate the Task Cache](40-administration/repopulate-the-task-cache-e93aa71.md).
+
+    > ### Caution:  
+    > Keep in mind that by performing this operation, all notifications and notification types associated with the task provider will be deregistered. This results in the loss of notifications and personal user settings.
+
+    > ### Remember:  
+    > To use this property, you need to enable the *tc.notifications.enabled* property.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `false`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.notif.due.reminder.enabled*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable notifications for tasks whose due date is approaching. End users receive the notifications in the Web app, or by email \(if enabled\).
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
+
+    > ### Remember:  
+    > To use this property, you need to enable the *tc.notifications.enabled* property.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `false`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.notif.due.reminder.hours*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Set the number of hours before a task is due to send a notification to the end user.
+
+    The accepted value is a whole number equal to or larger than `1`.
+
+    The default value is `8`. If no value is provided, the property is set to `8` hours.
+
+    > ### Note:  
+    > Invalid values \(non-whole numbers or less than `1`\) sets the connector in status *Warning*.
+
+    > ### Remember:  
+    > To use this property, you need to enable the *tc.notifications.enabled* and the *tc.notif.due.reminder.enabled* properties.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `8`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.notif.due.overdue.enabled*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Enable notifications for tasks whose due date has passed. End users receive the notifications in the Web app, or by email \(if enabled\).
+
+    Accepted values are `true` and `false`.
+
+    The default value is `false`. If no value is provided, the property is set to `false`.
+
+    > ### Note:  
+    > Any value other than `true` and `false` sets the connector in status *Warning*.
+
+    > ### Remember:  
+    > To use this property, you need to enable the *tc.notifications.enabled* property.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `false`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *tc.notif.due.overdue.hours*
+    
+    </td>
+    <td valign="top">
+    
+    \(Optional\) Set the number of hours after a task becomes overdue to send a notification to the end user.
+
+    The accepted value is a whole number equal to or larger than `1`.
+
+    The default value is `8`. If no value is provided, the property is set to `8` hours.
+
+    > ### Note:  
+    > Any value other than a whole number equal to or larger than `1` sets the connector in status *Warning*.
+
+    > ### Remember:  
+    > To use this property, you need to enable the *tc.notifications.enabled* and the *tc.notif.due.overdue.enabled* properties.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    **Example**:
+
+    `8`
     
     </td>
     </tr>

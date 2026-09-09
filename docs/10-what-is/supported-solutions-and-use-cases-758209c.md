@@ -4,7 +4,7 @@
 
 Review the list of the supported solutions and use cases in SAP Task Center.
 
-**Supported Use Cases \(Task Types\) for SAP Task Center Web App, SAP Start and Task Center in the SAP Mobile Start Mobile App**
+**Supported Use Cases \(Task Types\) for SAP Task Center Web App, SAP Start and Task Center in the Joule Work App**
 
 
 <table>
@@ -113,7 +113,7 @@ See [Supported Use Cases](https://help.sap.com/docs/SAP_FIELDGLASS_INTEGRATION/7
 <tr>
 <td valign="top">
 
-SAP Field Service Management
+SAP Field Service and Asset Management
 
 </td>
 <td valign="top">

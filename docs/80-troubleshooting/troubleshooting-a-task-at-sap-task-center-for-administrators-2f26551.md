@@ -6,11 +6,17 @@ Steps for SAP Task Center Administrators to troubleshoot and resolve issues rela
 
 
 
+## Troubleshooting a Task in Task Center Admin App
+
+An incorrect or missing *Global User ID* is a common reason why tasks are not delivered to the intended processor. If a user is not receiving tasks, you can use the *Global User ID* tab in the Task Center Administration app to validate their *Global User ID*. For more information, see [Global User ID Validator Tab](../40-administration/global-user-id-validator-tab-846fe21.md).
+
+
+
 <a name="loio2f26551a8d9f40d98beb75a1e13ea221__section_ufm_ksw_rbc"/>
 
-## A task is not available in the SAP Task Center Web App task list of a user
+## Manual Troubleshooting
 
-**Troubleshooting Steps:**
+**When a task is not available in the SAP Task Center Web app task list of a user, proceed as follows:**
 
 
 

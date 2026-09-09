@@ -1,6 +1,6 @@
 <!-- loio09dcab2209014904a2e2dc85830f7e3e -->
 
-# Auditing and Logging Information
+# Auditing and Logging Information for SAP Audit Log Service V2
 
 Here you can find a list of the security events that are logged by the SAP Task Center service.
 
@@ -58,9 +58,7 @@ Action: `create-account-data-done`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-creation`.
 
-Message:
-
-Creation of data for <account\> completed
+Message: *Creation of data for <account\> completed*
 
 </td>
 </tr>
@@ -76,9 +74,7 @@ Action: `create-account-data-failed`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-creation`.
 
-Message:
-
-Creation of data for <account\> failed. Reason for failing the creation is <Reason\>
+Message: *Creation of data for <account\> failed. Reason for failing the creation is <Reason\>*
 
 </td>
 </tr>
@@ -94,9 +90,7 @@ Action: `requested-to-delete-account-data`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-termination`.
 
-Message:
-
-Deletion \(reason: <reason\>\) of data for <account\> requested by <user\>
+Message: *Deletion \(reason: <reason\>\) of data for <account\> requested by <user\>*
 
 </td>
 </tr>
@@ -112,9 +106,7 @@ Action: `about-to-delete-account-data`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-termination`.
 
-Message:
-
-Deletion \(reason: <reason\>\) of data for <account\> started by <user\>
+Message: *Deletion \(reason: <reason\>\) of data for <account\> started by <user\>*
 
 </td>
 </tr>
@@ -130,9 +122,7 @@ Action: `delete-account-data-done`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-termination`.
 
-Message:
-
-Deletion \(reason: <reason\>\) of data for <account\> completed
+Message: *Deletion \(reason: <reason\>\) of data for <account\> completed*
 
 </td>
 </tr>
@@ -148,9 +138,7 @@ Action: `delete-account-data-failed`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-termination`.
 
-Message:
-
-Deletion \(reason: <reason\>\) of data for <account\> failed. Reason for failing the deletion is <Reason\>
+Message: *Deletion \(reason: <reason\>\) of data for <account\> failed. Reason for failing the deletion is <Reason\>*
 
 </td>
 </tr>
@@ -171,9 +159,7 @@ Action: `about-to-create-service-instance`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-creation`.
 
-Message:
-
-Creation of service instance with ID &serviceInstanceId in space &spaceGuid of organization &organizationGuid with parameters &parameters started by &userId
+Message: *Creation of service instance with ID &serviceInstanceId in space &spaceGuid of organization &organizationGuid with parameters &parameters started by &userId*
 
 </td>
 </tr>
@@ -189,9 +175,7 @@ Action: `create-service-instance-done`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-creation`.
 
-Message:
-
-Creation of service instance with ID &serviceInstanceId in space &spaceGuid of organization &organizationGuid with parameters &parameters completed
+Message: *Creation of service instance with ID &serviceInstanceId in space &spaceGuid of organization &organizationGuid with parameters &parameters completed*
 
 </td>
 </tr>
@@ -207,9 +191,7 @@ Action: `create-service-instance-failed`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-creation`.
 
-Message:
-
-Creation of service instance with ID &serviceInstanceId in space &spaceGuid of organization &organizationGuid with parameters &parameters failed with error message: <error\>
+Message: *Creation of service instance with ID &serviceInstanceId in space &spaceGuid of organization &organizationGuid with parameters &parameters failed with error message: <error\>*
 
 </td>
 </tr>
@@ -225,9 +207,7 @@ Action: ``
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-termination`.
 
-Message:
-
-Deletion of service instance with ID &serviceInstanceId requested by &userId
+Message: *Deletion of service instance with ID &serviceInstanceId requested by &userId*
 
 </td>
 </tr>
@@ -243,9 +223,7 @@ Action: `about-to-delete-service-instance`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-termination`.
 
-Message:
-
-Deletion of service instance with ID &serviceInstanceId started by &userId
+Message: *Deletion of service instance with ID &serviceInstanceId started by &userId*
 
 </td>
 </tr>
@@ -261,9 +239,7 @@ Action: `delete-service-instance-done`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-termination`.
 
-Message:
-
-Deletion of service instance with ID &serviceInstanceId completed
+Message: *Deletion of service instance with ID &serviceInstanceId completed*
 
 </td>
 </tr>
@@ -279,9 +255,7 @@ Action: `delete-service-instance-failed`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-termination`.
 
-Message:
-
-Deletion of service instance with ID &serviceInstanceId failed with error message: <error\>
+Message: *Deletion of service instance with ID &serviceInstanceId failed with error message: <error\>*
 
 </td>
 </tr>
@@ -313,9 +287,7 @@ Action: `update-service-instance-done`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-modification`.
 
-Message:
-
-Update of service instance with ID &serviceInstanceId with updated parameters &parameters completed
+Message: *Update of service instance with ID &serviceInstanceId with updated parameters &parameters completed*
 
 </td>
 </tr>
@@ -331,9 +303,7 @@ Action: `update-service-instance-failed`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-modification`.
 
-Message:
-
-Update of service instance with ID &serviceInstanceId with updated parameters &parameters failed with error message: <error\>
+Message: *Update of service instance with ID &serviceInstanceId with updated parameters &parameters failed with error message: <error\>*
 
 </td>
 </tr>
@@ -352,9 +322,7 @@ Action: `about_to_read`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-export`.
 
-Message:
-
-User &userId is about to export all data of tenant &tenantDescription.
+Message: *User &userId is about to export all data of tenant &tenantDescription.*
 
 </td>
 </tr>
@@ -368,9 +336,7 @@ Action: `read`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-export`.
 
-Message:
-
-User & userId finished exporting all data of tenant &tenantDescription.
+Message: *User & userId finished exporting all data of tenant &tenantDescription.*
 
 </td>
 </tr>
@@ -384,9 +350,7 @@ Action: `read-failed`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `data-export`.
 
-Message:
-
-Export of all data of tenant &tenantDescription for user &user failed during zip streaming. \[Log-ID: &logId\]
+Message: *Export of all data of tenant &tenantDescription for user &user failed during zip streaming. \[Log-ID: &logId\]*
 
 </td>
 </tr>
@@ -405,9 +369,7 @@ Action: `reconciliation-job-executed`
 
 Entries are logged as `SecurityEventAuditMessage`, sub-category `Reconciliation`.
 
-Message:
-
-A reconciliation job has been started for tenant &tenantId.
+Message: *A reconciliation job has been started for tenant &tenantId.*
 
 </td>
 </tr>
@@ -424,7 +386,7 @@ Action: `created`
 </td>
 <td valign="top">
 
-Entries are logged as `DataModificationEventAuditMessage`, sub-category `audit.data-modification`.
+Entries are logged as `DataModificationEventAuditMessage` and `DataAccessEventAuditMessage`, sub-category `audit.data-modification`.
 
 Message:
 
@@ -440,7 +402,7 @@ Action: `deleted`
 </td>
 <td valign="top">
 
-Entries are logged as `DataModificationEventAuditMessage`, sub-category `audit.data-modification`.
+Entries are logged as `DataModificationEventAuditMessage` and `DataAccessEventAuditMessage`, sub-category `audit.data-modification`.
 
 Message:
 
@@ -456,7 +418,7 @@ Action: `repaired`
 </td>
 <td valign="top">
 
-Entries are logged as `DataModificationEventAuditMessage`, sub-category `audit.data-modification`.
+Entries are logged as `DataModificationEventAuditMessage` and `DataAccessEventAuditMessage`, sub-category `audit.data-modification`.
 
 Message:
 
@@ -472,7 +434,7 @@ Action: `accessed`
 </td>
 <td valign="top">
 
-Entries are logged as `DataAccessEventAuditMessage`, sub-category `audit.data-access`.
+Entries are logged as `DataModificationEventAuditMessage` and `DataAccessEventAuditMessage`, sub-category `audit.data-access`.
 
 Message:
 

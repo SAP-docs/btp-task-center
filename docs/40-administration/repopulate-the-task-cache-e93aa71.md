@@ -10,7 +10,7 @@ Use the *tc.enabled* property to repopulate tasks and task definitions in the SA
 
 ## Context
 
-The tasks and task definitions, fetched from the task provider systems, are stored in the task cache of SAP Task Center. This allows the SAP Task Center Web app and task center in the SAP Mobile Start mobile app to have quick access to the tasks.
+The tasks and task definitions, fetched from the task provider systems, are stored in the task cache of SAP Task Center. This allows the SAP Task Center Web app and task center in the Joule Work mobile app to have quick access to the tasks.
 
 If the Outbox feature is enabled, repopulating the task cache will also fetch the completed tasks from the task provider systems and will store them in the task cache of SAP Task Center. To enable Outbox, see [SAP Task Center Global Settings](../30-initial-setup/sap-task-center-global-settings-99e5302.md).
 
@@ -22,11 +22,11 @@ To delete and repopulate the task cache for a destination \(see [Integrate SAP T
 
 1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, and select the *Connectivity* \> ***Destinations* tab from the navigation area.
 
-2.  Open the destination configuration of the task provier, for which you want to repopulate the task cache and verify that the *tc.enabled* property is enabled.
+2.  Open the destination configuration of the task provider, for which you want to repopulate the task cache and verify that the *tc.enabled* property is enabled.
 
 3.  Open the Task Center Administration app \(see [Working with the Task Center Administration App](working-with-the-task-center-administration-app-3a1598c.md)\) and verify that the connector to this destination is listed below the destinations.
 
-4.  Go back to the destination configuration in your Cloud Foundry subacount and switch to edit mode. Search for *tc.enabled* below *Additional Properties*, and remove the property \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\). Save your changes.
+4.  Go back to the destination configuration in your Cloud Foundry subaccount and switch to edit mode. Search for *tc.enabled* below *Additional Properties*, and remove the property \(<span style="color:#346187;"><span class="SAP-icons-V5"></span></span>\). Save your changes.
 
 5.  Go back to the Task Center Administration app and wait until the connector to the destination is not present anymore.
 

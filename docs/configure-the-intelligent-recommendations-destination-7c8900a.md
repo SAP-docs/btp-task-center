@@ -15,7 +15,7 @@ Set up an additional destination for the *Intelligent Recommendations* feature.
 -   You must have set up a primary destination for the connection to SAP Build Process Automation. For more information, see [Work with SAP Build Process Automation Tasks from the Same Subaccount](work-with-sap-build-process-automation-tasks-from-the-same-subaccount-f9c57ee.md) or [Work with SAP Build Process Automation Tasks from a Different Subaccount](work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
 
     > ### Note:  
-    > The *Intelligent Recommendations* feature is currently available only for SAP Build Process Automation tasks and only on the data centers, described in the SAP Note [3514669](https://me.sap.com/notes/3514669).
+    > The *Intelligent Recommendations* feature is currently available exclusively for SAP Build Process Automation tasks and is not supported for workflow tasks modeled via SAP Business Application Studio. The feature is also limited to the data centers listed in SAP Note [3514669](https://me.sap.com/notes/3514669).
 
 -   You have set up the SAP Task Center Administration application and you have the `TaskCenterBusinessAdministrator` role assigned. For more information, see [Authorization Configuration](60-security/authorization-configuration-75e4130.md).
 
@@ -26,7 +26,7 @@ Set up an additional destination for the *Intelligent Recommendations* feature.
     > ### Caution:  
     > If you have set up the *Task\_Center* destination to the central point of entry for accessing applications before the release of the *Intelligent Recommendations* feature in September 2024, you must perform the following additional steps:
     > 
-    > 1.  Delete the existing service key from the SAP Task Center service instance. The service key should be following the name convention `<service instance name>-service-key` \(for example, `task-center-service-key`\).
+    > 1.  Delete the existing service key from the SAP Task Center service instance. The service key should follow the name convention `<service instance name>-service-key` \(for example, `task-center-service-key`\).
     > 
     > 2.  Delete the existing *Task\_Center* destination for the central point of entry for accessing applications.See [Destination for the Central Point of Entry for Accessing Applications](30-initial-setup/destination-for-the-central-point-of-entry-for-accessing-applications-10320af.md).
     > 
@@ -100,7 +100,7 @@ If SAP Build Process Automation and SAP Task Center are in the same subaccount, 
     For more information on the primary destination, see [Work with SAP Build Process Automation Tasks from the Same Subaccount](work-with-sap-build-process-automation-tasks-from-the-same-subaccount-f9c57ee.md) or [Work with SAP Build Process Automation Tasks from a Different Subaccount](work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
 
     > ### Note:  
-    > Please note that if you don't follow the described pattern, you will not be able to set up an Intelligent Recommendations model.
+    > If you don't follow the described pattern, you will not be able to set up an Intelligent Recommendations model.
 
     If you change the name of an already configured destination, the administrators will not be able to see the created AI models in the SAP Task Center Administration app.
     
@@ -310,7 +310,7 @@ If SAP Build Process Automation and SAP Task Center are in the same subaccount, 
 
 If SAP Build Process Automation and SAP Task Center are in the different subaccounts, follow the procedure:
 
-1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, choose *Connectivity* \> *Destinations* \> *Create Destination* \> *Blank Template* and fill in the following properties in the *Destination Configuration* section.
+1.  Navigate to the Cloud Foundry subaccount, where your SAP Task Center instance was created, choose *Connectivity* \> *Destinations* \> *Create Destination* \> *Blank Template*, and fill in the following properties in the *Destination Configuration* section.
 
 
     <table>
@@ -349,7 +349,7 @@ If SAP Build Process Automation and SAP Task Center are in the different subacco
     For more information on the primary destination, see [Work with SAP Build Process Automation Tasks from the Same Subaccount](work-with-sap-build-process-automation-tasks-from-the-same-subaccount-f9c57ee.md) or [Work with SAP Build Process Automation Tasks from a Different Subaccount](work-with-sap-build-process-automation-tasks-from-a-different-subaccount-1d3e69d.md).
 
     > ### Note:  
-    > Please note that if you don't follow the described pattern, you will not be able to set up an Intelligent Recommendations model.
+    > If you don't follow the described pattern, you will not be able to set up an Intelligent Recommendations model.
 
 
     
@@ -559,5 +559,5 @@ If SAP Build Process Automation and SAP Task Center are in the different subacco
 
 ## Next Steps
 
-Once having set up the new destination for intelligent recommendations, you can continue with setting up intelligent recommendation models. For more information, see [Working with Intelligent Recommendations](40-administration/working-with-intelligent-recommendations-340651c.md).
+Once having set up the new destination for intelligent recommendations, you can continue with setting up intelligent recommendation models. For more information, see [Intelligent Recommendations](40-administration/intelligent-recommendations-340651c.md).
 

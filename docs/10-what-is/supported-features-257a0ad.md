@@ -20,7 +20,7 @@ SAP Task Center Features
 </th>
 <th valign="top" rowspan="2">
 
-SAP S/4HANA\*
+SAP S/4HANA<sup>1</sup>
 
 </th>
 <th valign="top" rowspan="2">
@@ -30,7 +30,7 @@ SAP S/4HANA Cloud Public Edition
 </th>
 <th valign="top" rowspan="2">
 
-SAP S/4HANA Cloud Private Edition\*
+SAP S/4HANA Cloud Private Edition<sup>1</sup>
 
 </th>
 <th valign="top" rowspan="2">
@@ -80,7 +80,7 @@ SAP Marketing Cloud
 </th>
 <th valign="top" rowspan="2">
 
-SAP Field Service Management
+SAP Field Service and Asset Management
 
 </th>
 <th valign="top" rowspan="2">
@@ -522,7 +522,7 @@ View/ Download
 </td>
 <td valign="top">
 
-Partially \*\*
+Partially <sup>2</sup>
 
 <span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
@@ -1175,22 +1175,22 @@ Intelligent Recommendations
 <tr>
 <td valign="top" colspan="2">
 
-Outbox \*\*\*
+Outbox <sup>3</sup>
 
 </td>
 <td valign="top">
 
- 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span><sup>4</sup> 
 
 </td>
 <td valign="top">
 
- 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span>
 
 </td>
 <td valign="top">
 
- 
+<span style="font-size:24px;line-height: 28px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span><sup>4</sup> 
 
 </td>
 <td valign="top">
@@ -1348,11 +1348,13 @@ Activity Log
 </tr>
 </table>
 
-\* See SAP Note [2975987](https://me.sap.com/notes/2975987) .
+<sup>1</sup> See SAP Note [2975987](https://me.sap.com/notes/2975987) .
 
-\*\* See [Supported Tasks for Enhanced To-Do Integration](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568480cc877d4337992a2cd9792fbfed/cbb89cf9d70e4dafb005338f5ab93c3c.html).
+<sup>2</sup> See [Supported Tasks for Enhanced To-Do Integration](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/568480cc877d4337992a2cd9792fbfed/cbb89cf9d70e4dafb005338f5ab93c3c.html).
 
-\*\*\* See SAP Note [3582581](https://me.sap.com/notes/3582581).
+<sup>3</sup> See SAP Note [3582581](https://me.sap.com/notes/3582581).
+
+<sup>4</sup> Outbox is supported from version 2025 and above. See SAP Note [3783198](https://me.sap.com/notes/3783198).
 
 > ### Note:  
 > Third-party-task-providers support for features depends on the third-party implementation of the SAP Task Center SPI, as defined in SAP Note [3462266](https://me.sap.com/notes/3462266).

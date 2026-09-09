@@ -11,7 +11,7 @@ Configure the *Identity\_Authentication\_Connectivity\_IDS* destination to conne
 Create this destination to enable the communication between SAP Task Center and the identity directory. This is a mandatory destination that enhances the SAP Task Center functionality by adding user information, and the option to search for users in the Web app.
 
 > ### Note:  
-> The user information, coming from Identity Authentication, is stored in the SAP Task Center cache. Updates of the user information in Identity Authentication might take up to 24 hours to be visualized in the SAP Task Center Web app.
+> The user information coming from Identity Authentication is stored in the SAP Task Center cache. It can take up to 24 hours to visualize Identity Authenticationupdates to the user information in the SAP Task Center Web app.
 
 You can set up this connectivity either by using the basic authentication, or via certificate. Choose one of the options to see the procedure:
 
@@ -256,7 +256,7 @@ You can set up this connectivity either by using the basic authentication, or vi
 
     You can add multiple values by separating the them by comma.
 
-    If the property is set, the user search is performed only in the groups, defined in the value of the property.
+    If the property is set, the user search is performed only in the groups defined in the value of the property.
 
     If this property is not set, the user search is performed in all groups.
 
@@ -360,7 +360,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     For more information, see [Add System as Administrator](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/bbbdbdd3899942ce874f3aae9ba9e21d.html#loiocefb742a36754b18bbe5c3503ac6d87c).
 
     > ### Note:  
-    > Keep in mind, that the created certificate is generally valid for one year. You have to update this certificate before it expires, to continue retrieving the required information about the business users. In case you don't rotate the certificates, business users might have issues viewing user-related information in SAP Task Center \(for example the *Created By* field\).
+    > Keep in mind that the created certificate is usually valid for one year. You have to update this certificate before it expires, to continue retrieving the required information about the business users. In case you don't rotate the certificates, business users might have issues viewing user-related information in SAP Task Center \(for example the *Created By* field\).
 
 
 **Procedure** 
@@ -371,7 +371,7 @@ You can set up this connectivity either by using the basic authentication, or vi
 
     If you have followed the manual setup \(see [Manual Setup](manual-setup-0f00d3d.md)\), you have to create a new destination and manually add the properties as described below.
 
-3.  In the *Destinations* editor upload the certificate you have from the *Prerequisites* section. For more information, see [Use Destination Certificates](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/df1bb55a526942b9bee78fea2ebb3162.html).
+3.  In the *Destinations* editor, upload the certificate that you have from the *Prerequisites* section. For more information, see [Use Destination Certificates](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/df1bb55a526942b9bee78fea2ebb3162.html).
 
 4.  Configure the properties of the destination as described in the following table:
 
@@ -457,7 +457,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     </td>
     <td valign="top">
     
-    Add the URL you created in *Prerequisites*.
+    Add the URL that you created in *Prerequisites*.
     
     </td>
     <td valign="top">
@@ -510,7 +510,7 @@ You can set up this connectivity either by using the basic authentication, or vi
     </td>
     <td valign="top">
     
-    Make sure this checkbox is deselected.
+    From the *Key Store Source* dropdown list, choose *DestinationService*.
     
     </td>
     <td valign="top">
@@ -603,7 +603,7 @@ You can set up this connectivity either by using the basic authentication, or vi
 
     You can add multiple values by separating the them by comma.
 
-    If the property is set, the user search is performed only in the groups, defined in the value of the property.
+    If the property is set, the user search is performed only in the groups defined in the value of the property.
 
     If this property is not set, the user search is performed in all groups.
 
